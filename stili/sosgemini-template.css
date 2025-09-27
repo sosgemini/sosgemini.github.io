@@ -1,1 +1,135 @@
+/* ========================================================== */
+/* SOS GEMINI TEMPLATE CSS - Stili specifici del layout PG */
+/* ========================================================== */
 
+/* Contenitore principale del post */
+.post-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* Sfondo bianco per il contenuto */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Titoli H1 e H2/small-title in testa al post */
+.post-container h1 {
+    font-size: 2.5rem;
+    color: #002D62; /* Blu scuro */
+    margin-bottom: 0.5rem;
+}
+.small-title {
+    font-size: 1.3rem;
+    color: #555;
+    font-weight: 300;
+}
+
+/* Stile per i titoli delle sezioni (H2) */
+.section-title-gradient {
+    font-size: 1.8rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    /* Effetto Gradiente (da personalizzare con i tuoi colori) */
+    background: linear-gradient(to right, #002D62, #00A3A8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+}
+
+/* Blocco di Contenuto (per layout affiancati/impilati) */
+.content-block {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Stile per la sezione con immagine affiancata (su desktop) */
+.content-with-image {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; /* Allinea il contenuto in alto */
+}
+
+.image-wrapper {
+    flex: 0 0 40%; /* L'immagine occupa circa il 40% su desktop */
+    max-width: 40%;
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-content {
+    flex: 1; /* Il testo occupa lo spazio rimanente */
+}
+
+/* Stile per il consiglio utile */
+.useful-tip {
+    font-size: 1.1rem;
+    color: #00A3A8; /* Colore accento */
+    border-left: 4px solid #00A3A8;
+    padding-left: 15px;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+/* Stile della Conclusione (PG) */
+.conclusion-box {
+    padding: 20px;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.conclusion-title {
+    font-size: 1.5rem;
+    color: #002D62;
+    margin-top: 0;
+}
+
+/* Stile per il link "Torna alla Home" (PG Footer) */
+.footer-box {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.footer-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #002D62;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.footer-link:hover {
+    background-color: #00A3A8;
+}
+
+/* ========================================================== */
+/* MEDIA QUERIES - Responsività (Regole per schermi piccoli) */
+/* ========================================================== */
+@media (max-width: 768px) {
+    .post-container {
+        padding: 10px;
+    }
+
+    /* Impila immagine e testo su schermi più piccoli */
+    .content-with-image {
+        flex-direction: column;
+    }
+
+    .image-wrapper {
+        flex: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .section-title-gradient {
+        font-size: 1.5rem;
+    }
+}
