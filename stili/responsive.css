@@ -1,1 +1,22 @@
+/* ========================================================== */
+/* RESPONSIVE.CSS - Regole per l'adattabilità (mobile/tablet) */
+/* ========================================================== */
 
+/* Le regole di responsive per il layout principale (affiancato/impilato)
+   sono state già inserite in sosgemini-template.css. 
+   Questo file è per regole più specifiche se ne servissero, 
+   ma assicuriamo che esista e sia valido. */
+
+@media (max-width: 900px) {
+    /* Regole per schermi grandi, se necessario */
+}
+
+@media (max-width: 600px) {
+    /* Regole specifiche per smartphone */
+    body {
+        font-size: 14px;
+    }
+    .post-container h1 {
+        font-size: 2rem;
+    }
+}
