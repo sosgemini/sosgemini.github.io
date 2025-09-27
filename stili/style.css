@@ -1,1 +1,57 @@
+/* ========================================================== */
+/* STYLE.CSS - Stili di base e reset */
+/* ========================================================== */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Sfondo generale grigio chiaro */
+    color: #333;
+}
+
+/* Link generali */
+a {
+    color: #007bff; /* Blu standard per i link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Titoli */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* Separatore orizzontale */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 2rem 0;
+}
+
+/* Stile per l'indice di navigazione */
+.back-to-index {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    padding: 8px 12px;
+    background-color: #e9e9e9;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
