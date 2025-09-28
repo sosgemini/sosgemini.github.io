@@ -21,6 +21,9 @@ body, html {
 .site-header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        /* NUOVA REGOLA: FORZA L'HEADER A TOCCARE IL BORDO SUPERIORE */
+    margin-top: 0; 
 }
 
 /* BARRA SUPERIORE (CHIARA) - CORRETTO: BIANCO e mantenuta centratura al top */
