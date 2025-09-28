@@ -1,5 +1,5 @@
 /* ========================================================== */
-/* STILI DEL NUOVO HEADER A DUE LIVELLI */
+/* STILI DEL NUOVO HEADER A DUE LIVELLI (Modifiche incluse) */
 /* ========================================================== */
 
 /* STRUTTURA GENERALE DEL NUOVO HEADER */
@@ -19,9 +19,9 @@
     border-bottom: 1px solid #eee;
 }
 
-/* LOGO */
+/* LOGO (Modificato: Ingrandito a 45px) */
 .site-logo-img {
-    height: 35px; /* Dimensione del logo */
+    height: 45px; /* <--- INGRANDITO */
     width: auto;
     vertical-align: middle;
 }
@@ -62,9 +62,10 @@
     display: flex;
 }
 
+/* NAV LINK (Modificato: Ridotto padding verticale) */
 .nav-list li a {
     display: block;
-    padding: 12px 20px;
+    padding: 8px 20px; /* <--- RIDOTTO (prima era 12px) */
     color: #fff; /* Testo bianco */
     text-decoration: none;
     font-weight: 500;
@@ -83,13 +84,19 @@
 /* SOS GEMINI TEMPLATE CSS - Stili specifici del layout PG */
 /* ========================================================== */
 
-/* Contenitore principale del post */
+/* Contenitore principale del post (Modificato: Larghezza 1150px) */
 .post-container {
-    max-width: 1150px;
+    max-width: 1150px; /* <--- MODIFICATO */
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff; /* Sfondo bianco per il contenuto */
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+/* Nuovo wrapper per centrare l'indice principale (Centratura) */
+.content-wrapper {
+    max-width: 1150px; /* <--- AGGIUNTO per centrare il contenuto di default.html */
+    margin: 0 auto;
 }
 
 /* Titoli H1 e H2/small-title in testa al post */
