@@ -1,8 +1,8 @@
 /* ========================================================== */
-/* RESET FONDAMENTALE PER ELIMINARE MARGINI DI DEFAULT */
+/* RESET FONDAMENTALE PER ELIMINARE MARGINI DI DEFAULT (FORZATO) */
 /* ========================================================== */
 body, html {
-    margin: 0;
+    margin: 0 !important; /* <--- AGGIUNGI !important QUI */
     padding: 0;
     width: 100%;
     /* Questo imposta lo sfondo del body per eliminare lo spazio grigio in alto */
@@ -11,6 +11,7 @@ body, html {
 * {
     box-sizing: border-box;
 }
+/* ... il resto del codice è corretto e non va toccato ... */
 
 
 /* ========================================================== */
