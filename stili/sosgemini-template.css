@@ -90,6 +90,9 @@ body, html {
     margin: 0 auto;
     display: flex;
     padding: 0 15px;
+    
+    /* NUOVA REGOLA CRITICA: CENTRA GLI ELEMENTI AL SUO INTERNO */
+    justify-content: center; 
 }
 
 .nav-list {
