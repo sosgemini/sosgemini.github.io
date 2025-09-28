@@ -1,39 +1,38 @@
 /* ========================================================== */
-/* RESET FONDAMENTALE PER ELIMINARE MARGINI DI DEFAULT (FORZATO) */
+/* RESET FONDAMENTALE FORZATO (Elimina spazio grigio in alto) */
 /* ========================================================== */
-body, html {
-    margin: 0 !important; /* <--- AGGIUNGI !important QUI */
-    padding: 0;
-    width: 100%;
-    /* Questo imposta lo sfondo del body per eliminare lo spazio grigio in alto */
-    background-color: #f7f7f7; 
-}
+/* Resetta margini e padding su TUTTI gli elementi */
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-/* ... il resto del codice è corretto e non va toccato ... */
+
+body, html {
+    width: 100%;
+    /* Lo sfondo del body si vedrà solo sotto il contenuto principale */
+    background-color: #f7f7f7; 
+}
 
 
 /* ========================================================== */
-/* STILI DEL NUOVO HEADER A DUE LIVELLI (Definitivo con Fix) */
+/* STILI DEL NUOVO HEADER A DUE LIVELLI (Definitivo) */
 /* ========================================================== */
 
-/* STRUTTURA GENERALE DEL NUOVO HEADER */
+/* STRUTTURA GENERALE DEL NUOVO HEADER - Aderisce al TOP */
 .site-header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-        /* NUOVA REGOLA: FORZA L'HEADER A TOCCARE IL BORDO SUPERIORE */
-    margin-top: 0; 
+    /* margin-top: 0; non è più necessario grazie al reset *{} */
 }
 
-/* BARRA SUPERIORE (CHIARA) - CORRETTO: BIANCO e mantenuta centratura al top */
+/* BARRA SUPERIORE (CHIARA) - Contenitore principale (Logo + Utility) */
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     
-    /* Aggiusto padding per ospitare il logo */
+    /* Padding per ospitare il logo in modo pulito */
     padding: 15px 15px 5px 15px; 
     
     background-color: #ffffff;
@@ -44,18 +43,19 @@ body, html {
     margin: 0 auto;
 }
 
-/* LOGO (Ingrandito e Posizionato per Sovrapposizione) */
+/* LOGO (85px, Ingrandito e Posizionato per Sovrapposizione) */
 .site-logo-img {
-    height: 85px; /* L'altezza che hai scelto */
+    height: 85px; 
     width: auto;
     vertical-align: middle;
     
     /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */
     position: relative; 
     z-index: 10; 
-    margin-bottom: -42.5px; /* <--- CORREZIONE: Metà di 85px */
+    /* Metà dell'altezza del logo (85px / 2 = 42.5px) */
+    margin-bottom: -42.5px; 
     
-    /* Ombra leggera per farlo risaltare */
+    /* Ombra leggera */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 .logo-area {
@@ -80,7 +80,7 @@ body, html {
     border-radius: 4px;
 }
 
-/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) - ORA AL 100% DI LARGHEZZA */
+/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) */
 .main-nav-bar {
     background-color: #333; /* SCURO */
     color: #fff;
@@ -88,14 +88,14 @@ body, html {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-/* WRAPPER AGGIUNTO: Centra i link a 1150px all'interno della fascia scura */
+/* WRAPPER AGGIUNTO: Centra i link e li limita a 1150px */
 .nav-content-wrapper {
     max-width: 1150px;
     margin: 0 auto;
     display: flex;
     padding: 0 15px;
     
-    /* NUOVA REGOLA CRITICA: CENTRA GLI ELEMENTI AL SUO INTERNO */
+    /* CENTRA I LINK DI NAVIGAZIONE */
     justify-content: center; 
 }
 
@@ -106,7 +106,7 @@ body, html {
     display: flex;
 }
 
-/* NAV LINK (Ridotto padding verticale per ridurre lo spessore) */
+/* NAV LINK */
 .nav-list li a {
     display: block;
     padding: 8px 20px;
@@ -136,13 +136,15 @@ body, html {
 /* Contenitore principale del post (Anche questo a 1150px) */
 .post-container {
     max-width: 1150px; 
-    margin: 0 auto;
+    /* Margine superiore a 0, poiché l'header non è fisso */
+    margin: 20px auto; 
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
-/* ... (Tutte le altre regole PG restano invariate) ... */
+/* ... (Il resto degli stili del post rimane invariato) ... */
+
 .post-container h1 {
     font-size: 2.5rem;
     color: #002D62;
