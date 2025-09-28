@@ -1,0 +1,29 @@
+<header class="site-header">
+    <div class="header-content-wrapper">
+        
+        <div class="logo-container">
+            <a href="[URL_HOME]" title="Torna alla Home di SOSgemini">
+                <img src="[URL_LOGO]" alt="Logo SOSgemini" class="site-logo">
+                <span class="site-title">SOSgemini</span>
+            </a>
+        </div>
+        
+        <div class="search-container">
+            <form action="[URL_RICERCA]" method="get" role="search">
+                <label for="search-input" class="visually-hidden">Cerca su SOSgemini</label>
+                <input type="search" id="search-input" name="q" placeholder="Cerca nel sito..." class="search-input">
+                <button type="submit" class="search-button">🔍</button>
+            </form>
+        </div>
+
+        <nav class="main-navigation" aria-label="Navigazione Principale">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="[URL_INDICE_1]" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="[URL_INDICE_2]" class="nav-link">Guide</a></li>
+                <li class="nav-item"><a href="[URL_INDICE_3]" class="nav-link">Contatti</a></li>
+                <li class="nav-item"><a href="[URL_INDICE_4]" class="nav-link">Chi Siamo</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</header>
