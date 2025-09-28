@@ -85,7 +85,7 @@
 
 /* Contenitore principale del post */
 .post-container {
-    max-width: 900px;
+    max-width: 1150px;
     margin: 0 auto;
     padding: 20px;
     background-color: #ffffff; /* Sfondo bianco per il contenuto */
