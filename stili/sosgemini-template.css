@@ -57,7 +57,7 @@ body, html {
     position: relative; 
     z-index: 10; 
     /* MODIFICATO: Aumento il margine negativo per far salire il logo */
-    margin-bottom: -5px; /* <--- Aumento il valore negativo per spingerlo più su, testare con -50px o -55px */
+    margin-bottom: -15px; /* <--- Aumento il valore negativo per spingerlo più su, testare con -50px o -55px */
     
     /* Ombra leggera */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
