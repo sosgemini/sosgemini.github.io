@@ -1,18 +1,20 @@
-/* RESET FONDAMENTALE PER ELIMINARE MARGINI DI DEFAULT (spazio grigio in alto) */
+/* ========================================================== */
+/* RESET FONDAMENTALE PER ELIMINARE MARGINI DI DEFAULT */
+/* ========================================================== */
 body, html {
     margin: 0;
     padding: 0;
     width: 100%;
-    /* Se c'è ancora uno spazio, prova a mettere qui lo sfondo bianco o grigio chiaro */
+    /* Questo imposta lo sfondo del body per eliminare lo spazio grigio in alto */
     background-color: #f7f7f7; 
 }
 * {
     box-sizing: border-box;
 }
-/* FINE RESET */
+
 
 /* ========================================================== */
-/* STILI DEL NUOVO HEADER A DUE LIVELLI (Corretto Definitivo) */
+/* STILI DEL NUOVO HEADER A DUE LIVELLI (Definitivo con Fix) */
 /* ========================================================== */
 
 /* STRUTTURA GENERALE DEL NUOVO HEADER */
@@ -21,35 +23,40 @@ body, html {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* BARRA SUPERIORE (CHIARA) - CON MARGINE NEGATIVO PER LA SPORGENZA */
+/* BARRA SUPERIORE (CHIARA) - CORRETTO: BIANCO e mantenuta centratura al top */
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 8px 15px;
-    background-color: #ffffff; /* BIANCO */
+    
+    /* Aggiusto padding per ospitare il logo */
+    padding: 15px 15px 5px 15px; 
+    
+    background-color: #ffffff;
     color: #333;
     border-bottom: 1px solid #eee;
     
     max-width: 1150px;
     margin: 0 auto;
-
-    /* NUOVE REGOLE PER LA SPORGENZA DEL LOGO */
-    position: relative; /* Base per Z-index */
-    z-index: 10; /* Assicura che sia SOPRA la barra scura */
-    margin-bottom: -20px; /* <--- VALORE AGGIUSTATO: Fai scendere l'header-top di 20px */
 }
 
-/* LOGO (Ingrandito e Posizionato) */
+/* LOGO (Ingrandito e Posizionato per Sovrapposizione) */
 .site-logo-img {
-    height: 60px; /* Logo più grande come desiderato */
+    height: 70px; /* Aumento a 70px */
     width: auto;
     vertical-align: middle;
+    
+    /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */
+    position: relative; 
+    z-index: 10; 
+    margin-bottom: -35px; /* Spingi giù metà dell'altezza (70px/2) */
+    
+    /* Ombra leggera per farlo risaltare */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 .logo-area {
     display: flex;
     align-items: center;
-    /* Rimosso position: relative da qui, lo abbiamo messo su .header-top */
 }
 
 /* AREA UTILITY (Lingua, Accedi, Cerca) */
@@ -246,12 +253,19 @@ body, html {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
-        /* Rimuovi z-index e margin-bottom negativi per la responsività */
-        z-index: auto; 
-        margin-bottom: 0; 
     }
     .utility-area {
         width: 100%;
         justify-content: space-between;
+    }
+
+    /* CORREZIONE RESPONSIVA DEL LOGO */
+    .site-logo-img {
+        /* Reset per schermi piccoli */
+        margin-bottom: 0;
+        position: static;
+        z-index: auto;
+        /* Rimuovi ombra per pulizia su mobile */
+        box-shadow: none; 
     }
 }
