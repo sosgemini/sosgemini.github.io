@@ -45,14 +45,14 @@ body, html {
 
 /* LOGO (Ingrandito e Posizionato per Sovrapposizione) */
 .site-logo-img {
-    height: 85px; /* Aumento a 70px */
+    height: 85px; /* L'altezza che hai scelto */
     width: auto;
     vertical-align: middle;
     
     /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */
     position: relative; 
     z-index: 10; 
-    margin-bottom: -35px; /* Spingi giù metà dell'altezza (70px/2) */
+    margin-bottom: -42.5px; /* <--- CORREZIONE: Metà di 85px */
     
     /* Ombra leggera per farlo risaltare */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
