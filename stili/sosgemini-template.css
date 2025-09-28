@@ -1,4 +1,85 @@
 /* ========================================================== */
+/* STILI DEL NUOVO HEADER A DUE LIVELLI */
+/* ========================================================== */
+
+/* STRUTTURA GENERALE DEL NUOVO HEADER */
+.site-header {
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* BARRA SUPERIORE (CHIARA) */
+.header-top {
+    display: flex;
+    justify-content: space-between; /* Allinea a sinistra logo, a destra utility */
+    align-items: center;
+    padding: 8px 15px; /* Spazio interno */
+    background-color: #ffffff; /* Sfondo bianco */
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+/* LOGO */
+.site-logo-img {
+    height: 35px; /* Dimensione del logo */
+    width: auto;
+    vertical-align: middle;
+}
+.logo-area {
+    display: flex;
+    align-items: center;
+}
+
+/* AREA UTILITY (Lingua, Accedi, Cerca) */
+.utility-area {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Spazio tra gli elementi */
+}
+.utility-area a {
+    color: #555;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.search-box {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) */
+.main-nav-bar {
+    background-color: #333; /* Sfondo scuro come l'esempio */
+    color: #fff;
+    padding: 0 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list {
+    list-style: none; /* Rimuove i pallini */
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-list li a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff; /* Testo bianco */
+    text-decoration: none;
+    font-weight: 500;
+    /* Aggiunge la linea sotto al link attivo o hover */
+    border-bottom: 3px solid transparent; 
+}
+
+/* Effetto al passaggio del mouse */
+.nav-list li a:hover {
+    background-color: #555;
+    border-bottom-color: #00A3A8; /* Linea colore accento */
+}
+
+
+/* ========================================================== */
 /* SOS GEMINI TEMPLATE CSS - Stili specifici del layout PG */
 /* ========================================================== */
 
@@ -28,7 +109,7 @@
     font-size: 1.8rem;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    /* Effetto Gradiente (da personalizzare con i tuoi colori) */
+    /* Effetto Gradiente (colore principale PG) */
     background: linear-gradient(to right, #002D62, #00A3A8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -131,5 +212,16 @@
 
     .section-title-gradient {
         font-size: 1.5rem;
+    }
+    
+    /* Per l'header, impila gli elementi utility su schermi piccoli */
+    .header-top {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .utility-area {
+        width: 100%;
+        justify-content: space-between;
     }
 }
