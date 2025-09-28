@@ -24,10 +24,9 @@ body, html {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     
-    /* NUOVE REGOLE PER SPINGERE L'INTERO HEADER PIÙ IN ALTO */
-    position: relative; /* Consente l'uso di 'top' */
-    top: -15px;         /* <--- Sposta l'intero header di 15px verso l'alto. Questo è un valore da testare */
-    z-index: 100;       /* Assicura che sia sopra altri elementi se necessario */
+    position: relative; 
+    top: -15px;         /* <--- VALORE DA REGOLARE */
+    z-index: 100;       
 }
 
 /* BARRA SUPERIORE (CHIARA) - Contenitore principale (Logo + Utility) */
