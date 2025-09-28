@@ -8,13 +8,13 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* BARRA SUPERIORE (CHIARA) - CORRETTO BACKGROUND e mantenuta centratura */
+/* BARRA SUPERIORE (CHIARA) - CORRETTO: BIANCO e mantenuta centratura */
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 15px;
-    background-color: #ffffff; /* <--- CORRETTO: TORNA A BIANCO */
+    background-color: #ffffff; /* <--- CORRETTO: ORA BIANCO */
     color: #333;
     border-bottom: 1px solid #eee;
     
@@ -54,18 +54,17 @@
 .main-nav-bar {
     background-color: #333; /* SCURO */
     color: #fff;
-    padding: 0; /* Rimosso padding per lasciare che il wrapper lo gestisca */
+    padding: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    
     /* RIMOSSO: max-width e margin per coprire TUTTO lo schermo */
 }
 
-/* WRAPPER AGGIUNTO: Centra i link all'interno della fascia scura */
+/* WRAPPER AGGIUNTO: Centra i link a 1150px all'interno della fascia scura */
 .nav-content-wrapper {
     max-width: 1150px;
     margin: 0 auto;
-    display: flex; /* Necessario per contenere la lista flessibile */
-    padding: 0 15px; /* Aggiunge un po' di padding laterale per gli schermi più piccoli di 1150px */
+    display: flex;
+    padding: 0 15px;
 }
 
 .nav-list {
@@ -96,7 +95,7 @@
 /* SOS GEMINI TEMPLATE CSS - Stili specifici del layout PG */
 /* ========================================================== */
 
-/* Wrapper per centrare il MAIN (Corrisponde all'header per l'allineamento) */
+/* Wrapper per centrare il MAIN (Contenuto sotto l'header) */
 .content-wrapper {
     max-width: 1150px;
     margin: 0 auto;
@@ -111,9 +110,7 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
-/* ... (Il resto degli stili PG rimane identico) ... */
-
-/* Titoli H1 e H2/small-title in testa al post */
+/* ... (Tutte le altre regole PG restano invariate) ... */
 .post-container h1 {
     font-size: 2.5rem;
     color: #002D62;
@@ -125,7 +122,6 @@
     font-weight: 300;
 }
 
-/* Stile per i titoli delle sezioni (H2) */
 .section-title-gradient {
     font-size: 1.8rem;
     margin-top: 2.5rem;
@@ -136,13 +132,11 @@
     font-weight: 700;
 }
 
-/* Blocco di Contenuto (per layout affiancati/impilati) */
 .content-block {
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-/* Stile per la sezione con immagine affiancata (su desktop) */
 .content-with-image {
     display: flex;
     gap: 20px;
@@ -165,7 +159,6 @@
     flex: 1;
 }
 
-/* Stile per il consiglio utile */
 .useful-tip {
     font-size: 1.1rem;
     color: #00A3A8;
@@ -175,7 +168,6 @@
     font-weight: 600;
 }
 
-/* Stile della Conclusione (PG) */
 .conclusion-box {
     padding: 20px;
     border: 1px dashed #ccc;
@@ -190,7 +182,6 @@
     margin-top: 0;
 }
 
-/* Stile per il link "Torna alla Home" (PG Footer) */
 .footer-box {
     text-align: center;
     padding: 15px 0;
@@ -219,7 +210,6 @@
         padding: 10px;
     }
 
-    /* Impila immagine e testo su schermi più piccoli */
     .content-with-image {
         flex-direction: column;
     }
@@ -234,7 +224,6 @@
         font-size: 1.5rem;
     }
     
-    /* Per l'header, impila gli elementi utility su schermi piccoli */
     .header-top {
         flex-direction: column;
         align-items: flex-start;
