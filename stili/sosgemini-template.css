@@ -8,29 +8,35 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* BARRA SUPERIORE (CHIARA) - CORRETTO: BIANCO e mantenuta centratura */
+/* BARRA SUPERIORE (CHIARA) - CON MARGINE NEGATIVO PER LA SPORGENZA */
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 15px;
-    background-color: #ffffff; /* <--- CORRETTO: ORA BIANCO */
+    background-color: #ffffff; /* BIANCO */
     color: #333;
     border-bottom: 1px solid #eee;
     
     max-width: 1150px;
     margin: 0 auto;
+
+    /* NUOVE REGOLE PER LA SPORGENZA DEL LOGO */
+    position: relative; /* Base per Z-index */
+    z-index: 10; /* Assicura che sia SOPRA la barra scura */
+    margin-bottom: -20px; /* <--- VALORE AGGIUSTATO: Fai scendere l'header-top di 20px */
 }
 
-/* LOGO (Ingrandito a 60px) */
+/* LOGO (Ingrandito e Posizionato) */
 .site-logo-img {
-    height: 60px;
+    height: 60px; /* Logo più grande come desiderato */
     width: auto;
     vertical-align: middle;
 }
 .logo-area {
     display: flex;
     align-items: center;
+    /* Rimosso position: relative da qui, lo abbiamo messo su .header-top */
 }
 
 /* AREA UTILITY (Lingua, Accedi, Cerca) */
@@ -56,7 +62,6 @@
     color: #fff;
     padding: 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    /* RIMOSSO: max-width e margin per coprire TUTTO lo schermo */
 }
 
 /* WRAPPER AGGIUNTO: Centra i link a 1150px all'interno della fascia scura */
@@ -228,6 +233,9 @@
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
+        /* Rimuovi z-index e margin-bottom negativi per la responsività */
+        z-index: auto; 
+        margin-bottom: 0; 
     }
     .utility-area {
         width: 100%;
