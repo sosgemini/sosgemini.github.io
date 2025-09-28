@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>{{ page.title }} | {{ site.title }}</title>
-    
-    <link rel="stylesheet" href="/stili/responsive.css"> 
-    <link rel="stylesheet" href="/stili/sosgemini-template.css"> 
-    <link rel="stylesheet" href="/stili/style.css"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ page.title }} | {{ site.title }}</title>
+    
+    <link rel="stylesheet" href="/stili/responsive.css"> 
+    <link rel="stylesheet" href="/stili/sosgemini-template.css"> 
+    <link rel="stylesheet" href="/stili/style.css"> 
 </head>
 <body>
 
-    {% include header.html %}
+    {% include header.html %}
 
-    <main>
-        {{ content }}
-    </main>
+    <div class="content-wrapper"> 
+        <main>
+            {{ content }}
+        </main>
+    </div>
 
-    </body>
+    </body>
 </html>
