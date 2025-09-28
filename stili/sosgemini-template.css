@@ -19,11 +19,15 @@ body, html {
 /* STILI DEL NUOVO HEADER A DUE LIVELLI (Definitivo) */
 /* ========================================================== */
 
-/* STRUTTURA GENERALE DEL NUOVO HEADER - Aderisce al TOP */
+/* STRUTTURA GENERALE DEL NUOVO HEADER - ADERISCE AL TOP FORZATAMENTE */
 .site-header {
     width: 100%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    /* margin-top: 0; non è più necessario grazie al reset *{} */
+    
+    /* NUOVE REGOLE PER SPINGERE L'INTERO HEADER PIÙ IN ALTO */
+    position: relative; /* Consente l'uso di 'top' */
+    top: -15px;         /* <--- Sposta l'intero header di 15px verso l'alto. Questo è un valore da testare */
+    z-index: 100;       /* Assicura che sia sopra altri elementi se necessario */
 }
 
 /* BARRA SUPERIORE (CHIARA) - Contenitore principale (Logo + Utility) */
@@ -32,8 +36,8 @@ body, html {
     justify-content: space-between;
     align-items: center;
     
-    /* Padding per ospitare il logo in modo pulito */
-    padding: 15px 15px 5px 15px; 
+    /* MODIFICATO: Azzero il padding-top e riduco il padding-bottom */
+    padding: 0 15px 0 15px; /* <--- Ho azzerato il padding superiore e leggermente ridotto il inferiore */
     
     background-color: #ffffff;
     color: #333;
@@ -52,8 +56,8 @@ body, html {
     /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */
     position: relative; 
     z-index: 10; 
-    /* Metà dell'altezza del logo (85px / 2 = 42.5px) */
-    margin-bottom: -42.5px; 
+    /* MODIFICATO: Aumento il margine negativo per far salire il logo */
+    margin-bottom: -50px; /* <--- Aumento il valore negativo per spingerlo più su, testare con -50px o -55px */
     
     /* Ombra leggera */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
@@ -131,6 +135,8 @@ body, html {
 .content-wrapper {
     max-width: 1150px;
     margin: 0 auto;
+    /* Aggiungo un padding-top per evitare che il contenuto vada sotto l'header alzato */
+    padding-top: 15px; /* <--- NUOVO: Compensazione per lo spostamento dell'header */
 }
 
 /* Contenitore principale del post (Anche questo a 1150px) */
@@ -276,5 +282,13 @@ body, html {
         z-index: auto;
         /* Rimuovi ombra per pulizia su mobile */
         box-shadow: none; 
+    }
+    /* NUOVO: Reset per l'header alzato in responsive */
+    .site-header {
+        position: static; /* Torna alla posizione normale */
+        top: 0; /* Azzera lo spostamento */
+    }
+    .content-wrapper {
+        padding-top: 0; /* Rimuove il padding di compensazione */
     }
 }
