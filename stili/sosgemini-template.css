@@ -47,15 +47,18 @@
     border-radius: 4px;
 }
 
-/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) - AGGIUNTE PER CENTRATURA */
-.main-nav-bar {
-    background-color: #333;
-    color: #fff;
-    padding: 0 15px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    /* NUOVE REGOLE PER CENTRARE L'INDICE: */
+/* BARRA SUPERIORE (CHIARA) - AGGIUNTE PER CENTRATURA */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 15px;
+    background-color: #ffffff;
+    color: #333;
+    border-bottom: 1px solid #eee;
+    /* NUOVE REGOLE PER CENTRARE L'HEADER TOP: */
     max-width: 1150px; /* <--- Limita la larghezza */
-    margin: 0 auto;   /* <--- Centra la fascia scura */
+    margin: 0 auto;   /* <--- Centra la fascia chiara */
 }
 
 .nav-list {
