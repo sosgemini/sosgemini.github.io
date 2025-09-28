@@ -50,17 +50,19 @@ body, html {
 /* LOGO (85px, Ingrandito e Posizionato per Sovrapposizione) */
 .site-logo-img {
     height: 85px; 
-    width: auto;
-    vertical-align: middle;
+    /* ... altre regole ... */
     
     /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */
     position: relative; 
     z-index: 10; 
-    /* MODIFICATO: Aumento il margine negativo per far salire il logo */
-    margin-bottom: -30px; /* <--- Aumento il valore negativo per spingerlo più su, testare con -50px o -55px */
+    
+    /* RESET BASE: Ritorna al valore di centraggio per NON spostare la fascia nera */
+    margin-bottom: -42.5px; /* <--- IMPOSTA QUESTO VALORE FISSO */
     
     /* Ombra leggera */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    /* NUOVA REGOLA DI REGOLAZIONE: Aggiungeremo 'top' qui sotto */
 }
 .logo-area {
     display: flex;
