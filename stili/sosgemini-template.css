@@ -1,5 +1,5 @@
 /* ========================================================== */
-/* STILI DEL NUOVO HEADER A DUE LIVELLI (Corretto per Centratura) */
+/* STILI DEL NUOVO HEADER A DUE LIVELLI (Corretto Definitivo) */
 /* ========================================================== */
 
 /* STRUTTURA GENERALE DEL NUOVO HEADER */
@@ -8,23 +8,23 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* BARRA SUPERIORE (CHIARA) - AGGIUNTE PER CENTRARE IL CONTENUTO A 1150px */
+/* BARRA SUPERIORE (CHIARA) - CORRETTO BACKGROUND e mantenuta centratura */
 .header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 8px 15px;
-    background-color: #333;
-    color: #fff;
+    background-color: #ffffff; /* <--- CORRETTO: TORNA A BIANCO */
+    color: #333;
     border-bottom: 1px solid #eee;
     
-    max-width: 1150px; /* <--- Limita la larghezza */
-    margin: 0 auto;   /* <--- Centra la fascia chiara */
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 /* LOGO (Ingrandito a 45px) */
 .site-logo-img {
-    height: 45px; /* <--- INGRANDITO */
+    height: 45px;
     width: auto;
     vertical-align: middle;
 }
@@ -50,15 +50,22 @@
     border-radius: 4px;
 }
 
-/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) - AGGIUNTE PER CENTRARE E RIDURRE */
+/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) - ORA AL 100% DI LARGHEZZA */
 .main-nav-bar {
-    background-color: #333;
+    background-color: #333; /* SCURO */
     color: #fff;
-    padding: 0 15px;
+    padding: 0; /* Rimosso padding per lasciare che il wrapper lo gestisca */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     
-    max-width: 1150px; /* <--- Limita la larghezza */
-    margin: 0 auto;   /* <--- Centra la fascia scura */
+    /* RIMOSSO: max-width e margin per coprire TUTTO lo schermo */
+}
+
+/* WRAPPER AGGIUNTO: Centra i link all'interno della fascia scura */
+.nav-content-wrapper {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex; /* Necessario per contenere la lista flessibile */
+    padding: 0 15px; /* Aggiunge un po' di padding laterale per gli schermi più piccoli di 1150px */
 }
 
 .nav-list {
@@ -71,7 +78,7 @@
 /* NAV LINK (Ridotto padding verticale per ridurre lo spessore) */
 .nav-list li a {
     display: block;
-    padding: 8px 20px; /* <--- RIDOTTO (prima era 12px) */
+    padding: 8px 20px;
     color: #fff;
     text-decoration: none;
     font-weight: 500;
@@ -91,7 +98,7 @@
 
 /* Wrapper per centrare il MAIN (Corrisponde all'header per l'allineamento) */
 .content-wrapper {
-    max-width: 1150px; /* <--- Centra il contenuto di default.html */
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -104,7 +111,7 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
-/* ... (Tutte le altre regole PG restano invariate, come da tua ultima richiesta) ... */
+/* ... (Il resto degli stili PG rimane identico) ... */
 
 /* Titoli H1 e H2/small-title in testa al post */
 .post-container h1 {
