@@ -1,5 +1,5 @@
 /* ========================================================== */
-/* STILI DEL NUOVO HEADER A DUE LIVELLI (Modifiche incluse) */
+/* STILI DEL NUOVO HEADER A DUE LIVELLI (Corretto per Centratura) */
 /* ========================================================== */
 
 /* STRUTTURA GENERALE DEL NUOVO HEADER */
@@ -8,18 +8,21 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* BARRA SUPERIORE (CHIARA) */
+/* BARRA SUPERIORE (CHIARA) - AGGIUNTE PER CENTRARE IL CONTENUTO A 1150px */
 .header-top {
     display: flex;
-    justify-content: space-between; /* Allinea a sinistra logo, a destra utility */
+    justify-content: space-between;
     align-items: center;
-    padding: 8px 15px; /* Spazio interno */
-    background-color: #ffffff; /* Sfondo bianco */
+    padding: 8px 15px;
+    background-color: #ffffff;
     color: #333;
     border-bottom: 1px solid #eee;
+    
+    max-width: 1150px; /* <--- Limita la larghezza */
+    margin: 0 auto;   /* <--- Centra la fascia chiara */
 }
 
-/* LOGO (Modificato: Ingrandito a 45px) */
+/* LOGO (Ingrandito a 45px) */
 .site-logo-img {
     height: 45px; /* <--- INGRANDITO */
     width: auto;
@@ -34,7 +37,7 @@
 .utility-area {
     display: flex;
     align-items: center;
-    gap: 15px; /* Spazio tra gli elementi */
+    gap: 15px;
 }
 .utility-area a {
     color: #555;
@@ -47,42 +50,38 @@
     border-radius: 4px;
 }
 
-/* BARRA SUPERIORE (CHIARA) - AGGIUNTE PER CENTRATURA */
-.header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px 15px;
-    background-color: #ffffff;
-    color: #333;
-    border-bottom: 1px solid #eee;
-    /* NUOVE REGOLE PER CENTRARE L'HEADER TOP: */
+/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) - AGGIUNTE PER CENTRARE E RIDURRE */
+.main-nav-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 0 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    
     max-width: 1150px; /* <--- Limita la larghezza */
-    margin: 0 auto;   /* <--- Centra la fascia chiara */
+    margin: 0 auto;   /* <--- Centra la fascia scura */
 }
 
 .nav-list {
-    list-style: none; /* Rimuove i pallini */
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
 }
 
-/* NAV LINK (Modificato: Ridotto padding verticale) */
+/* NAV LINK (Ridotto padding verticale per ridurre lo spessore) */
 .nav-list li a {
     display: block;
     padding: 8px 20px; /* <--- RIDOTTO (prima era 12px) */
-    color: #fff; /* Testo bianco */
+    color: #fff;
     text-decoration: none;
     font-weight: 500;
-    /* Aggiunge la linea sotto al link attivo o hover */
     border-bottom: 3px solid transparent; 
 }
 
 /* Effetto al passaggio del mouse */
 .nav-list li a:hover {
     background-color: #555;
-    border-bottom-color: #00A3A8; /* Linea colore accento */
+    border-bottom-color: #00A3A8;
 }
 
 
@@ -90,25 +89,27 @@
 /* SOS GEMINI TEMPLATE CSS - Stili specifici del layout PG */
 /* ========================================================== */
 
-/* Contenitore principale del post (Modificato: Larghezza 1150px) */
+/* Wrapper per centrare il MAIN (Corrisponde all'header per l'allineamento) */
+.content-wrapper {
+    max-width: 1150px; /* <--- Centra il contenuto di default.html */
+    margin: 0 auto;
+}
+
+/* Contenitore principale del post (Anche questo a 1150px) */
 .post-container {
-    max-width: 1150px; /* <--- MODIFICATO */
+    max-width: 1150px; 
     margin: 0 auto;
     padding: 20px;
-    background-color: #ffffff; /* Sfondo bianco per il contenuto */
+    background-color: #ffffff;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
 }
 
-/* Nuovo wrapper per centrare l'indice principale (Centratura) */
-.content-wrapper {
-    max-width: 1150px; /* <--- AGGIUNTO per centrare il contenuto di default.html */
-    margin: 0 auto;
-}
+/* ... (Tutte le altre regole PG restano invariate, come da tua ultima richiesta) ... */
 
 /* Titoli H1 e H2/small-title in testa al post */
 .post-container h1 {
     font-size: 2.5rem;
-    color: #002D62; /* Blu scuro */
+    color: #002D62;
     margin-bottom: 0.5rem;
 }
 .small-title {
@@ -122,7 +123,6 @@
     font-size: 1.8rem;
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    /* Effetto Gradiente (colore principale PG) */
     background: linear-gradient(to right, #002D62, #00A3A8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -139,11 +139,11 @@
 .content-with-image {
     display: flex;
     gap: 20px;
-    align-items: flex-start; /* Allinea il contenuto in alto */
+    align-items: flex-start;
 }
 
 .image-wrapper {
-    flex: 0 0 40%; /* L'immagine occupa circa il 40% su desktop */
+    flex: 0 0 40%;
     max-width: 40%;
 }
 
@@ -155,13 +155,13 @@
 }
 
 .text-content {
-    flex: 1; /* Il testo occupa lo spazio rimanente */
+    flex: 1;
 }
 
 /* Stile per il consiglio utile */
 .useful-tip {
     font-size: 1.1rem;
-    color: #00A3A8; /* Colore accento */
+    color: #00A3A8;
     border-left: 4px solid #00A3A8;
     padding-left: 15px;
     margin-top: 1.5rem;
