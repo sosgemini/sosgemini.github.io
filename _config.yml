@@ -1,5 +1,8 @@
 title: SOSgemini
 description: Soluzioni e Supporto per tutti i tuoi problemi.
-baseurl: "" # Lascia vuoto se hosti su un dominio radice, o usa "/nome_repo" se hosti in una sottocartella
 url: "https://tuoutente.github.io" # Metti il tuo URL completo (opzionale)
-theme: minima # Un tema di base per un setup più rapido, puoi rimuoverlo dopo
+
+# REGOLAZIONE CRITICA PER GITHUB PAGES E STILI
+baseurl: "" # Lascia vuoto se hosti su un dominio radice.
+# Rimuoviamo il tema "minima" per evitare che interferisca con i layout personalizzati
+# theme: minima
