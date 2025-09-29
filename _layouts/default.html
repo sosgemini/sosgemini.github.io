@@ -2,15 +2,26 @@
 <html lang="it">
 <head>
   <meta charset="utf-8">
-  <title>{{ page.title }} | Test Jekyll</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | SOS Gemini</title>
+
+  <!-- Collegamento al foglio di stile -->
+  <link rel="stylesheet" href="{{ site.baseurl }}/stili/style.css">
+
+  <!-- Favicon (se presente) -->
+  <link rel="icon" href="{{ site.baseurl }}/immagini/favicon.ico" type="image/x-icon">
 </head>
 <body>
 
+  <!-- Header incluso -->
   {% include header.html %}
 
-  <main>
-    {{ content }}
-  </main>
+  <!-- Contenuto principale -->
+  <div class="content-wrapper">
+    <main>
+      {{ content }}
+    </main>
+  </div>
 
 </body>
 </html>
