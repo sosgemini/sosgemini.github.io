@@ -1,22 +1,47 @@
-/* ========================================================== */
-/* RESPONSIVE.CSS - Regole per l'adattabilità (mobile/tablet) */
-/* ========================================================== */
+/* ========================= */
+/* RESPONSIVE LAYOUT         */
+/* ========================= */
+@media (max-width: 768px) {
+  .header-top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
 
-/* Le regole di responsive per il layout principale (affiancato/impilato)
-   sono state già inserite in sosgemini-template.css. 
-   Questo file è per regole più specifiche se ne servissero, 
-   ma assicuriamo che esista e sia valido. */
+  .utility-area {
+    width: 100%;
+    justify-content: space-between;
+  }
 
-@media (max-width: 900px) {
-    /* Regole per schermi grandi, se necessario */
-}
+  .nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
 
-@media (max-width: 600px) {
-    /* Regole specifiche per smartphone */
-    body {
-        font-size: 14px;
-    }
-    .post-container h1 {
-        font-size: 2rem;
-    }
+  .nav-list li a {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-with-image {
+    flex-direction: column;
+  }
+
+  .image-wrapper {
+    max-width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .section-title-gradient {
+    font-size: 1.5rem;
+  }
+
+  .post-container h1 {
+    font-size: 2rem;
+  }
+
+  body {
+    font-size: 14px;
+  }
 }
