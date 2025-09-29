@@ -25,7 +25,7 @@ body, html {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
      
     position: relative;  
-    top: -5px;         /* <--- VALORE DA REGOLARE */ 
+    top: -5px;         /* VALORE PER LO SPOSTAMENTO IN ALTO */ 
     z-index: 100;        
 } 
 
@@ -35,8 +35,7 @@ body, html {
     justify-content: space-between; 
     align-items: center; 
      
-    /* MODIFICATO: Azzero il padding-top e riduco il padding-bottom */ 
-    padding: 0 15px 0 15px; /* <--- Ho azzerato il padding superiore e leggermente ridotto il inferiore */ 
+    padding: 0 15px 0 15px; /* Azzera il padding superiore per salire */ 
      
     background-color: #ffffff; 
     color: #333; 
@@ -49,19 +48,16 @@ body, html {
 /* LOGO (85px, Ingrandito e Posizionato per Sovrapposizione) */ 
 .site-logo-img { 
     height: 85px;  
-    /* ... altre regole ... */ 
      
     /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */ 
     position: relative;  
-    z-index: 10;  
+    z-index: 10; 
      
-    /* RESET BASE: Ritorna al valore di centraggio per NON spostare la fascia nera */ 
-    margin-bottom: -42.5px; /* <--- IMPOSTA QUESTO VALORE FISSO */ 
+    /* IL VALORE FISSO CHE SPINGE IL LOGO SULLA BARRA SCURA */ 
+    margin-bottom: -42.5px; 
      
     /* Ombra leggera */ 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-     
-    /* NUOVA REGOLA DI REGOLAZIONE: Aggiungeremo 'top' qui sotto */ 
 } 
 .logo-area { 
     display: flex; 
@@ -136,8 +132,8 @@ body, html {
 .content-wrapper { 
     max-width: 1150px; 
     margin: 0 auto; 
-    /* Aggiungo un padding-top per evitare che il contenuto vada sotto l'header alzato */ 
-    padding-top: 15px; /* <--- NUOVO: Compensazione per lo spostamento dell'header */ 
+    /* Compensazione per lo spostamento dell'header */ 
+    padding-top: 15px; 
 } 
 
 /* Contenitore principale del post (Anche questo a 1150px) */ 
@@ -149,8 +145,6 @@ body, html {
     background-color: #ffffff; 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); 
 } 
-
-/* ... (Il resto degli stili del post rimane invariato) ... */ 
 
 .post-container h1 { 
     font-size: 2.5rem; 
@@ -243,7 +237,7 @@ body, html {
     background-color: #00A3A8; 
 } 
 
-/* --- AGGIUNTA FONDAMENTALE PER LA GRIGLIA DELL'INDICE --- */
+/* --- AGGIUNTA FONDAMENTALE PER LA GRIGLIA DELL'INDICE (Sezione mancante nel tuo blocco precedente) --- */
 .content-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
