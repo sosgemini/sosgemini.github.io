@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <title>{{ page.title }} | {{ site.title }}</title>
-    
-    <link rel="icon" type="image/x-icon" href="/immagini/favicon.ico" sizes="any"> 
-    <link rel="icon" type="image/png" href="/immagini/SOS-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/immagini/SOS-32x32.png" sizes="32x32">
-    
-    <link rel="apple-touch-icon" href="/immagini/SOS-180x180.png" sizes="180x180">
-    
-    <meta name="theme-color" content="#ffffff"> 
-    
-    <link rel="stylesheet" href="/stili/style.css"> 
-    <link rel="stylesheet" href="/stili/responsive.css"> 
-    <link rel="stylesheet" href="/stili/sosgemini-template.css"> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>{{ page.title }} | {{ site.title }}</title>
+    
+    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/immagini/favicon.ico" sizes="any"> 
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/immagini/SOS-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="{{ site.baseurl }}/immagini/SOS-32x32.png" sizes="32x32">
+    
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/immagini/SOS-180x180.png" sizes="180x180">
+    
+    <meta name="theme-color" content="#ffffff"> 
+    
+        <link rel="stylesheet" href="{{ site.baseurl }}/stili/style.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/stili/responsive.css"> 
+    <link rel="stylesheet" href="{{ site.baseurl }}/stili/sosgemini-template.css"> 
 </head>
 <body>
 
-        <div class="content-wrapper"> 
+    {% include header.html %}     <div class="content-wrapper"> 
         <main>
             {{ content }}
         </main>
