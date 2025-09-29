@@ -1,8 +1,2 @@
-title: SOSgemini
-description: Soluzioni e Supporto per tutti i tuoi problemi.
-url: "https://tuoutente.github.io" # Metti il tuo URL completo (opzionale)
-
-# REGOLAZIONE CRITICA PER GITHUB PAGES E STILI
-baseurl: "" # Lascia vuoto se hosti su un dominio radice.
-# Rimuoviamo il tema "minima" per evitare che interferisca con i layout personalizzati
-# theme: minima
+title: Test Jekyll
+baseurl: "" # Se pubblichi su https://tuoutente.github.io/
