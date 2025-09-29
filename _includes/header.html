@@ -1,25 +1,25 @@
 <header class="site-header">
     <div class="header-top">
         <div class="logo-area">
-            <a href="/">
-                <img src="/immagini/SOS-96x96.png" alt="Logo SOSgemini" class="site-logo-img">
+            <a href="{{ site.baseurl }}/">
+                <img class="site-logo-img" src="{{ site.baseurl }}/immagini/sos-gemini-logo-85.png" alt="Logo SOS Gemini">
             </a>
         </div>
         <div class="utility-area">
-            <span class="language-select">🇮🇹 Italiano</span>
+            <span>IT Italiano</span>
             <a href="#">Accedi</a>
-            <input type="search" placeholder="Cerca" class="search-box">
+            <input class="search-box" type="search" placeholder="Cerca">
         </div>
     </div>
 
     <nav class="main-nav-bar">
         <div class="nav-content-wrapper">
             <ul class="nav-list">
-                <li><a href="/">HOME</a></li>
-                <li><a href="#">COSA FACCIAMO</a></li>
-                <li><a href="#">GUIDA DIGITALE</a></li>
-                <li><a href="#">NOTIZIE</a></li>
-                <li><a href="#">CHI SIAMO</a></li>
+                <li><a href="{{ site.baseurl }}/">HOME</a></li>
+                <li><a href="{{ site.baseurl }}/cosa-facciamo/">COSA FACCIAMO</a></li>
+                <li><a href="{{ site.baseurl }}/guida-digitale/">GUIDA DIGITALE</a></li>
+                <li><a href="{{ site.baseurl }}/notizie/">NOTIZIE</a></li>
+                <li><a href="{{ site.baseurl }}/chi-siamo/">CHI SIAMO</a></li>
             </ul>
         </div>
     </nav>
