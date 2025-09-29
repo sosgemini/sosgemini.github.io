@@ -1,295 +1,184 @@
-/* ========================================================== */
-/* RESET FONDAMENTALE FORZATO (Elimina spazio grigio in alto) */
-/* ========================================================== */
-/* Resetta margini e padding su TUTTI gli elementi */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body, html {
-    width: 100%;
-    /* Lo sfondo del body si vedrà solo sotto il contenuto principale */
-    background-color: #f7f7f7; 
-}
-
-
-/* ========================================================== */
-/* STILI DEL NUOVO HEADER A DUE LIVELLI (Definitivo) */
-/* ========================================================== */
-
-/* STRUTTURA GENERALE DEL NUOVO HEADER - ADERISCE AL TOP FORZATAMENTE */
+/* ========================= */
+/* HEADER A DUE LIVELLI      */
+/* ========================= */
 .site-header {
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    
-    position: relative; 
-    top: -5px;         /* <--- VALORE DA REGOLARE */
-    z-index: 100;       
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 100;
 }
 
-/* BARRA SUPERIORE (CHIARA) - Contenitore principale (Logo + Utility) */
 .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    /* MODIFICATO: Azzero il padding-top e riduco il padding-bottom */
-    padding: 0 15px 0 15px; /* <--- Ho azzerato il padding superiore e leggermente ridotto il inferiore */
-    
-    background-color: #ffffff;
-    color: #333;
-    border-bottom: 1px solid #eee;
-    
-    max-width: 1150px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
 }
 
-/* LOGO (85px, Ingrandito e Posizionato per Sovrapposizione) */
-.site-logo-img {
-    height: 85px; 
-    /* ... altre regole ... */
-    
-    /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */
-    position: relative; 
-    z-index: 10; 
-    
-    /* RESET BASE: Ritorna al valore di centraggio per NON spostare la fascia nera */
-    margin-bottom: -42.5px; /* <--- IMPOSTA QUESTO VALORE FISSO */
-    
-    /* Ombra leggera */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    
-    /* NUOVA REGOLA DI REGOLAZIONE: Aggiungeremo 'top' qui sotto */
-}
-.logo-area {
-    display: flex;
-    align-items: center;
+.logo-area img {
+  height: 85px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-/* AREA UTILITY (Lingua, Accedi, Cerca) */
 .utility-area {
-    display: flex;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
+
 .utility-area a {
-    color: #555;
-    text-decoration: none;
-    font-size: 0.9em;
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9em;
 }
+
 .search-box {
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
-/* BARRA DI NAVIGAZIONE PRINCIPALE (SCURA) */
+/* ========================= */
+/* NAVIGAZIONE               */
+/* ========================= */
 .main-nav-bar {
-    background-color: #333; /* SCURO */
-    color: #fff;
-    padding: 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #333;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-/* WRAPPER AGGIUNTO: Centra i link e li limita a 1150px */
 .nav-content-wrapper {
-    max-width: 1150px;
-    margin: 0 auto;
-    display: flex;
-    padding: 0 15px;
-    
-    /* CENTRA I LINK DI NAVIGAZIONE */
-    justify-content: center; 
+  max-width: 1150px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 15px;
 }
 
 .nav-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
-/* NAV LINK */
 .nav-list li a {
-    display: block;
-    padding: 8px 20px;
-    color: #fff;
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 3px solid transparent; 
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 3px solid transparent;
 }
 
-/* Effetto al passaggio del mouse */
 .nav-list li a:hover {
-    background-color: #555;
-    border-bottom-color: #00A3A8;
+  background-color: #555;
+  border-bottom-color: #00A3A8;
 }
 
-
-/* ========================================================== */
-/* SOS GEMINI TEMPLATE CSS - Stili specifici del layout PG */
-/* ========================================================== */
-
-/* Wrapper per centrare il MAIN (Contenuto sotto l'header) */
-.content-wrapper {
-    max-width: 1150px;
-    margin: 0 auto;
-    /* Aggiungo un padding-top per evitare che il contenuto vada sotto l'header alzato */
-    padding-top: 15px; /* <--- NUOVO: Compensazione per lo spostamento dell'header */
-}
-
-/* Contenitore principale del post (Anche questo a 1150px) */
+/* ========================= */
+/* CONTENUTO POST            */
+/* ========================= */
 .post-container {
-    max-width: 1150px; 
-    /* Margine superiore a 0, poiché l'header non è fisso */
-    margin: 20px auto; 
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  max-width: 1150px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
 }
-
-/* ... (Il resto degli stili del post rimane invariato) ... */
 
 .post-container h1 {
-    font-size: 2.5rem;
-    color: #002D62;
-    margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  color: #002D62;
+  margin-bottom: 0.5rem;
 }
+
 .small-title {
-    font-size: 1.3rem;
-    color: #555;
-    font-weight: 300;
+  font-size: 1.3rem;
+  color: #555;
+  font-weight: 300;
 }
 
 .section-title-gradient {
-    font-size: 1.8rem;
-    margin-top: 2.5rem;
-    margin-bottom: 1rem;
-    background: linear-gradient(to right, #002D62, #00A3A8);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
+  font-size: 1.8rem;
+  margin: 2.5rem 0 1rem;
+  background: linear-gradient(to right, #002D62, #00A3A8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
 
 .content-block {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
 .content-with-image {
-    display: flex;
-    gap: 20px;
-    align-items: flex-start;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
 }
 
 .image-wrapper {
-    flex: 0 0 40%;
-    max-width: 40%;
+  flex: 0 0 40%;
+  max-width: 40%;
 }
 
 .image-wrapper img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .text-content {
-    flex: 1;
+  flex: 1;
 }
 
 .useful-tip {
-    font-size: 1.1rem;
-    color: #00A3A8;
-    border-left: 4px solid #00A3A8;
-    padding-left: 15px;
-    margin-top: 1.5rem;
-    font-weight: 600;
+  font-size: 1.1rem;
+  color: #00A3A8;
+  border-left: 4px solid #00A3A8;
+  padding-left: 15px;
+  margin-top: 1.5rem;
+  font-weight: 600;
 }
 
 .conclusion-box {
-    padding: 20px;
-    border: 1px dashed #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    text-align: center;
+  padding: 20px;
+  border: 1px dashed #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: center;
 }
 
 .conclusion-title {
-    font-size: 1.5rem;
-    color: #002D62;
-    margin-top: 0;
+  font-size: 1.5rem;
+  color: #002D62;
+  margin-top: 0;
 }
 
+/* ========================= */
+/* FOOTER                    */
+/* ========================= */
 .footer-box {
-    text-align: center;
-    padding: 15px 0;
+  text-align: center;
+  padding: 15px 0;
 }
 
 .footer-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #002D62;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #002D62;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .footer-link:hover {
-    background-color: #00A3A8;
-}
-
-/* ========================================================== */
-/* MEDIA QUERIES - Responsività (Regole per schermi piccoli) */
-/* ========================================================== */
-@media (max-width: 768px) {
-    .post-container {
-        padding: 10px;
-    }
-
-    .content-with-image {
-        flex-direction: column;
-    }
-
-    .image-wrapper {
-        flex: 100%;
-        max-width: 100%;
-        margin-bottom: 15px;
-    }
-
-    .section-title-gradient {
-        font-size: 1.5rem;
-    }
-    
-    .header-top {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-    }
-    .utility-area {
-        width: 100%;
-        justify-content: space-between;
-    }
-
-    /* CORREZIONE RESPONSIVA DEL LOGO */
-    .site-logo-img {
-        /* Reset per schermi piccoli */
-        margin-bottom: 0;
-        position: static;
-        z-index: auto;
-        /* Rimuovi ombra per pulizia su mobile */
-        box-shadow: none; 
-    }
-    /* NUOVO: Reset per l'header alzato in responsive */
-    .site-header {
-        position: static; /* Torna alla posizione normale */
-        top: 0; /* Azzera lo spostamento */
-    }
-    .content-wrapper {
-        padding-top: 0; /* Rimuove il padding di compensazione */
-    }
+  background-color: #00A3A8;
 }
