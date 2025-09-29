@@ -25,7 +25,7 @@ body, html {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
      
     position: relative;  
-    top: -5px;         /* VALORE PER LO SPOSTAMENTO IN ALTO */ 
+    top: -5px;         /* <--- VALORE DA REGOLARE */ 
     z-index: 100;        
 } 
 
@@ -35,7 +35,8 @@ body, html {
     justify-content: space-between; 
     align-items: center; 
      
-    padding: 0 15px 0 15px; /* Azzera il padding superiore per salire */ 
+    /* MODIFICATO: Azzero il padding-top e riduco il padding-bottom */ 
+    padding: 0 15px 0 15px; /* <--- Ho azzerato il padding superiore e leggermente ridotto il inferiore */ 
      
     background-color: #ffffff; 
     color: #333; 
@@ -48,16 +49,19 @@ body, html {
 /* LOGO (85px, Ingrandito e Posizionato per Sovrapposizione) */ 
 .site-logo-img { 
     height: 85px;  
+    /* ... altre regole ... */ 
      
     /* REGOLE CRITICHE PER LA SOVRAPPOSIZIONE */ 
     position: relative;  
-    z-index: 10; 
+    z-index: 10;  
      
-    /* IL VALORE FISSO CHE SPINGE IL LOGO SULLA BARRA SCURA */ 
-    margin-bottom: -42.5px; 
+    /* RESET BASE: Ritorna al valore di centraggio per NON spostare la fascia nera */ 
+    margin-bottom: -42.5px; /* <--- IMPOSTA QUESTO VALORE FISSO */ 
      
     /* Ombra leggera */ 
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+     
+    /* NUOVA REGOLA DI REGOLAZIONE: Aggiungeremo 'top' qui sotto */ 
 } 
 .logo-area { 
     display: flex; 
@@ -132,8 +136,8 @@ body, html {
 .content-wrapper { 
     max-width: 1150px; 
     margin: 0 auto; 
-    /* Compensazione per lo spostamento dell'header */ 
-    padding-top: 15px; 
+    /* Aggiungo un padding-top per evitare che il contenuto vada sotto l'header alzato */ 
+    padding-top: 15px; /* <--- NUOVO: Compensazione per lo spostamento dell'header */ 
 } 
 
 /* Contenitore principale del post (Anche questo a 1150px) */ 
@@ -145,6 +149,8 @@ body, html {
     background-color: #ffffff; 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.05); 
 } 
+
+/* ... (Il resto degli stili del post rimane invariato) ... */ 
 
 .post-container h1 { 
     font-size: 2.5rem; 
@@ -322,7 +328,7 @@ body, html {
         /* Rimuovi ombra per pulizia su mobile */ 
         box-shadow: none;  
     } 
-    /* Reset per l'header alzato in responsive */ 
+    /* NUOVO: Reset per l'header alzato in responsive */ 
     .site-header { 
         position: static; /* Torna alla posizione normale */ 
         top: 0; /* Azzera lo spostamento */ 
