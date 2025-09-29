@@ -7,89 +7,12 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
+  width: 100%;
   font-family: Arial, sans-serif;
   background-color: #f7f7f7;
   color: #333;
   line-height: 1.6;
-}
-
-/* ========================= */
-/* HEADER                    */
-/* ========================= */
-.site-header {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 10px 0;
-  position: relative;
-  z-index: 100;
-}
-
-.header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
-.logo-area img {
-  height: 85px;
-}
-
-.utility-area {
-  display: flex;
-  align-items: center;
-  gap: 15px;
-}
-
-.utility-area a {
-  color: #555;
-  text-decoration: none;
-  font-size: 0.9em;
-}
-
-.search-box {
-  padding: 5px 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-
-/* ========================= */
-/* NAVIGAZIONE               */
-/* ========================= */
-.main-nav-bar {
-  background-color: #333;
-  color: #fff;
-}
-
-.nav-content-wrapper {
-  max-width: 1150px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-}
-
-.nav-list {
-  list-style: none;
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-
-.nav-list li a {
-  display: block;
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  border-bottom: 3px solid transparent;
-}
-
-.nav-list li a:hover {
-  background-color: #555;
-  border-bottom-color: #00A3A8;
 }
 
 /* ========================= */
@@ -110,39 +33,4 @@ body {
 
 .content-wrapper p {
   font-size: 1.1rem;
-}
-
-/* ========================= */
-/* RESPONSIVE                */
-/* ========================= */
-@media (max-width: 768px) {
-  .header-top {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  .utility-area {
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .nav-list {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .nav-list li a {
-    padding: 10px;
-    width: 100%;
-    text-align: center;
-  }
-
-  .content-wrapper {
-    padding: 15px;
-  }
-
-  .content-wrapper h1 {
-    font-size: 2rem;
-  }
 }
