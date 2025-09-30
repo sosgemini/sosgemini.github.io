@@ -3,58 +3,52 @@
 /* ========================= */
 .home-intro {
   text-align: center;
-  padding: 60px 20px;
+  padding: 50px 20px 40px;
   background-color: #ffffff;
-  isolation: isolate;
   max-width: 1200px;
   margin: 0 auto;
-  animation: fadeInIntro 1s ease-out;
+  isolation: isolate;
 }
 
 .main-title {
-  font-size: clamp(3rem, 6vw, 4.5rem);
-  font-weight: 300;
-  letter-spacing: 1.5px;
+  font-size: clamp(2.8rem, 6vw, 4.2rem);
+  font-weight: 400;
+  letter-spacing: 1.2px;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   background: linear-gradient(to right, #001a40, #0077cc, #003366);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.2;
-  animation: fadeInTitle 1.2s ease-out;
+  animation: fadeInTitle 0.8s ease-out;
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 300;
-  color: #555;
-  max-width: 1100px;
+  color: #444;
+  max-width: 1000px;
   margin: 0 auto;
   line-height: 1.6;
   font-style: italic;
-  padding: 0 10px;
-  animation: fadeInSubtitle 1.4s ease-out;
+  padding: 0 15px;
+  animation: fadeInSubtitle 1s ease-out;
 }
 
 .subtitle .highlight {
-  font-weight: bold;
+  font-weight: 600;
   color: #0077cc;
 }
 
 /* ========================= */
 /* ANIMAZIONI INTRO          */
 /* ========================= */
-@keyframes fadeInIntro {
-  from { opacity: 0; transform: translateY(-10px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 @keyframes fadeInTitle {
-  from { opacity: 0; transform: translateY(-5px); }
+  from { opacity: 0; transform: translateY(-8px); }
   to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes fadeInSubtitle {
-  from { opacity: 0; transform: translateY(5px); }
+  from { opacity: 0; transform: translateY(6px); }
   to { opacity: 1; transform: translateY(0); }
 }
