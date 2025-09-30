@@ -36,6 +36,77 @@ html, body {
 }
 
 /* ========================= */
+/* HOME INTRO                */
+/* ========================= */
+.home-intro {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.home-intro h1 {
+  font-size: 2.2rem;
+  color: #002D62;
+  margin-bottom: 10px;
+}
+
+.home-intro p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* ========================= */
+/* CARD GRID HOMEPAGE        */
+/* ========================= */
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 25px;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.content-square {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.content-square:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.content-square img {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+.content-square p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.content-square p strong {
+  display: block;
+  font-size: 1.2rem;
+  color: #002D62;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* ========================= */
 /* NUOVO FOOTER              */
 /* ========================= */
 .conclusion-box {
