@@ -44,13 +44,14 @@ html, body {
   background-color: #ffffff;
 }
 
-.home-intro h1 {
+.main-title {
   font-size: 2.2rem;
+  font-weight: bold;
   color: #002D62;
   margin-bottom: 10px;
 }
 
-.home-intro p {
+.subtitle {
   font-size: 1.1rem;
   color: #555;
 }
