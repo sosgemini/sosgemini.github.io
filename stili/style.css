@@ -45,22 +45,22 @@ html, body {
 }
 
 .main-title {
-  font-size: 60rem;
-  font-weight: 700;
+  font-size: 4rem; /* molto grande */
+  font-weight: 800;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin-bottom: 15px;
-  background: linear-gradient(to right, #024ca3, #072e57);
+  margin-bottom: 10px;
+  background: linear-gradient(to right, #001a40, #003366); /* blu più scuro */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  color: #444;
+  font-size: 0.9rem; /* più piccolo */
+  color: #555;
   max-width: 800px;
   margin: 0 auto;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .subtitle .highlight {
