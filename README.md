@@ -11,7 +11,7 @@
     <p>La homepage è in costruzione. Clicca qui per vedere la tua prima pagina pubblicata:</p>
     
     <p>
-        <a ok2 </a>
+        <a ok212345678 </a>
     </p>
 </body>
 </html>
