@@ -19,11 +19,27 @@
   border-bottom: 1px solid #eee;
 }
 
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .logo-area img {
   height: 85px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
+.site-title-text {
+  font-size: clamp(2.2rem, 5vw, 3rem);
+  font-weight: 700;
+  color: #002D62;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  line-height: 1.2;
+}
+
+/* Utility: lingua, login, cerca */
 .utility-area {
   display: flex;
   align-items: center;
@@ -72,6 +88,7 @@
   text-decoration: none;
   font-weight: 500;
   border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
 }
 
 .nav-list li a:hover {
@@ -119,6 +136,7 @@
   display: flex;
   gap: 20px;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .image-wrapper {
@@ -135,6 +153,7 @@
 
 .text-content {
   flex: 1;
+  min-width: 250px;
 }
 
 .useful-tip {
@@ -146,6 +165,9 @@
   font-weight: 600;
 }
 
+/* ========================= */
+/* CONCLUSIONI               */
+/* ========================= */
 .conclusion-box {
   padding: 20px;
   border: 1px dashed #ccc;
