@@ -45,12 +45,12 @@ html, body {
 }
 
 .main-title {
-  font-size: 3rem;
+  font-size: 6rem;
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 15px;
-  background: linear-gradient(to right, #002D62, #00AEEF);
+  background: linear-gradient(to right, #024ca3, #072e57);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
