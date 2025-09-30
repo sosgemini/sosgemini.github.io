@@ -6,6 +6,8 @@
   padding: 60px 20px;
   background-color: #ffffff;
   isolation: isolate;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .main-title {
