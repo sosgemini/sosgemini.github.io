@@ -8,7 +8,7 @@
 }
 
 .main-title {
-  font-size: 4.5rem; /* molto grande */
+  font-size: 8rem; /* molto grande */
   font-weight: 900;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -19,7 +19,7 @@
 }
 
 .subtitle {
-  font-size: 0.9rem; /* più piccolo */
+  font-size: 0.4rem; /* più piccolo */
   color: #555;
   max-width: 800px;
   margin: 0 auto;
