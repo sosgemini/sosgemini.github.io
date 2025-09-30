@@ -34,3 +34,18 @@ html, body {
 .content-wrapper p {
   font-size: 1.1rem;
 }
+.site-footer {
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.9em;
+  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
+  color: #444;
+  border-top: 1px solid #ccc;
+}
+.site-footer a {
+  color: #0077cc;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  text-decoration: underline;
+}
