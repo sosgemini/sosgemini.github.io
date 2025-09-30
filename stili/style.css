@@ -10,8 +10,9 @@
   isolation: isolate;
 }
 
+/* Titolo principale */
 .main-title {
-  font-size: clamp(5rem, 7vw, 10rem);
+  font-size: clamp(5rem, 7vw, 10rem); /* grande e fluido */
   font-weight: 500;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -21,9 +22,10 @@
   -webkit-text-fill-color: transparent;
   line-height: 1.2;
   animation: fadeInTitle 0.8s ease-out;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1); /* glow leggero */
 }
 
+/* Sottotitolo */
 .subtitle {
   font-size: 1.1rem;
   font-weight: 300;
@@ -36,6 +38,7 @@
   animation: fadeInSubtitle 1s ease-out;
 }
 
+/* Evidenziazione nel sottotitolo */
 .subtitle .highlight {
   font-weight: 600;
   color: #0077cc;
