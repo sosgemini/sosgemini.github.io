@@ -38,6 +38,7 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.2;
+    margin-left: 24px; /* ← spostata più a destra */
 }
 
 /* UTILITY AREA */
