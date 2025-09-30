@@ -3,7 +3,7 @@
 /* ========================= */
 .home-intro {
   text-align: center;
-  padding: 50px 20px 40px;
+  padding: 60px 20px 50px;
   background-color: #ffffff;
   max-width: 1200px;
   margin: 0 auto;
@@ -11,27 +11,28 @@
 }
 
 .main-title {
-  font-size: clamp(2.8rem, 6vw, 4.2rem);
-  font-weight: 400;
-  letter-spacing: 1.2px;
+  font-size: clamp(3.5rem, 7vw, 5rem); /* ← ingrandito */
+  font-weight: 500;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-bottom: 20px;
-  background: linear-gradient(to right, #001a40, #0077cc, #003366);
+  margin-bottom: 25px;
+  background: linear-gradient(to right, #001a40, #0055aa, #0077cc, #003366);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 1.2;
   animation: fadeInTitle 0.8s ease-out;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1); /* leggero glow */
 }
 
 .subtitle {
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 300;
   color: #444;
   max-width: 1000px;
   margin: 0 auto;
   line-height: 1.6;
   font-style: italic;
-  padding: 0 15px;
+  padding: 0 20px;
   animation: fadeInSubtitle 1s ease-out;
 }
 
