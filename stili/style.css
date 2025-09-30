@@ -33,12 +33,12 @@
 
 .site-title-text {
   font-size: clamp(2.2rem, 5vw, 3rem);
-  font-weight: 700;
+  font-weight: 500;
   color: #002D62;
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.2;
-    margin-left: 24px; /* ← spostata più a destra */
+  margin-left: 34px; /* ← spostata più a destra */
 }
 
 /* UTILITY AREA */
