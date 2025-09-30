@@ -34,18 +34,40 @@ html, body {
 .content-wrapper p {
   font-size: 1.1rem;
 }
-.site-footer {
+
+/* ========================= */
+/* NUOVO FOOTER              */
+/* ========================= */
+.conclusion-box {
+  background-color: #f0f0f0;
+  padding: 25px 15px;
   text-align: center;
-  padding: 30px 10px;
-  font-size: 0.9em;
-  background: linear-gradient(to right, #f0f0f0, #e0e0e0);
-  color: #444;
-  border-top: 1px solid #ccc;
+  border-top: 2px solid #ccc;
 }
-.site-footer a {
+
+.conclusion-title a {
+  font-size: 1.2rem;
   color: #0077cc;
   text-decoration: none;
 }
-.site-footer a:hover {
+
+.conclusion-title a:hover {
   text-decoration: underline;
+}
+
+.conclusion-text {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.footer-global {
+  background: linear-gradient(to right, #e0e0e0, #f0f0f0);
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-box p {
+  font-size: 0.9em;
+  color: #444;
 }
