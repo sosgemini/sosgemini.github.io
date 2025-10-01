@@ -271,18 +271,4 @@ body, input, button {
     max-height: none;
   }
 }
-a {
-  color: #002D62; /* blu scuro */
-  text-decoration: none; /* niente sottolineatura */
-}
 
-a:visited {
-  color: #002D62; /* stesso blu scuro anche se già cliccato */
-  text-decoration: none;
-}
-
-a:hover,
-a:focus {
-  color: #004080; /* leggermente più chiaro al passaggio del mouse */
-  text-decoration: underline; /* opzionale: puoi toglierlo se vuoi */
-}
