@@ -200,3 +200,49 @@
     display: none;
   }
 }
+/* ========================= */
+/* BARRA MOBILE COMPATTA     */
+/* ========================= */
+.mobile-top-bar {
+  display: none;
+  background-color: #eee;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-utility {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.mobile-utility a,
+.mobile-utility span {
+  font-size: 0.9em;
+  color: #333;
+  text-decoration: none;
+}
+
+.mobile-utility input.search-box {
+  padding: 5px 8px;
+  font-size: 0.9em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .header-top {
+    display: none;
+  }
+
+  .mobile-top-bar {
+    display: flex;
+  }
+
+  .main-nav-bar {
+    top: 48px; /* sposta il menu sotto la barra */
+  }
+}
