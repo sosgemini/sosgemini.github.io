@@ -7,6 +7,14 @@
   <title>{{ page.title }} | SOS Gemini</title>
   <meta name="description" content="SOS Gemini è una guida digitale per vivere in modo sostenibile. Scopri consigli ecologici su alimentazione, animali, salute, lavoro e fai da te.">
 
+  <!-- Open Graph -->
+  <meta property="og:title" content="SOS Gemini – Vita sostenibile">
+  <meta property="og:description" content="Scopri consigli ecologici su alimentazione, animali, salute, lavoro e fai da te.">
+  <meta property="og:image" content="{{ site.baseurl }}/immagini/SOS-96x96.png">
+  <meta property="og:url" content="https://sosgemini.github.io">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+
   <!-- Fogli di stile -->
   <link rel="stylesheet" href="{{ site.baseurl }}/stili/style.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/stili/sosgemini-template.css">
@@ -32,7 +40,6 @@
   <script>
     const toggle = document.querySelector('.hamburger-toggle');
     const nav = document.querySelector('.main-nav-bar');
-
     toggle.addEventListener('click', () => {
       nav.classList.toggle('open');
     });
