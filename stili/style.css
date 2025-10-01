@@ -1,4 +1,14 @@
 /* ========================= */
+/* FONT GLOBALE              */
+/* ========================= */
+body, input, button {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* ========================= */
 /* HEADER A DUE LIVELLI      */
 /* ========================= */
 .site-header {
@@ -40,7 +50,9 @@
   margin-left: 34px;
 }
 
-/* UTILITY AREA DESKTOP */
+/* ========================= */
+/* UTILITY AREA DESKTOP      */
+/* ========================= */
 .utility-area {
   display: flex;
   align-items: center;
@@ -66,13 +78,14 @@
   display: none;
   background-color: #333;
   padding: 8px 15px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
 }
 
 .mobile-left,
 .mobile-right {
+  flex: 1;
   display: flex;
   align-items: center;
   gap: 12px;
@@ -90,13 +103,14 @@
   font-size: 0.9em;
   border: 1px solid #ccc;
   border-radius: 4px;
-  width: 100px;
+  width: min(140px, 40vw);
 }
 
 /* ========================= */
 /* HAMBURGER TOGGLE BUTTON   */
 /* ========================= */
 .hamburger-toggle {
+  flex-shrink: 0;
   display: none;
   font-size: 1.8rem;
   background: none;
@@ -111,6 +125,13 @@
 .main-nav-bar {
   background-color: #333;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  transition: max-height 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.main-nav-bar.open {
+  max-height: 500px;
 }
 
 .nav-content-wrapper {
@@ -209,17 +230,12 @@
   }
 
   .main-nav-bar {
-    display: none;
     position: absolute;
     top: calc(100% + 48px);
     left: 0;
     width: 100%;
     background-color: #333;
     z-index: 99;
-  }
-
-  .main-nav-bar.open {
-    display: block;
   }
 
   .nav-content-wrapper {
