@@ -20,11 +20,16 @@
   <link rel="stylesheet" href="{{ site.baseurl }}/stili/sosgemini-template.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/stili/responsive.css">
 
-  <!-- Favicon -->
+  <!-- Icone e manifest -->
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/immagini/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/immagini/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/immagini/favicon-16x16.png">
+  <link rel="manifest" href="{{ site.baseurl }}/immagini/site.webmanifest">
+  <link rel="mask-icon" href="{{ site.baseurl }}/immagini/safari-pinned-tab.svg" color="#002D62">
   <link rel="icon" href="{{ site.baseurl }}/immagini/favicon.ico" type="image/x-icon">
 </head>
-<body>
 
+<body>
   {% include header.html %}
 
   <div class="content-wrapper">
@@ -44,6 +49,5 @@
       nav.classList.toggle('open');
     });
   </script>
-
 </body>
 </html>
