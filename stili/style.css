@@ -95,7 +95,11 @@
   text-decoration: none;
 }
 
+/* ========================= */
+/* HAMBURGER TOGGLE BUTTON   */
+/* ========================= */
 .hamburger-toggle {
+  display: none;
   font-size: 1.8rem;
   background: none;
   border: none;
@@ -201,6 +205,10 @@
     display: flex;
   }
 
+  .hamburger-toggle {
+    display: block;
+  }
+
   .main-nav-bar {
     display: none;
     position: absolute;
@@ -230,5 +238,14 @@
     padding: 12px 20px;
     border-bottom: 1px solid #444;
     width: 100%;
+  }
+}
+
+/* ========================= */
+/* NASCONDI MOBILE SU DESKTOP */
+/* ========================= */
+@media (min-width: 769px) {
+  .mobile-utility-bar {
+    display: none !important;
   }
 }
