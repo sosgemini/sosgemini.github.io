@@ -25,6 +25,54 @@
   align-items: center;
   gap: 16px;
 }
+/* ========================= */
+/* QUADRATI INTERATTIVI      */
+/* ========================= */
+.square-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  max-width: 1150px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.content-square {
+  display: block;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 25px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: inherit;
+}
+
+.content-square:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.content-square img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 14px;
+}
+
+.content-square p:first-of-type {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #002D62;
+  margin-bottom: 6px;
+}
+
+.content-square .description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
 
 .site-logo-img {
   height: 85px;
