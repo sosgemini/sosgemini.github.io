@@ -66,35 +66,31 @@
   display: none;
   background-color: #333;
   padding: 8px 15px;
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.mobile-utility-bar,
-.mobile-utility-right {
+.mobile-left,
+.mobile-right {
   display: flex;
-}
-
-.mobile-utility-right {
-  gap: 12px;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: flex-end;
+  gap: 12px;
 }
 
-.mobile-utility-right input.search-box {
+.mobile-left a,
+.mobile-left span {
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile-right input.search-box {
   padding: 5px 8px;
   font-size: 0.9em;
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 100px;
-}
-
-.mobile-utility-right a,
-.mobile-utility-right span {
-  font-size: 0.9em;
-  color: #fff;
-  text-decoration: none;
 }
 
 /* ========================= */
