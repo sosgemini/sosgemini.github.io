@@ -147,3 +147,56 @@
   background-color: #555;
   border-bottom-color: #00A3A8;
 }
+/* ========================= */
+/* MENU HAMBURGER RESPONSIVE */
+/* ========================= */
+.hamburger-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  color: #002D62;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .hamburger-toggle {
+    display: block;
+  }
+
+  .main-nav-bar {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 99;
+  }
+
+  .main-nav-bar.open {
+    display: block;
+  }
+
+  .nav-content-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-list li a {
+    padding: 12px 20px;
+    border-bottom: 1px solid #444;
+    width: 100%;
+  }
+
+  .utility-area {
+    display: none;
+  }
+}
