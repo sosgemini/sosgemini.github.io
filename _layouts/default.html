@@ -3,14 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title>{{ page.title }} | SOS Gemini</title>
+  <meta name="description" content="SOS Gemini è una guida digitale per vivere in modo sostenibile. Scopri consigli ecologici su alimentazione, animali, salute, lavoro e fai da te.">
 
   <!-- Fogli di stile -->
   <link rel="stylesheet" href="{{ site.baseurl }}/stili/style.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/stili/sosgemini-template.css">
   <link rel="stylesheet" href="{{ site.baseurl }}/stili/responsive.css">
 
-  <!-- Favicon (se presente) -->
+  <!-- Favicon -->
   <link rel="icon" href="{{ site.baseurl }}/immagini/favicon.ico" type="image/x-icon">
 </head>
 <body>
@@ -26,15 +28,15 @@
   <footer class="site-footer">
     {% include footer.html %}
   </footer>
-<script>
-  
-  const toggle = document.querySelector('.hamburger-toggle');
-  const nav = document.querySelector('.main-nav-bar');
 
-  toggle.addEventListener('click', () => {
-    nav.classList.toggle('open');
-  });
-</script>
+  <script>
+    const toggle = document.querySelector('.hamburger-toggle');
+    const nav = document.querySelector('.main-nav-bar');
+
+    toggle.addEventListener('click', () => {
+      nav.classList.toggle('open');
+    });
+  </script>
 
 </body>
 </html>
