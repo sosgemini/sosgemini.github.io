@@ -19,62 +19,11 @@
   border-bottom: 1px solid #eee;
 }
 
-/* LOGO + TITOLO */
 .logo-title-block {
   display: flex;
   align-items: center;
   gap: 16px;
 }
-/* ========================= */
-/* QUADRATI INTERATTIVI      */
-/* ========================= */
-.square-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-  max-width: 1150px;
-  margin: 40px auto;
-  padding: 0 20px;
-}
-
-
-.content-square {
-  display: block;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  padding: 25px 20px;
-  text-align: center;
-  text-decoration: none;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: inherit;
-}
-
-
-.content-square:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
-}
-
-.content-square img {
-  width: 80px;
-  height: auto;
-  margin-bottom: 14px;
-}
-
-.content-square p:first-of-type {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #002D62;
-  margin-bottom: 6px;
-}
-
-.content-square .description {
-  font-size: 1rem;
-  color: #555;
-  line-height: 1.6;
-}
-
 
 .site-logo-img {
   height: 85px;
@@ -88,10 +37,10 @@
   text-transform: uppercase;
   letter-spacing: 1px;
   line-height: 1.2;
-  margin-left: 34px; /* ← spostata più a destra */
+  margin-left: 34px;
 }
 
-/* UTILITY AREA */
+/* UTILITY AREA DESKTOP */
 .utility-area {
   display: flex;
   align-items: center;
@@ -108,6 +57,50 @@
   padding: 5px 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+/* ========================= */
+/* BARRA MOBILE SOTTO LOGO   */
+/* ========================= */
+.mobile-utility-bar {
+  display: none;
+  background-color: #333;
+  padding: 8px 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-utility-bar,
+.mobile-utility-right {
+  display: flex;
+}
+
+.mobile-utility-right {
+  gap: 12px;
+  align-items: center;
+}
+
+.mobile-utility-right input.search-box {
+  padding: 5px 8px;
+  font-size: 0.9em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 100px;
+}
+
+.mobile-utility-right a,
+.mobile-utility-right span {
+  font-size: 0.9em;
+  color: #fff;
+  text-decoration: none;
+}
+
+.hamburger-toggle {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
 }
 
 /* ========================= */
@@ -147,28 +140,71 @@
   background-color: #555;
   border-bottom-color: #00A3A8;
 }
+
 /* ========================= */
-/* MENU HAMBURGER RESPONSIVE */
+/* QUADRATI INTERATTIVI      */
 /* ========================= */
-.hamburger-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: #002D62;
-  cursor: pointer;
-  margin-left: 15px;
+.square-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1150px;
+  margin: 40px auto;
+  padding: 0 20px;
 }
 
+.content-square {
+  display: block;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 25px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: inherit;
+}
+
+.content-square:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.content-square img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 14px;
+}
+
+.content-square p:first-of-type {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #002D62;
+  margin-bottom: 6px;
+}
+
+.content-square .description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* ========================= */
+/* RESPONSIVE MOBILE         */
+/* ========================= */
 @media (max-width: 768px) {
-  .hamburger-toggle {
-    display: block;
+  .header-top .utility-area {
+    display: none;
+  }
+
+  .mobile-utility-bar {
+    display: flex;
   }
 
   .main-nav-bar {
     display: none;
     position: absolute;
-    top: 100%;
+    top: calc(100% + 48px);
     left: 0;
     width: 100%;
     background-color: #333;
@@ -194,55 +230,5 @@
     padding: 12px 20px;
     border-bottom: 1px solid #444;
     width: 100%;
-  }
-
-  .utility-area {
-    display: none;
-  }
-}
-/* ========================= */
-/* BARRA MOBILE COMPATTA     */
-/* ========================= */
-.mobile-top-bar {
-  display: none;
-  background-color: #eee;
-  padding: 8px 15px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.mobile-utility {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.mobile-utility a,
-.mobile-utility span {
-  font-size: 0.9em;
-  color: #333;
-  text-decoration: none;
-}
-
-.mobile-utility input.search-box {
-  padding: 5px 8px;
-  font-size: 0.9em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  width: 100px;
-}
-
-@media (max-width: 768px) {
-  .header-top {
-    display: none;
-  }
-
-  .mobile-top-bar {
-    display: flex;
-  }
-
-  .main-nav-bar {
-    top: 48px; /* sposta il menu sotto la barra */
   }
 }
