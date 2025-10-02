@@ -79,16 +79,18 @@
 }
 
 @media (max-width: 600px) {
-  .footer-wrapper {
-    padding: 1rem 1.2rem;
+  .utility-area {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
   }
 
   .header-top {
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    margin-bottom: 0;
     padding: 6px 12px 0;
+    margin-bottom: 0;
+    gap: 4px;
   }
 
   .site-logo-img {
@@ -98,24 +100,14 @@
   }
 
   .site-title-text {
-    font-size: 1.8rem;
     margin: 0;
     padding: 0;
     line-height: 1.1;
   }
 
   .mobile-utility-bar {
-    margin-top: -28px;
+    margin-top: -32px;
     padding-top: 0;
     gap: 8px;
-  }
-
-  .search-box {
-    width: 100%;
-    max-width: 280px;
-  }
-
-  .main-nav {
-    margin-top: 0.6rem;
   }
 }
