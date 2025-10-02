@@ -7,35 +7,27 @@
       <span class="site-title-text">SOS Gemini</span>
     </div>
 
-    <nav class="main-nav">
-      <ul class="nav-list">
-        <li><a href="/indice.html">Indice</a></li>
-        <li><a href="/login.html">Accedi</a></li>
-      </ul>
-    </nav>
-
     <div class="utility-area">
       <span>IT Italiano</span>
-      <a href="https://github.com/sosgemini/sosgemini.github.io/tree/main" target="_blank" rel="noopener">Accedi</a>
+      <a href="/login.html">Accedi</a>
       <input class="search-box" type="search" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
+
+    <button class="hamburger-toggle" aria-label="Apri menu" onclick="toggleMenu()">☰</button>
   </div>
 
-  <!-- Barra mobile sotto il logo -->
+  <!-- Mobile utility bar -->
   <div class="mobile-utility-bar">
     <div class="mobile-left">
-      <a href="https://github.com/sosgemini/sosgemini.github.io/tree/main" target="_blank" rel="noopener">Accedi</a>
+      <a href="/login.html">Accedi</a>
       <span>IT</span>
     </div>
-
-    <button class="hamburger-toggle" aria-label="Apri menu">☰</button>
-
     <div class="mobile-right">
       <input class="search-box" type="search" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
   </div>
 
-  <nav class="main-nav-bar">
+  <nav class="main-nav-bar" id="mainNav">
     <div class="nav-content-wrapper">
       <ul class="nav-list">
         <li><a href="{{ site.baseurl }}/">HOME</a></li>
