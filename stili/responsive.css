@@ -44,4 +44,9 @@
   body {
     font-size: 14px;
   }
+  @media (max-width: 600px) {
+  .footer-wrapper {
+    padding: 1rem 1.2rem;
+  }
 }
+
