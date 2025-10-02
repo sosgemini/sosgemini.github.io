@@ -11,12 +11,16 @@
   }
 
   .utility-area {
-    display: none;
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
   }
 
   .mobile-utility-bar {
     display: flex;
-    margin-top: -20px;
+    margin-top: -28px;
     padding-top: 0;
     gap: 8px;
   }
@@ -88,6 +92,7 @@
   }
 
   .site-logo-img {
+    display: block;
     max-height: 72px;
     margin-bottom: 0;
   }
@@ -95,11 +100,12 @@
   .site-title-text {
     font-size: 1.8rem;
     margin: 0;
+    padding: 0;
     line-height: 1.1;
   }
 
   .mobile-utility-bar {
-    margin-top: -24px;
+    margin-top: -28px;
     padding-top: 0;
     gap: 8px;
   }
