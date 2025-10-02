@@ -228,3 +228,12 @@ body, input, button {
   padding-top: 0.8rem;
   font-family: 'Inter', sans-serif;
 }
+@media (min-width: 769px) {
+  .utility-area {
+    display: flex !important;
+  }
+
+  .mobile-utility-bar {
+    display: none !important;
+  }
+}
