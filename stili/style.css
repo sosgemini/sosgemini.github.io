@@ -55,28 +55,6 @@ body, input, button {
 }
 
 /* ========================= */
-/* MENU PRINCIPALE           */
-/* ========================= */
-.main-nav .nav-list {
-  display: flex;
-  gap: 1.5rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-list a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #333;
-  transition: color 0.3s ease;
-}
-
-.nav-list a:hover {
-  color: #0077cc;
-}
-
-/* ========================= */
 /* UTILITY AREA DESKTOP      */
 /* ========================= */
 .utility-area {
@@ -240,61 +218,8 @@ body, input, button {
 }
 
 /* ========================= */
-/* RESPONSIVE MOBILE         */
+/* FOOTER                    */
 /* ========================= */
-@media (max-width: 768px) {
-  .header-top .utility-area {
-    display: none;
-  }
-
-  .mobile-utility-bar {
-    display: flex;
-  }
-
-  .hamburger-toggle {
-    display: block;
-  }
-
-  .main-nav-bar {
-    position: absolute;
-    top: calc(100% + 48px);
-    left: 0;
-    width: 100%;
-    background-color: #333;
-    z-index: 99;
-  }
-
-  .nav-content-wrapper {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px 20px;
-  }
-
-  .nav-list {
-    flex-direction: column;
-    width: 100%;
-  }
-
-  .nav-list li a {
-    padding: 12px 20px;
-    border-bottom: 1px solid #444;
-    width: 100%;
-  }
-}
-
-/* ========================= */
-/* DESKTOP VISIBILITÀ        */
-/* ========================= */
-@media (min-width: 769px) {
-  .mobile-utility-bar {
-    display: none !important;
-  }
-
-  .main-nav-bar {
-    display: block;
-    max-height: none;
-  }
-}
 .footer-box {
   text-align: center;
   font-size: 0.9rem;
@@ -303,42 +228,3 @@ body, input, button {
   padding-top: 0.8rem;
   font-family: 'Inter', sans-serif;
 }
-/* ========================= */
-/* MOBILE SPACING FIX        */
-/* ========================= */
-@media (max-width: 600px) {
-  .site-header {
-    padding-bottom: 0;
-  }
-
-  .header-top {
-    flex-direction: column;
-    align-items: center;
-    padding: 6px 12px 0;
-    margin-bottom: 0;
-    gap: 4px;
-  }
-
-  .site-logo-img {
-    max-height: 72px;
-    margin-bottom: 0;
-  }
-
-  .site-title-text {
-    font-size: 1.8rem;
-    margin: 0;
-    line-height: 1.1;
-  }
-
-  .mobile-utility-bar {
-    margin-top: -24px;
-    padding-top: 0;
-    gap: 8px;
-  }
-
-  .search-box {
-    width: 100%;
-    max-width: 280px;
-  }
-}
-
