@@ -221,27 +221,39 @@
   }
 
   .header-top {
-    padding: 6px 12px;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px 0;
     margin-bottom: 0;
     gap: 4px;
   }
 
-  .site-logo-img,
-  .logo-area img {
-    height: 64px;
+  .logo-area img,
+  .site-logo-img {
+    height: auto;
+    max-height: 72px;
     margin-bottom: 0;
   }
 
   .site-title-text {
     font-size: 1.8rem;
-    margin-bottom: 0;
+    margin: 0;
     line-height: 1.1;
   }
 
   .mobile-utility-bar {
-    margin-top: -10px;
+    margin-top: -12px;
     padding-top: 0;
     gap: 8px;
   }
-}
 
+  .mobile-left,
+  .mobile-right {
+    gap: 10px;
+  }
+
+  .search-box {
+    width: 100%;
+    max-width: 280px;
+  }
+}
