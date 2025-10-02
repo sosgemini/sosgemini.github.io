@@ -303,4 +303,42 @@ body, input, button {
   padding-top: 0.8rem;
   font-family: 'Inter', sans-serif;
 }
+/* ========================= */
+/* MOBILE SPACING FIX        */
+/* ========================= */
+@media (max-width: 600px) {
+  .site-header {
+    padding-bottom: 0;
+  }
+
+  .header-top {
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 12px 0;
+    margin-bottom: 0;
+    gap: 4px;
+  }
+
+  .site-logo-img {
+    max-height: 72px;
+    margin-bottom: 0;
+  }
+
+  .site-title-text {
+    font-size: 1.8rem;
+    margin: 0;
+    line-height: 1.1;
+  }
+
+  .mobile-utility-bar {
+    margin-top: -12px;
+    padding-top: 0;
+    gap: 8px;
+  }
+
+  .search-box {
+    width: 100%;
+    max-width: 280px;
+  }
+}
 
