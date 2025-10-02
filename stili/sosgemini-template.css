@@ -212,4 +212,36 @@
   padding: 1rem 2rem;
   box-sizing: border-box;
 }
+/* ========================= */
+/* MOBILE SPACING FIX        */
+/* ========================= */
+@media (max-width: 600px) {
+  .site-header {
+    padding-bottom: 0;
+  }
+
+  .header-top {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    gap: 4px;
+  }
+
+  .site-logo-img,
+  .logo-area img {
+    height: 64px;
+    margin-bottom: 0;
+  }
+
+  .site-title-text {
+    font-size: 1.8rem;
+    margin-bottom: 0;
+    line-height: 1.1;
+  }
+
+  .mobile-utility-bar {
+    margin-top: -10px;
+    padding-top: 0;
+    gap: 8px;
+  }
+}
 
