@@ -203,4 +203,13 @@
 
 .footer-link:hover {
   background-color: #00A3A8;
+}.footer-global {
+  background-color: #f8f8f8;
 }
+
+.footer-wrapper {
+  max-width: 100%;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
