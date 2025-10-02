@@ -11,7 +11,7 @@ body, input, button {
 }
 
 /* ========================= */
-/* HEADER A DUE LIVELLI      */
+/* HEADER BASE               */
 /* ========================= */
 .site-header {
   width: 100%;
@@ -46,7 +46,7 @@ body, input, button {
 
 .site-title-text {
   font-size: clamp(2.2rem, 5vw, 3rem);
-  font-weight: 500;
+  font-weight: 600;
   color: #002D62;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -76,7 +76,7 @@ body, input, button {
 }
 
 /* ========================= */
-/* BARRA MOBILE ORDINATA     */
+/* MOBILE UTILITY BAR        */
 /* ========================= */
 .mobile-utility-bar {
   display: none;
@@ -114,12 +114,11 @@ body, input, button {
 /* HAMBURGER TOGGLE BUTTON   */
 /* ========================= */
 .hamburger-toggle {
-  flex-shrink: 0;
   display: none;
   font-size: 1.8rem;
   background: none;
   border: none;
-  color: #fff;
+  color: #002D62;
   cursor: pointer;
 }
 
@@ -128,7 +127,6 @@ body, input, button {
 /* ========================= */
 .main-nav-bar {
   background-color: #333;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   transition: max-height 0.3s ease;
   overflow: hidden;
   max-height: 0;
@@ -149,6 +147,8 @@ body, input, button {
 .nav-list {
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding: 0;
   margin: 0;
 }
@@ -228,6 +228,36 @@ body, input, button {
   padding-top: 0.8rem;
   font-family: 'Inter', sans-serif;
 }
+
+/* ========================= */
+/* RESPONSIVE RULES          */
+/* ========================= */
+@media (max-width: 768px) {
+  .utility-area {
+    display: none;
+  }
+
+  .mobile-utility-bar {
+    display: flex;
+    margin-top: -28px;
+  }
+
+  .hamburger-toggle {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-list li a {
+    padding: 12px 20px;
+    border-bottom: 1px solid #444;
+    width: 100%;
+  }
+}
+
 @media (min-width: 769px) {
   .utility-area {
     display: flex !important;
@@ -235,5 +265,13 @@ body, input, button {
 
   .mobile-utility-bar {
     display: none !important;
+  }
+
+  .main-nav-bar {
+    max-height: none;
+  }
+
+  .hamburger-toggle {
+    display: none;
   }
 }
