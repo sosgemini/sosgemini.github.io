@@ -257,3 +257,46 @@
     max-width: 280px;
   }
 }
+/* ========================= */
+/* RESPONSIVE VISIBILITY FIX */
+/* ========================= */
+@media (max-width: 768px) {
+  .utility-area {
+    display: none !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+  }
+
+  .mobile-utility-bar {
+    display: flex !important;
+    margin-top: -28px;
+    padding-top: 0;
+    gap: 8px;
+  }
+
+  .main-nav-bar {
+    display: block;
+    position: relative;
+    top: 0;
+    max-height: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .utility-area {
+    display: flex !important;
+  }
+
+  .mobile-utility-bar {
+    display: none !important;
+  }
+
+  .main-nav-bar {
+    display: block !important;
+    position: relative;
+    top: 0;
+    max-height: none;
+  }
+}
