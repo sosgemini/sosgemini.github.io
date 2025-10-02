@@ -7,17 +7,11 @@
     align-items: center;
     gap: 6px;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding: 8px 12px 0;
   }
 
   .utility-area {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    width: 100%;
-    margin-top: 0;
-    padding-top: 0;
+    display: none;
   }
 
   .nav-list {
@@ -64,7 +58,7 @@
     align-items: center;
     gap: 4px;
     margin-bottom: 0;
-    padding-bottom: 0;
+    padding: 6px 12px 0;
   }
 
   .main-nav {
@@ -77,16 +71,18 @@
   }
 
   .mobile-utility-bar {
-    margin-top: -6px;
+    margin-top: -10px;
     padding-top: 0;
     gap: 8px;
   }
 
   .site-logo-img {
     margin-bottom: 0;
+    max-height: 72px;
   }
 
   .site-title-text {
     margin-bottom: 0;
+    line-height: 1.1;
   }
 }
