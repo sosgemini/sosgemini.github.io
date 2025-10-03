@@ -1,1 +1,34 @@
+.square-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.content-square {
+  text-align: center;
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.2s ease;
+}
+
+.content-square:hover {
+  transform: scale(1.03);
+}
+
+.content-square img {
+  max-width: 100px;
+  margin-bottom: 0.5rem;
+}
+
+.content-square p {
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
+
+.description {
+  font-size: 0.9rem;
+  color: #666;
+}
 
