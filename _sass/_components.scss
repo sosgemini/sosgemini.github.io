@@ -42,4 +42,21 @@
   text-align: center;
   padding: 1rem 0;
 }
+.home-intro {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+  border-radius: 8px;
+  margin-bottom: 2rem;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #444;
+  }
+}
 
