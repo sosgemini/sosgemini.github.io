@@ -3,13 +3,5 @@ layout: default
 title: Home
 ---
 
+{% include home-intro.html %}
 {% include squares.html %}
-
-<script>
-  const toggle = document.querySelector('.hamburger-toggle');
-  const nav = document.querySelector('.main-nav-bar');
-
-  toggle.addEventListener('click', () => {
-    nav.classList.toggle('open');
-  });
-</script>
