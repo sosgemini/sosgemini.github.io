@@ -15,10 +15,8 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
 
-  <!-- Fogli di stile -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/stili/style.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/stili/sosgemini-template.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/stili/responsive.css">
+  <!-- Foglio di stile compilato -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
   <!-- Icone e manifest -->
   <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/immagini/apple-touch-icon.png">
@@ -32,11 +30,9 @@
 <body>
   {% include header.html %}
 
-  <div class="content-wrapper">
-    <main>
-      {{ content }}
-    </main>
-  </div>
+  <main class="content-wrapper">
+    {{ content }}
+  </main>
 
   <footer class="site-footer">
     {% include footer.html %}
@@ -45,9 +41,11 @@
   <script>
     const toggle = document.querySelector('.hamburger-toggle');
     const nav = document.querySelector('.main-nav-bar');
-    toggle.addEventListener('click', () => {
-      nav.classList.toggle('open');
-    });
+    if (toggle && nav) {
+      toggle.addEventListener('click', () => {
+        nav.classList.toggle('open');
+      });
+    }
   </script>
 </body>
 </html>
