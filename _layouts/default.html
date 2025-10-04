@@ -34,11 +34,11 @@
     {{ content }}
   </main>
 
-  {% unless page.layout == "none" %}
+  {% if page.footer != false %}
   <footer class="site-footer">
     {% include footer.html %}
   </footer>
-  {% endunless %}
+  {% endif %}
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
