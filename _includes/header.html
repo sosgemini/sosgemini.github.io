@@ -1,15 +1,15 @@
 <header class="site-header">
   <div class="header-top">
-    <div class="logo-title-block">
-      <a href="{{ '/' | relative_url }}">
+    <div class="logo-block">
+      <a href="{{ '/' | relative_url }}" class="logo-link">
         <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="SOS Gemini logo" class="site-logo-img">
+        <span class="site-title-text">SOS Gemini</span>
       </a>
-      <span class="site-title-text">SOS Gemini</span>
     </div>
 
     <div class="utility-area">
-      <span>IT</span>
-      <a href="/login.html">Accedi</a>
+      <span class="lang-switch">IT</span>
+      <a href="{{ '/login.html' | relative_url }}" class="login-link">Accedi</a>
       <input class="search-box" type="search" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
   </div>
