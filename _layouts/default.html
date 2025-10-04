@@ -8,14 +8,14 @@
   <meta name="description" content="SOS Gemini è una guida digitale per vivere in armonia con l’ambiente, la salute e gli animali.">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="SOS Gemini – Vita sostenibile">
+  <meta property="og:title" content="{{ page.title | escape }} | SOS Gemini">
   <meta property="og:description" content="Consigli pratici su alimentazione, animali, salute, lavoro e fai da te.">
   <meta property="og:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
 
-  <!-- ✅ CSS compilato da GitHub Pages -->
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
   <!-- Favicons -->
@@ -34,20 +34,22 @@
     {{ content }}
   </main>
 
-  {% if page.layout != "none" %}
+  {% unless page.layout == "none" %}
   <footer class="site-footer">
     {% include footer.html %}
   </footer>
-  {% endif %}
+  {% endunless %}
 
   <script>
-    const toggle = document.querySelector('.hamburger-toggle');
-    const nav = document.querySelector('.main-nav-bar');
-    if (toggle && nav) {
-      toggle.addEventListener('click', () => {
-        nav.classList.toggle('open');
-      });
-    }
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.querySelector('.hamburger-toggle');
+      const nav = document.querySelector('.main-nav-bar');
+      if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('open');
+        });
+      }
+    });
   </script>
 </body>
 </html>
