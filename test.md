@@ -8,7 +8,7 @@ permalink: /test.html
 
 Benvenuto su **SOS Gemini** — questa è una pagina di test per verificare se il CSS è attivo.
 
-<div class="section-title-gradient">Sezione in evidenza</div>
+<div class="section-title-gradient">Sezione con titolo gradient</div>
 
 <div class="content-with-image">
   <div class="image-wrapper">
