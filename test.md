@@ -4,6 +4,8 @@ title: Test CSS
 permalink: /test.html
 ---
 
+# Test CSS SOS Gemini
+
 Benvenuto su **SOS Gemini** — questa è una pagina di test per verificare se il CSS è attivo.
 
 <div class="section-title-gradient">Sezione in evidenza</div>
