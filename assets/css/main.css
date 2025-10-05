@@ -1,4 +1,6 @@
+/* ============================================================ */
 /* Base */
+/* ============================================================ */
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
@@ -15,7 +17,9 @@ a:hover {
   text-decoration: underline;
 }
 
+/* ============================================================ */
 /* Layout */
+/* ============================================================ */
 .page-wrapper {
   max-width: 1150px;
   margin: 0 auto;
@@ -27,17 +31,19 @@ a:hover {
   margin: 0 auto;
 }
 
+/* ============================================================ */
 /* Header */
+/* ============================================================ */
 .site-header {
   background-color: #f8f8f8;
   border-bottom: 1px solid #ddd;
-  padding: 20px;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
   flex-wrap: wrap;
 }
 
@@ -82,7 +88,27 @@ a:hover {
   font-weight: 500;
 }
 
+/* Barra nera sotto header */
+.indice-bar {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+/* Indicazione larghezza */
+.larghezza-indicata {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+  padding: 20px 0;
+}
+
+/* ============================================================ */
 /* Navigation */
+/* ============================================================ */
 .main-nav {
   margin-top: 10px;
   text-align: center;
@@ -102,7 +128,9 @@ a:hover {
   font-weight: 500;
 }
 
+/* ============================================================ */
 /* Hero */
+/* ============================================================ */
 .hero {
   background-color: #f8f8f8;
   padding: 40px 20px;
@@ -119,7 +147,9 @@ a:hover {
   color: #666;
 }
 
+/* ============================================================ */
 /* Squares */
+/* ============================================================ */
 .square-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -159,7 +189,9 @@ a:hover {
   margin-top: 5px;
 }
 
+/* ============================================================ */
 /* Footer */
+/* ============================================================ */
 .site-footer {
   text-align: center;
   padding: 20px;
@@ -168,11 +200,10 @@ a:hover {
   border-top: 1px solid #ddd;
   background-color: #f9f9f9;
 }
+
 /* ============================================================ */
 /* Sezione: Stili per la pagina dei Consigli */
 /* ============================================================ */
-
-/* Titoli con gradiente */
 .content-block .text-content h2 {
   color: var(--colore-primario, #007acc);
   background-image: linear-gradient(to right, #ADD8E6, #F0FFF0);
@@ -185,7 +216,6 @@ a:hover {
   width: auto;
 }
 
-/* Layout testo + immagine */
 .content-block.content-with-image {
   display: flex;
   flex-direction: row;
@@ -212,7 +242,6 @@ a:hover {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* Blocco senza immagine */
 .content-block.content-without-image {
   display: block;
 }
@@ -221,7 +250,6 @@ a:hover {
   padding-left: 20px;
 }
 
-/* Liste */
 .elenco-stilato {
   list-style-type: none;
   padding-left: 0.8rem;
@@ -232,7 +260,6 @@ ul, ol {
   padding-left: 0;
 }
 
-/* Spaziatura generale */
 .blocco-contenuto {
   margin-bottom: 2rem;
 }
@@ -256,7 +283,6 @@ ul, ol {
   margin-bottom: 0;
 }
 
-/* Allineamento verticale */
 .content-block.content-with-image .image-wrapper,
 .content-block.content-with-image .text-content {
   align-self: flex-start;
@@ -268,4 +294,33 @@ ul, ol {
 
 .content-block.content-with-image .text-content h2 {
   margin-top: 0 !important;
+}
+
+/* ============================================================ */
+/* Responsive layout */
+/* ============================================================ */
+@media (max-width: 768px) {
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .square-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content-block.content-with-image {
+    flex-direction: column;
+  }
+
+  .content-block.content-with-image .image-wrapper,
+  .content-block.content-with-image .text-content {
+    width: 100%;
+  }
 }
