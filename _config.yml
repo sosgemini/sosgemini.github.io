@@ -1,2 +1,6 @@
-theme: jekyll-theme-minimal
-remote_theme: orderedlist/minimal
+title: SOS Gemini
+description: "Consigli pratici su alimentazione, salute, animali, lavoro e fai da te"
+theme: null
+
+plugins:
+  - jekyll-seo-tag
