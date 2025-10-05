@@ -71,11 +71,11 @@ a:hover {
 
 .site-title {
   font-size: 2em;
-  font-weight: 300;
+  font-weight: 400;
   color: #9c9c9c;         /* grigio chiaro */
   margin-left: 25px;   /* sposta verso destra */
   position: relative;
-  top: 15px;           /* leggero abbassamento per bilanciare il logo */
+  top: 20px;           /* leggero abbassamento per bilanciare il logo */
 }
 
 .utility-area {
