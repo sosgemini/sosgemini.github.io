@@ -3,23 +3,41 @@ layout: default
 title: Home
 ---
 
-<div class="hero">
-  <div class="logo-box">Logo</div>
+<header class="site-header">
+  <div class="header-container page-width">
+    <!-- Logo + Titolo -->
+    <div class="logo-area">
+      <a href="{{ '/' | relative_url }}" class="logo-link">
+        <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="Logo SOS Gemini" class="logo-img">
+        <span class="site-title">SOS Gemini</span>
+      </a>
+    </div>
 
-  <nav class="top-nav">
-    <span>Italiano</span>
-    <a href="#">Accedi</a>
-    <input type="search" placeholder="Cerca">
-  </nav>
-</div>
+    <!-- Utility -->
+    <div class="utility-area">
+      <select class="lang-switch" aria-label="Lingua">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+      <a href="{{ '/login.html' | relative_url }}" class="login-link">Accedi</a>
+      <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
+    </div>
+  </div>
 
-{% include squares.html %}
+  <!-- Barra nera -->
+  <div class="indice-bar">
+    ----- indice qui dentro -----
+  </div>
+</header>
 
+<main class="page-wrapper">
+  <div class="larghezza-indicata">
+    --- larghezza pagina 1150 ---
+  </div>
 
-<div class="banner">
-  ----- indice qui dentro -----
-</div>
+  {% include squares.html %}
+</main>
 
-<div class="page-width">
-  --- larghezza pagina 1150 ---
-</div>
+<footer class="site-footer">
+  <p>&copy; 2005 SOS Gemini. Tutti i diritti riservati.</p>
+</footer>
