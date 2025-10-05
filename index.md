@@ -3,7 +3,15 @@ layout: default
 title: Home
 ---
 
-Benvenuto su **SOS Gemini**!  
-Qui trovi articoli pratici su alimentazione, salute, animali, lavoro e fai da te.
+{% include header.html %}
 
-👉 [Scopri il kit eco-friendly su Amazon](https://amzn.to/tuo-link-affiliazione)
+<div class="hero">
+  <h1>SOS Gemini</h1>
+  <p>----- indice qui dentro -----</p>
+</div>
+
+<div class="page-width">
+  <p>--- larghezza pagina 1150 ---</p>
+</div>
+
+{% include footer.html %}
