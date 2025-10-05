@@ -1,10 +1,24 @@
 /* ============================================================ */
 /* Reset iniziale */
 /* ============================================================ */
+
 html, body {
   margin: 0;
   padding: 0;
 }
+
+body > header.site-header {
+  margin-top: 0 !important;
+}
+
+.site-header {
+  margin-top: 0;
+}
+
+.header-container {
+  padding-top: 0;
+}
+
 
 body > *:first-child {
   margin-top: 0 !important;
