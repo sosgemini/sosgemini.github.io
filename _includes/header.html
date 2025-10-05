@@ -1,20 +1,23 @@
 <header class="site-header">
-  <div class="header-top">
-    <div class="logo-block">
+  <div class="header-container">
+    <div class="logo-area">
       <a href="{{ '/' | relative_url }}" class="logo-link">
-        <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="SOS Gemini logo" class="site-logo-img">
-        <span class="site-title-text">SOS Gemini</span>
+        <div class="logo-box">Logo</div>
+        <span class="site-title">SOS Gemini</span>
       </a>
     </div>
 
     <div class="utility-area">
-      <span class="lang-switch">IT</span>
+      <select class="lang-switch" aria-label="Lingua">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
       <a href="{{ '/login.html' | relative_url }}" class="login-link">Accedi</a>
-      <input class="search-box" type="search" placeholder="Cerca" aria-label="Cerca nel sito">
+      <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
   </div>
 
-  <nav class="main-nav-bar">
+  <nav class="main-nav">
     <ul class="nav-links">
       <li><a href="{{ '/' | relative_url }}">Home</a></li>
       <li><a href="{{ '/animali/' | relative_url }}">Amici</a></li>
