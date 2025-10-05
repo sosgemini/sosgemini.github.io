@@ -73,7 +73,7 @@ a:hover {
   font-size: 1.4em;
   font-weight: 600;
   color: #ccc;         /* grigio chiaro */
-  margin-left: 10px;   /* sposta verso destra */
+  margin-left: 25px;   /* sposta verso destra */
   position: relative;
   top: 10px;           /* leggero abbassamento per bilanciare il logo */
 }
