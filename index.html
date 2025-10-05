@@ -1,7 +1,0 @@
----
-layout: default
-title: Home
----
-
-{% include home-intro.html %}
-{% include squares.html %}
