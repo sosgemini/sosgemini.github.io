@@ -1,3 +1,4 @@
+/* Base */
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
@@ -5,11 +6,144 @@ body {
   color: #333;
 }
 
+a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Layout */
 .page-wrapper {
   max-width: 1150px;
   margin: 0 auto;
   padding: 20px;
 }
+
+.page-width {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-box {
+  background-color: #007acc;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+
+.utility-area {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lang-switch,
+.search-box {
+  padding: 6px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.login-link {
+  font-weight: 500;
+}
+
+/* Navigation */
+.main-nav {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-weight: 500;
+}
+
+/* Hero */
+.hero {
+  background-color: #f8f8f8;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Squares */
+.square-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 40px;
+  padding: 40px 20px;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.content-square {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 20px;
+  background-color: white;
+  transition: box-shadow 0.3s ease;
+}
+
+.content-square:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.content-square img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.content-square p {
+  font-weight: bold;
+  color: #007acc;
+  margin: 0;
+}
+
+.description {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+}
+
+/* Footer */
 .site-footer {
   text-align: center;
   padding: 20px;
