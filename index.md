@@ -35,7 +35,6 @@ title: Home
     --- larghezza pagina 1150 ---
   </div>
 
-  {% include squares.html %}
 </main>
 
 <footer class="site-footer">
