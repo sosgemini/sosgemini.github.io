@@ -75,7 +75,7 @@ a:hover {
   color: #9c9c9c;         /* grigio chiaro */
   margin-left: 25px;   /* sposta verso destra */
   position: relative;
-  top: 10px;           /* leggero abbassamento per bilanciare il logo */
+  top: 5px;           /* leggero abbassamento per bilanciare il logo */
 }
 
 .utility-area {
