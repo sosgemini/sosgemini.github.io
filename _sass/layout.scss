@@ -1,0 +1,26 @@
+body {
+  font-family: $font-family;
+  font-size: $base-font-size;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  color: $text-color;
+}
+
+.page-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: $spacing-md;
+}
+
+.page-width {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+.banner {
+  background-color: $secondary-color;
+  padding: $spacing-md;
+  text-align: center;
+  border-top: 1px solid $border-color;
+}
