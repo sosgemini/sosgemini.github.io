@@ -6,7 +6,7 @@ body {
   font-family: system-ui, sans-serif;
   background: #fff;
   color: #333;
-}
+} left: -20px;
 
 a {
   color: #007acc;
@@ -69,11 +69,13 @@ a:hover {
   z-index: 2;
 }
 
-
 .site-title {
   font-size: 1.4em;
   font-weight: 600;
-  color: #333;
+  color: #ccc;         /* grigio chiaro */
+  margin-left: 10px;   /* sposta verso destra */
+  position: relative;
+  top: 10px;           /* leggero abbassamento per bilanciare il logo */
 }
 
 .utility-area {
