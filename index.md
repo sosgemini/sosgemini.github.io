@@ -9,8 +9,8 @@ title: Home
     <div class="logo-area">
       <a href="{{ '/' | relative_url }}" class="logo-link">
         <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="Logo SOS Gemini" class="logo-img">
-        <span class="site-title">SOS Gemini</span>
       </a>
+      <span class="site-title">SOS Gemini</span>
     </div>
 
     <!-- Utility -->
