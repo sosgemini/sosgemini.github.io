@@ -13,6 +13,9 @@ title: Home
   </nav>
 </div>
 
+{% include squares.html %}
+
+
 <div class="banner">
   ----- indice qui dentro -----
 </div>
