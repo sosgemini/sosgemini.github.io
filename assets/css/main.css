@@ -41,12 +41,28 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.logo-box {
-  background-color: #007acc;
-  color: white;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 6px;
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.site-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: #333;
 }
 
 .utility-area {
@@ -151,27 +167,4 @@ a:hover {
   color: #666;
   border-top: 1px solid #ddd;
   background-color: #f9f9f9;
-}
-.logo-area {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.logo-link {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-}
-
-.logo-img {
-  width: 48px;
-  height: 48px;
-  object-fit: contain;
-}
-
-.site-title {
-  font-size: 1.4em;
-  font-weight: 600;
-  color: #333;
 }
