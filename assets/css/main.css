@@ -64,7 +64,7 @@ a:hover {
   height: 150px;
   object-fit: contain;
   position: relative;
-  top: 60px; /* spinge il logo verso il basso */
+  top: 150px; /* spinge il logo verso il basso */
   z-index: 2;
 }
 
