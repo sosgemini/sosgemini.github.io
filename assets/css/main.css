@@ -1,3 +1,6 @@
+/* ============================================================ */
+/* Reset iniziale */
+/* ============================================================ */
 html, body {
   margin: 0;
   padding: 0;
@@ -7,12 +10,10 @@ body > *:first-child {
   margin-top: 0 !important;
 }
 
-
 /* ============================================================ */
 /* Base */
 /* ============================================================ */
 body {
-  margin: 0;
   font-family: system-ui, sans-serif;
   background: #fff;
   color: #333;
@@ -26,7 +27,6 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
 
 /* ============================================================ */
 /* Layout */
@@ -54,7 +54,7 @@ a:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 0 20px 20px 20px; /* rimosso padding-top */
   flex-wrap: wrap;
 }
 
@@ -75,28 +75,27 @@ a:hover {
   height: 95px;
   object-fit: contain;
   position: relative;
-  top: 35px; /* spinge il logo verso il basso */
-  left: -20px;       /* spinge verso sinistra */
+  top: 35px;
+  left: -20px;
   z-index: 2;
 }
 
 .site-title {
   font-size: 2em;
   font-weight: 400;
-  color: #9c9c9c;         /* grigio chiaro */
-  margin-left: 25px;   /* sposta verso destra */
+  color: #9c9c9c;
+  margin-left: 25px;
   position: relative;
-  top: 20px;           /* leggero abbassamento per bilanciare il logo */
+  top: 20px;
 }
 
 .utility-area {
   display: flex;
-  align-items: flex-start; /* allinea in alto */
+  align-items: flex-start;
   gap: 20px;
   position: relative;
-  top: 20px; /* abbassa tutto il blocco */
+  top: 20px;
 }
-
 
 .lang-switch,
 .search-box {
@@ -113,7 +112,7 @@ a:hover {
 /* Fascia nera sotto header */
 /* ============================================================ */
 .indice-bar {
-  background-color: #2c2c2c; /* antracite */
+  background-color: #2c2c2c;
   color: #fff;
   text-align: center;
   padding: 10px;
