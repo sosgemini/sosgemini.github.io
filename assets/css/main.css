@@ -80,9 +80,12 @@ a:hover {
 
 .utility-area {
   display: flex;
-  align-items: center;
+  align-items: flex-start; /* allinea in alto */
   gap: 20px;
+  position: relative;
+  top: 20px; /* abbassa tutto il blocco */
 }
+
 
 .lang-switch,
 .search-box {
