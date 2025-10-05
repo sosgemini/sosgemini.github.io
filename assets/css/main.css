@@ -60,10 +60,14 @@ a:hover {
 }
 
 .logo-img {
-  width: 48px;
-  height: 48px;
+  width: 96px;
+  height: 96px;
   object-fit: contain;
+  position: relative;
+  top: 20px; /* spinge il logo verso il basso */
+  z-index: 2;
 }
+
 
 .site-title {
   font-size: 1.4em;
