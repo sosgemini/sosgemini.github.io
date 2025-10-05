@@ -88,6 +88,9 @@ a:hover {
   font-weight: 500;
 }
 
+/* ============================================================ */
+/* Fascia nera sotto header */
+/* ============================================================ */
 .indice-bar {
   background-color: #2c2c2c; /* antracite */
   color: #fff;
@@ -95,10 +98,11 @@ a:hover {
   padding: 10px;
   font-weight: bold;
   font-family: monospace;
+  position: relative;
+  left: 50%;
   width: 100vw;
-  margin-left: calc(-50vw + 50%);
+  margin-left: -50vw;
 }
-
 
 /* Indicazione larghezza */
 .larghezza-indicata {
