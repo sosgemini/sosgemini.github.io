@@ -65,6 +65,7 @@ a:hover {
   object-fit: contain;
   position: relative;
   top: 35px; /* spinge il logo verso il basso */
+  left: -20px;       /* spinge verso sinistra */
   z-index: 2;
 }
 
