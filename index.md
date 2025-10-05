@@ -3,15 +3,20 @@ layout: default
 title: Home
 ---
 
-{% include header.html %}
-
 <div class="hero">
-  <h1>SOS Gemini</h1>
-  <p>----- indice qui dentro -----</p>
+  <div class="logo-box">Logo</div>
+
+  <nav class="top-nav">
+    <span>Italiano</span>
+    <a href="#">Accedi</a>
+    <input type="search" placeholder="Cerca">
+  </nav>
+</div>
+
+<div class="banner">
+  ----- indice qui dentro -----
 </div>
 
 <div class="page-width">
-  <p>--- larghezza pagina 1150 ---</p>
+  --- larghezza pagina 1150 ---
 </div>
-
-{% include footer.html %}
