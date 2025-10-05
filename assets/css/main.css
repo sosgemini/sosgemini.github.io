@@ -88,15 +88,17 @@ a:hover {
   font-weight: 500;
 }
 
-/* Barra nera sotto header */
 .indice-bar {
-  background-color: #000;
+  background-color: #2c2c2c; /* antracite */
   color: #fff;
   text-align: center;
   padding: 10px;
   font-weight: bold;
   font-family: monospace;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
 }
+
 
 /* Indicazione larghezza */
 .larghezza-indicata {
