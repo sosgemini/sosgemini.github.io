@@ -1,4 +1,8 @@
 title: SOS Gemini
-baseurl: "" # se pubblichi su sosgemini.github.io
-sass:
-  sass_dir: _sass
+description: "Consigli pratici per vivere in armonia con ambiente, salute e animali"
+url: "https://sosgemini.github.io"
+permalink: /:categories/:title/
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-seo-tag
