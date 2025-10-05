@@ -60,11 +60,11 @@ a:hover {
 }
 
 .logo-img {
-  width: 96px;
-  height: 96px;
+  width: 150px;
+  height: 150px;
   object-fit: contain;
   position: relative;
-  top: 20px; /* spinge il logo verso il basso */
+  top: 60px; /* spinge il logo verso il basso */
   z-index: 2;
 }
 
