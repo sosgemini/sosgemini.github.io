@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+.page-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+}
