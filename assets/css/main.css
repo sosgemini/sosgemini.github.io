@@ -60,7 +60,7 @@ a:hover {
   height: 95px;
   object-fit: contain;
   position: relative;
-  top: 15px;
+  top: 20px;
   left: -20px;
   z-index: 2;
 }
