@@ -23,6 +23,9 @@ title: Home
       <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
   </div>
-
+  
+<div class="indice-bar">
+  ----- indice -----
+</div>
 
 </header>
