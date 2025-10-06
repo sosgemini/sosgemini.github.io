@@ -72,7 +72,7 @@ a:hover {
   color: #878787;
   margin-left: 25px;
   position: relative;
-  top: -13px;
+  top: -8px;
 }
 
 .utility-area {
@@ -120,6 +120,7 @@ a:hover {
   padding: 12px 0;
   z-index: 1;
   text-align: center;
+  top: -10px; /* 🔼 Spinge la fascia verso l’alto */
 }
 
 .nav-links {
