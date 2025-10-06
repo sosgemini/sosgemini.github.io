@@ -23,7 +23,7 @@ a {
 a:hover {
   text-decoration: underline;
 }
-
+ 
 /* ============================================================ */
 /* Header */
 /* ============================================================ */
@@ -67,9 +67,9 @@ a:hover {
 }
 
 .site-title {
-  font-size: 2em;
-  font-weight: 400;
-  color: #9c9c9c;
+  font-size: 1em;
+  font-weight: 300;
+  color: #878787;
   margin-left: 25px;
   position: relative;
   top: -10px;
