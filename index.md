@@ -26,9 +26,22 @@ title: Home
   </div>
 
   <!-- Barra nera -->
-  <div class="indice-bar">
-    ----- indice -----
-  </div>
+
+<!-- Barra nera -->
+<div class="indice-bar">
+  <nav class="main-nav">
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/Amici/' | relative_url }}">Amici</a></li>
+      <li><a href="{{ '/Alimenti/' | relative_url }}">Alimentazione</a></li>
+      <li><a href="{{ '/Lavoro - Attivita/' | relative_url }}">Lavoro</a></li>
+      <li><a href="{{ '/Medicina - Salute/' | relative_url }}">Medicina</a></li>
+      <li><a href="{{ '/Oggettistica - Fai-da-te/' | relative_url }}">Oggettistica</a></li>
+      <li><a href="{{ '/Motori - Attrezzi/' | relative_url }}">Motori</a></li>
+    </ul>
+  </nav>
+</div>
+
 </header>
 
 <main class="page-wrapper">
