@@ -60,8 +60,8 @@ a:hover {
   height: 95px;
   object-fit: contain;
   position: relative;
-  top: 0;
-  left: -25px;
+  top: 15;
+  left: -20px;
   z-index: 2;
 }
 
@@ -79,7 +79,7 @@ a:hover {
   align-items: flex-start;
   gap: 20px;
   position: relative;
-  top: 20px;
+  top: 5px;
 }
 
 .lang-switch,
