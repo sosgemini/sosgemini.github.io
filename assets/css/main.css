@@ -27,6 +27,28 @@ a:hover {
 /* ============================================================ */
 /* Header */
 /* ============================================================ */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  margin: 0;
+  height: 95px; /* stessa altezza del logo */
+  box-sizing: border-box;
+}
+
+.logo-img {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+  position: relative;
+  top: 0;
+  left: -20px;
+  z-index: 2;
+}
+
+
 .site-header {
   background-color: #f8f8f8;
   border-bottom: 1px solid #ddd;
@@ -60,7 +82,7 @@ a:hover {
   height: 95px;
   object-fit: contain;
   position: relative;
-  top: 20px;
+  top: 0;
   left: -20px;
   z-index: 2;
 }
