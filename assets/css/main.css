@@ -66,6 +66,8 @@ a:hover {
 .site-header {
   background-color: #f8f8f8;
   border-bottom: 1px solid #ddd;
+  height: 95px; /* stessa altezza del logo */
+  overflow: hidden;
 }
 
 .header-container {
@@ -75,6 +77,7 @@ a:hover {
   padding: 0 20px 20px 20px; /* rimosso padding-top */
   flex-wrap: wrap;
 }
+
 
 .logo-area {
   display: flex;
