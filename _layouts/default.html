@@ -10,12 +10,13 @@
 </head>
 <body>
 
- <main class="page-wrapper">
+  {% include header.html %}
+
+  <main class="page-wrapper">
     {{ content }}
   </main>
+
+  {% include footer.html %}
+
 </body>
-  
- <footer class="site-footer">
-    <p>&copy; 2005 SOS Gemini. Tutti i diritti riservati.</p>
-  </footer>
 </html>
