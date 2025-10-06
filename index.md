@@ -31,6 +31,12 @@ title: Home
   </div>
 </header>
 
+<div class="indice-bar">
+  <span class="indice-testo">Indice</span>
+</div>
+
+
+
 <main class="page-wrapper">
   <div class="larghezza-indicata">
     --- larghezza pagina 1150 ---
