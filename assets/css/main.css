@@ -50,7 +50,7 @@ a:hover {
 
 
 .site-header {
-  background-color: #fff;
+  background-color: transparent;
   border-bottom: 1px solid #ddd;
   margin-top: 0;
   padding-top: 0;
@@ -175,7 +175,7 @@ a:hover {
 /* Hero */
 /* ============================================================ */
 .hero {
-  background-color: #f8f8f8;
+  background-color: transparent;
   padding: 40px 20px;
   text-align: center;
 }
