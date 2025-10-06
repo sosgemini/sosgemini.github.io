@@ -17,6 +17,16 @@
   </main>
 
   {% include footer.html %}
+  
+<script>
+  document.querySelectorAll('.submenu-toggle').forEach(button => {
+    button.addEventListener('click', () => {
+      const submenu = button.nextElementSibling;
+      submenu.style.display = submenu.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
 
+  
 </body>
 </html>
