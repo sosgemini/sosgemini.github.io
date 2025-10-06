@@ -1,6 +1,54 @@
+# Informazioni base
 title: SOS Gemini
 description: "Consigli pratici su alimentazione, salute, animali, lavoro e fai da te"
-theme: null
+lang: it
+url: "https://sosgemini.github.io"
+baseurl: "" # ← lascia vuoto se il sito è nella root del repo GitHub Pages
 
+# Cartelle e struttura
+source: .
+destination: ./_site
+includes_dir: _includes
+layouts_dir: _layouts
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+# Markdown e rendering
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# Plugin
 plugins:
   - jekyll-seo-tag
+
+# Esclusioni dalla build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# URL puliti
+permalink: pretty
+
+# Collezione pagine (opzionale)
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# Default layout
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
