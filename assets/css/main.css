@@ -77,16 +77,6 @@ a:hover {
   text-decoration: none;
 }
 
-.logo-img {
-  width: 95px;
-  height: 95px;
-  object-fit: contain;
-  position: relative;
-  top: 5;
-  left: -20px;
-  z-index: 2;
-}
-
 .site-title {
   font-size: 2em;
   font-weight: 400;
