@@ -24,8 +24,5 @@ title: Home
     </div>
   </div>
 
-  <!-- Barra nera -->
-  <div class="indice-bar">
-    ----- indice -----
-  </div>
+
 </header>
