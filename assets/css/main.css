@@ -50,11 +50,9 @@ a:hover {
 
 .site-header {
   background-color: transparent;
- 
   margin-top: 0;
   padding-top: 0;
 }
-
 
 .logo-area {
   display: flex;
@@ -74,7 +72,7 @@ a:hover {
   color: #9c9c9c;
   margin-left: 25px;
   position: relative;
-  top: -5px;
+  top: -10px;
 }
 
 .utility-area {
