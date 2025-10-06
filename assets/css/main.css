@@ -116,19 +116,26 @@ a:hover {
 }
 
 /* ============================================================ */
-/* Fascia nera sotto header */
+/* Fascia nera antacite sotto header */
 /* ============================================================ */
 .indice-bar {
   background-color: #2c2c2c;
   color: #fff;
   text-align: center;
-  padding: 10px;
+  padding: 12px 0;
   font-weight: bold;
-  font-family: monospace;
+  font-family: system-ui, sans-serif;
+  font-size: 1.1em;
+  letter-spacing: 0.5px;
   position: relative;
   left: 50%;
   width: 100vw;
   margin-left: -50vw;
+  z-index: 1;
+}
+
+.indice-testo {
+  display: inline-block;
 }
 
 .larghezza-indicata {
