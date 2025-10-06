@@ -27,15 +27,9 @@ title: Home
 
   <!-- Barra nera -->
   <div class="indice-bar">
-    ----- indice qui dentro -----
+    ----- indice -----
   </div>
 </header>
-
-<div class="indice-bar">
-  <span class="indice-testo">Indice</span>
-</div>
-
-
 
 <main class="page-wrapper">
   <div class="larghezza-indicata">
