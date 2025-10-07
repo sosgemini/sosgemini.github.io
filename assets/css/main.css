@@ -385,3 +385,11 @@ ul, ol {
     width: 100%;
   }
 }
+// _background.scss
+body {
+  background-image: url('/attività/immagine/SfondoPiante.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
