@@ -179,7 +179,7 @@
 .mobile-utility a {
   flex: 1;
   min-width: 100px;
-  background-color: white;
+  background-color: transparent;
   color: $text-color;
   border: 1px solid $border-color;
   border-radius: $radius;
@@ -205,4 +205,24 @@
 
 /* ============================================================ */
 /* Responsive Activation */
-/*
+/* ============================================================ */
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+  }
+
+  .header-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $spacing-sm;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
