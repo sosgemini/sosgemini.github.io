@@ -387,7 +387,7 @@ ul, ol {
 }
 // _background.scss
 body {
-  background-image: url('/attività/immagine/SfondoPiante.webp');
+  background-image: url('assets/img/SfondoPiante.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
