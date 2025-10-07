@@ -8,7 +8,7 @@
       <span class="site-title">SOS Gemini</span>
     </div>
 
-    <!-- Utility Area (solo desktop) -->
+    <!-- Utility Area -->
     <div class="utility-area">
       <select class="lang-switch" aria-label="Lingua">
         <option value="it">Italiano</option>
@@ -20,7 +20,7 @@
   </div>
 
   <!-- Navigazione Desktop -->
-  <nav class="main-nav desktop-nav">
+  <nav class="main-nav">
     <ul class="nav-links">
       <li><a href="{{ '/' | relative_url }}">Home</a></li>
       <li class="has-submenu">
@@ -37,34 +37,4 @@
       <li><a href="{{ '/Motori - Attrezzi/' | relative_url }}">Motori - Attrezzi</a></li>
     </ul>
   </nav>
-
-  <!-- Navigazione Mobile -->
-  <div class="mobile-header">
-    <input type="checkbox" id="hamburger-toggle" />
-    <label for="hamburger-toggle" class="hamburger-icon">
-      <span></span><span></span><span></span>
-    </label>
-
-    <nav class="mobile-nav">
-      <div class="mobile-utility">
-        <select class="lang-switch" aria-label="Lingua">
-          <option value="it">Italiano</option>
-          <option value="en">English</option>
-        </select>
-        <a href="https://github.com/sosgemini/sosgemini.github.io" target="_blank" rel="noopener" class="login-link">Accedi</a>
-        <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
-      </div>
-
-      <ul>
-        <li><a href="{{ '/' | relative_url }}">Home</a></li>
-        <li><a href="{{ '/Amici/Gatti/' | relative_url }}">Gatti</a></li>
-        <li><a href="{{ '/Amici/Cani/' | relative_url }}">Cani</a></li>
-        <li><a href="{{ '/Alimenti/' | relative_url }}">Alimenti</a></li>
-        <li><a href="{{ '/Lavoro e Attivita/' | relative_url }}">Lavoro - Attività</a></li>
-        <li><a href="{{ '/MedicinaSalute/' | relative_url }}">Medicina - Salute</a></li>
-        <li><a href="{{ '/Oggettistica - Fai-da-te/' | relative_url }}">Oggettistica - Fai da Te</a></li>
-        <li><a href="{{ '/Motori - Attrezzi/' | relative_url }}">Motori - Attrezzi</a></li>
-      </ul>
-    </nav>
-  </div>
 </header>
