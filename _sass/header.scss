@@ -1,12 +1,16 @@
+// Fascia antracite con solo il menu
 .site-header {
   width: 100%;
 }
 
+// Blocco superiore: logo + utility
 .header-top {
   background-color: transparent;
   padding: $spacing-md 0;
+  border-bottom: 1px solid $border-color; // separazione visiva
 }
 
+// Contenitore interno allineato
 .header-inner {
   max-width: 1150px;
   margin: 0 auto;
@@ -16,6 +20,7 @@
   padding: 0 $spacing-md;
 }
 
+// Logo + scritta a sinistra
 .logo-area {
   display: flex;
   align-items: center;
@@ -33,6 +38,7 @@
   color: $text-color;
 }
 
+// Utility a destra
 .utility-area {
   display: flex;
   align-items: center;
@@ -52,6 +58,7 @@
   font-weight: 500;
 }
 
+// Fascia antracite con il menu
 .main-nav {
   background-color: $secondary-color;
   border-top: 1px solid $border-color;
@@ -59,6 +66,7 @@
   text-align: center;
 }
 
+// Menu orizzontale centrato
 .nav-links {
   list-style: none;
   padding: 0;
