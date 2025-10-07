@@ -1,22 +1,16 @@
 /* ============================================================ */
-/* Reset iniziale */
+/* Reset e base */
 /* ============================================================ */
 html, body {
   margin: 0;
   padding: 0;
-}
-
-/* ============================================================ */
-/* Base + Sfondo */
-/* ============================================================ */
-body {
   font-family: system-ui, sans-serif;
+  color: #333;
   background-image: url('/assets/img/SfondoPiante.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
   background-attachment: fixed;
-  color: #333;
 }
 
 /* ============================================================ */
@@ -33,6 +27,12 @@ a:hover {
 /* ============================================================ */
 /* Header Desktop */
 /* ============================================================ */
+.site-header {
+  background-color: transparent;
+  margin-top: 0;
+  padding-top: 0;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -40,22 +40,6 @@ a:hover {
   padding: 0 20px;
   height: 95px;
   box-sizing: border-box;
-}
-
-.logo-img {
-  width: 95px;
-  height: 95px;
-  object-fit: contain;
-  position: relative;
-  top: 5px;
-  left: -20px;
-  z-index: 2;
-}
-
-.site-header {
-  background-color: transparent;
-  margin-top: 0;
-  padding-top: 0;
 }
 
 .logo-area {
@@ -68,6 +52,16 @@ a:hover {
   display: flex;
   align-items: center;
   text-decoration: none;
+}
+
+.logo-img {
+  width: 95px;
+  height: 95px;
+  object-fit: contain;
+  position: relative;
+  top: 5px;
+  left: -20px;
+  z-index: 2;
 }
 
 .site-title {
@@ -99,10 +93,10 @@ a:hover {
 }
 
 /* ============================================================ */
-/* Mobile Header + Hamburger */
+/* Header Mobile + Hamburger */
 /* ============================================================ */
 .mobile-header {
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   background-color: #ffffffee;
@@ -171,20 +165,6 @@ a:hover {
 }
 
 /* ============================================================ */
-/* Layout */
-/* ============================================================ */
-.page-wrapper {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.page-width {
-  max-width: 1190px;
-  margin: 0 auto;
-}
-
-/* ============================================================ */
 /* Navigation Desktop */
 /* ============================================================ */
 .main-nav {
@@ -214,10 +194,46 @@ a:hover {
   font-weight: normal;
   font-size: 1em;
   text-decoration: none;
-  font-family: system-ui, sans-serif;
 }
 
-.nav-links a:hover {
+/* Submenu */
+.has-submenu {
+  position: relative;
+}
+
+.submenu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  padding: 0;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #2c2c2c;
+  padding: 10px 0;
+  min-width: 180px;
+  z-index: 10;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.submenu li {
+  padding: 6px 20px;
+}
+
+.submenu li a {
+  color: #fff;
+  font-size: 0.95em;
+  text-decoration: none;
+  display: block;
+}
+
+.submenu li a:hover {
   text-decoration: underline;
 }
 
@@ -295,6 +311,20 @@ a:hover {
 }
 
 /* ============================================================ */
+/* Layout Wrapper */
+/* ============================================================ */
+.page-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-width {
+  max-width: 1190px;
+  margin: 0 auto;
+}
+
+/* ============================================================ */
 /* Responsive */
 /* ============================================================ */
 @media (max-width: 768px) {
@@ -322,9 +352,7 @@ a:hover {
     width: 100%;
   }
 
-  .mobile-header,
-  .hamburger-icon,
-  .mobile-nav {
+  .mobile-header {
     display: flex;
   }
 
