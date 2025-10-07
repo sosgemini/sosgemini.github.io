@@ -24,7 +24,7 @@
     <ul class="nav-links">
       <li><a href="{{ '/' | relative_url }}">Home</a></li>
       <li class="has-submenu">
-        <button class="submenu-toggle">Amici</button>
+        <button class="submenu-toggle" aria-expanded="false">Amici</button>
         <ul class="submenu">
           <li><a href="{{ '/Amici/Gatti/' | relative_url }}">Gatti</a></li>
           <li><a href="{{ '/Amici/Cani/' | relative_url }}">Cani</a></li>
@@ -41,7 +41,7 @@
   <!-- Navigazione Mobile/Tablet -->
   <div class="mobile-header">
     <div class="mobile-top">
-      <span class="logo">SOS Gemini</span>
+      <span class="mobile-logo">SOS Gemini</span>
       <input type="checkbox" id="hamburger-toggle" />
       <label for="hamburger-toggle" class="hamburger-icon">
         <span></span><span></span><span></span>
