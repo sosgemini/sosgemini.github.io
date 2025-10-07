@@ -8,7 +8,7 @@
       <span class="site-title">SOS Gemini</span>
     </div>
 
-    <!-- Utility Area -->
+    <!-- Utility Area (desktop only) -->
     <div class="utility-area">
       <select class="lang-switch" aria-label="Lingua">
         <option value="it">Italiano</option>
@@ -45,16 +45,16 @@
       <span></span><span></span><span></span>
     </label>
 
-    <div class="mobile-utility">
-      <select class="lang-switch" aria-label="Lingua">
-        <option value="it">Italiano</option>
-        <option value="en">English</option>
-      </select>
-      <a href="https://github.com/sosgemini/sosgemini.github.io" target="_blank" rel="noopener" class="login-link">Accedi</a>
-      <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
-    </div>
-
     <nav class="mobile-nav">
+      <div class="mobile-utility">
+        <select class="lang-switch" aria-label="Lingua">
+          <option value="it">Italiano</option>
+          <option value="en">English</option>
+        </select>
+        <a href="https://github.com/sosgemini/sosgemini.github.io" target="_blank" rel="noopener" class="login-link">Accedi</a>
+        <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
+      </div>
+
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/Amici/Gatti/' | relative_url }}">Gatti</a></li>
