@@ -2,10 +2,9 @@
   <div class="header-container page-width">
     <div class="logo-area">
       <a href="{{ '/' | relative_url }}" class="logo-link">
-  <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="Logo SOS Gemini" class="logo-img">
-</a>
-<span class="site-title">SOS Gemini</span>
-
+        <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="Logo SOS Gemini" class="logo-img">
+      </a>
+      <span class="site-title">SOS Gemini</span>
     </div>
 
     <div class="utility-area">
@@ -14,33 +13,49 @@
         <option value="en">English</option>
       </select>
 
+      <a href="https://github.com/sosgemini/sosgemini.github.io" target="_blank" rel="noopener" class="login-link">Accedi</a>
 
-     <a href="https://github.com/sosgemini/sosgemini.github.io" target="_blank" rel="noopener">Accedi</a>
-
-
-      
       <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
   </div>
 
-<nav class="main-nav">
-  <ul class="nav-links">
-    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+  <!-- Menu Desktop -->
+  <nav class="main-nav">
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li class="has-submenu">
+        <button class="submenu-toggle">Amici</button>
+        <ul class="submenu">
+          <li><a href="{{ '/Amici/Gatti/' | relative_url }}">Gatti</a></li>
+          <li><a href="{{ '/Amici/Cani/' | relative_url }}">Cani</a></li>
+        </ul>
+      </li>
+      <li><a href="{{ '/Alimenti/' | relative_url }}">Alimenti</a></li>
+      <li><a href="{{ '/Lavoro e Attivita/' | relative_url }}">Lavoro - Attività</a></li>
+      <li><a href="{{ '/MedicinaSalute/' | relative_url }}">Medicina - Salute</a></li>
+      <li><a href="{{ '/Oggettistica - Fai-da-te/' | relative_url }}">Oggettistica - Fai da Te</a></li>
+      <li><a href="{{ '/Motori - Attrezzi/' | relative_url }}">Motori - Attrezzi</a></li>
+    </ul>
+  </nav>
 
-    <li class="has-submenu">
-      <button class="submenu-toggle">Amici</button>
-      <ul class="submenu">
+  <!-- Menu Mobile -->
+  <div class="mobile-header">
+    <div class="logo">SOS Gemini</div>
+    <input type="checkbox" id="hamburger-toggle" />
+    <label for="hamburger-toggle" class="hamburger-icon">
+      <span></span><span></span><span></span>
+    </label>
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
         <li><a href="{{ '/Amici/Gatti/' | relative_url }}">Gatti</a></li>
         <li><a href="{{ '/Amici/Cani/' | relative_url }}">Cani</a></li>
+        <li><a href="{{ '/Alimenti/' | relative_url }}">Alimenti</a></li>
+        <li><a href="{{ '/Lavoro e Attivita/' | relative_url }}">Lavoro - Attività</a></li>
+        <li><a href="{{ '/MedicinaSalute/' | relative_url }}">Medicina - Salute</a></li>
+        <li><a href="{{ '/Oggettistica - Fai-da-te/' | relative_url }}">Oggettistica - Fai da Te</a></li>
+        <li><a href="{{ '/Motori - Attrezzi/' | relative_url }}">Motori - Attrezzi</a></li>
       </ul>
-    </li>
-
-    <li><a href="{{ '/Alimenti/' | relative_url }}">Alimenti</a></li>
-    <li><a href="{{ '/Lavoro e Attivita/' | relative_url }}">Lavoro - Attività</a></li>
-    <li><a href="{{ '/MedicinaSalute/' | relative_url }}">Medicina - Salute</a></li>
-    <li><a href="{{ '/Oggettistica - Fai-da-te/' | relative_url }}">Oggettistica - Fai da Te</a></li>
-    <li><a href="{{ '/Motori - Attrezzi/' | relative_url }}">Motori - Attrezzi</a></li>
-  </ul>
-</nav>
-
+    </nav>
+  </div>
 </header>
