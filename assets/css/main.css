@@ -152,20 +152,27 @@ a:hover {
 }
 
 /* ============================================================ */
-/* Mobile Header + Hamburger */
+/* Mobile Header + Utility + Hamburger */
 /* ============================================================ */
 .mobile-header {
   display: none;
+  flex-direction: column;
+  background-color: #ffffffee;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: relative;
+  z-index: 1000;
+}
+
+.mobile-top {
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #ffffffee;
-  padding: 0.5rem 1rem;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .mobile-header .logo {
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .hamburger-icon {
@@ -187,16 +194,27 @@ a:hover {
   display: none;
 }
 
+.mobile-utility {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.mobile-utility select,
+.mobile-utility input,
+.mobile-utility a {
+  flex: 1;
+  min-width: 100px;
+}
+
 .mobile-nav {
-  position: absolute;
-  top: 100%;
-  right: 0;
-  background: #fff;
-  width: 200px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.3s ease;
+  background: #fff;
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 #hamburger-toggle:checked ~ .mobile-nav {
@@ -309,7 +327,15 @@ a:hover {
 /* ============================================================ */
 /* Responsive */
 /* ============================================================ */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+  }
+
   .header-container {
     flex-direction: column;
     align-items: flex-start;
@@ -323,13 +349,5 @@ a:hover {
 
   .square-grid {
     grid-template-columns: 1fr;
-  }
-
-  .mobile-header {
-    display: flex;
-  }
-
-  .main-nav {
-    display: none;
   }
 }
