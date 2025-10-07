@@ -1,17 +1,20 @@
 .site-header {
   background-color: $secondary-color;
   border-bottom: 1px solid $border-color;
-  padding: $spacing-lg 0;
-  min-height: 140px;
   width: 100%;
 }
 
-.header-container {
+.header-top {
+  background-color: transparent;
+  padding: $spacing-md 0;
+}
+
+.header-inner {
+  max-width: 1150px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1150px;
-  margin: 0 auto;
   padding: 0 $spacing-md;
 }
 
@@ -19,14 +22,6 @@
   display: flex;
   align-items: center;
   gap: $spacing-sm;
-  margin-left: 5px; // ← spostamento moderato verso sinistra
-}
-
-.utility-area {
-  display: flex;
-  align-items: center;
-  gap: $spacing-md;
-  margin-right: 60px; // ← spostamento moderato verso destra
 }
 
 .logo-img {
@@ -35,9 +30,15 @@
 }
 
 .site-title {
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight: 600;
   color: $text-color;
+}
+
+.utility-area {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
 }
 
 .lang-switch,
@@ -51,4 +52,29 @@
   text-decoration: none;
   color: $primary-color;
   font-weight: 500;
+}
+
+.main-nav {
+  margin-top: $spacing-sm;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: $spacing-md;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: $text-color;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: $primary-color;
 }
