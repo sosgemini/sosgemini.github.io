@@ -1,5 +1,6 @@
 <header class="site-header">
   <div class="header-container page-width">
+    <!-- Logo + Titolo -->
     <div class="logo-area">
       <a href="{{ '/' | relative_url }}" class="logo-link">
         <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="Logo SOS Gemini" class="logo-img">
@@ -7,18 +8,18 @@
       <span class="site-title">SOS Gemini</span>
     </div>
 
+    <!-- Utility Area -->
     <div class="utility-area">
       <select class="lang-switch" aria-label="Lingua">
         <option value="it">Italiano</option>
         <option value="en">English</option>
       </select>
-
       <a href="https://github.com/sosgemini/sosgemini.github.io" target="_blank" rel="noopener" class="login-link">Accedi</a>
       <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
   </div>
 
-  <!-- Menu Desktop -->
+  <!-- Navigazione Desktop -->
   <nav class="main-nav desktop-nav">
     <ul class="nav-links">
       <li><a href="{{ '/' | relative_url }}">Home</a></li>
@@ -37,13 +38,25 @@
     </ul>
   </nav>
 
-  <!-- Menu Mobile -->
+  <!-- Navigazione Mobile/Tablet -->
   <div class="mobile-header">
-    <div class="logo">SOS Gemini</div>
-    <input type="checkbox" id="hamburger-toggle" />
-    <label for="hamburger-toggle" class="hamburger-icon">
-      <span></span><span></span><span></span>
-    </label>
+    <div class="mobile-top">
+      <span class="logo">SOS Gemini</span>
+      <input type="checkbox" id="hamburger-toggle" />
+      <label for="hamburger-toggle" class="hamburger-icon">
+        <span></span><span></span><span></span>
+      </label>
+    </div>
+
+    <div class="mobile-utility">
+      <select class="lang-switch" aria-label="Lingua">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+      <a href="https://github.com/sosgemini/sosgemini.github.io" target="_blank" rel="noopener" class="login-link">Accedi</a>
+      <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
+    </div>
+
     <nav class="mobile-nav">
       <ul>
         <li><a href="{{ '/' | relative_url }}">Home</a></li>
