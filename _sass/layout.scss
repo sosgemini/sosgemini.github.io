@@ -3,7 +3,7 @@ body {
   font-size: $base-font-size;
   margin: 0;
   padding: 0;
-  background-color:  #f0f0f0;
+  background-color: $secondary-color; // ← niente più bianco
   color: $text-color;
 }
 
@@ -24,3 +24,4 @@ body {
   text-align: center;
   border-top: 1px solid $border-color;
 }
+
