@@ -1,0 +1,15 @@
+.hero {
+  background-color: $secondary-color;
+  padding: $spacing-lg $spacing-md;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: $spacing-sm;
+}
+
+.hero p {
+  font-size: 1.1em;
+  color: $muted-color;
+}
