@@ -8,8 +8,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  max-width: 1150px; // ← margine visivo
+  margin: 0 auto;
+  padding: 0 $spacing-md;
 }
+
 
 .logo-area {
   display: flex;
