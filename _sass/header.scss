@@ -1,14 +1,19 @@
 .site-header {
-  background-color: $secondary-color;
-  border-bottom: 1px solid $border-color;
-  padding: $spacing-md;
+  width: 100%;
 }
 
-.header-container {
+.header-top {
+  background-color: transparent;
+  padding: $spacing-md 0;
+}
+
+.header-inner {
+  max-width: 1150px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  padding: 0 $spacing-md;
 }
 
 .logo-area {
@@ -17,16 +22,13 @@
   gap: $spacing-sm;
 }
 
-.logo-box {
-  background-color: $primary-color;
-  color: white;
-  font-weight: bold;
-  padding: $spacing-sm $spacing-md;
-  border-radius: $radius;
+.logo-img {
+  width: 64px;
+  height: auto;
 }
 
 .site-title {
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight: 600;
   color: $text-color;
 }
@@ -51,7 +53,9 @@
 }
 
 .main-nav {
-  margin-top: $spacing-sm;
+  background-color: $secondary-color;
+  border-top: 1px solid $border-color;
+  padding: $spacing-sm 0;
   text-align: center;
 }
 
@@ -60,7 +64,6 @@
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: $spacing-md;
 }
