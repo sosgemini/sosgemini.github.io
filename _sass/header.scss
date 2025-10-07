@@ -1,4 +1,123 @@
 /* ============================================================ */
+/* Header Base */
+/* ============================================================ */
+.site-header {
+  background-color: $secondary-color;
+  border-bottom: 1px solid $border-color;
+  padding: $spacing-md;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: $spacing-sm;
+}
+
+.logo-img {
+  width: 64px;
+  height: auto;
+}
+
+.site-title {
+  font-size: 1.4em;
+  font-weight: 600;
+  color: $text-color;
+}
+
+.utility-area {
+  display: flex;
+  align-items: center;
+  gap: $spacing-md;
+}
+
+.lang-switch,
+.search-box {
+  padding: 6px 10px;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+}
+
+.login-link {
+  text-decoration: none;
+  color: $primary-color;
+  font-weight: 500;
+}
+
+/* ============================================================ */
+/* Desktop Navigation */
+/* ============================================================ */
+.main-nav {
+  margin-top: $spacing-sm;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $spacing-md;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: $text-color;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: $primary-color;
+}
+
+/* Submenu */
+.has-submenu {
+  position: relative;
+}
+
+.submenu-toggle {
+  background: none;
+  border: none;
+  color: $text-color;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: $secondary-color;
+  padding: $spacing-sm 0;
+  min-width: 180px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  padding: $spacing-xs $spacing-md;
+}
+
+.submenu a {
+  color: $text-color;
+  font-size: 0.95em;
+}
+
+/* ============================================================ */
 /* Mobile Header + Hamburger */
 /* ============================================================ */
 .mobile-header {
@@ -36,7 +155,7 @@
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: $secondary-color;
+  background-color: transparent;
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.3s ease;
@@ -83,3 +202,19 @@
   color: $text-color;
   text-decoration: none;
 }
+
+/* ============================================================ */
+/* Responsive Activation */
+/* ============================================================ */
+@media (max-width: 1024px) {
+  .desktop-nav,
+  .utility-area {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+  }
+
+  .header-container {
+    flex-direction: column;
