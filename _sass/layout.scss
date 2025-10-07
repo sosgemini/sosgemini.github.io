@@ -3,14 +3,8 @@ body {
   font-size: $base-font-size;
   margin: 0;
   padding: 0;
-  background-color: $secondary-color;
+  background-color: white;
   color: $text-color;
-}
-
-.site-header {
-  padding: $spacing-lg $spacing-md; // fascia più alta
-  background-color: $secondary-color;
-  border-bottom: 1px solid $border-color;
 }
 
 .page-wrapper {
