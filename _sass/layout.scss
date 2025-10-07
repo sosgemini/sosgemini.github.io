@@ -7,6 +7,12 @@ body {
   color: $text-color;
 }
 
+.site-header {
+  padding: $spacing-lg $spacing-md; // ← fascia più alta
+  background-color: $secondary-color;
+  border-bottom: 1px solid $border-color;
+}
+
 .page-wrapper {
   max-width: 1150px;
   margin: 0 auto;
