@@ -8,9 +8,10 @@ body {
 }
 
 .site-header {
-  padding: $spacing-lg $spacing-md; // ← fascia più alta
+  padding: $spacing-lg $spacing-md; // fascia più alta
   background-color: $secondary-color;
   border-bottom: 1px solid $border-color;
+  min-height: 140px;
 }
 
 .page-wrapper {
