@@ -1,43 +1,35 @@
 .site-header {
   background-color: $secondary-color;
   border-bottom: 1px solid $border-color;
-  padding: $spacing-md;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: $spacing-md;
+  padding: $spacing-md 0;
 }
 
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   max-width: 1150px;
   margin: 0 auto;
+  padding: 0 $spacing-md;
 }
 
-.logo-box {
+.logo-title-group {
   display: flex;
   align-items: center;
-  gap: $spacing-sm;
+  gap: $spacing-md;
 
   .logo {
     width: 96px;
     height: auto;
-    object-fit: contain;
     position: relative;
-    top: 5px;
-    left: 0;
+    left: 20px; // sposta il logo più a destra
   }
 
   .site-title {
     font-size: 2em;
     font-weight: 600;
     color: $text-color;
-    margin-left: $spacing-sm;
-    position: relative;
-    top: -2px;
+    margin-left: $spacing-md; // distanza tra logo e titolo
   }
 }
 
