@@ -3,25 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Titolo dinamico -->
   <title>{{ page.title }} | SOS Gemini</title>
+
+  <!-- SEO plugin -->
   {% seo %}
+
+  <!-- Foglio di stile principale -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-  <!-- Favicon -->
+  <!-- Favicons e manifest -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/SOS-32x32.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/SOS-180x180.png' | relative_url }}">
   <link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}">
   <meta name="theme-color" content="#2c2c2c">
 </head>
+
 <body>
 
+  <!-- Header con logo, titolo, nav -->
   {% include header.html %}
 
+  <!-- Contenuto principale -->
   <main class="page-wrapper">
     {{ content }}
   </main>
 
+  <!-- Footer -->
   {% include footer.html %}
 
 </body>
