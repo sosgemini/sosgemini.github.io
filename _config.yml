@@ -13,20 +13,20 @@ layouts_dir: _layouts
 
 # 🎨 Configurazione Sass
 sass:
-  sass_dir: assets/css
-  style: compressed # compressed = minificato per prestazioni
+  sass_dir: _sass
+  style: compressed
 
 # ✍️ Markdown e rendering
 markdown: kramdown
 kramdown:
-  input: GFM               # GitHub Flavored Markdown
-  hard_wrap: false         # Nessun <br> automatico
-  auto_ids: true           # ID automatici per titoli
-  syntax_highlighter: rouge # Evidenziazione codice
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
 
 # 🔌 Plugin attivi
 plugins:
-  - jekyll-seo-tag         # Ottimizzazione SEO automatica
+  - jekyll-seo-tag
 
 # 🚫 File e cartelle da escludere dalla build
 exclude:
@@ -36,7 +36,7 @@ exclude:
   - node_modules
   - vendor
 
-# 🔗 URL puliti (senza .html)
+# 🔗 URL puliti
 permalink: pretty
 
 # 📚 Collezione pagine (opzionale)
@@ -45,10 +45,10 @@ collections:
     output: true
     permalink: /:path/
 
-# 🧱 Layout di default per tutte le pagine
+# 🧱 Layout di default
 defaults:
   - scope:
-      path: ""             # Applica a tutte le pagine
+      path: ""
       type: "pages"
     values:
-      layout: default      # Usa il layout "default"
+      layout: default
