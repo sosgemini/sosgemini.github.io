@@ -1,13 +1,22 @@
+// === NAVIGAZIONE PRINCIPALE ===
 .main-nav {
-  background-color: $text-color;
+  background-color: $text-color; // fascia antracite
   width: 100%;
   padding: $spacing-sm 0;
+  margin: 0;
+
+  .nav-inner {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 $spacing-md;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .nav-links {
   list-style: none;
   display: flex;
-  justify-content: center;
   gap: $spacing-md;
   margin: 0;
   padding: 0;
