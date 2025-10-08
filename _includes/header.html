@@ -1,16 +1,12 @@
 <header class="site-header">
-  <!-- Contenitore principale: logo, titolo, utility -->
   <div class="header-container">
-
-    <!-- Logo separato -->
-    <div class="logo-box">
+    <!-- Logo + Titolo -->
+    <div class="logo-title-group">
       <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="SOS Gemini Logo" class="logo" />
+      <h1 class="site-title">SOS Gemini</h1>
     </div>
 
-    <!-- Titolo sotto e a sinistra -->
-    <h1 class="site-title">SOS Gemini</h1>
-
-    <!-- Utility area: lingua, cerca, login -->
+    <!-- Utility area -->
     <div class="utility-area">
       <select class="lang-switch">
         <option value="it">Italiano</option>
@@ -18,7 +14,7 @@
       </select>
 
       <input type="text" class="search-box" placeholder="Cerca..." />
-
+      <a href="/login" class="login-link">Accedi</a>
     </div>
   </div>
 
@@ -35,5 +31,3 @@
     </ul>
   </nav>
 </header>
-
-
