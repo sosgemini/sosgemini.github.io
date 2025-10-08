@@ -1,26 +1,168 @@
+// === BASE ===
 body {
-  font-family: $font-family;
-  font-size: $base-font-size;
-  margin: 0;
-  padding: 0;
-  background-color: white;
-  color: $text-color;
+  font-family: $font-family;         // Font principale
+  font-size: $base-font-size;        // Dimensione base del testo
+  margin: 0;                         // Rimuove margini di default
+  padding: 0;                        // Rimuove padding di default
+  background-color: white;          // Sfondo bianco
+  color: $text-color;               // Colore del testo
 }
 
+// === WRAPPER DI PAGINA ===
 .page-wrapper {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: $spacing-md;
+  max-width: 1150px;                // Larghezza massima del contenuto
+  margin: 0 auto;                   // Centrato orizzontalmente
+  padding: $spacing-md;            // Spaziatura interna
 }
 
 .page-width {
-  max-width: 1190px;
+  max-width: 1190px;                // Variante più ampia
   margin: 0 auto;
 }
 
+// === HEADER PRINCIPALE ===
+.site-header {
+  background-color: $secondary-color; // Sfondo del header
+  border-bottom: 1px solid $border-color; // Bordo inferiore
+  padding: $spacing-md; // Spaziatura interna
+  display: flex;
+  flex-direction: column; // Layout verticale
+  align-items: center; // Centrato orizzontalmente
+  gap: $spacing-md; // Spazio tra sezioni
+}
+
+// === CONTENITORE LOGO + TITOLO + UTILITY ===
+.header-container {
+  display: flex;
+  flex-direction: column; // Impilati verticalmente
+  align-items: center; // Centrati orizzontalmente
+  gap: $spacing-sm; // Spazio tra logo, titolo, utility
+}
+
+// === LOGO SEPARATO ===
+.logo-box {
+  background-color: $primary-color; // Sfondo del box logo
+  padding: $spacing-sm; // Spaziatura interna
+  border-radius: $radius; // Angoli arrotondati
+  display: flex;
+  justify-content: center; // Centrato orizzontalmente
+  align-items: center; // Centrato verticalmente
+  width: fit-content;
+
+  .logo {
+    width: 96px; // Larghezza fissa del logo PNG
+    height: auto; // Mantiene proporzioni
+    position: relative; // Permette spostamenti manuali
+    top: 0;    // ↑↓ Sposta verticalmente (positivi = giù, negativi = su)
+    left: 0;   // ←→ Sposta orizzontalmente (positivi = destra, negativi = sinistra)
+    margin: 0 auto; // Centrato nel contenitore
+    display: block; // Assicura visibilità
+  }
+}
+
+// === TITOLO SOTTO E A SINISTRA ===
+.site-title {
+  font-size: 1.6em; // Dimensione del testo
+  font-weight: 600; // Peso del font
+  color: $text-color; // Colore del testo
+  margin-top: $spacing-sm; // Spazio sopra il titolo
+  align-self: flex-start; // Allineamento a sinistra nel contenitore
+  text-align: left; // Testo allineato a sinistra
+  padding-left: $spacing-md; // Rientro da sinistra
+  position: relative; // Permette spostamenti manuali
+  top: 0;    // ↑↓ Sposta verticalmente
+  left: 0;   // ←→ Sposta orizzontalmente
+}
+
+// === UTILITY AREA ===
+.utility-area {
+  display: flex;
+  justify-content: center; // Centrato orizzontalmente
+  align-items: center; // Centrato verticalmente
+  gap: $spacing-md; // Spazio tra elementi
+}
+
+.lang-switch,
+.search-box {
+  padding: 6px 10px; // Spaziatura interna
+  border: 1px solid $border-color; // Bordo visivo
+  border-radius: $radius; // Angoli arrotondati
+}
+
+.login-link {
+  text-decoration: none; // Rimuove sottolineatura
+  color: $primary-color; // Colore del link
+  font-weight: 500; // Peso del font
+}
+
+// === NAVIGAZIONE ===
+.main-nav {
+  margin-top: $spacing-sm; // Spazio sopra la nav
+  width: 100%; // Larghezza piena
+}
+
+// Varianti attivabili via classe HTML
+.nav-links {
+  list-style: none; // Rimuove i pallini
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: $spacing-md; // Spazio tra link
+
+  // 🔹 NAV CENTRATA
+  &.centered {
+    justify-content: center; // Link centrati
+  }
+
+  // 🔹 NAV SINISTRA
+  &.left {
+    justify-content: flex-start; // Link a sinistra
+    padding-left: $spacing-md; // Rientro da sinistra
+  }
+
+  // 🔹 NAV DESTRA
+  &.right {
+    justify-content: flex-end; // Link a destra
+    padding-right: $spacing-md; // Rientro da destra
+  }
+
+  // 🔹 NAV VERTICALE
+  &.block {
+    flex-direction: column; // Link impilati
+    align-items: center; // Centrati orizzontalmente
+  }
+
+  // 🔹 NAV WRAP
+  &.wrap {
+    flex-wrap: wrap; // Ritorno a capo se serve
+    justify-content: center; // Centrati
+  }
+
+  a {
+    text-decoration: none; // Rimuove sottolineatura
+    color: $text-color; // Colore base
+    font-weight: 500; // Peso del font
+    transition: color 0.2s ease; // Effetto hover
+
+    &:hover {
+      color: $primary-color; // Colore al passaggio
+    }
+  }
+}
+
+// === BANNER DI BENVENUTO ===
+.welcome-banner {
+  margin-top: $spacing-md; // Spazio sopra il banner
+  font-size: 1.4rem; // Dimensione testo
+  color: $text-color; // Colore testo
+  font-weight: 500; // Peso font
+  text-align: center; // Centrato
+}
+
+// === BANNER GENERICO ===
 .banner {
-  background-color: $secondary-color;
-  padding: $spacing-md;
-  text-align: center;
-  border-top: 1px solid $border-color;
+  background-color: $secondary-color; // Sfondo banner
+  padding: $spacing-md; // Spaziatura interna
+  text-align: center; // Testo centrato
+  border-top: 1px solid $border-color; // Bordo superiore
 }
