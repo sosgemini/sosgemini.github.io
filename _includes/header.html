@@ -1,38 +1,22 @@
 <header class="site-header">
- <div class="header-top">
-  <div class="header-inner">
-    <div class="logo-area">
-      <a href="{{ '/' | relative_url }}">
-        <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="Logo SOS Gemini" class="logo-img">
-      </a>
-      <span class="site-title">SOS Gemini</span>
-    </div>
-
-    <div class="utility-area">
-      <select class="lang-switch" aria-label="Lingua">
-        <option value="it">Italiano</option>
-        <option value="en">English</option>
-      </select>
-      <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
+  <div class="top-bar">
+    <div class="branding">
+      <img src="assets/logo.svg" alt="SOS Gemini Logo" class="logo" />
+      <h1 class="site-title">SOS Gemini</h1>
     </div>
   </div>
-</div>
-
   <nav class="main-nav">
-    <ul class="nav-links">
-      <li><a href="{{ '/' | relative_url }}">Home</a></li>
-      <li class="has-submenu">
-        <button class="submenu-toggle" aria-expanded="false">Amici</button>
-        <ul class="submenu">
-          <li><a href="{{ '/Amici/Gatti/' | relative_url }}">Gatti</a></li>
-          <li><a href="{{ '/Amici/Cani/' | relative_url }}">Cani</a></li>
-        </ul>
-      </li>
-      <li><a href="{{ '/Alimenti/' | relative_url }}">Alimenti</a></li>
-      <li><a href="{{ '/Lavoro e Attivita/' | relative_url }}">Lavoro - Attività</a></li>
-      <li><a href="{{ '/MedicinaSalute/' | relative_url }}">Medicina - Salute</a></li>
-      <li><a href="{{ '/Oggettistica - Fai-da-te/' | relative_url }}">Oggettistica - Fai da Te</a></li>
-      <li><a href="{{ '/Motori - Attrezzi/' | relative_url }}">Motori - Attrezzi</a></li>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Anima</a></li>
+      <li><a href="#">Alimenti</a></li>
+      <li><a href="#">Lavoro - Attività</a></li>
+      <li><a href="#">Medicina - Salute</a></li>
+      <li><a href="#">Oggettistica - Fai da te</a></li>
+      <li><a href="#">Motori - Attrezzi</a></li>
     </ul>
   </nav>
+  <div class="welcome-banner">
+    <p>Benvenuto su SOS Gemini</p>
+  </div>
 </header>
