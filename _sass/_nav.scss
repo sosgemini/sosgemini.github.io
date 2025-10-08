@@ -1,6 +1,6 @@
 // === NAVIGAZIONE PRINCIPALE ===
 .main-nav {
-  background-color: #2c2c2c;
+  background-color: $text-color;
   width: 100%;
   padding: 12px 0;
 }
@@ -8,14 +8,14 @@
 .nav-inner {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 $spacing-md;
 }
 
 .nav-links {
   list-style: none;
   display: flex;
   justify-content: center;
-  gap: 24px;
+  gap: $spacing-md;
   margin: 0;
   padding: 0;
 
@@ -26,8 +26,7 @@
     text-decoration: none;
 
     &:hover {
-      color: #007acc;
+      color: $primary-color;
     }
   }
 }
-
