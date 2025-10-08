@@ -17,21 +17,21 @@
   display: flex;
   align-items: center;
   gap: $spacing-md;
+  margin-left: 40px; // ← sposta tutto il blocco logo + titolo a destra
 
   .logo {
     width: 96px;
     height: auto;
-    position: relative;
-    left: -50px; // sposta il logo più a destra
   }
 
   .site-title {
     font-size: 2em;
     font-weight: 600;
     color: $text-color;
-    margin-left: $spacing-md; // distanza tra logo e titolo
+    margin-left: $spacing-md;
   }
 }
+
 
 .utility-area {
   display: flex;
