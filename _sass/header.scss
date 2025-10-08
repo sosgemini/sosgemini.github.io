@@ -1,100 +1,137 @@
+// === HEADER PRINCIPALE ===
 .site-header {
-  background-color: $secondary-color;
-  border-bottom: 1px solid $border-color;
-  padding: $spacing-md;
+  background-color: $secondary-color; // colore di sfondo del header
+  border-bottom: 1px solid $border-color; // bordo inferiore
+  padding: $spacing-md; // spaziatura interna
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: $spacing-md;
+  flex-direction: column; // layout verticale
+  align-items: center; // centratura orizzontale
+  gap: $spacing-md; // spazio tra sezioni
 }
 
+// === CONTENITORE LOGO + TITOLO + UTILITY ===
 .header-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: $spacing-sm;
+  flex-direction: column; // impilati verticalmente
+  align-items: center; // centrati orizzontalmente
+  gap: $spacing-sm; // spazio tra logo, titolo, utility
 }
 
+// === LOGO SEPARATO ===
 .logo-box {
-  background-color: $primary-color;
-  padding: $spacing-sm;
-  border-radius: $radius;
+  background-color: $primary-color; // sfondo del box logo
+  padding: $spacing-sm; // spaziatura interna
+  border-radius: $radius; // angoli arrotondati
   display: flex;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
+  justify-content: center; // centrato orizzontalmente
+  align-items: center; // centrato verticalmente
+  width: fit-content; // larghezza adattata al contenuto
 
   .logo {
-    width: 80px;
-    height: auto;
-    position: relative;
-    top: 0;    // ↑↓ sposta verticalmente
-    left: 0;   // ←→ sposta orizzontalmente
+    width: 80px; // larghezza fissa del logo
+    height: auto; // altezza proporzionale
+    position: relative; // permette spostamenti manuali
+    top: 0;    // ↑↓ sposta verticalmente (valori positivi = verso il basso, negativi = verso l’alto)
+    left: 0;   // ←→ sposta orizzontalmente (positivi = verso destra, negativi = verso sinistra)
+    margin: 0 auto; // centrato nel contenitore
   }
 }
 
+// === TITOLO SOTTO E A SINISTRA ===
 .site-title {
-  font-size: 1.6em;
-  font-weight: 600;
-  color: $text-color;
-  margin: 0;
-  text-align: center;
-  position: relative;
-  top: 5px;    // ↑↓ sposta verticalmente
-  left: 10px;   // ←→ sposta orizzontalmente
+  font-size: 1.6em; // dimensione del testo
+  font-weight: 600; // peso del font
+  color: $text-color; // colore del testo
+  margin-top: $spacing-sm; // spazio sopra il titolo
+  align-self: flex-start; // allineamento a sinistra nel contenitore
+  text-align: left; // testo allineato a sinistra
+  padding-left: $spacing-md; // rientro da sinistra
+  position: relative; // permette spostamenti manuali
+  top: 0;    // ↑↓ sposta verticalmente
+  left: 0;   // ←→ sposta orizzontalmente
 }
 
+// === UTILITY AREA ===
 .utility-area {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: $spacing-md;
+  justify-content: center; // centrato orizzontalmente
+  align-items: center; // centrato verticalmente
+  gap: $spacing-md; // spazio tra elementi
 }
 
 .lang-switch,
 .search-box {
-  padding: 6px 10px;
-  border: 1px solid $border-color;
-  border-radius: $radius;
+  padding: 6px 10px; // spaziatura interna
+  border: 1px solid $border-color; // bordo visivo
+  border-radius: $radius; // angoli arrotondati
 }
 
 .login-link {
-  text-decoration: none;
-  color: $primary-color;
-  font-weight: 500;
+  text-decoration: none; // rimuove sottolineatura
+  color: $primary-color; // colore del link
+  font-weight: 500; // peso del font
 }
 
+// === NAVIGAZIONE ===
 .main-nav {
-  margin-top: $spacing-sm;
-  text-align: center;
-  width: 100%;
+  margin-top: $spacing-sm; // spazio sopra la nav
+  width: 100%; // larghezza piena
 }
 
+// Varianti attivabili via classe HTML
 .nav-links {
-  list-style: none;
+  list-style: none; // rimuove i pallini
   padding: 0;
   margin: 0;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: $spacing-md;
-}
+  gap: $spacing-md; // spazio tra link
 
-.nav-links a {
-  text-decoration: none;
-  color: $text-color;
-  font-weight: 500;
-  transition: color 0.2s ease;
+  // 🔹 NAV CENTRATA
+  &.centered {
+    justify-content: center; // link centrati
+  }
 
-  &:hover {
-    color: $primary-color;
+  // 🔹 NAV SINISTRA
+  &.left {
+    justify-content: flex-start; // link a sinistra
+    padding-left: $spacing-md; // rientro da sinistra
+  }
+
+  // 🔹 NAV DESTRA
+  &.right {
+    justify-content: flex-end; // link a destra
+    padding-right: $spacing-md; // rientro da destra
+  }
+
+  // 🔹 NAV VERTICALE
+  &.block {
+    flex-direction: column; // link impilati
+    align-items: center; // centrati orizzontalmente
+  }
+
+  // 🔹 NAV WRAP
+  &.wrap {
+    flex-wrap: wrap; // ritorno a capo se serve
+    justify-content: center; // centrati
+  }
+
+  a {
+    text-decoration: none; // rimuove sottolineatura
+    color: $text-color; // colore base
+    font-weight: 500; // peso del font
+    transition: color 0.2s ease; // effetto hover
+
+    &:hover {
+      color: $primary-color; // colore al passaggio
+    }
   }
 }
 
+// === BANNER DI BENVENUTO ===
 .welcome-banner {
-  margin-top: $spacing-md;
-  font-size: 1.4rem;
-  color: $text-color;
-  font-weight: 500;
-  text-align: center;
+  margin-top: $spacing-md; // spazio sopra il banner
+  font-size: 1.4rem; // dimensione testo
+  color: $text-color; // colore testo
+  font-weight: 500; // peso font
+  text-align: center; // centrato
 }
