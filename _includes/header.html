@@ -1,22 +1,31 @@
 <header class="site-header">
-  <div class="top-bar">
-    <div class="branding">
-      <img src="assets/logo.svg" alt="SOS Gemini Logo" class="logo" />
-      <h1 class="site-title">SOS Gemini</h1>
+  <div class="header-container">
+    <div class="logo-area">
+      <a href="{{ '/' | relative_url }}" class="logo-link">
+        <img src="{{ '/assets/img/SOS-96x96.png' | relative_url }}" alt="Logo SOS Gemini" class="logo-img">
+        <span class="site-title">SOS Gemini</span>
+      </a>
+    </div>
+
+    <div class="utility-area">
+      <select class="lang-switch" aria-label="Lingua">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+      <a href="{{ '/login.html' | relative_url }}" class="login-link">Accedi</a>
+      <input type="search" class="search-box" placeholder="Cerca" aria-label="Cerca nel sito">
     </div>
   </div>
+
   <nav class="main-nav">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Anima</a></li>
-      <li><a href="#">Alimenti</a></li>
-      <li><a href="#">Lavoro - Attività</a></li>
-      <li><a href="#">Medicina - Salute</a></li>
-      <li><a href="#">Oggettistica - Fai da te</a></li>
-      <li><a href="#">Motori - Attrezzi</a></li>
+    <ul class="nav-links">
+      <li><a href="{{ '/' | relative_url }}">Home</a></li>
+      <li><a href="{{ '/animali/' | relative_url }}">Amici</a></li>
+      <li><a href="{{ '/alimentazione/' | relative_url }}">Alimentazione</a></li>
+      <li><a href="{{ '/lavoro/' | relative_url }}">Lavoro</a></li>
+      <li><a href="{{ '/salute/' | relative_url }}">Medicina</a></li>
+      <li><a href="{{ '/fai-da-te/' | relative_url }}">Oggettistica</a></li>
+      <li><a href="{{ '/sostenibilita/' | relative_url }}">Sostenibilità</a></li>
     </ul>
   </nav>
-  <div class="welcome-banner">
-    <p>Benvenuto su SOS Gemini</p>
-  </div>
 </header>
