@@ -1,23 +1,25 @@
 .site-header {
-  background-color: #f0f0f0;
-  border-bottom: 2px solid #ccc;
+  background-color: $secondary-color;
+  border-bottom: 1px solid $border-color;
+  padding: $spacing-md 0;
 }
 
 .header-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 20px;
-  background-color: #fff;
+  background-color: #fff; // sfondo chiaro visibile
+  border-radius: 6px;
 }
 
 .logo-title-group {
   display: flex;
   align-items: center;
-  gap: 20px;
-  margin-left: 40px;
+  gap: $spacing-md;
+  margin-left: 20px;
 
   .logo {
     width: 96px;
@@ -27,27 +29,28 @@
   .site-title {
     font-size: 2em;
     font-weight: 600;
-    color: #333;
+    color: $text-color;
+    margin-left: $spacing-md;
   }
 }
 
 .utility-area {
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-right: 40px;
+  gap: $spacing-sm;
+  margin-right: 20px;
 
   .lang-switch,
   .search-box {
     padding: 6px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
+    border: 1px solid $border-color;
+    border-radius: $radius;
     font-size: 0.95em;
   }
 
   .login-link {
     font-weight: 500;
-    color: #007acc;
+    color: $primary-color;
     text-decoration: none;
 
     &:hover {
