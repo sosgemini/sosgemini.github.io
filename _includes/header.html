@@ -1,16 +1,34 @@
 <header class="site-header">
+  <!-- Contenitore principale: logo, titolo, utility -->
   <div class="header-container">
+
+    <!-- Logo separato -->
     <div class="logo-box">
       <img src="assets/logo.svg" alt="SOS Gemini Logo" class="logo" />
+      <!-- ↑ Usa SCSS: top / left per spostare il logo -->
     </div>
+
+    <!-- Titolo sotto e a sinistra -->
     <h1 class="site-title">SOS Gemini</h1>
+    <!-- ↑ Usa SCSS: align-self: flex-start + padding-left -->
+
+    <!-- Utility area: lingua, cerca, login -->
     <div class="utility-area">
-      <!-- Lingua, Cerca, Login -->
+      <select class="lang-switch">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+
+      <input type="text" class="search-box" placeholder="Cerca..." />
+
+      <a href="/login" class="login-link">Accedi</a>
     </div>
   </div>
 
+  <!-- Navigazione principale -->
   <nav class="main-nav">
-    <ul class="nav-links">
+    <!-- Scegli una delle classi: centered, left, right, block, wrap -->
+    <ul class="nav-links centered">
       <li><a href="#">Home</a></li>
       <li><a href="#">Anima</a></li>
       <li><a href="#">Alimenti</a></li>
@@ -21,6 +39,7 @@
     </ul>
   </nav>
 
+  <!-- Banner di benvenuto -->
   <div class="welcome-banner">
     <p>Benvenuto su SOS Gemini</p>
   </div>
