@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;         // Logo sopra, titolo sotto
   align-items: flex-start;        // Allinea tutto a sinistra
-  gap: 8px;                       // Spazio tra logo e titolo
+  gap: 1px;                       // Spazio tra logo e titolo
   margin-bottom: 20px;            // Spinge tutto verso il basso
   margin-left: 0;                 // Allineato al bordo sinistro
 }
@@ -23,14 +23,14 @@
 .logo {
   width: 96px;
   height: auto;
-  margin-top: 30px;               // Sposta il logo più in basso
+  margin-top: 60px;               // Sposta il logo più in basso
   margin-left: -10px;             // Sposta il logo più a sinistra
 }
 
 /* Titolo */
 .site-title {
-  font-size: 1.8em;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 300;
   color: #333;
   margin: 0;
 }
