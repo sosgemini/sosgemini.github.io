@@ -32,7 +32,7 @@
     height: auto; // altezza proporzionale
     position: relative; // permette spostamenti manuali
     top: 0;    // ↑↓ sposta verticalmente (valori positivi = verso il basso, negativi = verso l’alto)
-    left: 0;   // ←→ sposta orizzontalmente (positivi = verso destra, negativi = verso sinistra)
+    left: 20px;   // ←→ sposta orizzontalmente (positivi = verso destra, negativi = verso sinistra)
     margin: 0 auto; // centrato nel contenitore
   }
 }
