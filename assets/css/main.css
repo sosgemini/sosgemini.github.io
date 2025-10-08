@@ -58,8 +58,8 @@ a:hover {
   height: auto;
   object-fit: contain;
   position: relative;
-  top: 10px;    /* ↑↓ sposta verticalmente */
-  left: 20px;   /* ←→ sposta orizzontalmente */
+  top: 15px;    /* ↑↓ sposta verticalmente */
+  left: 100px;   /* ←→ sposta orizzontalmente */
   z-index: 2;
   display: block;
   /* Debug visivo */
