@@ -32,7 +32,7 @@
     height: auto; // altezza proporzionale
     position: relative; // permette spostamenti manuali
     top: 10px;    // ↑↓ sposta verticalmente (valori positivi = verso il basso, negativi = verso l’alto)
-    left: 20px;   // ←→ sposta orizzontalmente (positivi = verso destra, negativi = verso sinistra)
+    left: 80px;   // ←→ sposta orizzontalmente (positivi = verso destra, negativi = verso sinistra)
     margin: 0 auto; // centrato nel contenitore
   }
 }
@@ -48,7 +48,7 @@
   padding-left: $spacing-md; // rientro da sinistra
   position: relative; // permette spostamenti manuali
   top: 0;    // ↑↓ sposta verticalmente
-  left: 0;   // ←→ sposta orizzontalmente
+  left: 30;   // ←→ sposta orizzontalmente
 }
 
 // === UTILITY AREA ===
