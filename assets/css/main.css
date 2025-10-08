@@ -41,7 +41,8 @@ a:hover {
   height: 95px;
 }
 
-.logo-area {
+/* === LOGO + TITOLO === */
+.logo-box {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -52,14 +53,17 @@ a:hover {
   align-items: center;
 }
 
-.logo-img {
-  width: 95px;
-  height: 95px;
+.logo {
+  width: 96px;
+  height: auto;
   object-fit: contain;
   position: relative;
-  top: 5px;
-  left: -20px;
+  top: 10px;    /* ↑↓ sposta verticalmente */
+  left: 20px;   /* ←→ sposta orizzontalmente */
   z-index: 2;
+  display: block;
+  /* Debug visivo */
+  /* border: 1px solid red; background: #fff; */
 }
 
 .site-title {
@@ -71,6 +75,7 @@ a:hover {
   top: -8px;
 }
 
+/* === UTILITY AREA === */
 .utility-area {
   display: flex;
   align-items: flex-start;
@@ -114,7 +119,7 @@ a:hover {
   font-size: 1em;
 }
 
-/* Submenu */
+/* === Submenu === */
 .has-submenu {
   position: relative;
 }
@@ -152,7 +157,7 @@ a:hover {
 }
 
 /* ============================================================ */
-/* Header Mobile + Utility + Hamburger */
+/* Header Mobile + Hamburger */
 /* ============================================================ */
 .mobile-header {
   display: none;
