@@ -63,10 +63,15 @@
 /* === NAVIGAZIONE PRINCIPALE === */
 .main-nav {
   background-color: #2c2c2c;
-  width: 100vw;                      // ✅ Tocca i bordi reali dello schermo
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100vw;         // ✅ Estensione reale fino ai bordi
   margin: 0;
   padding: 0;
+  z-index: 10;          // ✅ Assicura che non venga coperta
 }
+
 
 .nav-inner {
   max-width: 1150px;
