@@ -1,0 +1,21 @@
+title: SOS Gemini
+description: "Consigli pratici su alimentazione, salute, animali, lavoro e fai da te"
+lang: it
+url: "https://sosgemini.github.io"
+baseurl: ""
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-seo-tag
+
+permalink: pretty
