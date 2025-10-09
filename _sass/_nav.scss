@@ -3,7 +3,11 @@
   background-color: $text-color;
   width: 100%;
   padding: 12px 0;
+  padding: 0; // ✅ Rimosso padding verticale
+  margin-top: 0; // ✅ Nessun margine sopra
 }
+
+
 
 .nav-inner {
   max-width: 1150px;
