@@ -1,18 +1,20 @@
+/* HEADER PRINCIPALE */
 .site-header {
-  background-color: #fff;            // Sfondo bianco pulito
-  padding: 20px 0;                   // Spazio verticale
+  background-color: #fff;
+  padding: 0;                        // 🔧 Rimosso spazio verticale inutile
 }
 
+/* CONTENITORE HEADER */
 .header-container {
-  max-width: 1150px;                 // Larghezza massima centrata
+  max-width: 1150px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 20px;                    // 🔧 Spazio interno uniforme
   display: flex;
-  justify-content: space-between;   // Logo a sinistra, utility a destra
+  justify-content: space-between;
   align-items: center;
 }
 
-/* Logo + Titolo */
+/* LOGO + TITOLO */
 .logo-title-group {
   display: flex;
   align-items: center;
@@ -21,7 +23,7 @@
   .logo {
     width: 96px;
     height: auto;
-    margin-bottom: -6px;            // Spinge il logo leggermente in basso
+    margin-bottom: -6px;
   }
 
   .site-title {
@@ -29,10 +31,11 @@
     font-weight: 600;
     color: #333;
     margin: 0;
+    line-height: 1;                 // 🔧 Allineamento verticale perfetto
   }
 }
 
-/* Utility: lingua, cerca, login */
+/* UTILITY: lingua, cerca, login */
 .utility-area {
   display: flex;
   align-items: center;
@@ -57,14 +60,14 @@
   }
 }
 
-/* Navigazione */
+/* NAVIGAZIONE */
 .main-nav {
   background-color: #2c2c2c;
   padding: 12px 0;
 }
 
 .nav-inner {
-  max-width: 1150px;
+  width: 100%;                      // 🔧 Esteso ai bordi
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -72,7 +75,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;      // 🔧 Allineato a sinistra come JW.org
   gap: 24px;
   margin: 0;
   padding: 0;
@@ -88,14 +91,16 @@
     }
   }
 }
+
+/* FASCIA INTRODUTTIVA */
 .index-banner {
-  width: 100%;                      // Fascia da bordo a bordo
-  background-color: transparent;    // Sfondo neutro
+  width: 100%;
+  background-color: transparent;
   padding: 40px 0;
-  border-bottom: none;              // Nessuna riga grigia sotto
+  border-bottom: none;
 
   .banner-inner {
-    max-width: 1150px;              // Contenuto centrato
+    max-width: 1150px;
     margin: 0 auto;
     padding: 0 20px;
     text-align: center;
