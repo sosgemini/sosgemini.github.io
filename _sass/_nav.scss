@@ -8,12 +8,12 @@
 }
 
 
-
 .nav-inner {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 0 $spacing-md;
+  padding: 12px 20px; // ✅ Spazio interno al contenuto, non alla fascia
 }
+
 
 .nav-links {
   list-style: none;
