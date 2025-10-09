@@ -1,11 +1,9 @@
-/* === HEADER COMPLETO === */
 .site-header {
   background-color: #fff;
   margin: 0;
   padding: 0;
 }
 
-/* === CONTENITORE HEADER === */
 .header-container {
   max-width: 1150px;
   margin: 0 auto;
@@ -15,7 +13,6 @@
   align-items: center;
 }
 
-/* === LOGO + TITOLO === */
 .logo-title-group {
   display: flex;
   align-items: center;
@@ -36,7 +33,6 @@
   }
 }
 
-/* === UTILITY: lingua, cerca, login === */
 .utility-area {
   display: flex;
   align-items: center;
@@ -61,39 +57,3 @@
   }
 }
 
-/* === NAVIGAZIONE PRINCIPALE === */
-.main-nav {
-  background-color: #2c2c2c;
-  width: 100vw;                     // ✅ Tocca i bordi reali dello schermo
-  margin: 0;
-  padding: 0;
-  border-top: none;
-  border-bottom: none;
-  z-index: 10;
-}
-
-.nav-inner {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 12px 20px;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: flex-start;      // ✅ Allineato a sinistra come JW.org
-  gap: 24px;
-  margin: 0;
-  padding: 0;
-
-  li a {
-    color: white;
-    font-size: 1em;
-    font-weight: 500;
-    text-decoration: none;
-
-    &:hover {
-      color: #007acc;
-    }
-  }
-}
