@@ -1,6 +1,7 @@
 /* === HEADER COMPLETO === */
 .site-header {
   background-color: #fff;
+  margin: 0;
   padding: 0;
 }
 
@@ -63,15 +64,13 @@
 /* === NAVIGAZIONE PRINCIPALE === */
 .main-nav {
   background-color: #2c2c2c;
-  position: relative;
-  left: 0;
-  right: 0;
-  width: 100vw;         // ✅ Estensione reale fino ai bordi
+  width: 100vw;                     // ✅ Tocca i bordi reali dello schermo
   margin: 0;
   padding: 0;
-  z-index: 10;          // ✅ Assicura che non venga coperta
+  border-top: none;
+  border-bottom: none;
+  z-index: 10;
 }
-
 
 .nav-inner {
   max-width: 1150px;
@@ -82,7 +81,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-start;      // ✅ Allineato a sinistra come JW.org
   gap: 24px;
   margin: 0;
   padding: 0;
