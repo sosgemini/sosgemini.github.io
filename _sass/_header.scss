@@ -1,21 +1,18 @@
-// === HEADER PRINCIPALE ===
+// === HEADER ===
 .site-header {
   background-color: #fff;
-  padding: 0;
-  margin: 0;
+  padding: 20px 0;
 }
 
-// === CONTENITORE HEADER ===
 .header-container {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 10px $spacing-md;
+  padding: 0 $spacing-md;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-// === LOGO + TITOLO ===
 .logo-title-group {
   display: flex;
   align-items: center;
@@ -23,40 +20,47 @@
 
   .logo {
     width: 96px;
-    height: auto;
-    margin-bottom: -6px; // 🔧 allineamento verticale fine
+    margin-bottom: -6px;
   }
 
   .site-title {
     font-size: 2em;
     font-weight: 600;
-    color: #333;
     margin: 0;
-    line-height: 1; // 🔧 allineamento perfetto con logo
+    line-height: 1;
   }
 }
 
-// === UTILITY AREA ===
-.utility-area {
+// === NAVIGAZIONE ===
+.main-nav {
+  background-color: #2c2c2c;
+  width: 100vw;
+  margin-top: 12px; // 👈 separazione visiva dal header
+  padding: 24px 0;
+}
+
+.nav-inner {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
+}
+
+.nav-links {
+  list-style: none;
   display: flex;
-  align-items: center;
-  gap: 10px;
+  justify-content: center;
+  gap: $spacing-md;
+  margin: 0;
+  padding: 0;
 
-  .lang-switch,
-  .search-box {
-    padding: 6px 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    font-size: 0.95em;
-  }
-
-  .login-link {
+  li a {
+    color: white;
+    font-size: 1em;
     font-weight: 500;
-    color: $primary-color;
     text-decoration: none;
 
     &:hover {
-      text-decoration: underline;
+      color: $primary-color;
     }
   }
 }
