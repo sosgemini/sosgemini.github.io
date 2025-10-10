@@ -1,19 +1,29 @@
 .page-prova {
-  max-width: 1150px;
-  margin: 0 auto;
+  background-color: #f9f9f9;
   padding: 48px $spacing-md;
 
   h1 {
     font-size: 2em;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.1em;
+    text-align: center;
     margin-bottom: 24px;
   }
 
   ul {
     list-style: none;
     padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
 
     li {
-      margin-bottom: 8px;
+      margin-bottom: 12px;
+      font-size: 1em;
+
       &:before {
         content: "✔️ ";
       }
