@@ -21,13 +21,13 @@ body {
 }
 
 .logo-title-group {
-  display: flex;                 // Disposizione in riga di logo e titolo
+  display: flex;                // Disposizione in riga di logo e titolo
   align-items: center;          // Allineamento verticale centrato
   gap: 16px;                    // Spazio tra logo e titolo
 
   .logo {
     width: 80px;                // Larghezza fissa del logo
-    margin-bottom: -20px;        // Correzione fine per allineamento verticale
+    margin-bottom: -20px;       // Logo su e giu
   }
 
   .site-title {
