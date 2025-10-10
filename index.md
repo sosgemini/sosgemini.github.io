@@ -4,7 +4,7 @@ title: SOS Gemini
 class: page-home
 ---
 
-class: page-home
+
 <section class="index-banner">
   <div class="banner-inner">
     <h1>Home page ....</h1>
