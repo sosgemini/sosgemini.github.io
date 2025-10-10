@@ -4,7 +4,7 @@ title: SOS Gemini
 class: page-home
 ---
 
-<main class="post-container">
+<div class="post-container">
   <div style="text-align: center; margin-top: 2rem;">
     <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
     <h2 class="small-title">
@@ -16,4 +16,5 @@ class: page-home
     <!-- Blocchi modulari -->
     <!-- ... (tutti i tuoi <a class="content-square"> come già scritto) ... -->
   </section>
-</main>
+</div>
+
