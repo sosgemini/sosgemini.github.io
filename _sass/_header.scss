@@ -42,7 +42,7 @@
 .nav-inner {
   max-width: 1150px;             // Limita la larghezza del contenuto per leggibilità
   margin: 0 auto;                // Centra il contenuto orizzontalmente
-  padding: 20 $spacing-md;        // Spazio laterale modulare (sinistra/destra)
+  padding: 0 $spacing-md;        // Spazio laterale modulare (sinistra/destra)
 }
 
 .nav-links {
