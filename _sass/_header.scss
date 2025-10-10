@@ -19,7 +19,7 @@
   gap: 16px;                    // Spazio tra logo e titolo
 
   .logo {
-    width: 90px;                // Larghezza fissa del logo
+    width: 85px;                // Larghezza fissa del logo
     margin-bottom: -6px;        // Correzione fine per allineamento verticale
   }
 
@@ -34,9 +34,9 @@
 // === NAVIGAZIONE ===
 .main-nav {
   background-color: #2c2c2c;     // Sfondo grigio scuro per la fascia di navigazione
-  width: 100vw;                  // La fascia occupa tutta la larghezza visibile del browser
-  margin-top: 12px;              // Spazio verticale tra header e nav
-  padding: 24px 0;               // Altezza interna sopra/sotto per dare respiro ai link
+  width: 100%;                   // ✅ Occupa tutta la larghezza utile, senza includere la scrollbar
+  margin-top: 12px;              // ✅ Spazio verticale tra header e nav
+  padding: 24px 0;               // ✅ Altezza interna sopra/sotto per dare respiro ai link
 }
 
 .nav-inner {
