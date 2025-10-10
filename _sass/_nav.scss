@@ -1,23 +1,23 @@
 // === NAVIGAZIONE PRINCIPALE ===
 .main-nav {
-  background-color: #2c2c2c; // oppure usa $nav-bg se hai una variabile
-  width: 100vw;
+  background-color: #2c2c2c;
+  width: 100vw;           // ✅ fascia grigia estesa ai bordi
   margin: 0;
-  padding: 24px 0; // 👈 rialzata rispetto a prima
+  padding: 24px 0;        // ✅ altezza aumentata
 }
 
+// === CONTENITORE INTERNO ===
 .nav-inner {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 0 $spacing-md; // ✅ corretto uso della variabile
+  padding: 0 $spacing-md; // ✅ respiro laterale modulare
 }
 
-
-
+// === LINK DI NAVIGAZIONE ===
 .nav-links {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: center; // 🔧 centrato come richiesto
   gap: $spacing-md;
   margin: 0;
   padding: 0;
