@@ -79,9 +79,10 @@ body {
 }
 // === CONTENITORE CENTRALE ===
 .page-wrapper {
-  max-width: 1150px;         // ✅ larghezza fissa per contenuto leggibile
-  margin: 0 auto;            // ✅ centra il contenuto orizzontalmente
-  padding: 0 $spacing-md;    // ✅ respiro laterale su schermi piccoli
-  background-color: #ffffff; // ✅ sfondo bianco centrale
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 48px $spacing-md;
+  background-color: #ffffff; // ✅ Sfondo bianco per il contenuto centrale
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1); // ✅ Leggera ombra per staccare dal fondo
 }
 
