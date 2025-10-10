@@ -1,10 +1,16 @@
 // === HEADER ===
 
+
 body {
-  background-color: $background-page; // ✅ Sfondo ai lati della pagina
+  background-image: url("../img/SfondoPiante.webp");
+  background-size: cover;           // ✅ Riempie lo sfondo in larghezza
+  background-position: center top;  // ✅ Centra l’immagine orizzontalmente
+  background-repeat: no-repeat;     // ✅ Evita ripetizioni
+  background-attachment: fixed;     // ✅ Sfondo fisso mentre si scrolla
   margin: 0;
   padding: 0;
 }
+
 
 .site-header {
   background-color: #fff;         // Sfondo bianco per l'intestazione principale
