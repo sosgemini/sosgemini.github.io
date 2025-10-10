@@ -3,6 +3,11 @@
   background-color: #fff;
   padding: 0;                        // 🔧 Rimosso spazio verticale inutile
 }
+.header-container {
+  padding: 5px 10px; // 👈 riduci se vuoi che la nav salga
+}
+
+
 
 /* CONTENITORE HEADER */
 .header-container {
