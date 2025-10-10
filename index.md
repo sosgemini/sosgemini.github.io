@@ -1,7 +1,11 @@
 ---
 layout: default
-title: Benvenuto
+title: SOS Gemini
 ---
 
-Benvenuto su **SOS Gemini**  
-Consigli pratici su alimentazione, salute, animali, lavoro e fai da te.
+<section class="index-banner">
+  <div class="banner-inner">
+    <p>Benvenuto su SOS Gemini</p>
+    <p>Consigli pratici su alimentazione, salute, animali, lavoro e fai da te.</p>
+  </div>
+</section>

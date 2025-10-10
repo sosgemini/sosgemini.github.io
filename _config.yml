@@ -1,13 +1,22 @@
+# 🌐 Informazioni generali sul sito
 title: SOS Gemini
 description: "Consigli pratici su alimentazione, salute, animali, lavoro e fai da te"
 lang: it
 url: "https://sosgemini.github.io"
-baseurl: ""
+baseurl: "" # ← lascia vuoto se il sito è nella root del repo GitHub Pages
 
+# 📁 Struttura delle cartelle
+source: .
+destination: ./_site
+includes_dir: _includes
+layouts_dir: _layouts
+
+# 🎨 Configurazione Sass
 sass:
   sass_dir: _sass
   style: compressed
 
+# ✍️ Markdown e rendering
 markdown: kramdown
 kramdown:
   input: GFM
@@ -15,7 +24,31 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
+# 🔌 Plugin attivi
 plugins:
   - jekyll-seo-tag
 
+# 🚫 File e cartelle da escludere dalla build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# 🔗 URL puliti
 permalink: pretty
+
+# 📚 Collezione pagine (opzionale)
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+# 🧱 Layout di default
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
