@@ -2,14 +2,14 @@
 .main-nav {
   background-color: $text-color;
   width: 100%;
-  padding: 24px 0; // 👈 aumentato da 12px a 24px
+  padding: 12px 0; // 👈 aumentato da 12px a 24px
   margin: 0;
 }
 
 .nav-inner {
   max-width: 1150px;
   margin: 0 auto;
-  padding: 1px; $spacing-md;
+  padding: 5px; $spacing-md;
 }
 
 
