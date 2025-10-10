@@ -1,54 +1,54 @@
 # 🌐 Informazioni generali sul sito
-title: SOS Gemini
-description: "Consigli pratici su alimentazione, salute, animali, lavoro e fai da te"
-lang: it
-url: "https://sosgemini.github.io"
-baseurl: "" # ← lascia vuoto se il sito è nella root del repo GitHub Pages
+title: SOS Gemini                         # Titolo del sito (usato nei tag <title> e SEO)
+description: "Consigli pratici su alimentazione, salute, animali, lavoro e fai da te"  # Descrizione breve per motori di ricerca
+lang: it                                  # Lingua principale del sito (it = italiano)
+url: "https://sosgemini.github.io"        # URL completo del sito online
+baseurl: ""                               # ← lascia vuoto se il sito è nella root del repo GitHub Pages
 
 # 📁 Struttura delle cartelle
-source: .
-destination: ./_site
-includes_dir: _includes
-layouts_dir: _layouts
+source: .                                 # Cartella sorgente del progetto (di solito la root)
+destination: ./_site                      # Cartella di output generata da Jekyll
+includes_dir: _includes                   # Cartella dei frammenti HTML riutilizzabili (es. header, footer)
+layouts_dir: _layouts                     # Cartella dei layout principali (es. default.html)
 
 # 🎨 Configurazione Sass
 sass:
-  sass_dir: _sass
-  style: compressed
+  sass_dir: _sass                         # Cartella dove si trovano i file SCSS/Sass
+  style: compressed                       # Output CSS minificato (più leggero e veloce)
 
 # ✍️ Markdown e rendering
-markdown: kramdown
+markdown: kramdown                        # Motore di rendering Markdown usato da Jekyll
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  syntax_highlighter: rouge
+  input: GFM                              # GitHub Flavored Markdown (supporta tabelle, task list, ecc.)
+  hard_wrap: false                        # Non forza il ritorno a capo su ogni nuova riga
+  auto_ids: true                          # Genera ID automatici per i titoli (utile per link interni)
+  syntax_highlighter: rouge               # Evidenziazione del codice con Rouge (colorazione sintattica)
 
 # 🔌 Plugin attivi
 plugins:
-  - jekyll-seo-tag
+  - jekyll-seo-tag                        # Plugin per migliorare i tag SEO (title, description, og:image, ecc.)
 
 # 🚫 File e cartelle da escludere dalla build
 exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
+  - README.md                             # File di documentazione (non serve nel sito)
+  - Gemfile                               # File Ruby per dipendenze
+  - Gemfile.lock                          # Blocco delle versioni Ruby
+  - node_modules                          # Cartella delle dipendenze JavaScript
+  - vendor                                # Cartella di librerie esterne
 
 # 🔗 URL puliti
-permalink: pretty
+permalink: pretty                         # Rimuove ".html" dagli URL (es. /pagina/ invece di /pagina.html)
 
 # 📚 Collezione pagine (opzionale)
 collections:
   pages:
-    output: true
-    permalink: /:path/
+    output: true                          # Le pagine della collezione vengono generate nel sito
+    permalink: /:path/                    # URL basato sul percorso del file
 
 # 🧱 Layout di default
 defaults:
   - scope:
-      path: ""
-      type: "pages"
+      path: ""                            # Applica a tutte le pagine del sito
+      type: "pages"                       # Solo ai file di tipo "page"
     values:
-      layout: default
+      layout: default                     # Usa il layout "default.html" come base
