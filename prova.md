@@ -4,7 +4,7 @@ title: Pagina di Prova
 permalink: /prova/
 ---
 
-<h1>Questa è una pagina di prova</h1>
+<h1>al me gatto</h1>
 <p>Qui puoi testare layout, stili, componenti modulari e contenuti personalizzati senza toccare la homepage.</p>
 
 <ul>
