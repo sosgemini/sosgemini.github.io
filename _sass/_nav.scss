@@ -9,9 +9,9 @@
 
 // === CONTENITORE INTERNO ===
 .nav-inner {
-  max-width: 1150px;            // Limita la larghezza massima del contenuto per mantenerlo leggibile
-  margin: 0 auto;               // Centra il contenuto orizzontalmente all'interno della fascia
-  padding: 0 $spacing-md;       // Aggiunge respiro laterale (sinistra/destra) usando una variabile modulare
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 $spacing-md;
 }
 
 // === LINK DI NAVIGAZIONE ===
