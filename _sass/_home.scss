@@ -26,20 +26,24 @@
 }
 
 .content-square {
-  background-color: #f9f9f9;
-  border-radius: 12px;
-  padding: 24px;
-  text-align: center;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
+  background-color: #f9f9f9;            // ✅ Sfondo chiaro per distinguere il blocco
+  border-radius: 12px;                  // ✅ Angoli arrotondati per un look moderno
+  padding: 24px;                        // ✅ Spazio interno per respiro visivo
+  text-align: center;                   // ✅ Centra testo e immagini
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05); // ✅ Leggera ombra per staccare dal fondo
+  transition: transform 0.2s ease;      // ✅ Animazione al passaggio del mouse
 
   &:hover {
-    transform: translateY(-4px);
+    transform: translateY(-4px);        // ✅ Effetto sollevamento al hover
   }
 
   img {
-    max-width: 80px;
+    max-width: 80px;                    // ✅ Dimensione icona visibile ma discreta
+    height: auto;
     margin-bottom: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   p {
