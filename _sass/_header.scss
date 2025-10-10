@@ -64,13 +64,18 @@
 .main-nav {
   background-color: #2c2c2c;
   padding: 12px 0;
+
+  // ✅ Estensione completa ai bordi
+  width: 100vw;
+  margin: 0;
 }
 
 .nav-inner {
-  width: 100%;                      // 🔧 Esteso ai bordi
+  max-width: 1200px;     // ✅ Contenuto centrato e limitato
   margin: 0 auto;
   padding: 0 20px;
 }
+
 
 .nav-links {
   list-style: none;
