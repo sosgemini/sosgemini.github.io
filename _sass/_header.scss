@@ -1,66 +1,66 @@
 // === HEADER ===
 .site-header {
-  background-color: #fff;
-  padding: 0px 0;
+  background-color: #fff;         // Sfondo bianco per l'intestazione principale
+  padding: 0px 0;                 // Nessuno spazio interno sopra/sotto
 }
 
 .header-container {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 0 $spacing-md;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  max-width: 1150px;              // Larghezza massima del contenuto per mantenerlo leggibile
+  margin: 0 auto;                 // Centra il contenuto orizzontalmente
+  padding: 0 $spacing-md;         // Spazio laterale modulare (sinistra/destra)
+  display: flex;                  // Disposizione flessibile degli elementi in riga
+  justify-content: space-between;// Spazio tra logo/titolo e utility (es. lingua, cerca)
+  align-items: center;           // Allineamento verticale centrato
 }
 
 .logo-title-group {
-  display: flex;
-  align-items: center;
-  gap: 16px;
+  display: flex;                 // Disposizione in riga di logo e titolo
+  align-items: center;          // Allineamento verticale centrato
+  gap: 16px;                    // Spazio tra logo e titolo
 
   .logo {
-    width: 90px;
-    margin-bottom: -6px;
+    width: 90px;                // Larghezza fissa del logo
+    margin-bottom: -6px;        // Correzione fine per allineamento verticale
   }
 
   .site-title {
-    font-size: 2em;
-    font-weight: 600;
-    margin: 0;
-    line-height: 1;
+    font-size: 2em;             // Dimensione grande per il titolo del sito
+    font-weight: 600;           // Peso medio-alto del font
+    margin: 0;                  // Nessun margine esterno
+    line-height: 1;             // Altezza della linea compatta per allineamento preciso
   }
 }
 
 // === NAVIGAZIONE ===
 .main-nav {
-  background-color: #2c2c2c;
-  width: 100vw;
-  margin-top: 12px; // 👈 separazione visiva dal header
-  padding: 24px 0;
+  background-color: #2c2c2c;     // Sfondo grigio scuro per la fascia di navigazione
+  width: 100vw;                  // La fascia occupa tutta la larghezza visibile del browser
+  margin-top: 12px;              // Spazio verticale tra header e nav
+  padding: 24px 0;               // Altezza interna sopra/sotto per dare respiro ai link
 }
 
 .nav-inner {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 0 $spacing-md;
+  max-width: 1150px;             // Limita la larghezza del contenuto per leggibilità
+  margin: 0 auto;                // Centra il contenuto orizzontalmente
+  padding: 0 $spacing-md;        // Spazio laterale modulare (sinistra/destra)
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: $spacing-md;
-  margin: 0;
-  padding: 0;
+  list-style: none;              // Rimuove i pallini di default dalle liste
+  display: flex;                 // Disposizione dei link in riga
+  justify-content: center;       // Centra i link all’interno del contenitore
+  gap: $spacing-md;              // Spazio uniforme tra i link
+  margin: 0;                     // Nessun margine esterno
+  padding: 0;                    // Nessun padding interno
 
   li a {
-    color: white;
-    font-size: 1em;
-    font-weight: 500;
-    text-decoration: none;
+    color: white;                // Colore bianco per i link
+    font-size: 1em;              // Dimensione standard del testo
+    font-weight: 500;            // Peso medio del font
+    text-decoration: none;       // Rimuove la sottolineatura dai link
 
     &:hover {
-      color: $primary-color;
+      color: $primary-color;     // Al passaggio del mouse, cambia colore (variabile primaria)
     }
   }
 }
