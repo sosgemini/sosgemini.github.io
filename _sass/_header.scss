@@ -1,4 +1,11 @@
 // === HEADER ===
+
+body {
+  background-color: $background-page; // ✅ Sfondo ai lati della pagina
+  margin: 0;
+  padding: 0;
+}
+
 .site-header {
   background-color: #fff;         // Sfondo bianco per l'intestazione principale
   padding: 0px 0;                 // Nessuno spazio interno sopra/sotto
