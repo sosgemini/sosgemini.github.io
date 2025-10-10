@@ -16,14 +16,15 @@
 </head>
 <body>
 
-  {% include header.html %} <!-- Include l'intestazione del sito (logo, titolo, nav, ecc.) -->
+  {% include header.html %}
 
-  <main class="page-wrapper"> <!-- Contenitore principale della pagina -->
-    {{ content }}             <!-- Qui viene inserito il contenuto specifico della pagina -->
+  <main class="page-wrapper{% if page.class %} {{ page.class }}{% endif %}">
+    {{ content }}
   </main>
 
-  {% include footer.html %} <!-- Include il piè di pagina del sito -->
+  {% include footer.html %}
 
 </body>
 </html>
+
 
