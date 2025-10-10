@@ -2,7 +2,8 @@
 .main-nav {
   background-color: $text-color;
   width: 100%;
-  padding: 12px 0;
+  padding: 24px 0; // 👈 aumentato da 12px a 24px
+  margin: 0;
 }
 
 .nav-inner {
@@ -10,6 +11,7 @@
   margin: 0 auto;
   padding: 0 $spacing-md;
 }
+
 
 .nav-links {
   list-style: none;
