@@ -24,18 +24,18 @@ class: home
       <div class="description">Benessere naturale e prevenzione</div>
     </a>
 
-    <a href="/lavoro/" class="content-square">
-      <img src="/assets/img/ICO-lavoro-attivita.webp" alt="Lavoro">
-      <p>Attività</p>
-      <div class="description">Etica, smart working e futuro</div>
-    </a>
-
     <a href="/fai-da-te/" class="content-square">
       <img src="/assets/img/ICO-oggettistica-faidate.webp" alt="Fai da te">
       <p>Tecnologia</p>
       <div class="description">Soluzioni pratiche e creative</div>
+      </a>
 
-      
+       <a href="/lavoro/" class="content-square">
+      <img src="/assets/img/ICO-lavoro-attivita.webp" alt="Lavoro">
+      <p>Hobbystica</p>
+      <div class="description">Etica, smart working e futuro</div>
     </a>
+    
+    
   </section>
 </div>
