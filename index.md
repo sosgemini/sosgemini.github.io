@@ -12,34 +12,27 @@ class: home
     </h2>
   </div>
 
-  <section class="square-grid">
-    <a href="/alimentazione/" class="content-square">
-      <img src="/assets/img/ICO-alimenti.webp" alt="Alimentazione">
-      <p>Alimentazione</p>
-      <div class="description">Mangiare sano e sostenibile</div>
-    </a>
-
     <a href="/animali/" class="content-square">
       <img src="/assets/img/ICO-amici.webp" alt="Animali">
-      <p>Animali</p>
+      <p>Amici</p>
       <div class="description">Cura e rispetto per i nostri amici</div>
     </a>
-
+    
     <a href="/salute/" class="content-square">
       <img src="/assets/img/ICO-medicina-salute.webp" alt="Salute">
-      <p>Salute</p>
+      <p>Benessere</p>
       <div class="description">Benessere naturale e prevenzione</div>
     </a>
 
     <a href="/lavoro/" class="content-square">
       <img src="/assets/img/ICO-lavoro-attivita.webp" alt="Lavoro">
-      <p>Lavoro</p>
+      <p>Attività</p>
       <div class="description">Etica, smart working e futuro</div>
     </a>
 
     <a href="/fai-da-te/" class="content-square">
       <img src="/assets/img/ICO-oggettistica-faidate.webp" alt="Fai da te">
-      <p>Fai da te</p>
+      <p>Hobbystica</p>
       <div class="description">Soluzioni pratiche e creative</div>
     </a>
   </section>
