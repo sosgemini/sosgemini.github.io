@@ -37,4 +37,4 @@ class: home
       <div class="description">Etica, smart working e futuro</div>
     </a>
   </section>
-</div>
+
