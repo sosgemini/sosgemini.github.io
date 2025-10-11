@@ -12,29 +12,29 @@ class: home
     </h2>
   </div>
 
-  <section class="square-grid">
-    <a href="/animali/" class="content-square">
-      <img src="/assets/img/ICO-Amici.webp" alt="Amici a 4 zampe">
-      <p>Amici</p>
-      <div class="description">Cura e rispetto per i nostri amici</div>
-    </a>
-    
-    <a href="/salute/" class="content-square">
-      <img src="/assets/img/ICO-Benessere.webp" alt="Salute e Benessere">
-      <p>Benessere</p>
-      <div class="description">Benessere naturale e prevenzione</div>
-    </a>
+<section class="square-grid">
+  <div class="content-square">
+    <img src="/assets/img/ICO-Amici.webp" alt="Amici a 4 zampe">
+    <p>Amici</p>
+    <div class="description">Cura e rispetto per i nostri amici</div>
+  </div>
+  
+  <div class="content-square">
+    <img src="/assets/img/ICO-Benessere.webp" alt="Salute e Benessere">
+    <p>Benessere</p>
+    <div class="description">Benessere naturale e prevenzione</div>
+  </div>
 
-    <a href="/fai-da-te/" class="content-square">
-      <img src="/assets/img/ICO-Tecnologia.webp" alt="Tecnologia e Fai da te">
-      <p>Tecnologia</p>
-      <div class="description">Soluzioni pratiche e creative</div>
-    </a>
+  <div class="content-square">
+    <img src="/assets/img/ICO-Tecnologia.webp" alt="Tecnologia e Fai da te">
+    <p>Tecnologia</p>
+    <div class="description">Soluzioni pratiche e creative</div>
+  </div>
 
-    <a href="/lavoro/" class="content-square">
-      <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobbystica Lavoro">
-      <p>Hobbystica</p>
-      <div class="description">Etica, smart working e futuro</div>
-    </a>
-  </section>
-</div>
+  <div class="content-square">
+    <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobbystica Lavoro">
+    <p>Hobbystica</p>
+    <div class="description">Etica, smart working e futuro</div>
+  </div>
+</section>
+
