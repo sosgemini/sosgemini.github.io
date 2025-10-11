@@ -1,7 +1,7 @@
 ---
 layout: default
 title: SOS Gemini
-class: page-home
+class: home
 ---
 
 <div class="post-container">
