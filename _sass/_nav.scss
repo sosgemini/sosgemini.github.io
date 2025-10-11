@@ -41,20 +41,20 @@
       position: absolute;
       top: 100%;
       left: 0;
-      background-color: #3a3a3a;
+      background-color: #3a3a3a; // antracite più chiaro
       min-width: 180px;
       box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
       padding: 8px 0;
       z-index: 10;
 
       li a {
-        color: white;
+        color: #007acc; // azzurro come prima
         font-weight: 500;
         padding: 10px 16px;
         white-space: nowrap;
 
         &:hover {
-          background-color: #505050;
+          background-color: #505050; // hover più chiaro
         }
       }
 
