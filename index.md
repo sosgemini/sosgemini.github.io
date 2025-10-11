@@ -14,7 +14,7 @@ class: home
 
   <section class="square-grid">
     <a href="/alimentazione/" class="content-square">
-      <img src="/assets/img/ICO-alimenti-cibo.webp" alt="Alimentazione">
+      <img src="/assets/img/ICO-alimenti.webp" alt="Alimentazione">
       <p>Alimentazione</p>
       <div class="description">Mangiare sano e sostenibile</div>
     </a>
