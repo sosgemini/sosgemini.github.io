@@ -1,19 +1,22 @@
 .square-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 32px;
-  padding: 20px 0;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 24px;
+  padding: 32px 0;
+  justify-content: center;
 }
 
 .content-square {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 12px;
-  padding: 24px;
+  padding: 20px;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   text-decoration: none;
   transition: transform 0.2s ease;
+  max-width: 220px;
+  margin: 0 auto;
 }
 
 .content-square:hover {
@@ -21,23 +24,23 @@
 }
 
 .content-square img {
-  max-width: 80px;
+  max-width: 64px;
   height: auto;
-  margin-bottom: 16px;
+  margin-bottom: 12px;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .content-square p {
-  font-weight: bold;
+  font-weight: 600;
   font-size: 1em;
-  margin: 0 0 8px;
+  margin: 0 0 6px;
   color: #007acc;
 }
 
 .content-square .description {
-  font-size: 0.9em;
-  color: #666;
-  margin-top: 6px;
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 4px;
 }
