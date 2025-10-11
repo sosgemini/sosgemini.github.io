@@ -1,20 +1,32 @@
-// === Palette colori ===
-$primary-color: #007acc;
-$secondary-color: #f8f8f8;
-$text-color: #333;
-$muted-color: #666;
-$border-color: #ddd;
+// === 🎨 Palette colori ===
+$primary-color: #007acc;         // Blu acceso per link, hover, accenti
+$secondary-color: #f8f8f8;       // Grigio chiaro per sfondi neutri
+$background-page: #f8f8f4;       // Bianco caldo per lo sfondo principale
+$text-color: #333;               // Testo principale
+$muted-color: #666;              // Testo secondario, descrizioni
+$border-color: #ddd;             // Bordi leggeri e separatori
 
-// === Tipografia ===
-$font-family: 'Segoe UI', sans-serif;
-$base-font-size: 16px;
+// === ✍️ Tipografia ===
+$font-family: 'Segoe UI', sans-serif;  // Font moderno e leggibile
+$base-font-size: 16px;                 // Dimensione base del testo
 
-// === Spaziature ===
-$spacing-sm: 10px;
-$spacing-md: 20px;
-$spacing-lg: 40px;
+// === 📐 Spaziature ===
+$spacing-xs: 6px;               // Extra piccolo
+$spacing-sm: 10px;              // Piccolo
+$spacing-md: 20px;              // Medio
+$spacing-lg: 40px;              // Grande
+$spacing-xl: 64px;              // Extra grande
 
-// === Raggio bordi ===
-$radius: 6px;
+// === 🟦 Raggio bordi ===
+$radius-sm: 4px;                // Angoli leggeri
+$radius: 6px;                   // Default
+$radius-lg: 12px;               // Angoli più morbidi
 
-$background-page: #f8f8f4; // Bianco sporco caldo
+// === 🌫 Ombre ===
+$shadow-light: 0 2px 6px rgba(0, 0, 0, 0.08);   // Ombra leggera per box
+$shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.12); // Ombra media per elementi in rilievo
+
+// === 🧭 Z-index ===
+$z-header: 1000;
+$z-nav: 900;
+$z-overlay: 1100;
