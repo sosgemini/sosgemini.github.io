@@ -1,33 +1,29 @@
-<header class="site-header"> <!-- Intestazione principale del sito -->
-  <div class="header-container"> <!-- Contenitore centrato per logo, titolo e utility -->
-
-<div class="logo-title-group">
-  <a href="https://sosgemini.github.io/" class="logo-link">
-    <img src="/assets/img/SOS-96x96.png" alt="SOS Gemini Logo" class="logo" />
-  </a>
-  <p class="site-title">SOS Gemini</p>
-</div>
-
-    <div class="utility-area"> <!-- Area con strumenti di utilità -->
-      <select class="lang-switch"> <!-- Selettore lingua -->
-        <option value="it">Italiano</option> <!-- Opzione lingua italiana -->
-        <option value="en">English</option> <!-- Opzione lingua inglese -->
-      </select>
-      <input type="text" class="search-box" placeholder="Cerca..." /> <!-- Casella di ricerca -->
+<header class="site-header">
+  <div class="header-container">
+    <div class="logo-title-group">
+      <a href="/" class="logo-link">
+        <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" />
+      </a>
+      <span class="site-title">SOS Gemini</span>
     </div>
 
+    <div class="utility-area">
+      <select class="lang-switch" aria-label="Seleziona lingua">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+      <input type="text" class="search-box" placeholder="Cerca..." aria-label="Cerca nel sito" />
+    </div>
   </div>
 
-  <nav class="main-nav"> <!-- Fascia di navigazione principale -->
-    <div class="nav-inner"> <!-- Contenitore centrato per i link -->
-      <ul class="nav-links"> <!-- Elenco dei link di navigazione -->
-        <li><a href="#">HOME</a></li> <!-- Link alla homepage -->
-        <li><a href="#">AMICI</a></li> <!-- Link alla sezione animali -->
-        <li><a href="#">ALIMENTI</a></li> <!-- Link alla sezione cucina -->
-        <li><a href="#">ATTIVITA</a></li> <!-- Link alla sezione lavoro -->
-        <li><a href="#">BENESSERE</a></li> <!-- Link alla sezione salute -->
-        <li><a href="#">HOBBY</a></li> <!-- Link alla sezione meccanica -->
-      </ul>
-    </div>
+  <nav class="main-nav" aria-label="Navigazione principale">
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/animali/">Amici</a></li>
+      <li><a href="/alimentazione/">Alimenti</a></li>
+      <li><a href="/lavoro/">Attività</a></li>
+      <li><a href="/salute/">Benessere</a></li>
+      <li><a href="/hobby/">Hobby</a></li>
+    </ul>
   </nav>
 </header>
