@@ -4,7 +4,7 @@ title: SOS Gemini
 class: home
 ---
 
-    <div class="post-container">
+<div class="post-container">
   <div class="intro">
     <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
     <h2 class="small-title">
@@ -37,4 +37,4 @@ class: home
       <div class="description">Etica, smart working e futuro</div>
     </a>
   </section>
-
+</div>
