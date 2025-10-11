@@ -1,36 +1,71 @@
-// === NAVIGAZIONE PRINCIPALE ===
 .main-nav {
-  background-color: #2c2c2c;     // Sfondo grigio scuro
-  width: 100%;                   // ✅ larghezza piena, centrata correttamente
-  margin: 0;                     // ✅ nessun margine esterno
-  padding: 12px 0;               // ✅ altezza interna sopra/sotto
+  background-color: #2c2c2c;
+  width: 100%;
+  margin: 0;
+  padding: 12px 0;
 }
 
-
-// === CONTENITORE INTERNO ===
 .nav-inner {
   max-width: 1150px;
   margin: 0 auto;
   padding: 0 $spacing-md;
 }
 
-// === LINK DI NAVIGAZIONE ===
 .nav-links {
-  list-style: none;             // Rimuove i pallini di default dalle liste
-  display: flex;                // Dispone i link in riga (orizzontalmente)
-  justify-content: center;     // Centra i link all’interno del contenitore
-  gap: $spacing-md;            // Spazio uniforme tra i link, gestito tramite variabile
-  margin: 0;                    // Nessun margine esterno
-  padding: 0;                   // Nessun padding interno
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: $spacing-md;
+  margin: 0;
+  padding: 0;
 
-  li a {
-    color: white;              // Colore del testo dei link: bianco
-    font-size: 1em;            // Dimensione del font standard
-    font-weight: 500;          // Peso medio del font (né troppo sottile né troppo spesso)
-    text-decoration: none;     // Rimuove la sottolineatura dai link
+  li {
+    position: relative;
 
-    &:hover {
-      color: $primary-color;   // Al passaggio del mouse, il link cambia colore (variabile primaria)
+    a {
+      color: white;
+      font-size: 1em;
+      font-weight: 500;
+      text-decoration: none;
+      padding: 12px 16px;
+      display: block;
+
+      &:hover {
+        color: $primary-color;
+      }
+    }
+
+    ul {
+      list-style: none;
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #f8f8f8;
+      min-width: 180px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      padding: 8px 0;
+      z-index: 10;
+
+      li a {
+        color: #007acc;
+        font-weight: 500;
+        padding: 10px 16px;
+        white-space: nowrap;
+
+        &:hover {
+          background-color: #e0f0ff;
+        }
+      }
+
+      ul {
+        top: 0;
+        left: 100%;
+      }
+    }
+
+    &:hover > ul {
+      display: block;
     }
   }
 }
