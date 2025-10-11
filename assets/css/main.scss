@@ -5,6 +5,51 @@ body {
   background-color: pink;
 }
 
+.square-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: $spacing-md;
+  padding: $spacing-lg;
+  justify-items: center;
+  align-items: start;
+  background-color: $background-page;
+}
+
+.content-square {
+  background-color: $secondary-color;
+  border-radius: $radius;
+  box-shadow: $shadow-light;
+  text-align: center;
+  padding: $spacing-md;
+  width: 100%;
+  max-width: 260px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+
+  img {
+    max-width: 80px;
+    margin-bottom: $spacing-sm;
+  }
+
+  p {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: $spacing-sm;
+  }
+
+  .description {
+    font-size: 0.9rem;
+    color: $muted-color;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: $shadow-medium;
+  }
+}
+
+
 @import "variables";
 @import "header";
 @import "nav";
