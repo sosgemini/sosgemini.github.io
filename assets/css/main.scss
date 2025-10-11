@@ -8,11 +8,6 @@
 @import "prova";
 
 
-// STILE DEDICATO ALLA HOMEPAGE
-body.home {
-  background-color: pink; // puoi cambiare in sfondo personalizzato
-}
-
 .home .square-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
