@@ -32,8 +32,10 @@ class: home
 
     <a href="/fai-da-te/" class="content-square">
       <img src="/assets/img/ICO-oggettistica-faidate.webp" alt="Fai da te">
-      <p>Hobbystica</p>
+      <p>Tecnologia</p>
       <div class="description">Soluzioni pratiche e creative</div>
+
+      
     </a>
   </section>
 </div>
