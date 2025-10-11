@@ -7,7 +7,59 @@
 @import "footer";
 @import "prova";
 
-// TEST VISIVO — deve essere l’ultimo
+// STILE GLOBALE DI BASE
 body {
-  background-color: pink !important;
+  background-color: pink !important; // test visivo
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+// STILE DEDICATO ALLA HOMEPAGE
+body.home {
+  background-color: pink; // puoi cambiare in sfondo personalizzato
+}
+
+.home .square-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 40px 20px;
+  justify-items: center;
+  align-items: start;
+}
+
+// STILE DEI QUADRATI
+.content-square {
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  padding: 20px;
+  max-width: 260px;
+  width: 100%;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.content-square img {
+  max-width: 80px;
+  margin-bottom: 10px;
+}
+
+.content-square p {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #007acc;
+  margin-bottom: 8px;
+}
+
+.content-square .description {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.content-square:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
