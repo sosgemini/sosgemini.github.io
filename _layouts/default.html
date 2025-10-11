@@ -6,6 +6,46 @@
   <title>{{ page.title }} | SOS Gemini</title>
   {% seo %}
 
+  <!-- Meta SEO -->
+  <meta name="description" content="SOS Gemini è la guida pratica per una vita sostenibile: consigli su animali, benessere, tecnologia e hobby green.">
+  <meta name="keywords" content="sostenibilità, animali, benessere naturale, tecnologia ecologica, smart working, hobby green, vita consapevole">
+  <meta name="author" content="SOS Gemini">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SOS Gemini – La tua guida per una vita sostenibile">
+  <meta property="og:description" content="Scopri consigli pratici per vivere in armonia con l’ambiente: animali, salute, tecnologia e hobby.">
+  <meta property="og:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SOS Gemini – Vita sostenibile e consapevole">
+  <meta name="twitter:description" content="Consigli green per animali, benessere, tecnologia e hobby.">
+  <meta name="twitter:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SOS Gemini",
+    "url": "https://sosgemini.it",
+    "description": "Guida pratica per una vita sostenibile: animali, benessere, tecnologia e hobby green.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SOS Gemini",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://sosgemini.it/assets/img/SOS-96x96.png"
+      }
+    },
+    "inLanguage": "it"
+  }
+  </script>
+
   <!-- Stili -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
