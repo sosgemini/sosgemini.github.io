@@ -4,7 +4,6 @@ permalink: /prova/
 layout: default
 ---
 
-
 <section class="page-prova">
 
   <h1>Cibo per Gatti: Guida 2025</h1>
@@ -18,7 +17,7 @@ layout: default
       srcset="./img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
               ./img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
       sizes="(max-width: 600px) 480px, 800px"
-      alt="Gatto con ciotola e cibo sano">
+      alt="Gatto con ciotola e cibo sano malsano da evitare assolutamente">
   </div>
 </div>
 
