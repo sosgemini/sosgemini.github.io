@@ -107,13 +107,21 @@
       transform: translateY(-4px);
     }
 
-    .brand-name {
-      display: block;
-      font-size: 1.3em;
-      font-weight: 700;
-      color: #222;
-      margin-bottom: 0.5rem;
-    }
+.brand-name {
+  display: block;
+  font-size: 1.3em;
+  font-weight: 700;
+  color: #222;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    text-decoration: none;
+    outline: none;
+  }
+}
 
     .rating-stars {
       font-size: 1.6em;
