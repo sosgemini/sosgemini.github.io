@@ -146,12 +146,11 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
   </div> <!-- chiusura content-block umido -->
 
   <div class="content-block">
-    <h3 class="useful-tip">💡Consiglio utile:</h3>
-    <p>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</p>
+    <h3 class="useful-tip">💡<stong>Consiglio utile:</stong>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
   </div>
 
   <div class="content-block">
-    <h3 class="useful-tip"><stong>💡Consiglio finale:</stong> <p> Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine controllata. La salute del tuo gatto parte dalla ciotola.</p></h3>
+    <h3 class="useful-tip">💡<stong>Consiglio finale:</stong> Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine controllata. La salute del tuo gatto parte dalla ciotola.</h3>
   </div>
 
 </section>
