@@ -3,9 +3,9 @@
   background-color: #2c2c2c;
   width: 100%;
   margin: 0;
-  font-size: 1rem;       // base fissa
+  font-size: 1rem;
   line-height: 1.2;
-  padding: 4px 0;
+  padding: 6px 0;
 }
 
 /* === CONTENITORE CENTRATO === */
@@ -28,25 +28,26 @@
     position: relative;
 
     a {
-      color: white;
-      font-size: 1rem;           // unità fissa
-      font-weight: 500;
-      text-decoration: none;
-      padding: 6px 10px;         // padding stabile
       display: block;
+      font-size: 1rem;
+      font-weight: 500;
+      padding: 6px 10px;
       line-height: 1.2;
-      transition: color 0.2s ease; // solo colore
+      color: white;
+      text-decoration: none;
       border: none;
       outline: none;
+      transition: color 0.2s ease;
 
       &:hover,
-      &:focus {
+      &:focus,
+      &:active {
         color: #007acc;
         text-decoration: underline;
-      }
-
-      &:active {
-        color: #007acc;          // nessuna modifica strutturale
+        font-size: 1rem;       // 🔒 blocca sobbalzo
+        font-weight: 500;
+        padding: 6px 10px;
+        line-height: 1.2;
       }
     }
 
@@ -67,19 +68,20 @@
         position: relative;
 
         a {
-          padding: 6px 10px;
+          display: block;
           font-size: 0.9rem;
-          white-space: nowrap;
+          padding: 6px 10px;
           line-height: 1.4;
+          white-space: nowrap;
           transition: background-color 0.2s ease, color 0.2s ease;
 
-          &:hover {
+          &:hover,
+          &:focus,
+          &:active {
             background-color: #444;
             color: #007acc;
-          }
-
-          &:active {
-            color: #007acc;
+            font-size: 0.9rem;
+            padding: 6px 10px;
           }
         }
 
@@ -96,8 +98,8 @@
           min-width: 180px;
 
           li a {
-            padding: 6px 10px;
             font-size: 0.9rem;
+            padding: 6px 10px;
           }
         }
 
@@ -110,5 +112,24 @@
     &:hover > ul {
       display: block;
     }
+  }
+}
+
+/* === FONT PIÙ GRANDE SOLO IN INDEX === */
+body.index {
+  font-size: 1.15rem;
+
+  .main-nav,
+  .nav-links li a {
+    font-size: 1.1rem;
+  }
+
+  .nav-links li a:active {
+    font-size: 1.1rem;
+  }
+
+  .nav-links li ul li a,
+  .nav-links li ul li ul li a {
+    font-size: 1rem;
   }
 }
