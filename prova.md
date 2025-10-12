@@ -47,6 +47,9 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
     </ul>
   </div>
 
+
+
+
   <div class="content-block">
     <h2>🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="brand-grid">
@@ -60,12 +63,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
       {% include brand-card.html name="Be Fortis" stars="★★★★★" link="https://www.arcaplanet.it/s/?q=BeFortis+cat&sort=score_desc&page=0" source="Analisi nutrizionali (2025)" comment="Brand italiano specializzato in alimenti 'funzionali' e monoproteici. Particolarmente apprezzato per l'alta qualità degli ingredienti e per le formulazioni mirate al mantenimento del benessere generale." %}
       {% include brand-card.html name="Ownat" stars="★★★★☆" link="https://www.ownat.com/it/" source="Analisi di mercato (Aprile 2025)" comment="Considerata una delle migliori opzioni per rapporto qualità-prezzo. Analisi recenti mettono in luce la sua formula 'grain-free' e l'utilizzo di ingredienti naturali." %}
 
-    </div>
-  </div>
 
-</section>
-
-<section class="page-prova">
 
   <div class="content-block">
     <h2>🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
@@ -79,3 +77,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
       {% include brand-card.html name="MjamMjam" stars="★★★★★" link="https://www.mjammjam.de/" source="Veterinari e nutrizionisti (Giugno 2025)" comment="Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata." %}
       {% include brand-card.html name="Venandi Animal" stars="★★★★★" link="https://www.venandi-animal.de/" source="Veterinari e nutrizionisti (Giugno 2025)" comment="Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti." %}
       {% include brand-card.html name="Miglior Gatto Morando" stars="★★★☆☆" link="https://www.morando.it
+   </div>
+  </div>
+
+</section>
