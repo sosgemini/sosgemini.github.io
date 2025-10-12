@@ -55,9 +55,8 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 <div class="brand-card">
   <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
   <div class="rating-stars">★★★★★</div>
+  <p><div class="brand-comment"><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte, in particolare per le sue formule scientifiche destinate a diverse esigenze del gatto, dalla sterilizzazione alla gestione del peso.</p>
 </div>
-<div class="brand-comment">
-  <p><strong>Hill's Science Plan ⭐⭐⭐⭐⭐</strong> — <span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte, in particolare per le sue formule scientifiche destinate a diverse esigenze del gatto, dalla sterilizzazione alla gestione del peso.</p>
 </div>
 
 
