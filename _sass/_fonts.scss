@@ -1,4 +1,4 @@
-// 🇮🇹 _fonts.scss — definizione font globale e gerarchia tipografica
+// 🇮🇹 _fonts.scss — font globale e gerarchia tipografica
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
@@ -11,6 +11,7 @@
   --font-size-h3: 1rem;
   --font-size-p: 0.8rem;
   --font-size-li: 0.8rem;
+  --font-size-small: 0.75rem;
   --line-height-base: 1.6;
   --line-height-tight: 1.4;
 }
@@ -93,7 +94,78 @@ div {
   color: inherit;
 }
 
-// 🇮🇹 Tipografia nei contenitori con effetti speciali
+// 🇮🇹 Sezione content-block
+.content-block {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  margin: 1.5rem 0;
+
+  p {
+    font-size: var(--font-size-p);
+    line-height: var(--line-height-base);
+    margin-bottom: 1em;
+  }
+
+  strong, b {
+    font-weight: 900;
+  }
+
+  h3 {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    margin-bottom: 0.4em;
+  }
+
+  ul, ol {
+    font-size: var(--font-size-li);
+    margin-left: 1em;
+    margin-bottom: 1em;
+  }
+
+  li {
+    margin-bottom: 0.4em;
+  }
+
+  a {
+    font-size: var(--font-size-p);
+    color: #0055aa;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      color: #003366;
+    }
+  }
+}
+
+// 🇮🇹 Sezione brand-card
+.brand-card {
+  font-family: var(--font-base);
+  text-align: center;
+
+  .brand-name {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+
+  .rating-stars {
+    font-size: 1.6em;
+    color: #ffc107;
+    letter-spacing: 2px;
+  }
+
+  p {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-tight);
+    margin-bottom: 0.8rem;
+    color: #555;
+  }
+}
+
+// 🇮🇹 Sezione effetti-speciali
 .effetti-speciali {
   font-family: var(--font-base);
   color: inherit;
@@ -124,7 +196,6 @@ div {
   a {
     font-size: var(--font-size-p);
     color: #0055aa;
-    text-decoration: none;
 
     &:hover,
     &:focus {
