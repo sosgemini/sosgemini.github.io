@@ -76,8 +76,9 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
       {% include brand-card.html name="Felix Ghiottonerie" stars="★★★☆☆" link="https://www.purina.it/felix" source="Altroconsumo (Gennaio 2025)" comment="Molto gradita dai gatti. Buon compromesso tra qualità e prezzo, con ricette appetibili." %}
       {% include brand-card.html name="MjamMjam" stars="★★★★★" link="https://www.mjammjam.de/" source="Veterinari e nutrizionisti (Giugno 2025)" comment="Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata." %}
       {% include brand-card.html name="Venandi Animal" stars="★★★★★" link="https://www.venandi-animal.de/" source="Veterinari e nutrizionisti (Giugno 2025)" comment="Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti." %}
-      {% include brand-card.html name="Miglior Gatto Morando" stars="★★★☆☆" link="https://www.morando.it
-   </div>
-  </div>
+         {% include brand-card.html name="Miglior Gatto Morando" stars="★★★☆☆" link="https://www.morando.it" source="Analisi di mercato (2025)" comment="Ottimo rapporto qualità-prezzo. Nutrizione adeguata per la dieta quotidiana del gatto." %}
+    </div> <!-- chiusura brand-grid umido -->
+  </div> <!-- chiusura content-block umido -->
 
-</section>
+</section> <!-- chiusura sezione page-prova -->
+
