@@ -11,7 +11,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
   <div class="intro-flex">
     <div class="intro-text">
       <h1>Cibo per Gatti: Guida 2025</h1>
-      <p>Scopri le Marche — Secco e Umido — Migliori e Peggiori per la salute del tuo felino.</p>
+      <p>Scopri le marche migliori di SECCO e UMIDO per il benessere del tuo felino.</p>
     </div>
     <div class="intro-image">
       <img 
