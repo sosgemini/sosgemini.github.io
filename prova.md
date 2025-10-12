@@ -75,7 +75,7 @@ layout: default
       </div>
 
       <div class="brand-card">
-        <a class="brand-name" href="https://www.befortis.it/" target="_blank" rel="noopener">Be Fortis</a>
+        <a class="brand-name" href="[https://www.befortis.it](https://www.arcaplanet.it/s/?q=BeFortis+cat&sort=score_desc&page=0)/" target="_blank" rel="noopener">Be Fortis</a>
         <div class="rating-stars">★★★★★</div>
       </div>
 
