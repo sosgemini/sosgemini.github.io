@@ -6,17 +6,20 @@ layout: default
 
 <section class="page-prova">
 
-  <div class="hero-image">
-    <img 
-      src="/assets/img/1-Cibo-Gatti-Il-Migliore-800.webp"
-      srcset="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
-              /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
-      sizes="(max-width: 600px) 480px, 800px"
-      alt="Gatto con ciotola e cibo sano malsano da evitare assolutamente">
+  <div class="intro-flex">
+    <div class="intro-text">
+      <h1>Cibo per Gatti: Guida 2025</h1>
+      <p>Scopri le Marche — Secco e Umido — Migliori e Peggiori per la salute del tuo felino.</p>
+    </div>
+    <div class="intro-image">
+      <img 
+        src="/assets/img/1-Cibo-Gatti-Il-Migliore-800.webp"
+        srcset="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
+                /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
+        sizes="(max-width: 600px) 480px, 800px"
+        alt="Gatto con ciotola e cibo sano malsano da evitare assolutamente">
+    </div>
   </div>
-
-  <h1>Scopri le Migliori Marche e quelle da Evitare Cibo per Gatti 2025</h1>
-  <p>Scopri le Marche — Secco e Umido — Migliori e Peggiori per la salute del tuo felino.</p>
 
   <div class="content-block">
     <h2>Perché la Dieta del Gatto è Così Importante?</h2>
