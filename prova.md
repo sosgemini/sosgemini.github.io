@@ -146,7 +146,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
   </div> <!-- chiusura content-block umido -->
 
   <div class="content-block">
-    <h3 class="useful-tip">💡<stong>Consiglio utile:</stong>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
+    <h3 class="useful-tip">💡<stong>Consiglio utile:</stong> La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
   </div>
 
   <div class="content-block">
