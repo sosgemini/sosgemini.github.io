@@ -14,9 +14,9 @@ layout: default
 <div class="with-image">
   <div class="image-wrapper">
     <img 
-      src="./Immagini/1-Cibo-Gatti-Il-Migliore-800.webp"
-      srcset="./Img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
-              ./Img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
+      src="./img/1-Cibo-Gatti-Il-Migliore-800.webp"
+      srcset="./img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
+              ./img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
       sizes="(max-width: 600px) 480px, 800px"
       alt="Gatto con ciotola e cibo sano">
   </div>
