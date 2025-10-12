@@ -1,8 +1,3 @@
----
-title: Cibo per Gatti: Guida 2025
-permalink: /prova/
-layout: default
----
 
 <section class="page-prova">
 
