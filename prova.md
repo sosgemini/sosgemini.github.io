@@ -60,7 +60,7 @@ layout: default
       </div>
 
       <div class="brand-card">
-        <a class="brand-name" href="https://www.purina.it/pro-plan" target="_blank" rel="noopener">Purina Pro Plan</a>
+        <a class="brand-name" href="https://www.purina.it/" target="_blank" rel="noopener">Purina Pro Plan</a>
         <div class="rating-stars">★★★★☆</div>
       </div>
 
