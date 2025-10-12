@@ -1,8 +1,11 @@
 ---
 title: "Cibo per Gatti: Guida 2025"
+description: "Guida completa e aggiornata al cibo per gatti: migliori marche, ingredienti da evitare e consigli nutrizionali."
 permalink: /prova/
 layout: default
+image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 ---
+
 
 <section class="page-prova">
 
