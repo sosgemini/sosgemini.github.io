@@ -15,14 +15,10 @@ layout: default
   <div class="image-wrapper">
     <img 
       src="./Immagini/1-Cibo-Gatti-Il-Migliore-800.webp"
-      srcset="./Immagini/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
-              ./Immagini/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
+      srcset="./Img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
+              ./Img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
       sizes="(max-width: 600px) 480px, 800px"
       alt="Gatto con ciotola e cibo sano">
-  </div>
-  <div class="text-content">
-    <h2>Perché la Dieta del Gatto è Così Importante?</h2>
-    <p>...</p>
   </div>
 </div>
 
