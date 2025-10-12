@@ -55,25 +55,26 @@
   padding: $spacing-md;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center; // ✅ centra verticalmente
   align-items: center;
   transition: background 0.3s;
-  position: relative; // ✅ aggiunto
+  position: relative;
   z-index: 1;
 
   img {
-    width: 64px;
+    width: 80px; // ✅ ingrandita
     margin-bottom: $spacing-sm;
+    margin-top: $spacing-sm; // ✅ abbassata visivamente
   }
 
   p {
-    font-size: 1.1em;
+    font-size: 1.2em; // ✅ leggermente più grande
     font-weight: 600;
-    margin: 0;
+    margin: 4px 0 0 0; // ✅ alzata rispetto all’icona
   }
 
   .description {
-    position: absolute; // ✅ aggiunto
+    position: absolute;
     bottom: $spacing-md;
     left: $spacing-md;
     right: $spacing-md;
