@@ -1,8 +1,6 @@
 ---
-layout: default
 title: Pagina di Prova
 permalink: /prova/
-class: page-prova
 ---
 
 
