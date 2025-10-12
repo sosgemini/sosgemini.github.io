@@ -10,8 +10,6 @@ layout: default
   <h1>Cibo per Gatti: Guida 2025</h1>
   <p>Scopri le marche migliori e quelle da evitare per la salute del tuo felino.</p>
 
- <h1>Cibo per Gatti: Guida 2025</h1>
-<p>Scopri le marche migliori e quelle da evitare...</p>
 
 <div class="with-image">
   <div class="image-wrapper">
