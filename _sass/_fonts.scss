@@ -83,7 +83,7 @@ a {
 div {
   font-family: var(--font-base);
   font-size: var(--font-size-base);
-  line-height: 1.6;
+  line-height: 0.8;
   color: inherit;
 }
 
@@ -94,7 +94,7 @@ div {
 
   p {
     font-size: var(--font-size-p);
-    line-height: 1.6;
+    line-height: 0.8;
     margin-bottom: 1em;
   }
 
@@ -106,7 +106,7 @@ div {
 
   ul, ol {
     font-size: var(--font-size-li);
-    margin-left: 1.5em;
+    margin-left: 0.8em;
     margin-bottom: 1em;
   }
 
