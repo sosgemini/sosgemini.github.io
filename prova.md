@@ -5,26 +5,8 @@ permalink: /prova/
 class: page-prova
 ---
 
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cibo per Gatti: Marche Consigliate e da Evitare nel 2025</title>
-  <meta name="description" content="Scegliere il cibo giusto per il tuo gatto è fondamentale per la sua salute e longevità. Scopri le marche e i consigli aggiornati al 2025.">
-  <link rel="stylesheet" href="./stile.css">
-  <link rel="stylesheet" href="./consigli.css">
-</head>
-
-<body>
-  <header>
-    <div class="site-header">
-      <p class="main-title">PROGETTO GEMINI</p>
-    </div>
-  </header>
 
   <main class="post-container">
-    <a class="back-to-index" href="./index-amici.html">⬆️ Torna all’Indice Gatti</a>
 
     <div style="text-align: center; margin-top: 2rem;">
       <h1>Cibo per Gatti Salutare: Come Scegliere la Dieta Migliore</h1>
