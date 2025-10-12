@@ -6,7 +6,6 @@ layout: default
 image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 ---
 
-
 <section class="page-prova">
 
   <div class="intro-flex">
@@ -52,52 +51,49 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
     <h2>Le Migliori Marche di Cibo Secco (2025)</h2>
     <div class="brand-grid">
 
-<div class="brand-card">
-  <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
-  <div class="rating-stars">★★★★★</div>
-  <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte, in particolare per le sue formule scientifiche destinate a diverse esigenze del gatto, dalla sterilizzazione alla gestione del peso.</p>
-</div>
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
+        <div class="rating-stars">★★★★★</div>
+        <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte, in particolare per le sue formule scientifiche destinate a diverse esigenze del gatto, dalla sterilizzazione alla gestione del peso.</p>
+      </div>
 
-<div class="brand-card">
-  <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Royal Canin</a>
-  <div class="rating-stars">★★★★★</div>
-  <p><span class="source">Fonte: Raccomandazioni veterinarie (2025)</span> — Estremamente apprezzata dalla comunità veterinaria per le sue linee altamente specializzate. È la scelta preferita per gatti di razza o con specifiche problematiche di salute.</p>
-</div>
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Royal Canin</a>
+        <div class="rating-stars">★★★★★</div>
+        <p><span class="source">Fonte: Raccomandazioni veterinarie (2025)</span> — Estremamente apprezzata dalla comunità veterinaria per le sue linee altamente specializzate. È la scelta preferita per gatti di razza o con specifiche problematiche di salute.</p>
+      </div>
 
-<div class="brand-card">
-  <a class="brand-name" href="https://www.purina.it/" target="_blank" rel="noopener">Purina Pro Plan</a>
-  <div class="rating-stars">★★★★☆</div>
-  <p><span class="source">Fonte: Esperti di nutrizione animale (2025)</span> — Un'opzione di alta gamma con formulazioni innovative. Esperti ne sottolineano l'efficacia nel supporto del sistema immunitario e nella salute del tratto urinario grazie a ingredienti mirati.</p>
-</div>
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.purina.it/" target="_blank" rel="noopener">Purina Pro Plan</a>
+        <div class="rating-stars">★★★★☆</div>
+        <p><span class="source">Fonte: Esperti di nutrizione animale (2025)</span> — Un'opzione di alta gamma con formulazioni innovative. Esperti ne sottolineano l'efficacia nel supporto del sistema immunitario e nella salute del tratto urinario grazie a ingredienti mirati.</p>
+      </div>
 
-<div class="brand-card">
-  <a class="brand-name" href="https://www.farmina.com/it/" target="_blank" rel="noopener">Farmina N&D</a>
-  <div class="rating-stars">★★★★★</div>
-  <p><span class="source">Fonte: Test indipendenti (Marzo 2025)</span> — Popolare tra i proprietari che cercano un'alimentazione "senza cereali". Recensioni approfondite evidenziano l'uso di ingredienti freschi e l'alto contenuto di proteine animali.</p>
-</div>
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.farmina.com/it/" target="_blank" rel="noopener">Farmina N&D</a>
+        <div class="rating-stars">★★★★★</div>
+        <p><span class="source">Fonte: Test indipendenti (Marzo 2025)</span> — Popolare tra i proprietari che cercano un'alimentazione "senza cereali". Recensioni approfondite evidenziano l'uso di ingredienti freschi e l'alto contenuto di proteine animali.</p>
+      </div>
 
-<div class="brand-card">
-  <a class="brand-name" href="https://www.orijen.ca/" target="_blank" rel="noopener">Orijen</a>
-  <div class="rating-stars">★★★★★</div>
-  <p><span class="source">Fonte: Nutrizionisti felini (2025)</span> — Sinonimo di qualità super-premium. Con la sua filosofia "Biologically Appropriate", utilizza un'alta percentuale di carne fresca e ingredienti naturali.</p>
-</div>
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.orijen.ca/" target="_blank" rel="noopener">Orijen</a>
+        <div class="rating-stars">★★★★★</div>
+        <p><span class="source">Fonte: Nutrizionisti felini (2025)</span> — Sinonimo di qualità super-premium. Con la sua filosofia "Biologically Appropriate", utilizza un'alta percentuale di carne fresca e ingredienti naturali.</p>
+      </div>
 
-<div class="brand-card">
-  <a class="brand-name" href="https://www.arcaplanet.it/s/?q=BeFortis+cat&sort=score_desc&page=0" target="_blank" rel="noopener">Be Fortis</a>
-  <div class="rating-stars">★★★★★</div>
-  <p><span class="source">Fonte: Analisi nutrizionali (2025)</span> — Brand italiano specializzato in alimenti "funzionali" e monoproteici. Particolarmente apprezzato per l'alta qualità degli ingredienti e per le formulazioni mirate al mantenimento del benessere generale.</p>
-</div>
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.arcaplanet.it/s/?q=BeFortis+cat&sort=score_desc&page=0" target="_blank" rel="noopener">Be Fortis</a>
+        <div class="rating-stars">★★★★★</div>
+        <p><span class="source">Fonte: Analisi nutrizionali (2025)</span> — Brand italiano specializzato in alimenti "funzionali" e monoproteici. Particolarmente apprezzato per l'alta qualità degli ingredienti e per le formulazioni mirate al mantenimento del benessere generale.</p>
+      </div>
 
-<div class="brand-card">
-  <a class="brand-name" href="https://www.ownat.com/it/" target="_blank" rel="noopener">Ownat</a>
-  <div class="rating-stars">★★★★☆</div>
-  <p><span class="source">Fonte: Analisi di mercato (Aprile 2025)</span> — Considerata una delle migliori opzioni per rapporto qualità-prezzo. Analisi recenti mettono in luce la sua formula "grain-free" e l'utilizzo di ingredienti naturali.</p>
-</div>
-
-
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.ownat.com/it/" target="_blank" rel="noopener">Ownat</a>
+        <div class="rating-stars">★★★★☆</div>
+        <p><span class="source">Fonte: Analisi di mercato (Aprile 2025)</span> — Considerata una delle migliori opzioni per rapporto qualità-prezzo. Analisi recenti mettono in luce la sua formula "grain-free" e l'utilizzo di ingredienti naturali.</p>
+      </div>
 
     </div>
   </div>
 
 </section>
-
