@@ -6,8 +6,8 @@ layout: default
 
 <section class="page-prova">
 
-  <h1>Cibo per Gatti: Guida 2025</h1>
-  <p>Scopri le marche migliori e quelle da evitare per la salute del tuo felino.</p>
+  <h1>Scopri le Migliori Marche e quelle da Evitare Cibo per Gatti 2025 </h1>
+  <p>Scopri le Marche - Secco e Umido - Migliori e Peggiori per la salute del tuo felino.</p>
 
 
 <div class="with-image">
