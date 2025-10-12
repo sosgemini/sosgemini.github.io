@@ -46,7 +46,7 @@
       }
 
       &:active {
-        font-size: 0.95rem; // 🔒 blocca sobbalzo
+        font-size: 0.95rem;
         font-weight: 500;
       }
     }
@@ -111,5 +111,24 @@
     &:hover > ul {
       display: block;
     }
+  }
+}
+
+/* === FONT PIÙ GRANDE SOLO IN INDEX === */
+body.index {
+  font-size: 1.05rem;
+
+  .main-nav,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+
+  .nav-links li a:active {
+    font-size: 1rem;
+  }
+
+  .nav-links li ul li a,
+  .nav-links li ul li ul li a {
+    font-size: 0.9rem;
   }
 }
