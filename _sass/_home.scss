@@ -1,0 +1,87 @@
+/* === 🧱 CONTENITORE CENTRALE HOMEPAGE === */
+.page-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: $spacing-lg $spacing-md;
+  background-color: rgba(255, 255, 255, 0.92);
+  box-shadow: $shadow-light;
+  border-radius: $radius-lg;
+  position: relative;
+  z-index: 1;
+}
+
+/* === 📝 INTRODUZIONE === */
+.intro {
+  margin-bottom: $spacing-xl;
+  padding: 0 $spacing-md;
+}
+
+.main-title-centered {
+  font-size: 2em;
+  font-weight: 600;
+  color: $text-color;
+  text-align: center;
+  margin-bottom: $spacing-md;
+}
+
+.small-title {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: $muted-color;
+  text-align: center;
+  margin-bottom: $spacing-lg;
+  line-height: 1.5;
+}
+
+/* === 🔲 GRIGLIA QUADRATI === */
+.square-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $spacing-md;
+  margin: $spacing-lg auto;
+  max-width: 1200px;
+  padding: 0 $spacing-md;
+}
+
+.content-square {
+  background-color: #3a3a3a;
+  color: white;
+  width: 200px;
+  height: 200px;
+  border-radius: $radius-lg;
+  box-shadow: $shadow-medium;
+  text-align: center;
+  padding: $spacing-md;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s;
+
+  img {
+    width: 64px;
+    margin-bottom: $spacing-sm;
+  }
+
+  p {
+    font-size: 1.1em;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .description {
+    font-size: 0.85em;
+    line-height: 1.4;
+    display: none;
+    margin-top: $spacing-sm;
+  }
+
+  &:hover {
+    background-color: #444;
+
+    .description {
+      display: block;
+    }
+  }
+}
