@@ -97,3 +97,64 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
   </div>
 
 </section>
+
+<div class="content-block">
+  <h2 class="section-title-gradient">🍽️ Cibo Umido per Gatti: Le Marche più Consigliate nel 2025</h2>
+  <p>Il cibo umido è essenziale per l'idratazione e la salute urinaria del gatto. Le scelte del 2025 si concentrano su prodotti con alta percentuale di carne e ingredienti privi di additivi. Ecco una panoramica delle marche più raccomandate.</p>
+
+  <div class="brand-grid">
+
+    <div class="brand-card">
+      <a class="brand-name" href="https://www.almonature.com/" target="_blank" rel="noopener">Almo Nature</a>
+      <div class="rating-stars">★★★★★</div>
+      <p><span class="source">Fonte: Analisi di settore (Febbraio 2025)</span> — Leader nel segmento del cibo "human grade". La linea "HFC" è particolarmente apprezzata per la sua purezza e l'assenza di additivi.</p>
+    </div>
+
+    <div class="brand-card">
+      <a class="brand-name" href="https://www.schesir.com/" target="_blank" rel="noopener">Schesir</a>
+      <div class="rating-stars">★★★★☆</div>
+      <p><span class="source">Fonte: Test nutrizionali (2025)</span> — Rinomata per l'alta qualità e la preparazione a vapore. Esperti ne esaltano l'appetibilità e la selezione di materie prime come tonno e pollo.</p>
+    </div>
+
+    <div class="brand-card">
+      <a class="brand-name" href="https://www.trainer.eu/" target="_blank" rel="noopener">Natural Trainer</a>
+      <div class="rating-stars">★★★★☆</div>
+      <p><span class="source">Fonte: Test indipendenti (Marzo 2025)</span> — Unisce ingredienti naturali a un'attenzione particolare per le esigenze specifiche. Test ne confermano l'efficacia per gatti con digestione sensibile o sterilizzati.</p>
+    </div>
+
+    <div class="brand-card">
+      <a class="brand-name" href="https://www.purina.it/felix" target="_blank" rel="noopener">Felix Ghiottonerie</a>
+      <div class="rating-stars">★★★☆☆</div>
+      <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un'opzione di successo per l'ottimo gradimento da parte dei gatti. I test di appetibilità la identificano come una delle scelte preferite dai felini, unendo buona qualità e convenienza.</p>
+    </div>
+
+    <div class="brand-card">
+      <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
+      <div class="rating-stars">★★★★★</div>
+      <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca di nicchia ma di altissima qualità. Raccomandata per l'elevato contenuto di carne e l'assenza di cereali.</p>
+    </div>
+
+    <div class="brand-card">
+      <a class="brand-name" href="https://www.venandi-animal.de/" target="_blank" rel="noopener">Venandi Animal</a>
+      <div class="rating-stars">★★★★★</div>
+      <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti.</p>
+    </div>
+
+    <div class="brand-card">
+      <a class="brand-name" href="https://www.morando.it/" target="_blank" rel="noopener">Miglior Gatto Morando</a>
+      <div class="rating-stars">★★★☆☆</div>
+      <p><span class="source">Fonte: Analisi di mercato (2025)</span> — Un'ottima scelta per chi cerca un buon rapporto qualità-prezzo. Le analisi la indicano come una delle migliori opzioni economiche, pur garantendo un profilo nutrizionale adeguato per la dieta quotidiana del gatto.</p>
+    </div>
+
+  </div>
+</div>
+
+<div class="content-block">
+  <h3 class="useful-tip">Consiglio utile:</h3>
+  <p>Ricorda che la dieta del gatto dovrebbe includere sia cibo secco che umido per garantire idratazione e salute ottimale.</p>
+</div>
+
+<div class="content-block">
+  <p><strong>💡 Consiglio finale:</strong> Scegli un alimento completo e bilanciato, con ingredienti chiari e di origine controllata. La salute del tuo gatto parte dalla ciotola.</p>
+</div>
+
