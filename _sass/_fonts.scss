@@ -9,8 +9,8 @@
   --font-size-h1: 2.4rem;
   --font-size-h2: 1.8rem;
   --font-size-h3: 1rem;
-  --font-size-p: 0.80rem;
-  --font-size-li: 0.80rem;
+  --font-size-p: 0.8rem;
+  --font-size-li: 0.8rem;
 }
 
 // 🇮🇹 Applicazione globale
@@ -63,4 +63,70 @@ li {
 
 strong, b {
   font-weight: 900;
+}
+
+// 🇮🇹 Link
+a {
+  font-family: var(--font-base);
+  font-size: var(--font-size-p);
+  color: #0055aa;
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+    color: #003366;
+  }
+}
+
+// 🇮🇹 Contenitori generici
+div {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: inherit;
+}
+
+// 🇮🇹 Tipografia nei contenitori con effetti speciali
+.effetti-speciali {
+  font-family: var(--font-base);
+  color: inherit;
+
+  p {
+    font-size: var(--font-size-p);
+    line-height: 1.6;
+    margin-bottom: 1em;
+  }
+
+  h3 {
+    font-size: var(--font-size-h3);
+    font-weight: 700;
+    margin-bottom: 0.3em;
+  }
+
+  ul, ol {
+    font-size: var(--font-size-li);
+    margin-left: 1.5em;
+    margin-bottom: 1em;
+  }
+
+  li {
+    margin-bottom: 0.4em;
+  }
+
+  a {
+    font-size: var(--font-size-p);
+    color: #0055aa;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+      color: #003366;
+    }
+  }
+
+  strong, b {
+    font-weight: 900;
+  }
 }
