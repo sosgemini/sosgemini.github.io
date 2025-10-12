@@ -51,110 +51,32 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
     <h2>Le Migliori Marche di Cibo Secco (2025)</h2>
     <div class="brand-grid">
 
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte, in particolare per le sue formule scientifiche destinate a diverse esigenze del gatto, dalla sterilizzazione alla gestione del peso.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Royal Canin</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Raccomandazioni veterinarie (2025)</span> — Estremamente apprezzata dalla comunità veterinaria per le sue linee altamente specializzate. È la scelta preferita per gatti di razza o con specifiche problematiche di salute.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.purina.it/" target="_blank" rel="noopener">Purina Pro Plan</a>
-        <div class="rating-stars">★★★★☆</div>
-        <p><span class="source">Fonte: Esperti di nutrizione animale (2025)</span> — Un'opzione di alta gamma con formulazioni innovative. Esperti ne sottolineano l'efficacia nel supporto del sistema immunitario e nella salute del tratto urinario grazie a ingredienti mirati.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.farmina.com/it/" target="_blank" rel="noopener">Farmina N&D</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Test indipendenti (Marzo 2025)</span> — Popolare tra i proprietari che cercano un'alimentazione "senza cereali". Recensioni approfondite evidenziano l'uso di ingredienti freschi e l'alto contenuto di proteine animali.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.orijen.ca/" target="_blank" rel="noopener">Orijen</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Nutrizionisti felini (2025)</span> — Sinonimo di qualità super-premium. Con la sua filosofia "Biologically Appropriate", utilizza un'alta percentuale di carne fresca e ingredienti naturali.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.arcaplanet.it/s/?q=BeFortis+cat&sort=score_desc&page=0" target="_blank" rel="noopener">Be Fortis</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Analisi nutrizionali (2025)</span> — Brand italiano specializzato in alimenti "funzionali" e monoproteici. Particolarmente apprezzato per l'alta qualità degli ingredienti e per le formulazioni mirate al mantenimento del benessere generale.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.ownat.com/it/" target="_blank" rel="noopener">Ownat</a>
-        <div class="rating-stars">★★★★☆</div>
-        <p><span class="source">Fonte: Analisi di mercato (Aprile 2025)</span> — Considerata una delle migliori opzioni per rapporto qualità-prezzo. Analisi recenti mettono in luce la sua formula "grain-free" e l'utilizzo di ingredienti naturali.</p>
-      </div>
+      <!-- Secco -->
+      {% include brand-card.html name="Hill's Science Plan" stars="★★★★★" link="https://www.hillspet.it/" source="Altroconsumo (Gennaio 2025)" comment="Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte, in particolare per le sue formule scientifiche destinate a diverse esigenze del gatto, dalla sterilizzazione alla gestione del peso." %}
+      {% include brand-card.html name="Royal Canin" stars="★★★★★" link="https://www.royalcanin.com/it" source="Raccomandazioni veterinarie (2025)" comment="Estremamente apprezzata dalla comunità veterinaria per le sue linee altamente specializzate. È la scelta preferita per gatti di razza o con specifiche problematiche di salute." %}
+      {% include brand-card.html name="Purina Pro Plan" stars="★★★★☆" link="https://www.purina.it/" source="Esperti di nutrizione animale (2025)" comment="Un'opzione di alta gamma con formulazioni innovative. Esperti ne sottolineano l'efficacia nel supporto del sistema immunitario e nella salute del tratto urinario grazie a ingredienti mirati." %}
+      {% include brand-card.html name="Farmina N&D" stars="★★★★★" link="https://www.farmina.com/it/" source="Test indipendenti (Marzo 2025)" comment="Popolare tra i proprietari che cercano un'alimentazione 'senza cereali'. Recensioni approfondite evidenziano l'uso di ingredienti freschi e l'alto contenuto di proteine animali." %}
+      {% include brand-card.html name="Orijen" stars="★★★★★" link="https://www.orijen.ca/" source="Nutrizionisti felini (2025)" comment="Sinonimo di qualità super-premium. Con la sua filosofia 'Biologically Appropriate', utilizza un'alta percentuale di carne fresca e ingredienti naturali." %}
+      {% include brand-card.html name="Be Fortis" stars="★★★★★" link="https://www.arcaplanet.it/s/?q=BeFortis+cat&sort=score_desc&page=0" source="Analisi nutrizionali (2025)" comment="Brand italiano specializzato in alimenti 'funzionali' e monoproteici. Particolarmente apprezzato per l'alta qualità degli ingredienti e per le formulazioni mirate al mantenimento del benessere generale." %}
+      {% include brand-card.html name="Ownat" stars="★★★★☆" link="https://www.ownat.com/it/" source="Analisi di mercato (Aprile 2025)" comment="Considerata una delle migliori opzioni per rapporto qualità-prezzo. Analisi recenti mettono in luce la sua formula 'grain-free' e l'utilizzo di ingredienti naturali." %}
 
     </div>
   </div>
 
 </section>
 
-<div class="content-block">
-  <h2 class="section-title-gradient">🍽️ Cibo Umido per Gatti: Le Marche più Consigliate nel 2025</h2>
-  <p>Il cibo umido è essenziale per l'idratazione e la salute urinaria del gatto. Le scelte del 2025 si concentrano su prodotti con alta percentuale di carne e ingredienti privi di additivi. Ecco una panoramica delle marche più raccomandate.</p>
+<section class="page-prova">
 
-  <div class="brand-grid">
+  <div class="content-block">
+    <h2 class="section-title-gradient">🍽️ Cibo Umido per Gatti: Le Marche più Consigliate nel 2025</h2>
+    <p>Il cibo umido è essenziale per l'idratazione e la salute urinaria del gatto. Le scelte del 2025 si concentrano su prodotti con alta percentuale di carne e ingredienti privi di additivi. Ecco una panoramica delle marche più raccomandate.</p>
 
-    <div class="brand-card">
-      <a class="brand-name" href="https://www.almonature.com/" target="_blank" rel="noopener">Almo Nature</a>
-      <div class="rating-stars">★★★★★</div>
-      <p><span class="source">Fonte: Analisi di settore (Febbraio 2025)</span> — Leader nel segmento del cibo "human grade". La linea "HFC" è particolarmente apprezzata per la sua purezza e l'assenza di additivi.</p>
-    </div>
+    <div class="brand-grid">
 
-    <div class="brand-card">
-      <a class="brand-name" href="https://www.schesir.com/" target="_blank" rel="noopener">Schesir</a>
-      <div class="rating-stars">★★★★☆</div>
-      <p><span class="source">Fonte: Test nutrizionali (2025)</span> — Rinomata per l'alta qualità e la preparazione a vapore. Esperti ne esaltano l'appetibilità e la selezione di materie prime come tonno e pollo.</p>
-    </div>
-
-    <div class="brand-card">
-      <a class="brand-name" href="https://www.trainer.eu/" target="_blank" rel="noopener">Natural Trainer</a>
-      <div class="rating-stars">★★★★☆</div>
-      <p><span class="source">Fonte: Test indipendenti (Marzo 2025)</span> — Unisce ingredienti naturali a un'attenzione particolare per le esigenze specifiche. Test ne confermano l'efficacia per gatti con digestione sensibile o sterilizzati.</p>
-    </div>
-
-    <div class="brand-card">
-      <a class="brand-name" href="https://www.purina.it/felix" target="_blank" rel="noopener">Felix Ghiottonerie</a>
-      <div class="rating-stars">★★★☆☆</div>
-      <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un'opzione di successo per l'ottimo gradimento da parte dei gatti. I test di appetibilità la identificano come una delle scelte preferite dai felini, unendo buona qualità e convenienza.</p>
-    </div>
-
-    <div class="brand-card">
-      <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
-      <div class="rating-stars">★★★★★</div>
-      <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca di nicchia ma di altissima qualità. Raccomandata per l'elevato contenuto di carne e l'assenza di cereali.</p>
-    </div>
-
-    <div class="brand-card">
-      <a class="brand-name" href="https://www.venandi-animal.de/" target="_blank" rel="noopener">Venandi Animal</a>
-      <div class="rating-stars">★★★★★</div>
-      <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti.</p>
-    </div>
-
-    <div class="brand-card">
-      <a class="brand-name" href="https://www.morando.it/" target="_blank" rel="noopener">Miglior Gatto Morando</a>
-      <div class="rating-stars">★★★☆☆</div>
-      <p><span class="source">Fonte: Analisi di mercato (2025)</span> — Un'ottima scelta per chi cerca un buon rapporto qualità-prezzo. Le analisi la indicano come una delle migliori opzioni economiche, pur garantendo un profilo nutrizionale adeguato per la dieta quotidiana del gatto.</p>
-    </div>
-
-  </div>
-</div>
-
-<div class="content-block">
-  <h3 class="useful-tip">Consiglio utile:</h3>
-  <p>Ricorda che la dieta del gatto dovrebbe includere sia cibo secco che umido per garantire idratazione e salute ottimale.</p>
-</div>
-
-<div class="content-block">
-  <p><strong>💡 Consiglio finale:</strong> Scegli un alimento completo e bilanciato, con ingredienti chiari e di origine controllata. La salute del tuo gatto parte dalla ciotola.</p>
-</div>
-
+      <!-- Umido -->
+      {% include brand-card.html name="Almo Nature" stars="★★★★★" link="https://www.almonature.com/" source="Analisi di settore (Febbraio 2025)" comment="Leader nel segmento del cibo 'human grade'. La linea 'HFC' è particolarmente apprezzata per la sua purezza e l'assenza di additivi." %}
+      {% include brand-card.html name="Schesir" stars="★★★★☆" link="https://www.schesir.com/" source="Test nutrizionali (2025)" comment="Rinomata per l'alta qualità e la preparazione a vapore. Esperti ne esaltano l'appetibilità e la selezione di materie prime come tonno e pollo." %}
+      {% include brand-card.html name="Natural Trainer" stars="★★★★☆" link="https://www.trainer.eu/" source="Test indipendenti (Marzo 2025)" comment="Unisce ingredienti naturali a un'attenzione particolare per le esigenze specifiche. Test ne confermano l'efficacia per gatti con digestione sensibile o sterilizzati." %}
+      {% include brand-card.html name="Felix Ghiottonerie" stars="★★★☆☆" link="https://www.purina.it/felix" source="Altroconsumo (Gennaio 2025)" comment="Un'opzione di successo per l'ottimo gradimento da parte dei gatti. I test di appetibilità la identificano come una delle scelte preferite dai felini, unendo buona qualità e convenienza." %}
+      {% include brand-card.html name="MjamMjam" stars="★★★★★" link="https://www.mjammjam.de/" source="Veterinari e nutrizionisti (Giugno 2025)" comment="Marca di nicchia ma di altissima qualità. Raccomandata per l'elevato contenuto di carne e l'assenza di cereali." %}
+      {% include brand-card.html name="Venandi Animal" stars="★★★★★" link="https://www.venandi-animal.de/" source="Veterinari e nutrizionisti (Giugno 2025
