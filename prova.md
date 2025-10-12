@@ -48,36 +48,42 @@ layout: default
   <div class="content-block">
     <h2>Le Migliori Marche di Cibo Secco (2025)</h2>
     <div class="brand-grid">
-      
-      <div class="brand-card">
-  <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
-  <div class="rating-stars">★★★★★</div>
-</div>
 
       <div class="brand-card">
-        <span class="brand-name">Royal Canin</span>
+        <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
         <div class="rating-stars">★★★★★</div>
       </div>
+
       <div class="brand-card">
-        <span class="brand-name">Purina Pro Plan</span>
+        <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Royal Canin</a>
+        <div class="rating-stars">★★★★★</div>
+      </div>
+
+      <div class="brand-card">
+        <a class="brand-name" href="https://www.purina.it/pro-plan" target="_blank" rel="noopener">Purina Pro Plan</a>
         <div class="rating-stars">★★★★☆</div>
       </div>
+
       <div class="brand-card">
-        <span class="brand-name">Farmina N&D</span>
+        <a class="brand-name" href="https://www.farmina.com/it/" target="_blank" rel="noopener">Farmina N&D</a>
         <div class="rating-stars">★★★★★</div>
       </div>
+
       <div class="brand-card">
-        <span class="brand-name">Orijen</span>
+        <a class="brand-name" href="https://www.orijen.ca/" target="_blank" rel="noopener">Orijen</a>
         <div class="rating-stars">★★★★★</div>
       </div>
+
       <div class="brand-card">
-        <span class="brand-name">Be Fortis</span>
+        <a class="brand-name" href="https://www.befortis.it/" target="_blank" rel="noopener">Be Fortis</a>
         <div class="rating-stars">★★★★★</div>
       </div>
+
       <div class="brand-card">
-        <span class="brand-name">Ownat</span>
+        <a class="brand-name" href="https://www.ownat.com/it/" target="_blank" rel="noopener">Ownat</a>
         <div class="rating-stars">★★★★☆</div>
       </div>
+
     </div>
   </div>
 
