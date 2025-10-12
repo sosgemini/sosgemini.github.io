@@ -2,7 +2,7 @@
   background-color: #2c2c2c;
   width: 100%;
   margin: 0;
-  padding: 8px 0;
+  padding: 6px 0;
 }
 
 .nav-inner {
@@ -24,48 +24,15 @@
 
     a {
       color: white;
-      font-size: 1em;
+      font-size: 0.95em;
       font-weight: 500;
       text-decoration: none;
-      padding: 5px 14px;
+      padding: 4px 12px;
       display: block;
 
       &:hover {
         color: $primary-color;
       }
-    }
-
-    ul {
-      list-style: none;
-      display: none;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      background-color: #3a3a3a;
-      min-width: 180px;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-      padding: 8px 0;
-      z-index: 10;
-
-      li a {
-        color: white;
-        font-weight: 500;
-        padding: 10px 16px;
-        white-space: nowrap;
-
-        &:hover {
-          background-color: #505050;
-        }
-      }
-
-      ul {
-        top: 0;
-        left: 100%;
-      }
-    }
-
-    &:hover > ul {
-      display: block;
     }
   }
 }
