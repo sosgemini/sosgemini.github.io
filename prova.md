@@ -44,8 +44,8 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
     <ul>
       <li><strong>Cerca:</strong> nomi chiari come “pollo disidratato” o “salmone fresco”.</li>
       <li><strong>Evita:</strong> sottoprodotti vaghi, troppi cereali, zuccheri e additivi artificiali.</li>
+      <li><strong>Scegli:</strong> alimenti con ingredienti chiari e di origine controllata.</li>
     </ul>
-    <p class="useful-tip">✅ Scegli alimenti con ingredienti chiari e di origine controllata.</p>
   </div>
 
   <div class="content-block">
