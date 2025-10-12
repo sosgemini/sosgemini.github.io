@@ -89,44 +89,44 @@
   }
 
   .brand-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-
-  .brand-card {
-    background-color: #ffffff;
-    padding: 1.2rem;
-    border-radius: 10px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
-    text-align: center;
-    transition: transform 0.2s ease;
-
-    &:hover {
-      transform: translateY(-4px);
-    }
-
-.brand-name {
-  display: block;
-  font-size: 1.3em;
-  font-weight: 700;
-  color: #222;
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-
-  &:hover,
-  &:focus,
-  &:active {
-    text-decoration: none;
-    outline: none;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
 }
 
-    .rating-stars {
-      font-size: 1.6em;
-      color: #ffc107;
-      letter-spacing: 2px;
+.brand-card {
+  background-color: #ffffff;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  text-align: center;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-4px);
+  }
+
+  .brand-name {
+    display: block;
+    font-size: 1.3em;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
+      text-decoration: none;
+      color: #222;
     }
+  }
+
+  .rating-stars {
+    font-size: 1.6em;
+    color: #ffc107;
+    letter-spacing: 2px;
   }
 }
