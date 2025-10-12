@@ -6,25 +6,21 @@ layout: default
 
 <section class="page-prova">
 
-  <h1>Scopri le Migliori Marche e quelle da Evitare Cibo per Gatti 2025 </h1>
-  <p>Scopri le Marche - Secco e Umido - Migliori e Peggiori per la salute del tuo felino.</p>
-
-
-<div class="with-image">
-  <div class="image-wrapper">
+  <div class="hero-image">
     <img 
-      src="./img/1-Cibo-Gatti-Il-Migliore-800.webp"
-      srcset="./img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
-              ./img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
+      src="/assets/img/1-Cibo-Gatti-Il-Migliore-800.webp"
+      srcset="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
+              /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
       sizes="(max-width: 600px) 480px, 800px"
       alt="Gatto con ciotola e cibo sano malsano da evitare assolutamente">
   </div>
-</div>
 
-    <div class="text-content">
-      <h2>Perché la Dieta del Gatto è Così Importante?</h2>
-      <p>Una dieta bilanciata e di alta qualità previene problemi di peso, malattie urinarie e intestinali, e contribuisce a un pelo lucido e a un'energia duratura.</p>
-    </div>
+  <h1>Scopri le Migliori Marche e quelle da Evitare Cibo per Gatti 2025</h1>
+  <p>Scopri le Marche — Secco e Umido — Migliori e Peggiori per la salute del tuo felino.</p>
+
+  <div class="content-block">
+    <h2>Perché la Dieta del Gatto è Così Importante?</h2>
+    <p>Una dieta bilanciata e di alta qualità previene problemi di peso, malattie urinarie e intestinali, e contribuisce a un pelo lucido e a un'energia duratura.</p>
   </div>
 
   <div class="content-block">
@@ -51,31 +47,31 @@ layout: default
     <div class="brand-grid">
       <div class="brand-card">
         <span class="brand-name">Hill's Science Plan</span>
-        <div class="rating-stars"><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span></div>
+        <div class="rating-stars">★★★★★</div>
       </div>
       <div class="brand-card">
         <span class="brand-name">Royal Canin</span>
-        <div class="rating-stars"><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span></div>
+        <div class="rating-stars">★★★★★</div>
       </div>
       <div class="brand-card">
         <span class="brand-name">Purina Pro Plan</span>
-        <div class="rating-stars"><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star empty">★</span></div>
+        <div class="rating-stars">★★★★☆</div>
       </div>
       <div class="brand-card">
         <span class="brand-name">Farmina N&D</span>
-        <div class="rating-stars"><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span></div>
+        <div class="rating-stars">★★★★★</div>
       </div>
       <div class="brand-card">
         <span class="brand-name">Orijen</span>
-        <div class="rating-stars"><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span></div>
+        <div class="rating-stars">★★★★★</div>
       </div>
       <div class="brand-card">
         <span class="brand-name">Be Fortis</span>
-        <div class="rating-stars"><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span></div>
+        <div class="rating-stars">★★★★★</div>
       </div>
       <div class="brand-card">
         <span class="brand-name">Ownat</span>
-        <div class="rating-stars"><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star full">★</span><span class="star empty">★</span></div>
+        <div class="rating-stars">★★★★☆</div>
       </div>
     </div>
   </div>
