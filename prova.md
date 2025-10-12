@@ -48,7 +48,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
   </div>
 
   <div class="content-block">
-    <h2>Le Migliori Marche di Cibo Secco (2025)</h2>
+    <h2>🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="brand-grid">
 
       <!-- Cibo Secco -->
@@ -68,7 +68,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 <section class="page-prova">
 
   <div class="content-block">
-    <h2 class="section-title-gradient">🍽️ Cibo Umido per Gatti: Le Marche più Consigliate nel 2025</h2>
+    <h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <p>Il cibo umido è essenziale per l'idratazione e la salute urinaria del gatto. Le scelte del 2025 si concentrano su prodotti con alta percentuale di carne e ingredienti privi di additivi.</p>
 
     <div class="brand-grid">
