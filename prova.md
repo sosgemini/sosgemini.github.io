@@ -151,8 +151,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
   </div>
 
   <div class="content-block">
-    <h3 class="useful-tip"><stong>💡Consiglio finale:</stong>stong>
-    <p> Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine controllata. La salute del tuo gatto parte dalla ciotola.</p></h3>
+    <h3 class="useful-tip"><stong>💡Consiglio finale:</stong> <p> Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine controllata. La salute del tuo gatto parte dalla ciotola.</p></h3>
   </div>
 
 </section>
