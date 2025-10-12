@@ -124,7 +124,9 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
         <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Appetibile e conveniente, molto gradita dai gatti.</p>
       </div>
 
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
-        <div class="rating-stars">★★★★★</div>
-        <p
+<div class="brand-card">
+  <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
+  <div class="rating-stars">★★★★★</div>
+  <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata.</p>
+</div>
+
