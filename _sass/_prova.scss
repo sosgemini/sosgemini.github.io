@@ -26,6 +26,11 @@
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
   }
 
+  // Spazio extra sopra il titolo "CIBO UMIDO"
+  .content-block:nth-of-type(6) {
+    margin-top: 3rem;
+  }
+
   p {
     font-size: 1.15em;
     line-height: 1.6;
@@ -130,4 +135,9 @@
       letter-spacing: 2px;
     }
   }
+}
+
+// Margine extra sotto i titoli con sfondo gradiente
+.section-title-gradient {
+  margin-bottom: 2.5rem;
 }
