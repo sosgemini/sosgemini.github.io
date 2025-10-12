@@ -10,15 +10,24 @@ layout: default
   <h1>Cibo per Gatti: Guida 2025</h1>
   <p>Scopri le marche migliori e quelle da evitare per la salute del tuo felino.</p>
 
-  <div class="with-image">
-    <div class="image-wrapper">
-      <img 
-        src="./Immagini/1-Cibo-Gatti-Il-Migliore-800.webp"
-        srcset="./Immagini/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
-                ./Immagini/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
-        sizes="(max-width: 600px) 480px, 800px"
-        alt="Gatto con ciotola e cibo sano">
-    </div>
+ <h1>Cibo per Gatti: Guida 2025</h1>
+<p>Scopri le marche migliori e quelle da evitare...</p>
+
+<div class="with-image">
+  <div class="image-wrapper">
+    <img 
+      src="./Immagini/1-Cibo-Gatti-Il-Migliore-800.webp"
+      srcset="./Immagini/1-Cibo-Gatti-Il-Migliore-480.webp 480w,
+              ./Immagini/1-Cibo-Gatti-Il-Migliore-800.webp 800w"
+      sizes="(max-width: 600px) 480px, 800px"
+      alt="Gatto con ciotola e cibo sano">
+  </div>
+  <div class="text-content">
+    <h2>Perché la Dieta del Gatto è Così Importante?</h2>
+    <p>...</p>
+  </div>
+</div>
+
     <div class="text-content">
       <h2>Perché la Dieta del Gatto è Così Importante?</h2>
       <p>Una dieta bilanciata e di alta qualità previene problemi di peso, malattie urinarie e intestinali, e contribuisce a un pelo lucido e a un'energia duratura.</p>
