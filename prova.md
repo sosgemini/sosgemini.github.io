@@ -68,9 +68,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 <section class="page-prova">
 
   <div class="content-block">
-    <h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
-    <p>Il cibo umido è essenziale per l'idratazione e la salute urinaria del gatto. Le scelte del 2025 si concentrano su prodotti con alta percentuale di carne e ingredienti privi di additivi.</p>
-
+    <h2>🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="brand-grid">
 
       <!-- Cibo Umido -->
