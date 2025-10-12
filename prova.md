@@ -48,10 +48,12 @@ layout: default
   <div class="content-block">
     <h2>Le Migliori Marche di Cibo Secco (2025)</h2>
     <div class="brand-grid">
+      
       <div class="brand-card">
-        <span class="brand-name">Hill's Science Plan</span>
-        <div class="rating-stars">★★★★★</div>
-      </div>
+  <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
+  <div class="rating-stars">★★★★★</div>
+</div>
+
       <div class="brand-card">
         <span class="brand-name">Royal Canin</span>
         <div class="rating-stars">★★★★★</div>
