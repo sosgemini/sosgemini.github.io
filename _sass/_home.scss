@@ -1,6 +1,6 @@
 /* === 🧱 CONTENITORE CENTRALE HOMEPAGE === */
 .page-wrapper {
-  max-width: 1150px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: $spacing-lg $spacing-md;
   background-color: rgba(255, 255, 255, 0.92);
@@ -35,19 +35,20 @@
 
 /* === 🔲 GRIGLIA QUADRATI === */
 .square-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: $spacing-md;
+  width: 100%;
+  max-width: 1400px;
   margin: $spacing-lg auto;
-  max-width: 1150px;
   padding: 0 $spacing-md;
 }
 
 /* === 🔳 QUADRATO SINGOLO === */
 .content-square {
-  width: 200px;
   aspect-ratio: 1 / 1;
+  width: 100%;
+  max-width: 200px;
   background-color: #3a3a3a;
   color: white;
   border-radius: $radius-lg;
