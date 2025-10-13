@@ -52,14 +52,28 @@ class: guida-gatti
   <div class="content-block">
     <h2>🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="brand-grid">
-      {% include brand-cards/secco.html %}
+      <div class="brand-card">
+        <h4>Royal Canin</h4>
+        <p>Alimento secco bilanciato per gatti adulti. Proteine di alta qualità e supporto digestivo.</p>
+      </div>
+      <div class="brand-card">
+        <h4>Purina Pro Plan</h4>
+        <p>Formula ricca di salmone e riso, ideale per gatti con sensibilità alimentari.</p>
+      </div>
     </div>
   </div>
 
   <div class="content-block" style="margin-top: 3rem;">
     <h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="brand-grid">
-      {% include brand-cards/umido.html %}
+      <div class="brand-card">
+        <h4>Schesir</h4>
+        <p>Cibo umido naturale con tonno e aloe. Senza conservanti né coloranti.</p>
+      </div>
+      <div class="brand-card">
+        <h4>Almo Nature</h4>
+        <p>Ingredienti freschi e tracciabili. Ottimo per l’idratazione e il gusto.</p>
+      </div>
     </div>
   </div>
 
