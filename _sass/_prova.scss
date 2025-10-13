@@ -1,23 +1,23 @@
 .page-prova {
   max-width: 960px;
   margin: 0 auto;
-  padding: 64px 32px;
+  padding: 48px 24px;
   background-color: #f9f9f9;
   border-radius: 12px;
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.05);
 
   h1 {
-    font-size: 2.4em;
-    font-weight: 800;
+    font-size: 2em; // ridotto da 2.4em
+    font-weight: 700;
     color: #002D62;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
   }
 
   h2 {
-    font-size: 1.6em;
-    font-weight: 700;
-    padding: 0.6rem 1rem;
-    margin-bottom: 16px;
+    font-size: 1.4em; // ridotto da 1.6em
+    font-weight: 600;
+    padding: 0.5rem 0.8rem;
+    margin-bottom: 14px;
     color: #222;
     border-radius: 8px;
     display: inline-block;
@@ -27,9 +27,9 @@
   }
 
   p {
-    font-size: 1.15em;
-    line-height: 1.6;
-    margin-bottom: 24px;
+    font-size: 1em; // ridotto da 1.15em
+    line-height: 1.5;
+    margin-bottom: 20px;
     color: #444;
   }
 
@@ -39,9 +39,9 @@
     margin: 0;
 
     li {
-      font-size: 1.1em;
-      margin-bottom: 16px;
-      padding-left: 32px;
+      font-size: 0.95em; // ridotto da 1.1em
+      margin-bottom: 14px;
+      padding-left: 28px;
       position: relative;
 
       &::before {
@@ -50,27 +50,29 @@
         left: 0;
         top: 0;
         color: #28a745;
-        font-size: 1.2em;
+        font-size: 1em;
       }
     }
   }
 
   .useful-tip {
     background-color: #f0f8ff;
-    padding: 1rem;
+    padding: 0.8rem;
     border-left: 4px solid #28a745;
     border-radius: 8px;
     margin-top: 1rem;
-    font-weight: 500;
+    font-size: 0.85em; // ridotto
+    font-weight: 400;
     color: #333;
+    line-height: 1.4;
   }
 
   .intro-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1.5rem;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 
     .intro-text {
       flex: 1 1 60%;
@@ -81,7 +83,7 @@
 
       img {
         width: 100%;
-        max-width: 320px;
+        max-width: 280px; // ridotto da 320px
         border-radius: 12px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
@@ -90,14 +92,14 @@
 
   .brand-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 1rem;
-    margin-top: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); // ridotto da 220px
+    gap: 0.8rem;
+    margin-top: 1.5rem;
   }
 
   .brand-card {
     background-color: #ffffff;
-    padding: 1.2rem;
+    padding: 1rem; // ridotto da 1.2rem
     border-radius: 10px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
     text-align: center;
@@ -109,16 +111,16 @@
 
     .brand-name {
       display: block;
-      font-size: 1.3em;
-      font-weight: 700;
+      font-size: 1.1em; // ridotto da 1.3em
+      font-weight: 600;
       color: #222;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.4rem;
     }
 
     .rating-stars {
-      font-size: 1.6em;
+      font-size: 1.4em; // ridotto da 1.6em
       color: #ffc107;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
     }
   }
 }
