@@ -1,8 +1,8 @@
 ---
-title: "Cibo per Gatti: Guida 2025"
+title: "Miglior Cibo per Gatti"
 description: "Guida completa e aggiornata al cibo per gatti: migliori marche, ingredienti da evitare e consigli nutrizionali."
-permalink: /prova/
-layout: default
+permalink: /amici/gatti/miglior-cibo/
+layout: pagina-gatti
 image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 ---
 
