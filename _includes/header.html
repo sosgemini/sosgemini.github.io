@@ -2,52 +2,52 @@
   <div class="header-container">
     <div class="logo-title-group">
       <a href="/" class="logo-link" aria-label="Homepage SOS Gemini">
-        <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" width="96" height="96" />
+        <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" width="96" height="96" loading="lazy" />
       </a>
       <span class="site-title">SOS Gemini</span>
     </div>
 
     <div class="utility-area">
       <label for="lang-switch" class="visually-hidden">Seleziona lingua</label>
-      <select id="lang-switch" class="lang-switch" aria-label="Seleziona lingua">
+      <select id="lang-switch" class="lang-switch" aria-label="Lingua">
         <option value="it">Italiano</option>
         <option value="en">English</option>
       </select>
 
       <label for="search-box" class="visually-hidden">Cerca nel sito</label>
-      <input type="text" id="search-box" class="search-box" placeholder="Cerca..." aria-label="Cerca nel sito" />
+      <input type="text" id="search-box" class="search-box" placeholder="Cerca nel sito..." aria-label="Cerca nel sito" />
     </div>
   </div>
 
   <nav class="main-nav" aria-label="Navigazione principale">
-    <ul class="nav-links">
-      <li><a href="/">Home</a></li>
-
-      <li class="has-submenu">
-        <a href="/amici">Amici</a>
-        <ul class="submenu">
-          <li class="has-submenu">
-            <a href="/amici/gatti">Gatti</a>
-            <ul class="submenu submenu-nested">
-              <li><a href="/amici/gatti/alimentazione">Alimentazione</a></li>
-              <li><a href="/amici/gatti/igiene">Igiene</a></li>
-              <li><a href="/amici/gatti/giochi">Giochi</a></li>
-            </ul>
-          </li>
-          <li class="has-submenu">
-            <a href="/amici/cani">Cani</a>
-            <ul class="submenu submenu-nested">
-              <li><a href="/amici/cani/alimentazione">Alimentazione</a></li>
-              <li><a href="/amici/cani/igiene">Igiene</a></li>
-              <li><a href="/amici/cani/giochi">Giochi</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-
-      <li><a href="/lavoro/">Benessere</a></li>
-      <li><a href="/hobby/">Tecnologia</a></li>
-      <li><a href="/hobby/">Hobbystica</a></li>
-    </ul>
+    <div class="nav-inner">
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li class="has-submenu">
+          <a href="/amici">Amici</a>
+          <ul class="submenu">
+            <li class="has-submenu">
+              <a href="/amici/gatti">Gatti</a>
+              <ul class="submenu submenu-nested">
+                <li><a href="/amici/gatti/alimentazione">Alimentazione</a></li>
+                <li><a href="/amici/gatti/igiene">Igiene</a></li>
+                <li><a href="/amici/gatti/giochi">Giochi</a></li>
+              </ul>
+            </li>
+            <li class="has-submenu">
+              <a href="/amici/cani">Cani</a>
+              <ul class="submenu submenu-nested">
+                <li><a href="/amici/cani/alimentazione">Alimentazione</a></li>
+                <li><a href="/amici/cani/igiene">Igiene</a></li>
+                <li><a href="/amici/cani/giochi">Giochi</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="/lavoro/">Benessere</a></li>
+        <li><a href="/hobby/">Tecnologia</a></li>
+        <li><a href="/hobby/">Hobbystica</a></li>
+      </ul>
+    </div>
   </nav>
 </header>
