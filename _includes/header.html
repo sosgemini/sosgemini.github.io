@@ -1,18 +1,21 @@
-<header class="site-header">
+<header class="site-header" role="banner">
   <div class="header-container">
     <div class="logo-title-group">
-      <a href="/" class="logo-link">
-        <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" />
+      <a href="/" class="logo-link" aria-label="Homepage SOS Gemini">
+        <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" width="96" height="96" />
       </a>
       <span class="site-title">SOS Gemini</span>
     </div>
 
     <div class="utility-area">
-      <select class="lang-switch" aria-label="Seleziona lingua">
+      <label for="lang-switch" class="visually-hidden">Seleziona lingua</label>
+      <select id="lang-switch" class="lang-switch" aria-label="Seleziona lingua">
         <option value="it">Italiano</option>
         <option value="en">English</option>
       </select>
-      <input type="text" class="search-box" placeholder="Cerca..." aria-label="Cerca nel sito" />
+
+      <label for="search-box" class="visually-hidden">Cerca nel sito</label>
+      <input type="text" id="search-box" class="search-box" placeholder="Cerca..." aria-label="Cerca nel sito" />
     </div>
   </div>
 
