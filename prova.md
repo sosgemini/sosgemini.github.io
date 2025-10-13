@@ -150,7 +150,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
   </div>
 
   <div class="content-block">
-    <h3 class="useful-tip">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine 
+    <h3 class="useful-tip">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
   </div>
 
 </section>
