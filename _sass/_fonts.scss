@@ -1,10 +1,15 @@
 // 🇮🇹 _fonts.scss — font globale e gerarchia tipografica
 
+// 🔗 Import Google Font con display swap per evitare FOIT/FOUT
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
 
-// 🇮🇹 Variabili tipografiche
+// 🔒 Preconnect consigliato (da inserire nel <head> HTML)
+/// <link rel="preconnect" href="https://fonts.googleapis.com">
+/// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+// 🎨 Variabili tipografiche
 :root {
-  --font-base: 'Lato', sans-serif;
+  --font-base: 'Lato', 'Helvetica Neue', 'Segoe UI', sans-serif;
   --font-size-base: 16px;
   --font-size-h1: 2.4rem;
   --font-size-h2: 1.8rem;
@@ -16,49 +21,43 @@
   --line-height-tight: 1.4;
 }
 
-// 🇮🇹 Font globale
+// 🌐 Font globale
 body {
   font-family: var(--font-base);
   font-size: var(--font-size-base);
   font-weight: 400;
   line-height: var(--line-height-base);
   color: #222;
+  min-height: 100vh; // 🔒 previene sobbalzi
 }
 
-// 🇮🇹 Titoli
-h1 {
-  font-size: var(--font-size-h1);
-  font-weight: 800;
-  margin-bottom: 0.6em;
-}
-
-h2 {
-  font-size: var(--font-size-h2);
-  font-weight: 600;
+// 🧱 Titoli
+h1, h2, h3, h4 {
+  font-family: var(--font-base);
+  line-height: var(--line-height-tight);
   margin-bottom: 0.5em;
 }
 
-h3 {
-  font-size: var(--font-size-h3);
-  font-weight: 500;
-  margin-bottom: 0.4em;
+h1 { font-size: var(--font-size-h1); font-weight: 800; }
+h2 { font-size: var(--font-size-h2); font-weight: 600; }
+h3 { font-size: var(--font-size-h3); font-weight: 500; }
+h4 { font-size: var(--font-size-h3); font-weight: 400; }
+
+// 📄 Testo base
+p, ul, ol, li, div {
+  font-family: var(--font-base);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+  color: inherit;
 }
 
-h4 {
-  font-weight: 400;
-  margin-bottom: 0.3em;
-}
-
-// 🇮🇹 Testo base
 p {
   font-size: var(--font-size-p);
-  line-height: var(--line-height-base);
   margin-bottom: 1em;
 }
 
 ul, ol {
   font-size: var(--font-size-li);
-  line-height: var(--line-height-base);
   margin-left: 1.5em;
   margin-bottom: 1em;
 }
@@ -71,7 +70,7 @@ strong, b {
   font-weight: 900;
 }
 
-// 🇮🇹 Link
+// 🔗 Link
 a {
   font-family: var(--font-base);
   font-size: var(--font-size-p);
@@ -86,29 +85,13 @@ a {
   }
 }
 
-// 🇮🇹 Contenitori generici
-div {
-  font-family: var(--font-base);
-  font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
-  color: inherit;
-}
-
-// 🇮🇹 Sezione content-block
+// 📦 Blocchi contenuto
 .content-block {
-  font-family: var(--font-base);
-  font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
   margin: 1.5rem 0;
 
   p {
     font-size: var(--font-size-p);
-    line-height: var(--line-height-base);
     margin-bottom: 1em;
-  }
-
-  strong, b {
-    font-weight: 900;
   }
 
   h3 {
@@ -137,11 +120,14 @@ div {
       color: #003366;
     }
   }
+
+  strong, b {
+    font-weight: 900;
+  }
 }
 
-// 🇮🇹 Sezione brand-card
+// 🏷️ Brand card
 .brand-card {
-  font-family: var(--font-base);
   text-align: center;
 
   .brand-name {
@@ -165,11 +151,8 @@ div {
   }
 }
 
-// 🇮🇹 Sezione effetti-speciali
+// ✨ Effetti speciali
 .effetti-speciali {
-  font-family: var(--font-base);
-  color: inherit;
-
   p {
     font-size: var(--font-size-p);
     line-height: var(--line-height-tight);
