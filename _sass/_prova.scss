@@ -21,14 +21,9 @@
     color: #222;
     border-radius: 8px;
     display: inline-block;
-    background: linear-gradient(90deg, #cce5ff 0%, #ffffff 100%);
+    background: linear-gradient(90deg, #ff8c00 0%, #ffcc00 100%);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
     text-shadow: 0 1px 1px rgba(255, 255, 255, 0.3);
-  }
-
-  // Spazio extra sopra il titolo "CIBO UMIDO"
-  .content-block:nth-of-type(6) {
-    margin-top: 3rem;
   }
 
   p {
@@ -118,15 +113,6 @@
       font-weight: 700;
       color: #222;
       margin-bottom: 0.5rem;
-      text-decoration: none;
-
-      &:hover,
-      &:focus,
-      &:active,
-      &:visited {
-        text-decoration: none;
-        color: #222;
-      }
     }
 
     .rating-stars {
@@ -136,14 +122,3 @@
     }
   }
 }
-
-// Margine extra sotto i titoli con sfondo gradiente
-.section-title-gradient {
-  margin-bottom: 2.5rem;
-}
-
-.page-prova .content-block {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
