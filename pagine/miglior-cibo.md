@@ -4,6 +4,7 @@ description: "Guida completa e aggiornata al cibo per gatti: migliori marche, in
 permalink: /amici/gatti/miglior-cibo/
 layout: pagina-gatti
 image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
+class: page-cibo-gatti
 ---
 
 <section class="page-prova">
