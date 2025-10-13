@@ -1,193 +1,87 @@
-// 🇮🇹 _fonts.scss — font globale e gerarchia tipografica
+// === Font: Lato (self-hosted .ttf) ===
 
-// 🔗 Import Google Font con display swap per evitare FOIT/FOUT
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-
-// 🔒 Preconnect consigliato (da inserire nel <head> HTML)
-/// <link rel="preconnect" href="https://fonts.googleapis.com">
-/// <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-// 🎨 Variabili tipografiche
-:root {
-  --font-base: 'Lato', 'Helvetica Neue', 'Segoe UI', sans-serif;
-  --font-size-base: 16px;
-  --font-size-h1: 2.4rem;
-  --font-size-h2: 1.8rem;
-  --font-size-h3: 1rem;
-  --font-size-p: 0.8rem;
-  --font-size-li: 0.8rem;
-  --font-size-small: 0.75rem;
-  --line-height-base: 1.6;
-  --line-height-tight: 1.4;
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
 }
 
-// 🌐 Font globale
-body {
-  font-family: var(--font-base);
-  font-size: var(--font-size-base);
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-Regular.ttf') format('truetype');
   font-weight: 400;
-  line-height: var(--line-height-base);
-  color: #222;
-  min-height: 100vh; // 🔒 previene sobbalzi
+  font-style: normal;
+  font-display: swap;
 }
 
-// 🧱 Titoli
-h1, h2, h3, h4 {
-  font-family: var(--font-base);
-  line-height: var(--line-height-tight);
-  margin-bottom: 0.5em;
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
 }
 
-h1 { font-size: var(--font-size-h1); font-weight: 800; }
-h2 { font-size: var(--font-size-h2); font-weight: 600; }
-h3 { font-size: var(--font-size-h3); font-weight: 500; }
-h4 { font-size: var(--font-size-h3); font-weight: 400; }
-
-// 📄 Testo base
-p, ul, ol, li, div {
-  font-family: var(--font-base);
-  font-size: var(--font-size-base);
-  line-height: var(--line-height-base);
-  color: inherit;
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
-p {
-  font-size: var(--font-size-p);
-  margin-bottom: 1em;
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
 }
 
-ul, ol {
-  font-size: var(--font-size-li);
-  margin-left: 1.5em;
-  margin-bottom: 1em;
-}
-
-li {
-  margin-bottom: 0.4em;
-}
-
-strong, b {
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-Black.ttf') format('truetype');
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
-// 🔗 Link
-a {
-  font-family: var(--font-base);
-  font-size: var(--font-size-p);
-  color: #0055aa;
-  text-decoration: none;
-  transition: color 0.2s ease;
-
-  &:hover,
-  &:focus {
-    text-decoration: underline;
-    color: #003366;
-  }
+@font-face {
+  font-family: 'Lato';
+  src: url('/assets/fonts/lato/Lato-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
 }
 
-// 📦 Blocchi contenuto
-.content-block {
-  margin: 1.5rem 0;
+// === Global font usage ===
 
-  p {
-    font-size: var(--font-size-p);
-    margin-bottom: 1em;
-  }
-
-  h3 {
-    font-size: var(--font-size-h3);
-    font-weight: 700;
-    margin-bottom: 0.4em;
-  }
-
-  ul, ol {
-    font-size: var(--font-size-li);
-    margin-left: 1em;
-    margin-bottom: 1em;
-  }
-
-  li {
-    margin-bottom: 0.4em;
-  }
-
-  a {
-    font-size: var(--font-size-p);
-    color: #0055aa;
-
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-      color: #003366;
-    }
-  }
-
-  strong, b {
-    font-weight: 900;
-  }
-}
-
-// 🏷️ Brand card
-.brand-card {
-  text-align: center;
-
-  .brand-name {
-    font-size: 1.3em;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: #222;
-  }
-
-  .rating-stars {
-    font-size: 1.6em;
-    color: #ffc107;
-    letter-spacing: 2px;
-  }
-
-  p {
-    font-size: var(--font-size-small);
-    line-height: var(--line-height-tight);
-    margin-bottom: 0.8rem;
-    color: #555;
-  }
-}
-
-// ✨ Effetti speciali
-.effetti-speciali {
-  p {
-    font-size: var(--font-size-p);
-    line-height: var(--line-height-tight);
-    margin-bottom: 1em;
-  }
-
-  h3 {
-    font-size: var(--font-size-h3);
-    font-weight: 700;
-    margin-bottom: 0.4em;
-  }
-
-  ul, ol {
-    font-size: var(--font-size-li);
-    line-height: var(--line-height-tight);
-    margin-left: 1em;
-    margin-bottom: 1em;
-  }
-
-  li {
-    margin-bottom: 0.4em;
-  }
-
-  a {
-    font-size: var(--font-size-p);
-    color: #0055aa;
-
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-      color: #003366;
-    }
-  }
-
-  strong, b {
-    font-weight: 900;
-  }
+body {
+  font-family: 'Lato', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
