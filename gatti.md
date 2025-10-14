@@ -131,3 +131,19 @@ description: "Consigli sostenibili per la cura, l’alimentazione e il benessere
           <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
           <div class="rating-stars">★★★★★</div>
           <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> —
+
+
+
+
+<!-- 💡 CONSIGLI -->
+  <div class="intro">
+    <h3 class="main-title-centered">💡 Consiglio Utile</h3>
+    <p class="small-title">La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio renale.</p>
+  </div>
+
+  <div class="intro">
+    <h3 class="main-title-centered">💡 Consiglio Finale</h3>
+    <p class="small-title">Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine controllata.</p>
+  </div>
+
+</div>
