@@ -24,7 +24,7 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-# 🔌 Plugin attivi
+# 🔌 Plugin attivi (solo quelli supportati da GitHub Pages)
 plugins:
   - jekyll-seo-tag
 
@@ -35,6 +35,10 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+  - .github
+  - .gitignore
+  - package.json
+  - yarn.lock
 
 # 🔗 URL puliti
 permalink: pretty
@@ -52,3 +56,7 @@ defaults:
       type: "pagine"
     values:
       layout: default
+
+# 🚫 Tema GitHub Pages disattivato per usare layout personalizzati
+# ⚠️ Se usi layout tuoi, rimuovi questa riga:
+# theme: jekyll-theme-primer
