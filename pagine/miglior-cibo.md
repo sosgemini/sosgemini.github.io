@@ -153,4 +153,3 @@ class: page-cibo-gatti
     <h3 class="useful-tip">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
   </div>
 
-</section>
