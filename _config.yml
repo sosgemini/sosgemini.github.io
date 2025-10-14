@@ -45,10 +45,10 @@ collections:
     output: true
     permalink: /pagine/:name/
 
-# 🧱 Layout di default (opzionale, se vuoi che tutte le pagine usino un layout base)
+# 🧱 Layout di default per la collezione "pagine"
 defaults:
   - scope:
       path: ""
       type: "pagine"
     values:
-      layout: pagina-gatti
+      layout: default
