@@ -7,6 +7,7 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 class: page-cibo-gatti
 ---
 
+<div class="page-cibo-gatti">
 
   <div class="intro-flex">
     <div class="intro-text">
@@ -51,47 +52,14 @@ class: page-cibo-gatti
     <h2>🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="brand-grid">
 
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Royal Canin</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Raccomandazioni veterinarie (2025)</span> — Apprezzata per le linee specializzate, ideale per gatti di razza o con problematiche specifiche.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.purina.it/" target="_blank" rel="noopener">Purina Pro Plan</a>
-        <div class="rating-stars">★★★★☆</div>
-        <p><span class="source">Fonte: Esperti di nutrizione animale (2025)</span> — Formulazioni innovative per supporto immunitario e salute urinaria.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.farmina.com/it/" target="_blank" rel="noopener">Farmina N&D</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Test indipendenti (Marzo 2025)</span> — Senza cereali, con ingredienti freschi e proteine animali elevate.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.orijen.ca/" target="_blank" rel="noopener">Orijen</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Nutrizionisti felini (2025)</span> — Super-premium con carne fresca e filosofia biologicamente appropriata.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.arcaplanet.it/s/?q=BeFortis+cat" target="_blank" rel="noopener">Be Fortis</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Analisi nutrizionali (2025)</span> — Italiano, monoproteico, funzionale e di alta qualità.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.ownat.com/it/" target="_blank" rel="noopener">Ownat</a>
-        <div class="rating-stars">★★★★☆</div>
-        <p><span class="source">Fonte: Analisi di mercato (Aprile 2025)</span> — Ottimo rapporto qualità-prezzo, grain-free e naturale.</p>
-      </div>
+      <!-- CARD MARCHE SECCO -->
+      {% include card-cibo.html nome="Hill's Science Plan" voto="★★★★★" fonte="Altroconsumo (Gennaio 2025)" descrizione="Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte." link="https://www.hillspet.it/" %}
+      {% include card-cibo.html nome="Royal Canin" voto="★★★★★" fonte="Raccomandazioni veterinarie (2025)" descrizione="Apprezzata per le linee specializzate, ideale per gatti di razza o con problematiche specifiche." link="https://www.royalcanin.com/it" %}
+      {% include card-cibo.html nome="Purina Pro Plan" voto="★★★★☆" fonte="Esperti di nutrizione animale (2025)" descrizione="Formulazioni innovative per supporto immunitario e salute urinaria." link="https://www.purina.it/" %}
+      {% include card-cibo.html nome="Farmina N&D" voto="★★★★★" fonte="Test indipendenti (Marzo 2025)" descrizione="Senza cereali, con ingredienti freschi e proteine animali elevate." link="https://www.farmina.com/it/" %}
+      {% include card-cibo.html nome="Orijen" voto="★★★★★" fonte="Nutrizionisti felini (2025)" descrizione="Super-premium con carne fresca e filosofia biologicamente appropriata." link="https://www.orijen.ca/" %}
+      {% include card-cibo.html nome="Be Fortis" voto="★★★★★" fonte="Analisi nutrizionali (2025)" descrizione="Italiano, monoproteico, funzionale e di alta qualità." link="https://www.arcaplanet.it/s/?q=BeFortis+cat" %}
+      {% include card-cibo.html nome="Ownat" voto="★★★★☆" fonte="Analisi di mercato (Aprile 2025)" descrizione="Ottimo rapporto qualità-prezzo, grain-free e naturale." link="https://www.ownat.com/it/" %}
 
     </div>
   </div>
@@ -100,50 +68,17 @@ class: page-cibo-gatti
     <h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="brand-grid">
 
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.almonature.com/" target="_blank" rel="noopener">Almo Nature</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Analisi di settore (Febbraio 2025)</span> — Ingredienti human grade, linea HFC pura e senza additivi.</p>
-      </div>
+      <!-- CARD MARCHE UMIDO -->
+      {% include card-cibo.html nome="Almo Nature" voto="★★★★★" fonte="Analisi di settore (Febbraio 2025)" descrizione="Ingredienti human grade, linea HFC pura e senza additivi." link="https://www.almonature.com/" %}
+      {% include card-cibo.html nome="Schesir" voto="★★★★☆" fonte="Test nutrizionali (2025)" descrizione="Preparazione a vapore, tonno e pollo selezionati." link="https://www.schesir.com/" %}
+      {% include card-cibo.html nome="Natural Trainer" voto="★★★★☆" fonte="Test indipendenti (Marzo 2025)" descrizione="Naturale, mirato per gatti sterilizzati o con digestione sensibile." link="https://www.trainer.eu/" %}
+      {% include card-cibo.html nome="Felix Ghiottonerie" voto="★★★☆☆" fonte="Altroconsumo (Gennaio 2025)" descrizione="Appetibile e conveniente, molto gradita dai gatti." link="https://www.purina.it/felix" %}
+      {% include card-cibo.html nome="MjamMjam" voto="★★★★★" fonte="Veterinari e nutrizionisti (Giugno 2025)" descrizione="Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata." link="https://www.mjammjam.de/" %}
+      {% include card-cibo.html nome="Venandi Animal" voto="★★★★★" fonte="Veterinari e nutrizionisti (Giugno 2025)" descrizione="Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti." link="https://www.venandi-animal.de/" %}
+      {% include card-cibo.html nome="Miglior Gatto Morando" voto="★★★☆☆" fonte="Analisi di mercato (2025)" descrizione="Ottimo rapporto qualità-prezzo. Nutrizione adeguata per la dieta quotidiana del gatto." link="https://www.morando.it/" %}
 
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.schesir.com/" target="_blank" rel="noopener">Schesir</a>
-        <div class="rating-stars">★★★★☆</div>
-        <p><span class="source">Fonte: Test nutrizionali (2025)</span> — Preparazione a vapore, tonno e pollo selezionati.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.trainer.eu/" target="_blank" rel="noopener">Natural Trainer</a>
-        <div class="rating-stars">★★★★☆</div>
-        <p><span class="source">Fonte: Test indipendenti (Marzo 2025)</span> — Naturale, mirato per gatti sterilizzati o con digestione sensibile.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.purina.it/felix" target="_blank" rel="noopener">Felix Ghiottonerie</a>
-        <div class="rating-stars">★★★☆☆</div>
-        <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Appetibile e conveniente, molto gradita dai gatti.</p>
-      </div>
-
-           <div class="brand-card">
-        <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.venandi-animal.de/" target="_blank" rel="noopener">Venandi Animal</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti.</p>
-      </div>
-
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.morando.it/" target="_blank" rel="noopener">Miglior Gatto Morando</a>
-        <div class="rating-stars">★★★☆☆</div>
-        <p><span class="source">Fonte: Analisi di mercato (2025)</span> — Ottimo rapporto qualità-prezzo. Nutrizione adeguata per la dieta quotidiana del gatto.</p>
-      </div>
-
-    </div> <!-- chiusura brand-grid umido -->
-  </div> <!-- chiusura content-block umido -->
+    </div>
+  </div>
 
   <div class="content-block">
     <h3 class="useful-tip">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3>
@@ -153,3 +88,4 @@ class: page-cibo-gatti
     <h3 class="useful-tip">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
   </div>
 
+</div>
