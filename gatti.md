@@ -5,44 +5,38 @@ class: home
 permalink: /gatti/
 description: "Consigli sostenibili per la cura, l’alimentazione e il benessere dei gatti"
 ---
+<div class="content-square">
+  <img src="/assets/img/royal.webp" alt="Royal Canin">
+  <p>Royal Canin</p>
+  <div class="description">Linee specializzate per razze e esigenze specifiche. Alta qualità garantita.</div>
+</div>
 
-<div class="page-wrapper">
+<div class="content-square">
+  <img src="/assets/img/purina.webp" alt="Purina Pro Plan">
+  <p>Purina Pro Plan</p>
+  <div class="description">Supporto immunitario e salute urinaria. Formulazioni innovative e bilanciate.</div>
+</div>
 
-  <!-- 📝 INTRODUZIONE -->
-  <div class="intro">
-    <h1 class="main-title-centered">Cibo per Gatti: Guida 2025</h1>
-    <p class="small-title">Scopri le marche migliori di SECCO e UMIDO per il benessere del tuo felino.</p>
-  </div>
+<div class="content-square">
+  <img src="/assets/img/farmina.webp" alt="Farmina N&D">
+  <p>Farmina N&D</p>
+  <div class="description">Senza cereali, ingredienti freschi, proteine animali elevate. Ottima qualità italiana.</div>
+</div>
 
-  <!-- 🔲 GRIGLIA SECCO -->
-  <div class="square-grid">
-    <div class="content-square">
-      <img src="/assets/img/hills.webp" alt="Hill's Science Plan">
-      <p>Hill's Science Plan</p>
-      <div class="description">Bilanciamento nutrizionale eccellente. Consigliato da Altroconsumo e veterinari.</div>
-    </div>
-    <!-- altri quadrati -->
-  </div>
+<div class="content-square">
+  <img src="/assets/img/orijen.webp" alt="Orijen">
+  <p>Orijen</p>
+  <div class="description">Super-premium con carne fresca e filosofia biologicamente appropriata.</div>
+</div>
 
-  <!-- 🔲 GRIGLIA UMIDO -->
-  <div class="square-grid">
-    <div class="content-square">
-      <img src="/assets/img/almo.webp" alt="Almo Nature">
-      <p>Almo Nature</p>
-      <div class="description">Ingredienti human grade, linea HFC pura e senza additivi.</div>
-    </div>
-    <!-- altri quadrati -->
-  </div>
+<div class="content-square">
+  <img src="/assets/img/befortis.webp" alt="Be Fortis">
+  <p>Be Fortis</p>
+  <div class="description">Italiano, monoproteico, funzionale e di alta qualità. Ottimo per gatti sensibili.</div>
+</div>
 
-  <!-- 💡 CONSIGLI -->
-  <div class="intro">
-    <h3 class="main-title-centered">💡 Consiglio Utile</h3>
-    <p class="small-title">La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio renale.</p>
-  </div>
-
-  <div class="intro">
-    <h3 class="main-title-centered">💡 Consiglio Finale</h3>
-    <p class="small-title">Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine controllata.</p>
-  </div>
-
+<div class="content-square">
+  <img src="/assets/img/ownat.webp" alt="Ownat">
+  <p>Ownat</p>
+  <div class="description">Grain-free, naturale, ottimo rapporto qualità-prezzo. Ingredienti semplici e genuini.</div>
 </div>
