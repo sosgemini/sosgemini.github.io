@@ -53,11 +53,20 @@ description: "Consigli sostenibili per la cura, l’alimentazione e il benessere
       <div class="brand-grid">
 
         <!-- MARCHE SECCO -->
-        <div class="brand-card">
-          <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
-          <div class="rating-stars">★★★★★</div>
-          <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.</p>
-        </div>
+
+        
+<div class="brand-card">
+<a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Hill's Science Plan</a>
+<div class="rating-stars">★★★★★</div>
+<p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.</p> </div>
+
+<div class="content-square">
+  <img src="/assets/img/hills.webp" alt="Hill's Science Plan">
+  <p>Hill's Science Plan</p>
+  <div class="rating-stars">★★★★★</div>
+  <div class="description">Bilanciamento nutrizionale eccellente. Consigliato da Altroconsumo e veterinari.</div>
+</div>
+
 
         <div class="brand-card">
           <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Royal Canin</a>
