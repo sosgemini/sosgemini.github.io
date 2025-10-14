@@ -124,4 +124,8 @@ description: "Consigli sostenibili per la cura, l’alimentazione e il benessere
         <div class="rating-stars">★★★☆☆</div>
         <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Appetibile e conveniente, molto gradita dai gatti.</p>
       </div>
+    </div> <!-- chiude brand-grid -->
+  </div> <!-- chiude content-block -->
+</div> <!-- chiude page-cibo-gatti -->
+</div> <!-- chiude post-container -->
 
