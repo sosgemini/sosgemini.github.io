@@ -1,6 +1,5 @@
 /* === 🧱 CONTENITORE CENTRALE HOMEPAGE === */
-
-.page-wrapper {
+body.home .page-wrapper {
   max-width: 1150px;
   margin: 0 auto;
   padding: $spacing-lg $spacing-md;
@@ -12,12 +11,12 @@
 }
 
 /* === 📝 INTRODUZIONE === */
-.intro {
+body.home .intro {
   margin-bottom: $spacing-xl;
   padding: 0 $spacing-md;
 }
 
-.main-title-centered {
+body.home .main-title-centered {
   font-size: 2em;
   font-weight: 600;
   color: $text-color;
@@ -25,7 +24,7 @@
   margin-bottom: $spacing-md;
 }
 
-.small-title {
+body.home .small-title {
   font-size: 1.2em;
   font-weight: 400;
   color: $muted-color;
@@ -35,7 +34,7 @@
 }
 
 /* === 🔲 GRIGLIA QUADRATI === */
-.square-grid {
+body.home .square-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -45,7 +44,7 @@
   padding: 0 $spacing-md;
 }
 
-.content-square {
+body.home .content-square {
   background-color: #3a3a3a;
   color: white;
   width: 200px;
@@ -56,22 +55,22 @@
   padding: $spacing-md;
   display: flex;
   flex-direction: column;
-  justify-content: center; // ✅ centra verticalmente
+  justify-content: center;
   align-items: center;
   transition: background 0.3s;
   position: relative;
   z-index: 1;
 
   img {
-    width: 80px; // ✅ ingrandita
+    width: 80px;
     margin-bottom: $spacing-sm;
-    margin-top: $spacing-sm; // ✅ abbassata visivamente
+    margin-top: $spacing-sm;
   }
 
   p {
-    font-size: 1.2em; // ✅ leggermente più grande
+    font-size: 1.2em;
     font-weight: 600;
-    margin: 4px 0 0 0; // ✅ alzata rispetto all’icona
+    margin: 4px 0 0 0;
   }
 
   .description {
