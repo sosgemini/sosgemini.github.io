@@ -128,4 +128,4 @@ class: page-cibo-gatti
       <div class="brand-card">
         <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
         <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Ricette
+        <p><span class="source">Fonte: Veterin
