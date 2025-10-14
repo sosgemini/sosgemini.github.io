@@ -125,7 +125,3 @@ description: "Consigli sostenibili per la cura, l’alimentazione e il benessere
         <p><span class="source">Fonte: Altroconsumo (Gennaio 2025)</span> — Appetibile e conveniente, molto gradita dai gatti.</p>
       </div>
 
-      <div class="brand-card">
-        <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a>
-        <div class="rating-stars">★★★★★</div>
-        <p><span class="source">Fonte: Veterin
