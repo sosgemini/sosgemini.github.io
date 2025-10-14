@@ -2,10 +2,11 @@
 title: "Miglior Cibo per Gatti"
 description: "Guida completa e aggiornata al cibo per gatti: migliori marche, ingredienti da evitare e consigli nutrizionali."
 permalink: /pagine/miglior-cibo/
-layout: pagina-gatti
+layout: default
 image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 class: page-cibo-gatti
 ---
+
 
   <div class="intro-flex">
     <div class="intro-text">
