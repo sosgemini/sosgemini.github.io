@@ -132,18 +132,15 @@ description: "Consigli sostenibili per la cura, l’alimentazione e il benessere
           <div class="rating-stars">★★★★★</div>
           <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> —
 
+  
+  <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">MjamMjam</a> <div class="rating-stars">★★★★★</div> <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata.</p> </div> <div class="brand-card"> 
+  
+  <a class="brand-name" href="https://www.venandi-animal.de/" target="_blank" rel="noopener">Venandi Animal</a> <div class="rating-stars">★★★★★</div> <p><span class="source">Fonte: Veterinari e nutrizionisti (Giugno 2025)</span> — Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti.</p> </div> <div class="brand-card"> <a class="brand-name" href="https://www.morando.it/" target="_blank" rel="noopener">Miglior Gatto Morando</a> <div class="rating-stars">★★★☆☆</div> <p><span class="source">Fonte: Analisi di mercato (2025)</span> — Ottimo rapporto qualità-prezzo. Nutrizione adeguata per la dieta quotidiana del gatto.</p> </div> </div> <!-- chiusura brand-grid umido --> </div> <!-- chiusura content-block umido --> 
+  
+  
+  <div class="content-block"> <h3 class="useful-tip">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> </div> <div class="content-block"> <h3 class="useful-tip">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3> </div>
 
 
 
-<!-- 💡 CONSIGLI -->
-  <div class="intro">
-    <h3 class="main-title-centered">💡 Consiglio Utile</h3>
-    <p class="small-title">La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio renale.</p>
-  </div>
 
-  <div class="intro">
-    <h3 class="main-title-centered">💡 Consiglio Finale</h3>
-    <p class="small-title">Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine controllata.</p>
-  </div>
 
-</div>
