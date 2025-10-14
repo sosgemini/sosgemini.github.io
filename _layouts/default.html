@@ -1,1 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | SOS Gemini</title>
+  {% seo %}
+
+  <!-- Meta SEO -->
+  <meta name="description" content="{{ page.description | default: 'SOS Gemini è la guida pratica per una vita sostenibile: consigli su animali, benessere, tecnologia e hobby green.' }}">
+  <meta name="keywords" content="sostenibilità, animali, benessere naturale, tecnologia ecologica, smart working, hobby green, vita consapevole">
+  <meta name="author" content="SOS Gemini">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title }} | SOS Gemini">
+  <meta property="og:description" content="{{ page.description }}">
+  <meta property="og:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title }} | SOS Gemini">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta name="twitter:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SOS Gemini",
+    "url": "https://sosgemini.it",
+    "description": "Guida pratica per una vita sostenibile: animali, benessere, tecnologia e hobby green.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SOS Gemini",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://sosgemini.it/assets/img/SOS-96x96.png"
+      }
+    },
+    "inLanguage": "it"
+  }
+  </script>
+
+  <!-- Stili -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/pagine-gatti.css' | relative_url }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/SOS-32x32.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/SOS-180x180.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}">
+  <meta name="theme-color" content="#2c2c2c">
+</head>
+
+<body class="{{ page.class }}">
+  {% include header.html %}
+
+  <main class="page-wrapper">
+    {{ content }}
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
 
