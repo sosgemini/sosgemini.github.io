@@ -7,8 +7,6 @@ image: /assets/img/1-Cibo-Gatti-Il-Migliore-800.webp
 class: page-cibo-gatti
 ---
 
-<section class="page-prova">
-
   <div class="intro-flex">
     <div class="intro-text">
       <h1>Cibo per Gatti: Guida 2025</h1>
