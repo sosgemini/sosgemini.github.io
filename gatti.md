@@ -2,7 +2,7 @@
 layout: default
 title: Gatti
 class: home
-permalink: /pagine/gatti/
+permalink: /gatti/
 description: "Consigli sostenibili per la cura, l’alimentazione e il benessere dei gatti"
 ---
 
