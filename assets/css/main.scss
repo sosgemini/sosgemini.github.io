@@ -1,10 +1,9 @@
 ---
 ---
 
-@import "variables";
-@import "header";
-@import "footer";
-@import "nav";
-@import "home";
-@import "pagine-sito/cibo-migliore";
-
+@import "_sass/_variables.scss";
+@import "_sass/_header.scss";
+@import "_sass/_footer";
+@import "_sass/_nav";
+@import "_sass/_home";
+@import "_sass/pagine-sito/_cibo-migliore.scs";
