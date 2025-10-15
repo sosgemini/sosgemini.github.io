@@ -31,7 +31,7 @@ class: home
   </section>
 </main>
 
-
+<section>
 
         <div class="content-square">
          <p>Royal Canin</p>
@@ -42,8 +42,6 @@ class: home
            
     </div>
 
-
-<section>
 
     <div class="content-square">
       <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
