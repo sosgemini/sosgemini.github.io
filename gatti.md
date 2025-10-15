@@ -14,8 +14,9 @@ class: home
 
   <!-- PARAGRAFI -->
   <div class="main-content">
-    <section class="sustainable-living">
-      <h3>Perché scegliere uno stile di vita sostenibile?</h3>
+    
+    <section class="eco-tips">
+      <h2>Perché scegliere uno stile di vita sostenibile?</h2>
       <p>
         Adottare abitudini sostenibili significa prendersi cura del pianeta e di sé stessi. Ridurre gli sprechi, scegliere prodotti eco-friendly e promuovere il benessere animale sono azioni che migliorano la qualità della vita e proteggono l’ambiente.
       </p>
