@@ -12,14 +12,25 @@ class: home
     </h2>
   </div>
 
-  <section class="square-grid">
-    <div class="content-square">
-      <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
-      <p>Amici</p>
-      <div class="description">
-        Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano. Approfondimenti su prodotti vegani, igiene consapevole e convivenza armoniosa tra uomo e animale.
-      </div>
-    </div>
+<main class="main-content">
+  <section class="sustainable-living">
+    <h3>Perché scegliere uno stile di vita sostenibile?</h3>
+    <p>
+      Adottare abitudini sostenibili significa prendersi cura del pianeta e di sé stessi. Ridurre gli sprechi, scegliere prodotti eco-friendly e promuovere il benessere animale sono azioni che migliorano la qualità della vita e proteggono l’ambiente.
+    </p>
+  </section>
+
+  <section class="eco-tips">
+    <h3>Consigli pratici per iniziare</h3>
+    <p>
+      Inizia con piccoli gesti: porta con te una borraccia riutilizzabile, scegli alimenti biologici e limita l’uso della plastica. Ogni scelta consapevole ha un impatto positivo sul mondo che ci circonda.
+    </p>
+    <p>
+      Coinvolgi anche i tuoi animali domestici: opta per alimenti naturali, giochi ecologici e prodotti cruelty-free. Il benessere parte da casa.
+    </p>
+  </section>
+</main>
+
 
 
         <div class="content-square">
