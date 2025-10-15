@@ -14,6 +14,15 @@ body.home .page-wrapper {
 body.home .intro {
   margin-bottom: $spacing-xl;
   padding: 0 $spacing-md;
+
+  p {
+    line-height: 1.8;
+    font-size: 1.1em;
+    color: $text-color;
+    max-width: 65ch;
+    margin: 0 auto $spacing-md auto;
+    text-align: center;
+  }
 }
 
 body.home .main-title-centered {
@@ -44,6 +53,7 @@ body.home .square-grid {
   padding: 0 $spacing-md;
 }
 
+/* === 🧩 QUADRATI CONTENUTO === */
 body.home .content-square {
   background-color: #3a3a3a;
   color: white;
@@ -57,14 +67,13 @@ body.home .content-square {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: background 0.3s;
+  transition: background 0.3s ease;
   position: relative;
   z-index: 1;
 
   img {
     width: 80px;
-    margin-bottom: $spacing-sm;
-    margin-top: $spacing-sm;
+    margin: $spacing-sm 0;
   }
 
   p {
