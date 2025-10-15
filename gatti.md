@@ -5,6 +5,7 @@ class: home
 ---
 
 <div class="post-container">
+  <!-- 📝 INTRODUZIONE -->
   <div class="intro">
     <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
     <h2 class="small-title">
@@ -12,23 +13,18 @@ class: home
     </h2>
   </div>
 
-  <!-- PARAGRAFI -->
-  <div class="main-content">
-    
- 
-    <section class="eco-tips">
-      <h3>Consigli pratici per iniziare</h3>
-      <p>
-        Inizia con piccoli gesti: porta con te una borraccia riutilizzabile, scegli alimenti biologici e limita l’uso della plastica. Ogni scelta consapevole ha un impatto positivo sul mondo che ci circonda.
-      </p>
-      <p>
-        Coinvolgi anche i tuoi animali domestici: opta per alimenti naturali, giochi ecologici e prodotti cruelty-free. Il benessere parte da casa.
-      </p>
-    </section>
-  </div>
+  <!-- 🌿 CONSIGLI PRATICI -->
+  <section class="eco-tips section-wrapper">
+    <h3>Consigli pratici per iniziare</h3>
+    <p>
+      Inizia con piccoli gesti: porta con te una borraccia riutilizzabile, scegli alimenti biologici e limita l’uso della plastica. Ogni scelta consapevole ha un impatto positivo sul mondo che ci circonda.
+    </p>
+    <p>
+      Coinvolgi anche i tuoi animali domestici: opta per alimenti naturali, giochi ecologici e prodotti cruelty-free. Il benessere parte da casa.
+    </p>
+  </section>
 
-
-  <!-- QUADRATI -->
+  <!-- 🔲 GRIGLIA QUADRATI -->
   <div class="square-grid">
     <div class="content-square">
       <p>Royal Canin</p>
