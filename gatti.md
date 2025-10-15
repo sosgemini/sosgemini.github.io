@@ -33,7 +33,7 @@ class: home
   </div>
 
   <!-- QUADRATI -->
-  <div class="content-grid">
+  <div class="square-grid">
     <div class="content-square">
       <p>Royal Canin</p>
       <div class="rating-stars">★★★★★</div>
