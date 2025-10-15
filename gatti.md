@@ -12,7 +12,8 @@ class: home
     </h2>
   </div>
 
-  <main class="main-content">
+  <!-- PARAGRAFI -->
+  <div class="main-content">
     <section class="sustainable-living">
       <h3>Perché scegliere uno stile di vita sostenibile?</h3>
       <p>
@@ -29,9 +30,10 @@ class: home
         Coinvolgi anche i tuoi animali domestici: opta per alimenti naturali, giochi ecologici e prodotti cruelty-free. Il benessere parte da casa.
       </p>
     </section>
-  </main>
+  </div>
 
-  <section class="content-grid">
+  <!-- QUADRATI -->
+  <div class="content-grid">
     <div class="content-square">
       <p>Royal Canin</p>
       <div class="rating-stars">★★★★★</div>
@@ -45,7 +47,7 @@ class: home
       <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
       <p>Benessere</p>
       <div class="description">
-        Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita. Dalla nutrizione eco-friendly ai rimedi naturali, fino al legame tra ambiente e salute mentale.
+        Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.
       </div>
     </div>
 
@@ -53,7 +55,7 @@ class: home
       <img src="/assets/img/ICO-Tecnologia.webp" alt="Tecnologia ecologica e fai da te sostenibile">
       <p>Tecnologia</p>
       <div class="description">
-        Innovazione sostenibile per casa, mobilità e fai da te. Scopri i migliori gadget ecologici, elettrodomestici a basso consumo, app per la gestione energetica e strumenti smart per il risparmio. Dalle lavatrici intelligenti ai software green, passando per la mobilità elettrica e condivisa.
+        Innovazione sostenibile per casa, mobilità e fai da te. Scopri i migliori gadget ecologici, elettrodomestici a basso consumo, app per la gestione energetica e strumenti smart per il risparmio.
       </div>
     </div>
 
@@ -61,8 +63,8 @@ class: home
       <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobby creativi e lavoro etico da casa">
       <p>Hobbystica</p>
       <div class="description">
-        Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa. Dai materiali riciclati alle soluzioni multifunzionali, trova ispirazione per uno stile di vita etico, pratico e innovativo.
+        Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
       </div>
     </div>
-  </section>
+  </div>
 </div>
