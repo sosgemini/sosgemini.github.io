@@ -1,164 +1,74 @@
-/* === 🧱 CONTENITORE CENTRALE HOMEPAGE === */
-body.home .page-wrapper {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: $spacing-lg $spacing-md;
-  background-color: rgba(255, 255, 255, 0.92);
-  box-shadow: $shadow-light;
-  border-radius: $radius-lg;
-  position: relative;
-  z-index: 1;
-}
-
-/* === 📝 INTRODUZIONE === */
-body.home .intro {
-  margin-bottom: $spacing-xl;
-  padding: 0 $spacing-md;
-}
-
-body.home .main-title-centered {
-  font-size: 2em;
-  font-weight: 600;
-  color: $text-color;
-  text-align: center;
-  margin-bottom: $spacing-md;
-}
-
-body.home .small-title {
-  font-size: 1.2em;
-  font-weight: 400;
-  color: $muted-color;
-  text-align: center;
-  margin-bottom: $spacing-lg;
-  line-height: 1.8;
-}
-
-body.home .eco-tips {
-  max-width: 1100px;
-  margin: $spacing-lg auto;
-  padding: 0 $spacing-md;
-  color: $text-color;
-
-  h3 {
-    font-size: 1.4em;
-    font-weight: 500;
-    text-align: center;
-    margin-bottom: $spacing-md;
-  }
-
-  p {
-    line-height: 1.8;
-    font-size: 1.1em;
-    max-width: 65ch;
-    margin-bottom: $spacing-md;
-    text-align: left; // ✅ allineamento a sinistra
-    margin-left: 0;   // ✅ niente centratura
-    margin-right: auto;
-  }
-}
-
-
-/* === 🔲 GRIGLIA QUADRATI === */
-body.home .square-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: $spacing-md;
-  margin: $spacing-lg auto;
-  max-width: 1150px;
-  padding: 0 $spacing-md;
-}
-
-/* === 🧩 QUADRATI CONTENUTO === */
 body.home .content-square {
-  background-color: #3a3a3a;
-  color: white;
-  width: 200px;
-  height: 200px;
-  border-radius: $radius-lg;
-  box-shadow: $shadow-medium;
-  text-align: center;
-  padding: $spacing-md;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: background 0.3s ease;
-  position: relative;
-  z-index: 1;
+  background-color: #3a3a3a; // sfondo grigio scuro del quadrato
+  color: white; // testo bianco
+  width: 200px; // larghezza fissa
+  height: 200px; // altezza fissa
+  border-radius: $radius-lg; // angoli arrotondati (valore da variabile)
+  box-shadow: $shadow-medium; // ombra media (valore da variabile)
+  text-align: center; // testo centrato orizzontalmente
+  padding: $spacing-md; // spaziatura interna (valore da variabile)
+  display: flex; // layout flessibile
+  flex-direction: column; // disposizione verticale
+  justify-content: center; // contenuto centrato verticalmente
+  align-items: center; // contenuto centrato orizzontalmente
+  transition: background 0.3s ease; // transizione fluida sullo sfondo
+  position: relative; // necessario per posizionare elementi assoluti all’interno
+  z-index: 1; // livello sopra lo sfondo
 
   img {
-    width: 80px;
-    margin: $spacing-sm 0;
+    width: 80px; // larghezza immagine
+    margin: $spacing-sm 0; // margine verticale sopra e sotto
   }
 
   p {
-    font-size: 1.2em;
-    font-weight: 600;
-    margin: 4px 0 0 0;
+    font-size: 1.2em; // dimensione testo
+    font-weight: 600; // peso medio-alto
+    margin: 4px 0 0 0; // margine superiore piccolo, nessun margine laterale o inferiore
   }
 
   .rating-stars {
-    font-size: 1.1em;
-    margin-top: $spacing-xs;
+    font-size: 1.2em; // dimensione delle stelline
+    color: gold; // colore giallo oro
+    margin-top: $spacing-xs; // margine sopra
+    margin-bottom: $spacing-xs; // margine sotto
   }
 
- .content-square {
-  position: relative;
-  padding: $spacing-md;
-  background-color: #222;
-  color: white;
-  border-radius: $radius-sm;
-
- .content-square {
-  position: relative;
-  padding: $spacing-md;
-  background-color: #222;
-  color: white;
-  border-radius: $radius-sm;
-
   .brand-name {
-    font-size: 0.9em;
-    color: gold; // colore giallo elegante
+    font-size: 0.9em; // testo leggermente più piccolo
+    color: gold; // colore giallo oro
     text-decoration: none; // rimuove la sottolineatura
-    margin-top: $spacing-xs;
-    font-weight: 500;
-    transition: color 0.3s ease;
+    margin-top: $spacing-xs; // margine sopra
+    font-weight: 500; // peso medio
+    transition: color 0.3s ease; // transizione fluida sul colore
 
     &:hover {
-      color: darkorange; // effetto hover raffinato
+      color: darkorange; // colore arancio scuro al passaggio del mouse
     }
   }
 
-  .rating-stars {
-    font-size: 1.2em;
-    color: gold;
-    margin-bottom: $spacing-xs;
-  }
-
   .description {
-    position: absolute;
-    bottom: $spacing-md;
-    left: $spacing-md;
-    right: $spacing-md;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: $spacing-sm;
-    font-size: 0.85em;
-    line-height: 1.8;
-    border-radius: $radius-sm;
-    z-index: 10;
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    position: absolute; // posizionamento assoluto dentro il quadrato
+    bottom: $spacing-md; // distanza dal fondo
+    left: $spacing-md; // distanza dal bordo sinistro
+    right: $spacing-md; // distanza dal bordo destro
+    background-color: rgba(0, 0, 0, 0.7); // sfondo nero semi-trasparente
+    color: white; // testo bianco
+    padding: $spacing-sm; // spaziatura interna
+    font-size: 0.85em; // testo leggermente più piccolo
+    line-height: 1.8; // altezza della linea per leggibilità
+    border-radius: $radius-sm; // angoli arrotondati piccoli
+    z-index: 10; // sopra tutto il resto
+    display: none; // nascosto di default
+    opacity: 0; // invisibile di default
+    transition: opacity 0.3s ease; // transizione fluida per comparsa
   }
 
   &:hover {
-    background-color: #444;
+    background-color: #444; // cambia colore di sfondo al passaggio del mouse
 
     .description {
-      display: block;
-      opacity: 1;
+      display: block; // mostra la descrizione
+      opacity: 1; // rende visibile la descrizione
     }
   }
 }
