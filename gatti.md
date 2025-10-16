@@ -6,7 +6,8 @@ class: home
 
 <div class="post-container">
   <!-- 📝 INTRODUZIONE -->
-  <div class="intro">
+  
+<div class="intro">
     <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
     <h2 class="small-title">
       Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
@@ -26,12 +27,18 @@ class: home
 
   <!-- 🔲 GRIGLIA QUADRATI -->
   <div class="square-grid">
+ 
     <div class="content-square">
       <p>Royal Canin</p>
+      <div class="rating-stars" aria-label="Valutazione: 5 su 5">
+  <span style="color: gold;">★★★★★</span>
+</div>
+
       <div class="rating-stars">★★★★★</div>
-      <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
+      
       <div class="description">
         Fonte: Raccomandazioni veterinarie (2025) — Apprezzata per le linee specializzate, ideale per gatti di razza o con problematiche specifiche.
+        <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
       </div>
     </div>
 
