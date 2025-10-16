@@ -24,7 +24,7 @@ class: home
 
 
  <!-- CIBO SECCO -->
-<h2 class="section-title-gradient">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
+<h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
 
   <!-- 🔲 GRIGLIA QUADRATI SECCO -->
   <div class="square-grid">
@@ -110,7 +110,7 @@ class: home
 </div> 
 
 <!-- CIBO UMIDO -->
-<h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2> 
+<h2 class="small-title"> 🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2> 
 
   <!-- 🔲 GRIGLIA QUADRATI SECCO -->
   <div class="square-grid">
@@ -196,6 +196,6 @@ class: home
 </div>
 
 
-  <h3 class="section-title-gradient">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
+  <h3 class="small-title">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
   
-  <h3 class="section-title-gradient">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
+ <h3 class="small-title">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
