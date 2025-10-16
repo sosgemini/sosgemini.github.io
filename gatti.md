@@ -16,13 +16,10 @@ class: home
 
   <!-- 🌿 CONSIGLI PRATICI -->
   <section class="eco-tips section-wrapper">
-    <h3>Consigli pratici per iniziare</h3>
+    <h3>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h3>
     <p>
-      Inizia con piccoli gesti: porta con te una borraccia riutilizzabile, scegli alimenti biologici e limita l’uso della plastica. Ogni scelta consapevole ha un impatto positivo sul mondo che ci circonda.
-    </p>
-    <p>
-      Coinvolgi anche i tuoi animali domestici: opta per alimenti naturali, giochi ecologici e prodotti cruelty-free. Il benessere parte da casa.
-    </p>
+      Sei pronto a trasformare la vita del tuo amico felino? Con la nostra guida completa alla cura del gatto, scoprirai tutti i segreti per garantire una vita lunga, sana e felice. Troverai consigli pratici su alimentazione, igiene, gioco e benessere quotidiano.</p>
+
   </section>
 
 
