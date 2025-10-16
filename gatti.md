@@ -37,7 +37,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Altroconsumo (Gennaio 2025) — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.
+    <strong>Fonte: Altroconsumo (Gennaio 2025)</strong> Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.
     <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
