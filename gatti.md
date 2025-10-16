@@ -32,8 +32,8 @@ class: home
   <section class="food-section">
     <h2 class="section-title-gradient">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-      <!-- content-square x7 -->
-      <!-- ... (tutti i quadrati secco) ... -->
+      <!-- ✅ TUTTI I QUADRATI SECCO -->
+      {{ include tutti i tuoi content-square secco qui, esattamente come li avevi }}
     </div>
   </section>
 
@@ -41,8 +41,8 @@ class: home
   <section class="food-section">
     <h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-      <!-- content-square x7 -->
-      <!-- ... (tutti i quadrati umido) ... -->
+      <!-- ✅ TUTTI I QUADRATI UMIDO -->
+      {{ include tutti i tuoi content-square umido qui, esattamente come li avevi }}
     </div>
   </section>
 
