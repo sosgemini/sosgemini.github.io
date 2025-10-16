@@ -70,7 +70,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Test indipendenti (Marzo 2025)</strong> Senza cereali, con ingredienti freschi e proteine animali elevate.
+    <strong>Fonte: Test indipendenti (Marzo 2025)</strong> Senza cereali, con ingredienti freschi e proteine animali elevate.
     <a class="brand-name" href="https://www.farmina.com/it/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
