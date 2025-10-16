@@ -1,17 +1,11 @@
-/* === 📦 CONTENITORE CENTRALE === */
-.container {
-  max-width: 1150px;
-  margin: 0 auto;
-  padding: 0 $spacing-md;
-}
-
 /* === 📝 INTRODUZIONE HOMEPAGE === */
 body.home .intro {
   margin-bottom: $spacing-xl;
+  padding: 0 $spacing-md;
 }
 
 body.home .main-title-centered {
-  font-size: 2em;
+  font-size: 2em; // titolo principale grande
   font-weight: 600;
   color: $text-color;
   text-align: center;
@@ -21,7 +15,7 @@ body.home .main-title-centered {
 }
 
 body.home .small-title {
-  font-size: 1.2em;
+  font-size: 1.2em; // sottotitolo
   font-weight: 400;
   color: $muted-color;
   text-align: center;
@@ -32,33 +26,16 @@ body.home .small-title {
   margin-right: auto;
 }
 
-/* === 🌿 CONSIGLI PRATICI === */
 body.home .eco-tips {
-  margin: $spacing-lg 0;
+  max-width: 1100px;
+  margin: $spacing-lg auto;
+  padding: 0 $spacing-md;
   color: $text-color;
 
-  .eco-tips-flex {
-    display: flex;
-    align-items: center;
-    gap: $spacing-lg;
-  }
-
-  .eco-text {
-    flex: 1;
-  }
-
-  .eco-image {
-    flex: 0 0 220px;
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-  }
-
-  h2 {
+  h3 {
     font-size: 1.4em;
     font-weight: 500;
+    text-align: center;
     margin-bottom: $spacing-md;
     line-height: 1.4;
   }
@@ -68,6 +45,9 @@ body.home .eco-tips {
     font-size: 1.1em;
     max-width: 65ch;
     margin-bottom: $spacing-md;
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
   }
 }
 
@@ -77,9 +57,12 @@ body.home .square-grid {
   flex-wrap: wrap;
   justify-content: center;
   gap: $spacing-md;
-  margin: $spacing-lg 0;
+  margin: $spacing-lg auto;
+  max-width: 1150px;
+  padding: 0 $spacing-md;
 }
 
+/* === 🧩 QUADRATO SINGOLO === */
 body.home .content-square {
   background-color: #3a3a3a;
   color: white;
@@ -95,6 +78,7 @@ body.home .content-square {
   padding: $spacing-md;
   position: relative;
   transition: background 0.3s ease;
+  z-index: 1;
 
   img {
     width: 80px;
@@ -112,5 +96,44 @@ body.home .content-square {
     color: gold;
     margin-top: $spacing-xs;
     margin-bottom: $spacing-xs;
+  }
+
+  .brand-name {
+    font-size: 0.9em;
+    color: gold;
+    text-decoration: none;
+    margin-top: $spacing-xs;
+    font-weight: 500;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: darkorange;
+    }
+  }
+
+  .description {
+    position: absolute;
+    bottom: $spacing-md;
+    left: $spacing-md;
+    right: $spacing-md;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: $spacing-sm;
+    font-size: 0.85em;
+    line-height: 1.8;
+    border-radius: $radius-sm;
+    z-index: 10;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+
+  &:hover {
+    background-color: #444;
+
+    .description {
+      display: block;
+      opacity: 1;
+    }
   }
 }
