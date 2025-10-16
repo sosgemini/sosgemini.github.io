@@ -32,11 +32,8 @@ class: home
       <p>Royal Canin</p>
       <div class="rating-stars" aria-label="Valutazione: 5 su 5">
   <span style="color: gold;">★★★★★</span>
-</div>
-
-      <div class="rating-stars">★★★★★</div>
-      
-      <div class="description">
+  </div>
+        <div class="description">
         Fonte: Raccomandazioni veterinarie (2025) — Apprezzata per le linee specializzate, ideale per gatti di razza o con problematiche specifiche.
         <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
       </div>
