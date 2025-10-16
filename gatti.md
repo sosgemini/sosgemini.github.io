@@ -48,7 +48,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Raccomandazioni veterinarie (2025) — Apprezzata per le linee specializzate, ideale per gatti di razza o con problematiche specifiche.
+    <strong>Fonte: Raccomandazioni veterinarie (2025)</strong> Apprezzata per le linee specializzate, ideale per gatti di razza o con problematiche specifiche.
     <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -59,7 +59,7 @@ class: home
     <span style="color: gold;">★★★★☆</span>
   </div>
   <div class="description">
-    Fonte: Esperti di nutrizione animale (2025) — Formulazioni innovative per supporto immunitario e salute urinaria.
+    <strong>Fonte: Esperti di nutrizione animale (2025)</strong> Formulazioni innovative per supporto immunitario e salute urinaria.
     <a class="brand-name" href="https://www.purina.it/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -70,7 +70,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Test indipendenti (Marzo 2025) — Senza cereali, con ingredienti freschi e proteine animali elevate.
+    Fonte: Test indipendenti (Marzo 2025)</strong> Senza cereali, con ingredienti freschi e proteine animali elevate.
     <a class="brand-name" href="https://www.farmina.com/it/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -81,7 +81,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Nutrizionisti felini (2025) — Super-premium con carne fresca e filosofia biologicamente appropriata.
+    <strong>Fonte: Nutrizionisti felini (2025)</strong> Super-premium con carne fresca e filosofia biologicamente appropriata.
     <a class="brand-name" href="https://www.orijen.ca/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -92,7 +92,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Analisi nutrizionali (2025) — Italiano, monoproteico, funzionale e di alta qualità.
+    <strong>Fonte: Analisi nutrizionali (2025)</strong> Italiano, monoproteico, funzionale e di alta qualità.
     <a class="brand-name" href="https://www.arcaplanet.it/s/?q=BeFortis+cat" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -103,7 +103,7 @@ class: home
     <span style="color: gold;">★★★★☆</span>
   </div>
   <div class="description">
-    Fonte: Analisi di mercato (Aprile 2025) — Ottimo rapporto qualità-prezzo, grain-free e naturale.
+    <strong>Fonte: Analisi di mercato (Aprile 2025)</strong> Ottimo rapporto qualità-prezzo, grain-free e naturale.
     <a class="brand-name" href="https://www.ownat.com/it/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -122,7 +122,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Analisi di settore (Febbraio 2025) — Ingredienti human grade, linea HFC pura e senza additivi.
+    <strong>Fonte: Analisi di settore (Febbraio 2025)</strong> Ingredienti human grade, linea HFC pura e senza additivi.
     <a class="brand-name" href="https://www.almonature.com/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -133,7 +133,7 @@ class: home
     <span style="color: gold;">★★★★☆</span>
   </div>
   <div class="description">
-    Fonte: Test nutrizionali (2025) — Preparazione a vapore, tonno e pollo selezionati.
+    <strong>Fonte: Test nutrizionali (2025)</strong> Preparazione a vapore, tonno e pollo selezionati.
     <a class="brand-name" href="https://www.schesir.com/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -144,7 +144,7 @@ class: home
     <span style="color: gold;">★★★★☆</span>
   </div>
   <div class="description">
-    Fonte: Test indipendenti (Marzo 2025) — Naturale, mirato per gatti sterilizzati o con digestione sensibile.
+    <strong>Fonte: Test indipendenti (Marzo 2025)</strong> Naturale, mirato per gatti sterilizzati o con digestione sensibile.
     <a class="brand-name" href="https://www.trainer.eu/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -155,7 +155,7 @@ class: home
     <span style="color: gold;">★★★☆☆</span>
   </div>
   <div class="description">
-    Fonte: Altroconsumo (Gennaio 2025) — Appetibile e conveniente, molto gradita dai gatti.
+    <strong>Fonte: Altroconsumo (Gennaio 2025)</strong> Appetibile e conveniente, molto gradita dai gatti.
     <a class="brand-name" href="https://www.purina.it/felix" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -166,7 +166,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Veterinari e nutrizionisti (Giugno 2025) — Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata.
+    <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong> Marca di nicchia con ricette ricche di carne e prive di cereali. Alta qualità e origine controllata.
     <a class="brand-name" href="https://www.mjammjam.de/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -177,7 +177,7 @@ class: home
     <span style="color: gold;">★★★★★</span>
   </div>
   <div class="description">
-    Fonte: Veterinari e nutrizionisti (Giugno 2025) — Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti.
+    <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong> Marca tedesca di fascia alta, apprezzata per le ricette monoproteiche e l'origine controllata degli ingredienti.
     <a class="brand-name" href="https://www.venandi-animal.de/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
@@ -188,7 +188,7 @@ class: home
     <span style="color: gold;">★★★☆☆</span>
   </div>
   <div class="description">
-    Fonte: Analisi di mercato (2025) — Ottimo rapporto qualità-prezzo. Nutrizione adeguata per la dieta quotidiana del gatto.
+    <strong>Fonte: Analisi di mercato (2025)</strong> Ottimo rapporto qualità-prezzo. Nutrizione adeguata per la dieta quotidiana del gatto.
     <a class="brand-name" href="https://www.morando.it/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
