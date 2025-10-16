@@ -16,7 +16,7 @@ class: home
 
   <!-- 🌿 CONSIGLI PRATICI -->
   <section class="eco-tips section-wrapper">
-    <h3>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h3>
+    <h2>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h2>
     <p>
       Sei pronto a trasformare la vita del tuo amico felino? Con la nostra guida completa alla cura del gatto, scoprirai tutti i segreti per garantire una vita lunga, sana e felice. Troverai consigli pratici su alimentazione, igiene, gioco e benessere quotidiano.</p>
 
