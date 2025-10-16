@@ -109,6 +109,7 @@ class: home
     <a class="brand-name" href="https://www.ownat.com/it/" target="_blank" rel="noopener">Visita il sito</a>
   </div>
 </div>
+</div> 
 
 <!-- CIBO UMIDO -->
 <h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
