@@ -14,18 +14,19 @@ class: home
     </h2>
   </div>
 
- <!-- 🌿 CONSIGLI PRATICI -->
 <!-- 🌿 CONSIGLI PRATICI -->
 <section class="eco-tips section-wrapper">
-  <div class="eco-tips-flex" style="display: flex; align-items: center; gap: 2rem;">
-    <div class="eco-text" style="flex: 1;">
-      <h2>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h2>
-      <p>
-        Sei pronto a trasformare la vita del tuo amico felino? Con la nostra guida completa alla cura del gatto, scoprirai tutti i segreti per garantire una vita lunga, sana e felice. Troverai consigli pratici su alimentazione, igiene, gioco e benessere quotidiano.
-      </p>
-    </div>
-    <div class="eco-image" style="flex: 0 0 220px;">
-      <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-800.webp" alt="Gatto in pericolo con cibo tossico" style="width: 100%; height: auto;" />
+  <div class="container">
+    <div class="eco-tips-flex">
+      <div class="eco-text">
+        <h2>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h2>
+        <p>
+          Sei pronto a trasformare la vita del tuo amico felino? Con la nostra guida completa alla cura del gatto, scoprirai tutti i segreti per garantire una vita lunga, sana e felice. Troverai consigli pratici su alimentazione, igiene, gioco e benessere quotidiano.
+        </p>
+      </div>
+      <div class="eco-image">
+        <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-800.webp" alt="Gatto in pericolo con cibo tossico" />
+      </div>
     </div>
   </div>
 </section>
