@@ -15,6 +15,7 @@ class: home
   </div>
 
  <!-- 🌿 CONSIGLI PRATICI -->
+<!-- 🌿 CONSIGLI PRATICI -->
 <section class="eco-tips section-wrapper">
   <div class="eco-tips-flex" style="display: flex; align-items: center; gap: 2rem;">
     <div class="eco-text" style="flex: 1;">
@@ -28,6 +29,7 @@ class: home
     </div>
   </div>
 </section>
+
 
 
 
