@@ -103,11 +103,37 @@ body.home .content-square {
     margin-top: $spacing-xs;
   }
 
+ .content-square {
+  position: relative;
+  padding: $spacing-md;
+  background-color: #222;
+  color: white;
+  border-radius: $radius-sm;
+
+ .content-square {
+  position: relative;
+  padding: $spacing-md;
+  background-color: #222;
+  color: white;
+  border-radius: $radius-sm;
+
   .brand-name {
     font-size: 0.9em;
-    color: #ff6600; // sostituisce $accent-color non definita
-    text-decoration: underline;
+    color: gold; // colore giallo elegante
+    text-decoration: none; // rimuove la sottolineatura
     margin-top: $spacing-xs;
+    font-weight: 500;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: darkorange; // effetto hover raffinato
+    }
+  }
+
+  .rating-stars {
+    font-size: 1.2em;
+    color: gold;
+    margin-bottom: $spacing-xs;
   }
 
   .description {
