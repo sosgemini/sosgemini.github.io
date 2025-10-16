@@ -29,7 +29,7 @@ class: home
 <!-- CIBO SECCO -->
 <h2 class="section-title-gradient">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
 
-  <!-- 🔲 GRIGLIA QUADRATI -->
+  <!-- 🔲 GRIGLIA QUADRATI SECCO -->
   <div class="square-grid">
  
 
@@ -112,7 +112,9 @@ class: home
 
 <!-- CIBO UMIDO -->
 <h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
-
+  <!-- 🔲 GRIGLIA QUADRATI SECCO -->
+  <div class="square-grid">
+    
 <div class="content-square">
   <p>Almo Nature</p>
   <div class="rating-stars" aria-label="Valutazione: 5 su 5">
