@@ -23,12 +23,13 @@ class: home
   </section>
 
 
-<!-- CIBO SECCO -->
-<h2 class="section-title-gradient">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
+
 
   <!-- 🔲 GRIGLIA QUADRATI SECCO -->
   <div class="square-grid">
- 
+    
+ <!-- CIBO SECCO -->
+<h2 class="section-title-gradient">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
 
 <div class="content-square">
   <p>Hill's Science Plan</p>
@@ -108,11 +109,12 @@ class: home
 </div>
 </div> 
 
-<!-- CIBO UMIDO -->
-<h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
+
   <!-- 🔲 GRIGLIA QUADRATI SECCO -->
   <div class="square-grid">
     
+<!-- CIBO UMIDO -->
+<h2 class="section-title-gradient">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>    
 <div class="content-square">
   <p>Almo Nature</p>
   <div class="rating-stars" aria-label="Valutazione: 5 su 5">
