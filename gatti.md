@@ -200,3 +200,6 @@ class: home
 
   </div>
 </div>
+ <div class="content-block"> <h3 class="useful-tip">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> </div> 
+  
+  <div class="content-block"> <h3 class="useful-tip">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3> </div>
