@@ -8,9 +8,9 @@ class: home
   <!-- 📝 INTRODUZIONE -->
   
 <div class="intro">
-    <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
+    <h1 class="main-title-centered">Cibo per Gatti Salutare: Come Scegliere la Dieta Migliore</h1>
     <h2 class="small-title">
-      Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
+      Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
     </h2>
   </div>
 
