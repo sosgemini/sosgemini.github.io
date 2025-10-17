@@ -199,4 +199,39 @@ class: home
   <h3 class="small-title">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
   
  <h3 class="small-title">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
-</main>
+  <section class="eco-tips section-wrapper">
+Ricerche basate su fonti autorevoli
+Per garantirti informazioni complete, accurate e affidabili su ogni argomento, il nostro sito si basa su un'attenta selezione di fonti autorevoli e specializzate.
+
+
+Trustpilot: una piattaforma di recensioni che raccoglie i feedback di milioni di utenti per valutare prodotti e servizi.
+
+Altroconsumo: un'associazione di consumatori che offre test comparativi indipendenti e guide all'acquisto.
+
+Sampleo: una piattaforma che permette di testare gratuitamente nuovi prodotti e condividerne l'opinione.
+
+ProvaLoTu: una community che offre la possibilità di testare e recensire prodotti di diverse categorie, dalla bellezza al cibo.
+
+Testa Il Prodotto: un portale di sondaggi e test di mercato che offre prodotti e ricompense in cambio di recensioni.
+
+Toluna: una community globale di consumatori che permette di partecipare a sondaggi, testare prodotti e guadagnare premi.
+
+Pinecone Research: un'azienda di ricerche di mercato che invita i consumatori a testare prodotti e partecipare a sondaggi per ricevere ricompense.
+
+TestaConsam: un sito che offre test di prodotti alimentari e non, in modo anonimo, per raccogliere feedback onesti dai consumatori.
+
+My-personaltrainer: un sito leader nel campo del benessere e della salute, con guide, approfondimenti e consigli da esperti.
+
+Quattroruote: una testata di riferimento per il settore auto, nota per i suoi test su strada e le analisi dettagliate.
+
+Al Volante: una rivista e portale online che offre prove su strada, novità e listini del mondo dei motori.
+
+CNET: un sito specializzato in analisi tecniche, recensioni e notizie su tecnologia ed elettronica di consumo.
+
+Statista: una piattaforma che raccoglie e analizza dati e statistiche da migliaia di fonti, offrendo report e ricerche di mercato.
+
+Il nostro obiettivo è offrirti un supporto concreto per le tue scelte, basato su un'ampia gamma di fonti affidabili e riconosciute.
+
+
+ 
+</section> </main>
