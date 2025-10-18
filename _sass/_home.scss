@@ -1,11 +1,11 @@
-/* === 📝 INTRODUZIONE HOMEPAGE === */
-body.home .intro {
+/* === 📝 INTRODUZIONE PAGINE === */
+body.pagina .intro {
   margin-bottom: $spacing-xl;
   padding: 0 $spacing-md;
 }
 
-body.home .main-title-centered {
-  font-size: 2em; // titolo principale grande
+body.pagina .main-title-centered {
+  font-size: 2em;
   font-weight: 600;
   color: $text-color;
   text-align: center;
@@ -14,8 +14,8 @@ body.home .main-title-centered {
   letter-spacing: -0.5px;
 }
 
-body.home .small-title {
-  font-size: 1.2em; // sottotitolo
+body.pagina .small-title {
+  font-size: 1.2em;
   font-weight: 400;
   color: $muted-color;
   text-align: center;
@@ -26,13 +26,14 @@ body.home .small-title {
   margin-right: auto;
 }
 
-body.home .eco-tips {
-  max-width: 1100px;
+/* === 🌿 SEZIONE ECO-TIPS === */
+body.pagina .eco-tips {
+  max-width: 1150px;
   margin: $spacing-lg auto;
   padding: 0 $spacing-md;
   color: $text-color;
 
-  h3 {
+  h2, h3 {
     font-size: 1.4em;
     font-weight: 500;
     text-align: center;
@@ -52,7 +53,7 @@ body.home .eco-tips {
 }
 
 /* === 🔲 GRIGLIA QUADRATI === */
-body.home .square-grid {
+body.pagina .square-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -63,7 +64,7 @@ body.home .square-grid {
 }
 
 /* === 🧩 QUADRATO SINGOLO === */
-body.home .content-square {
+body.pagina .content-square {
   background-color: #3a3a3a;
   color: white;
   width: 200px;
