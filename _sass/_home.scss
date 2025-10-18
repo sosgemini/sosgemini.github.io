@@ -153,3 +153,7 @@ body.pagina .content-square {
   max-width: 1150px;
   box-sizing: border-box;
 }
+.section-wrapper + .section-wrapper {
+  margin-top: 60px;
+}
+
