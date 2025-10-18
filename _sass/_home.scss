@@ -144,18 +144,11 @@ body.pagina .content-square {
   }
 }
 
-/* ========================= */
-/* WRAPPER GENERALE SEZIONI */
-/* ========================= */
 .section-wrapper {
-  padding: 40px 60px;
+  padding: 100px clamp(60px, 6vw, 100px);
   margin: 0 auto;
   max-width: 1150px;
   box-sizing: border-box;
-  padding: 100px clamp(40px, 6vw, 80px);
 }
 
-.section-wrapper + .section-wrapper {
-  margin-top: 100px;
-}
 
