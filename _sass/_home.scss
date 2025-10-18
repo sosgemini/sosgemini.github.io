@@ -1,8 +1,8 @@
 /* === 📝 INTRODUZIONE HOMEPAGE + PAGINE === */
 body.home .intro,
 body.pagina .intro {
+  @extend .section-wrapper;
   margin-bottom: $spacing-xl;
-  padding: 0 $spacing-md;
 }
 
 body.home .main-title-centered,
@@ -29,11 +29,12 @@ body.pagina .small-title {
   margin-right: auto;
 }
 
+/* === 🌿 ECO TIPS === */
 body.home .eco-tips,
 body.pagina .eco-tips {
+  @extend .section-wrapper;
   max-width: 1100px;
-  margin: $spacing-lg auto;
-  padding: 0 $spacing-md;
+  margin-top: $spacing-lg;
   color: $text-color;
 
   h3 {
@@ -58,13 +59,13 @@ body.pagina .eco-tips {
 /* === 🔲 GRIGLIA QUADRATI HOMEPAGE + PAGINE === */
 body.home .square-grid,
 body.pagina .square-grid {
+  @extend .section-wrapper;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: $spacing-md;
-  margin: $spacing-lg auto;
   max-width: 1150px;
-  padding: 0 $spacing-md;
+  margin-top: $spacing-lg;
 }
 
 /* === 🧩 QUADRATO SINGOLO HOMEPAGE + PAGINE === */
@@ -144,10 +145,11 @@ body.pagina .content-square {
   }
 }
 
-  .section-wrapper {
-  padding: 100px clamp(80px, 8vw, 120px);
-  margin: 0 auto;
+/* === 📦 WRAPPER GENERALE SEZIONI === */
+.section-wrapper {
+  padding-block: 100px;
+  padding-inline: clamp(80px, 8vw, 120px);
+  margin-inline: auto;
   max-width: 1150px;
   box-sizing: border-box;
 }
-
