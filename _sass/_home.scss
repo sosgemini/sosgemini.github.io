@@ -152,7 +152,11 @@ body.pagina .content-square {
   margin: 0 auto;
   max-width: 1150px;
   box-sizing: border-box;
+  padding: 40px clamp(40px, 6vw, 80px);
 }
+
+
+
 .section-wrapper + .section-wrapper {
   margin-top: 60px;
 }
