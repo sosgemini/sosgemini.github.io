@@ -1,8 +1,11 @@
 ---
 layout: default
-title: SOS Gemini
-class: home
+title: Cibo per Gatti Salutare
+description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
+class: pagina
+permalink: /cibo-per-gatti-salutare/
 ---
+
 <main class="post-container">
 <div class="post-container">
   <!-- 📝 INTRODUZIONE -->
