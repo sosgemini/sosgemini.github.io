@@ -145,10 +145,9 @@ body.pagina .content-square {
   }
 }
 
-/* === 📦 WRAPPER GENERALE SEZIONI === */
 .section-wrapper {
-  padding-block: 100px;
-  padding-inline: clamp(80px, 8vw, 120px);
+  padding-block: 80px;
+  padding-inline: clamp(40px, 5vw, 80px);
   margin-inline: auto;
   max-width: 1150px;
   box-sizing: border-box;
