@@ -144,14 +144,10 @@ body.pagina .content-square {
   }
 }
 
-.section-wrapper {
-  padding: 100px clamp(60px, 6vw, 100px);
+  .section-wrapper {
+  padding: 100px clamp(80px, 8vw, 120px);
   margin: 0 auto;
   max-width: 1150px;
   box-sizing: border-box;
-}
-
-.section-wrapper {
-  border: 2px dashed red;
 }
 
