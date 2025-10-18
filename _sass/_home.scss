@@ -1,3 +1,4 @@
+/* === 📝 INTRODUZIONE HOMEPAGE + PAGINE === */
 body.home .intro,
 body.pagina .intro {
   margin-bottom: $spacing-xl;
@@ -30,7 +31,7 @@ body.pagina .small-title {
 
 body.home .eco-tips,
 body.pagina .eco-tips {
-  max-width: 1150px;
+  max-width: 1100px;
   margin: $spacing-lg auto;
   padding: 0 $spacing-md;
   color: $text-color;
@@ -54,6 +55,7 @@ body.pagina .eco-tips {
   }
 }
 
+/* === 🔲 GRIGLIA QUADRATI HOMEPAGE + PAGINE === */
 body.home .square-grid,
 body.pagina .square-grid {
   display: flex;
@@ -65,6 +67,7 @@ body.pagina .square-grid {
   padding: 0 $spacing-md;
 }
 
+/* === 🧩 QUADRATO SINGOLO HOMEPAGE + PAGINE === */
 body.home .content-square,
 body.pagina .content-square {
   background-color: #3a3a3a;
