@@ -1,6 +1,15 @@
+/* === 📦 CONTENITORE CENTRALE === */
+.section-wrapper {
+  margin-inline: auto;
+  max-width: 1150px;
+  padding-inline: clamp(40px, 5vw, 80px);
+  box-sizing: border-box;
+}
+
 /* === 📝 INTRODUZIONE HOMEPAGE + PAGINE === */
 body.home .intro,
 body.pagina .intro {
+  padding-block: 80px;
   @extend .section-wrapper;
   margin-bottom: $spacing-xl;
 }
@@ -25,16 +34,14 @@ body.pagina .small-title {
   margin-bottom: $spacing-lg;
   line-height: 1.8;
   max-width: 65ch;
-  margin-left: auto;
-  margin-right: auto;
+  margin-inline: auto;
 }
 
 /* === 🌿 ECO TIPS === */
 body.home .eco-tips,
 body.pagina .eco-tips {
+  padding-block: 80px;
   @extend .section-wrapper;
-  max-width: 1100px;
-  margin-top: $spacing-lg;
   color: $text-color;
 
   h3 {
@@ -51,21 +58,20 @@ body.pagina .eco-tips {
     max-width: 65ch;
     margin-bottom: $spacing-md;
     text-align: left;
-    margin-left: 0;
-    margin-right: auto;
+    margin-inline: auto;
   }
 }
 
 /* === 🔲 GRIGLIA QUADRATI HOMEPAGE + PAGINE === */
 body.home .square-grid,
 body.pagina .square-grid {
-  @extend .section-wrapper;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: $spacing-md;
+  margin: $spacing-lg auto;
   max-width: 1150px;
-  margin-top: $spacing-lg;
+  box-sizing: border-box;
 }
 
 /* === 🧩 QUADRATO SINGOLO HOMEPAGE + PAGINE === */
@@ -101,8 +107,7 @@ body.pagina .content-square {
   .rating-stars {
     font-size: 1.2em;
     color: gold;
-    margin-top: $spacing-xs;
-    margin-bottom: $spacing-xs;
+    margin-block: $spacing-xs;
   }
 
   .brand-name {
@@ -143,12 +148,4 @@ body.pagina .content-square {
       opacity: 1;
     }
   }
-}
-
-.section-wrapper {
-  padding-block: 80px;
-  padding-inline: clamp(40px, 5vw, 80px);
-  margin-inline: auto;
-  max-width: 1150px;
-  box-sizing: border-box;
 }
