@@ -1,9 +1,10 @@
-/* === 📝 INTRODUZIONE PAGINE === */
+body.home .intro,
 body.pagina .intro {
   margin-bottom: $spacing-xl;
   padding: 0 $spacing-md;
 }
 
+body.home .main-title-centered,
 body.pagina .main-title-centered {
   font-size: 2em;
   font-weight: 600;
@@ -14,6 +15,7 @@ body.pagina .main-title-centered {
   letter-spacing: -0.5px;
 }
 
+body.home .small-title,
 body.pagina .small-title {
   font-size: 1.2em;
   font-weight: 400;
@@ -26,14 +28,14 @@ body.pagina .small-title {
   margin-right: auto;
 }
 
-/* === 🌿 SEZIONE ECO-TIPS === */
+body.home .eco-tips,
 body.pagina .eco-tips {
   max-width: 1150px;
   margin: $spacing-lg auto;
   padding: 0 $spacing-md;
   color: $text-color;
 
-  h2, h3 {
+  h3 {
     font-size: 1.4em;
     font-weight: 500;
     text-align: center;
@@ -52,7 +54,7 @@ body.pagina .eco-tips {
   }
 }
 
-/* === 🔲 GRIGLIA QUADRATI === */
+body.home .square-grid,
 body.pagina .square-grid {
   display: flex;
   flex-wrap: wrap;
@@ -63,7 +65,7 @@ body.pagina .square-grid {
   padding: 0 $spacing-md;
 }
 
-/* === 🧩 QUADRATO SINGOLO === */
+body.home .content-square,
 body.pagina .content-square {
   background-color: #3a3a3a;
   color: white;
