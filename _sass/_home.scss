@@ -3,18 +3,19 @@
   width: 100%;
   max-width: 1150px;
   margin-inline: auto;
+  padding-inline: 20px;
   box-sizing: border-box;
-  padding-inline: 20px; // oppure 24px, ma NON clamp()
 }
 
-
-/* === 📝 INTRODUZIONE HOMEPAGE === */
-body.home .intro {
-  margin-bottom: $spacing-xl;
+/* === 📝 INTRODUZIONE HOMEPAGE + PAGINA === */
+body.home .intro,
+body.pagina .intro {
   padding-block: $spacing-xl;
+  margin-bottom: $spacing-xl;
 }
 
-body.home .main-title-centered {
+body.home .main-title-centered,
+body.pagina .main-title-centered {
   font-size: 2em;
   font-weight: 600;
   color: $text-color;
@@ -24,7 +25,8 @@ body.home .main-title-centered {
   letter-spacing: -0.5px;
 }
 
-body.home .small-title {
+body.home .small-title,
+body.pagina .small-title {
   font-size: 1.2em;
   font-weight: 400;
   color: $muted-color;
@@ -35,12 +37,13 @@ body.home .small-title {
   margin-inline: auto;
 }
 
-/* === 🌿 ECO TIPS === */
-body.home .eco-tips {
+/* === 🌿 ECO TIPS HOMEPAGE + PAGINA === */
+body.home .eco-tips,
+body.pagina .eco-tips {
   padding-block: $spacing-xl;
   color: $text-color;
 
-  h3 {
+  h2, h3 {
     font-size: 1.4em;
     font-weight: 500;
     text-align: center;
@@ -58,17 +61,22 @@ body.home .eco-tips {
   }
 }
 
-/* === 🔲 GRIGLIA QUADRATI === */
-body.home .square-grid {
+/* === 🔲 GRIGLIA QUADRATI HOMEPAGE + PAGINA === */
+body.home .square-grid,
+body.pagina .square-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: $spacing-md;
   padding-block: $spacing-lg;
+  max-width: 1150px;
+  margin-inline: auto;
+  box-sizing: border-box;
 }
 
-/* === 🧩 QUADRATO SINGOLO === */
-body.home .content-square {
+/* === 🧩 QUADRATO SINGOLO HOMEPAGE + PAGINA === */
+body.home .content-square,
+body.pagina .content-square {
   background-color: #3a3a3a;
   color: white;
   width: 200px;
