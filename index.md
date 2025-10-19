@@ -4,14 +4,17 @@ title: SOS Gemini
 class: home
 ---
 
-<div class="post-container">
-  <div class="intro">
+<main class="layout-wrapper">
+
+  <!-- 📝 INTRODUZIONE -->
+  <section class="intro">
     <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
     <h2 class="small-title">
       Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
     </h2>
-  </div>
+  </section>
 
+  <!-- 🔲 GRIGLIA QUADRATI -->
   <section class="square-grid">
     <div class="content-square">
       <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
@@ -45,16 +48,20 @@ class: home
       </div>
     </div>
   </section>
-</div>
 
-
-<!-- 💡 CONSIGLI FINALI -->
-  <h3 class="small-title left">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido...</h3>
-  <h3 class="small-title left">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati...</h3>
+  <!-- 💡 CONSIGLI FINALI -->
+  <section class="tips">
+    <h3 class="small-title left">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce i rischi di problemi renali.</h3>
+    <h3 class="small-title left">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
+  </section>
 
   <!-- 🔍 FONTI -->
   <section class="eco-tips">
     <h3>Ricerche basate su fonti autorevoli</h3>
-    <p>Trustpilot, Altroconsumo, Sampleo, ProvaLoTu, Testa Il Prodotto, Toluna, Pinecone Research, TestaConsam, My-personaltrainer, Quattroruote, Al Volante, CNET, Statista...</p>
+    <p>
+      Trustpilot, Altroconsumo, Sampleo, ProvaLoTu, Testa Il Prodotto, Toluna, Pinecone Research, TestaConsam, My-personaltrainer, Quattroruote, Al Volante, CNET, Statista...
+    </p>
   </section>
+
+</main>
 
