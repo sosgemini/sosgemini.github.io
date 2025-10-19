@@ -46,3 +46,15 @@ class: home
     </div>
   </section>
 </div>
+
+
+<!-- 💡 CONSIGLI FINALI -->
+  <h3 class="small-title left">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido...</h3>
+  <h3 class="small-title left">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati...</h3>
+
+  <!-- 🔍 FONTI -->
+  <section class="eco-tips">
+    <h3>Ricerche basate su fonti autorevoli</h3>
+    <p>Trustpilot, Altroconsumo, Sampleo, ProvaLoTu, Testa Il Prodotto, Toluna, Pinecone Research, TestaConsam, My-personaltrainer, Quattroruote, Al Volante, CNET, Statista...</p>
+  </section>
+
