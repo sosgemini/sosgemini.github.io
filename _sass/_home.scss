@@ -1,11 +1,24 @@
 /* === 📦 CONTENITORE CENTRALE === */
 .layout-wrapper {
-  width: 100%;
   max-width: 1150px;
   margin-inline: auto;
   padding-inline: 20px;
   box-sizing: border-box;
 }
+
+.small-title.left {
+  text-align: left;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 65ch;
+}
+
+.eco-tips p {
+  text-align: left;
+  margin-inline: auto;
+  max-width: 65ch;
+}
+
 
 /* === 📝 INTRODUZIONE === */
 .intro {
