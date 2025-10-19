@@ -1,10 +1,12 @@
 /* === 📦 CONTENITORE CENTRALE === */
 .layout-wrapper {
+  width: 100%;
   max-width: 1150px;
   margin-inline: auto;
-  padding-inline: clamp(20px, 5vw, 40px);
   box-sizing: border-box;
+  padding-inline: 20px; // oppure 24px, ma NON clamp()
 }
+
 
 /* === 📝 INTRODUZIONE HOMEPAGE === */
 body.home .intro {
