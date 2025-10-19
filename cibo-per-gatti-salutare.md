@@ -6,23 +6,18 @@ class: pagina
 permalink: /cibo-per-gatti-salutare/
 ---
 
-<main class="post-container">
-<div class="post-container">
+<main class="layout-wrapper">
+
   <!-- 📝 INTRODUZIONE -->
-  
-<div class="intro">
+  <section class="intro">
     <h1 class="main-title-centered">Cibo per Gatti Salutare: Come Scegliere la Dieta Migliore</h1>
-    <h2 class="small-title">
-      Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
-    </h2>
-  </div>
+    <h2 class="small-title">Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.</h2>
+  </section>
 
   <!-- 🌿 CONSIGLI PRATICI -->
-  <section class="eco-tips section-wrapper">
+  <section class="eco-tips">
     <h2>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h2>
-    <p>
-      Sei pronto a trasformare la vita del tuo amico felino? Con la nostra guida completa alla cura del gatto, scoprirai tutti i segreti per garantire una vita lunga, sana e felice. Troverai consigli pratici su alimentazione, igiene, gioco e benessere quotidiano.</p>
-
+    <p>Sei pronto a trasformare la vita del tuo amico felino? Con la nostra guida completa alla cura del gatto, scoprirai tutti i segreti per garantire una vita lunga, sana e felice. Troverai consigli pratici su alimentazione, igiene, gioco e benessere quotidiano.</p>
   </section>
 
 
@@ -198,12 +193,17 @@ permalink: /cibo-per-gatti-salutare/
   </div>
 </div>
 
+<!-- 💡 CONSIGLI FINALI -->
+  <h3 class="small-title left">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido...</h3>
+  <h3 class="small-title left">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati...</h3>
 
-  <h3 class="small-title">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
-  
- <h3 class="small-title">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
- 
-  <section class="eco-tips section-wrapper">
+  <!-- 🔍 FONTI -->
+  <section class="eco-tips">
+    <h3>Ricerche basate su fonti autorevoli</h3>
+    <p>Trustpilot, Altroconsumo, Sampleo, ProvaLoTu, Testa Il Prodotto, Toluna, Pinecone Research, TestaConsam, My-personaltrainer, Quattroruote, Al Volante, CNET, Statista...</p>
+  </section>
+
+
 
 
 <stong>Per garantirti informazioni complete, accurate e affidabili su ogni argomento, il nostro sito si basa su un'attenta selezione di fonti autorevoli e specializzate.</stong>
@@ -219,7 +219,6 @@ ProvaLoTu: una community che offre la possibilità di testare e recensire prodot
 Testa Il Prodotto: un portale di sondaggi e test di mercato che offre prodotti e ricompense in cambio di recensioni.
 
 Toluna: una community globale di consumatori che permette di partecipare a sondaggi, testare prodotti e guadagnare premi.
-
 Pinecone Research: un'azienda di ricerche di mercato che invita i consumatori a testare prodotti e partecipare a sondaggi per ricevere ricompense.
 
 TestaConsam: un sito che offre test di prodotti alimentari e non, in modo anonimo, per raccogliere feedback onesti dai consumatori.
@@ -235,5 +234,8 @@ CNET: un sito specializzato in analisi tecniche, recensioni e notizie su tecnolo
 Statista: una piattaforma che raccoglie e analizza dati e statistiche da migliaia di fonti, offrendo report e ricerche di mercato.
 
 Il nostro obiettivo è offrirti un supporto concreto per le tue scelte, basato su un'ampia gamma di fonti affidabili e riconosciute.
+
+</main>
+
 
 </section> </main>
