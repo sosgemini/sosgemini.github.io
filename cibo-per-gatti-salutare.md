@@ -202,10 +202,11 @@ permalink: /cibo-per-gatti-salutare/
   <h3 class="small-title">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce il rischio di problemi renali.</h3> 
   
  <h3 class="small-title">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
+ 
   <section class="eco-tips section-wrapper">
-Ricerche basate su fonti autorevoli
-Per garantirti informazioni complete, accurate e affidabili su ogni argomento, il nostro sito si basa su un'attenta selezione di fonti autorevoli e specializzate.
 
+
+<stong>Per garantirti informazioni complete, accurate e affidabili su ogni argomento, il nostro sito si basa su un'attenta selezione di fonti autorevoli e specializzate.</stong>
 
 Trustpilot: una piattaforma di recensioni che raccoglie i feedback di milioni di utenti per valutare prodotti e servizi.
 
@@ -235,6 +236,4 @@ Statista: una piattaforma che raccoglie e analizza dati e statistiche da migliai
 
 Il nostro obiettivo è offrirti un supporto concreto per le tue scelte, basato su un'ampia gamma di fonti affidabili e riconosciute.
 
-
- 
 </section> </main>
