@@ -1,22 +1,11 @@
-/* === 📦 CONTENITORE CENTRALE === */
-.section-wrapper {
-  margin-inline: auto;
-  max-width: 1150px;
-  padding-inline: clamp(40px, 5vw, 80px);
-  box-sizing: border-box;
-}
-
-/* === 📝 INTRODUZIONE HOMEPAGE + PAGINE === */
-body.home .intro,
-body.pagina .intro {
-  padding-block: 80px;
-  @extend .section-wrapper;
+/* === 📝 INTRODUZIONE HOMEPAGE === */
+body.home .intro {
   margin-bottom: $spacing-xl;
+  padding: 0 $spacing-md;
 }
 
-body.home .main-title-centered,
-body.pagina .main-title-centered {
-  font-size: 2em;
+body.home .main-title-centered {
+  font-size: 2em; // titolo principale grande
   font-weight: 600;
   color: $text-color;
   text-align: center;
@@ -25,23 +14,22 @@ body.pagina .main-title-centered {
   letter-spacing: -0.5px;
 }
 
-body.home .small-title,
-body.pagina .small-title {
-  font-size: 1.2em;
+body.home .small-title {
+  font-size: 1.2em; // sottotitolo
   font-weight: 400;
   color: $muted-color;
   text-align: center;
   margin-bottom: $spacing-lg;
   line-height: 1.8;
   max-width: 65ch;
-  margin-inline: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* === 🌿 ECO TIPS === */
-body.home .eco-tips,
-body.pagina .eco-tips {
-  padding-block: 80px;
-  @extend .section-wrapper;
+body.home .eco-tips {
+  max-width: 1100px;
+  margin: $spacing-lg auto;
+  padding: 0 $spacing-md;
   color: $text-color;
 
   h3 {
@@ -58,25 +46,24 @@ body.pagina .eco-tips {
     max-width: 65ch;
     margin-bottom: $spacing-md;
     text-align: left;
-    margin-inline: auto;
+    margin-left: 0;
+    margin-right: auto;
   }
 }
 
-/* === 🔲 GRIGLIA QUADRATI HOMEPAGE + PAGINE === */
-body.home .square-grid,
-body.pagina .square-grid {
+/* === 🔲 GRIGLIA QUADRATI === */
+body.home .square-grid {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: $spacing-md;
   margin: $spacing-lg auto;
   max-width: 1150px;
-  box-sizing: border-box;
+  padding: 0 $spacing-md;
 }
 
-/* === 🧩 QUADRATO SINGOLO HOMEPAGE + PAGINE === */
-body.home .content-square,
-body.pagina .content-square {
+/* === 🧩 QUADRATO SINGOLO === */
+body.home .content-square {
   background-color: #3a3a3a;
   color: white;
   width: 200px;
@@ -107,7 +94,8 @@ body.pagina .content-square {
   .rating-stars {
     font-size: 1.2em;
     color: gold;
-    margin-block: $spacing-xs;
+    margin-top: $spacing-xs;
+    margin-bottom: $spacing-xs;
   }
 
   .brand-name {
