@@ -1,3 +1,22 @@
+---
+layout: default
+title: Cibo per Gatti Salutare
+description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
+class: pagina
+permalink: /cibo-per-gatti-salutare/
+---
+
+<main class="layout-wrapper">
+
+  <!-- 📝 INTRODUZIONE -->
+  <section class="intro">
+    <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
+    <h2 class="small-title">
+      Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
+    </h2>
+  </section>
+
+
 <section class="text-block">
   <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
   <div class="square-grid">
