@@ -17,6 +17,9 @@ permalink: /cibo-per-gatti-salutare/
   </section>
 
   <!-- 🍽️ CIBO SECCO -->
+   <section class="text-block">
+    <h2>🍽️CIBO SECCO</h2>
+     
   <section class="square-grid">
     <div class="content-square">
       <p>Hill's Science Plan</p>
@@ -76,6 +79,11 @@ permalink: /cibo-per-gatti-salutare/
   </section>
 
   <!-- 🍽️ CIBO UMIDO -->
+ <!-- 🍽️ CIBO SECCO -->
+   <section class="text-block">
+    <h2>🍽️CIBO UMIDO</h2>
+
+  
   <section class="square-grid">
     <div class="content-square">
       <p>Almo Nature</p>
