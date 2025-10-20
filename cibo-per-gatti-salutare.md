@@ -16,16 +16,14 @@ permalink: /cibo-per-gatti-salutare/
     </h2>
   </section>
 
-  
   <!-- 🍽️ CIBO SECCO -->
-   <section class="text-block">
+  <section class="text-block">
     <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-</section>
-      
+
       <div class="content-square">
         <p>Hill's Science Plan</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Altroconsumo (Gennaio 2025)</strong><br />
           Bilanciamento nutrizionale eccellente, confermata dai test di qualità.<br />
@@ -35,7 +33,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Royal Canin</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Raccomandazioni veterinarie (2025)</strong><br />
           Ideale per gatti di razza o con esigenze specifiche.<br />
@@ -45,7 +43,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Purina Pro Plan</p>
-        <div class="rating-stars">★★★★☆</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
           <strong>Fonte: Esperti di nutrizione animale (2025)</strong><br />
           Supporto immunitario e salute urinaria.<br />
@@ -55,7 +53,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Farmina N&D</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Test indipendenti (Marzo 2025)</strong><br />
           Senza cereali, ingredienti freschi e proteine elevate.<br />
@@ -65,7 +63,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Orijen</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Nutrizionisti felini (2025)</strong><br />
           Carne fresca e filosofia biologicamente appropriata.<br />
@@ -75,7 +73,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Be Fortis</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Analisi nutrizionali (2025)</strong><br />
           Italiano, monoproteico e funzionale.<br />
@@ -85,7 +83,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Ownat</p>
-        <div class="rating-stars">★★★★☆</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
           <strong>Fonte: Analisi di mercato (Aprile 2025)</strong><br />
           Grain-free, naturale e conveniente.<br />
@@ -97,13 +95,13 @@ permalink: /cibo-per-gatti-salutare/
   </section>
 
   <!-- 🍽️ CIBO UMIDO -->
-  <section>
+  <section class="text-block">
     <h2 class="small-title">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
 
       <div class="content-square">
         <p>Almo Nature</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Analisi di settore (Febbraio 2025)</strong><br />
           Ingredienti human grade, linea HFC pura.<br />
@@ -113,7 +111,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Schesir</p>
-        <div class="rating-stars">★★★★☆</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
           <strong>Fonte: Test nutrizionali (2025)</strong><br />
           Preparazione a vapore, tonno e pollo selezionati.<br />
@@ -123,7 +121,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Natural Trainer</p>
-        <div class="rating-stars">★★★★☆</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
           <strong>Fonte: Test indipendenti (Marzo 2025)</strong><br />
           Naturale, ideale per gatti sterilizzati.<br />
@@ -133,7 +131,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Felix Ghiottonerie</p>
-        <div class="rating-stars">★★★☆☆</div>
+        <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
         <div class="description">
           <strong>Fonte: Altroconsumo (Gennaio 2025)</strong><br />
           Appetibile e conveniente.<br />
@@ -143,7 +141,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>MjamMjam</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong><br />
           Ricette ricche di carne, senza cereali.<br />
@@ -153,7 +151,7 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Venandi Animal</p>
-        <div class="rating-stars">★★★★★</div>
+        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
           <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong><br />
           Monoproteico, origine controllata.<br />
@@ -163,39 +161,10 @@ permalink: /cibo-per-gatti-salutare/
 
       <div class="content-square">
         <p>Miglior Gatto Morando</p>
-        <div class="rating-stars">★★★☆☆</div>
+        <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
         <div class="description">
           <strong>Fonte: Analisi di mercato (2025)</strong><br />
           Buon rapporto qualità-prezzo.<br />
           <a class="brand-name" href="https://www.morando.it/" target="_blank">Visita il sito</a>
         </div>
-      </div>
-
-    </div>
-  </section>
-
-   <!-- 💡 CONSIGLI E FONTI -->
-  <section class="text-block">
-    <h2>💡 Consigli utili</h2>
-    <p>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce i rischi di problemi renali.</p>
-    <p>Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</p>
-
-    <h3>Ricerche basate su fonti autorevoli</h3>
-    <ul>
-      <li>Trustpilot</li>
-      <li>Altroconsumo</li>
-      <li>Sampleo</li>
-      <li>ProvaLoTu</li>
-      <li>Testa Il Prodotto</li>
-      <li>Toluna</li>
-      <li>Pinecone Research</li>
-      <li>TestaConsam</li>
-      <li>My-personaltrainer</li>
-      <li>Quattroruote</li>
-      <li>Al Volante</li>
-      <li>CNET</li>
-      <li>Statista</li>
-    </ul>
-  </section>
-
-</main>
+      </div
