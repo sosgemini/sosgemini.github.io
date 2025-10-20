@@ -10,161 +10,152 @@ permalink: /cibo-per-gatti-salutare/
 
   <!-- 📝 INTRODUZIONE -->
   <section class="intro">
-    <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
+    <h1 class="main-title-centered">Cibo per Gatti Salutare: Come Scegliere la Dieta Migliore</h1>
     <h2 class="small-title">
-      Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
+      Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
     </h2>
   </section>
 
   <!-- 🍽️ CIBO SECCO -->
-  <section class="text-block">
-    <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
-    <div class="square-grid">
-
-      <div class="content-square">
-        <p>Hill's Science Plan</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Altroconsumo (Gennaio 2025)</strong><br />
-          Bilanciamento nutrizionale eccellente, confermata dai test di qualità.<br />
-          <a class="brand-name" href="https://www.hillspet.it/" target="_blank">Visita il sito</a>
-        </div>
+  <section class="square-grid">
+    <div class="content-square">
+      <img src="/assets/img/cibo-secco-hills.webp" alt="Hill's Science Plan">
+      <p>Hill's Science Plan</p>
+      <div class="description">
+        Bilanciamento nutrizionale eccellente, confermata dai test di qualità.
       </div>
+    </div>
 
-      <div class="content-square">
-        <p>Royal Canin</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Raccomandazioni veterinarie (2025)</strong><br />
-          Ideale per gatti di razza o con esigenze specifiche.<br />
-          <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank">Visita il sito</a>
-        </div>
+    <div class="content-square">
+      <img src="/assets/img/cibo-secco-royal.webp" alt="Royal Canin">
+      <p>Royal Canin</p>
+      <div class="description">
+        Ideale per gatti di razza o con esigenze specifiche.
       </div>
+    </div>
 
-      <div class="content-square">
-        <p>Purina Pro Plan</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
-        <div class="description">
-          <strong>Fonte: Esperti di nutrizione animale (2025)</strong><br />
-          Supporto immunitario e salute urinaria.<br />
-          <a class="brand-name" href="https://www.purina.it/" target="_blank">Visita il sito</a>
-        </div>
+    <div class="content-square">
+      <img src="/assets/img/cibo-secco-purina.webp" alt="Purina Pro Plan">
+      <p>Purina Pro Plan</p>
+      <div class="description">
+        Supporto immunitario e salute urinaria.
       </div>
+    </div>
 
-      <div class="content-square">
-        <p>Farmina N&D</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Test indipendenti (Marzo 2025)</strong><br />
-          Senza cereali, ingredienti freschi e proteine elevate.<br />
-          <a class="brand-name" href="https://www.farmina.com/it/" target="_blank">Visita il sito</a>
-        </div>
+    <div class="content-square">
+      <img src="/assets/img/cibo-secco-farmina.webp" alt="Farmina N&D">
+      <p>Farmina N&D</p>
+      <div class="description">
+        Senza cereali, ingredienti freschi e proteine elevate.
       </div>
+    </div>
 
-      <div class="content-square">
-        <p>Orijen</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Nutrizionisti felini (2025)</strong><br />
-          Carne fresca e filosofia biologicamente appropriata.<br />
-          <a class="brand-name" href="https://www.orijen.ca/" target="_blank">Visita il sito</a>
-        </div>
+    <div class="content-square">
+      <img src="/assets/img/cibo-secco-orijen.webp" alt="Orijen">
+      <p>Orijen</p>
+      <div class="description">
+        Carne fresca e filosofia biologicamente appropriata.
       </div>
+    </div>
 
-      <div class="content-square">
-        <p>Be Fortis</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Analisi nutrizionali (2025)</strong><br />
-          Italiano, monoproteico e funzionale.<br />
-          <a class="brand-name" href="https://www.arcaplanet.it/s/?q=BeFortis+cat" target="_blank">Visita il sito</a>
-        </div>
+    <div class="content-square">
+      <img src="/assets/img/cibo-secco-befortis.webp" alt="Be Fortis">
+      <p>Be Fortis</p>
+      <div class="description">
+        Italiano, monoproteico e funzionale.
       </div>
+    </div>
 
-      <div class="content-square">
-        <p>Ownat</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
-        <div class="description">
-          <strong>Fonte: Analisi di mercato (Aprile 2025)</strong><br />
-          Grain-free, naturale e conveniente.<br />
-          <a class="brand-name" href="https://www.ownat.com/it/" target="_blank">Visita il sito</a>
-        </div>
+    <div class="content-square">
+      <img src="/assets/img/cibo-secco-ownat.webp" alt="Ownat">
+      <p>Ownat</p>
+      <div class="description">
+        Grain-free, naturale e conveniente.
       </div>
-
     </div>
   </section>
 
   <!-- 🍽️ CIBO UMIDO -->
+  <section class="square-grid">
+    <div class="content-square">
+      <img src="/assets/img/cibo-umido-almo.webp" alt="Almo Nature">
+      <p>Almo Nature</p>
+      <div class="description">
+        Ingredienti human grade, linea HFC pura.
+      </div>
+    </div>
+
+    <div class="content-square">
+      <img src="/assets/img/cibo-umido-schesir.webp" alt="Schesir">
+      <p>Schesir</p>
+      <div class="description">
+        Preparazione a vapore, tonno e pollo selezionati.
+      </div>
+    </div>
+
+    <div class="content-square">
+      <img src="/assets/img/cibo-umido-trainer.webp" alt="Natural Trainer">
+      <p>Natural Trainer</p>
+      <div class="description">
+        Naturale, ideale per gatti sterilizzati.
+      </div>
+    </div>
+
+    <div class="content-square">
+      <img src="/assets/img/cibo-umido-felix.webp" alt="Felix Ghiottonerie">
+      <p>Felix Ghiottonerie</p>
+      <div class="description">
+        Appetibile e conveniente.
+      </div>
+    </div>
+
+    <div class="content-square">
+      <img src="/assets/img/cibo-umido-mjammjam.webp" alt="MjamMjam">
+      <p>MjamMjam</p>
+      <div class="description">
+        Ricette ricche di carne, senza cereali.
+      </div>
+    </div>
+
+    <div class="content-square">
+      <img src="/assets/img/cibo-umido-venandi.webp" alt="Venandi Animal">
+      <p>Venandi Animal</p>
+      <div class="description">
+        Monoproteico, origine controllata.
+      </div>
+    </div>
+
+    <div class="content-square">
+      <img src="/assets/img/cibo-umido-morando.webp" alt="Miglior Gatto Morando">
+      <p>Miglior Gatto Morando</p>
+      <div class="description">
+        Buon rapporto qualità-prezzo.
+      </div>
+    </div>
+  </section>
+
+  <!-- 💡 CONSIGLI E FONTI -->
   <section class="text-block">
-    <h2 class="small-title">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
-    <div class="square-grid">
+    <h2>💡 Consigli utili</h2>
+    <p>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce i rischi di problemi renali.</p>
+    <p>Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</p>
 
-      <div class="content-square">
-        <p>Almo Nature</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Analisi di settore (Febbraio 2025)</strong><br />
-          Ingredienti human grade, linea HFC pura.<br />
-          <a class="brand-name" href="https://www.almonature.com/" target="_blank">Visita il sito</a>
-        </div>
-      </div>
+    <h3>Ricerche basate su fonti autorevoli</h3>
+    <ul>
+      <li>Trustpilot</li>
+      <li>Altroconsumo</li>
+      <li>Sampleo</li>
+      <li>ProvaLoTu</li>
+      <li>Testa Il Prodotto</li>
+      <li>Toluna</li>
+      <li>Pinecone Research</li>
+      <li>TestaConsam</li>
+      <li>My-personaltrainer</li>
+      <li>Quattroruote</li>
+      <li>Al Volante</li>
+      <li>CNET</li>
+      <li>Statista</li>
+    </ul>
+  </section>
 
-      <div class="content-square">
-        <p>Schesir</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
-        <div class="description">
-          <strong>Fonte: Test nutrizionali (2025)</strong><br />
-          Preparazione a vapore, tonno e pollo selezionati.<br />
-          <a class="brand-name" href="https://www.schesir.com/" target="_blank">Visita il sito</a>
-        </div>
-      </div>
-
-      <div class="content-square">
-        <p>Natural Trainer</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
-        <div class="description">
-          <strong>Fonte: Test indipendenti (Marzo 2025)</strong><br />
-          Naturale, ideale per gatti sterilizzati.<br />
-          <a class="brand-name" href="https://www.trainer.eu/" target="_blank">Visita il sito</a>
-        </div>
-      </div>
-
-      <div class="content-square">
-        <p>Felix Ghiottonerie</p>
-        <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
-        <div class="description">
-          <strong>Fonte: Altroconsumo (Gennaio 2025)</strong><br />
-          Appetibile e conveniente.<br />
-          <a class="brand-name" href="https://www.purina.it/felix" target="_blank">Visita il sito</a>
-        </div>
-      </div>
-
-      <div class="content-square">
-        <p>MjamMjam</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong><br />
-          Ricette ricche di carne, senza cereali.<br />
-          <a class="brand-name" href="https://www.mjammjam.de/" target="_blank">Visita il sito</a>
-        </div>
-      </div>
-
-      <div class="content-square">
-        <p>Venandi Animal</p>
-        <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-        <div class="description">
-          <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong><br />
-          Monoproteico, origine controllata.<br />
-          <a class="brand-name" href="https://www.venandi-animal.de/" target="_blank">Visita il sito</a>
-        </div>
-      </div>
-
-      <div class="content-square">
-        <p>Miglior Gatto Morando</p>
-        <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
-        <div class="description">
-          <strong>Fonte: Analisi di mercato (2025)</strong><br />
-          Buon rapporto qualità-prezzo.<br />
-          <a class="brand-name" href="https://www.morando.it/" target="_blank">Visita il sito</a>
-        </div>
-      </div
+</main>
