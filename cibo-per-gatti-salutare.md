@@ -166,5 +166,3 @@ permalink: /cibo-per-gatti-salutare/
           <strong>Fonte: Analisi di mercato (2025)</strong><br />
           Buon rapporto qualità-prezzo.<br />
           <a class="brand-name" href="https://www.morando.it/" target="_blank">Visita il sito</a>
-        </div>
-      </div
