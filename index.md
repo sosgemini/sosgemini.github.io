@@ -47,21 +47,7 @@ class: home
         Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
       </div>
     </div>
-  </section>
-
-  <!-- 💡 CONSIGLI FINALI -->
-  <section class="tips">
-    <h3 class="small-title left">💡CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce i rischi di problemi renali.</h3>
-    <h3 class="small-title left">💡CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</h3>
-  </section>
-
-  <!-- 🔍 FONTI -->
-  <section class="eco-tips">
-    <h3>Ricerche basate su fonti autorevoli</h3>
-    <p>
-      Trustpilot, Altroconsumo, Sampleo, ProvaLoTu, Testa Il Prodotto, Toluna, Pinecone Research, TestaConsam, My-personaltrainer, Quattroruote, Al Volante, CNET, Statista...
-    </p>
-  </section>
+ 
 
 
 <section class="text-block">
@@ -86,8 +72,6 @@ class: home
     <li>Statista</li>
   </ul>
 </section>
-
-
 
 
 </main>
