@@ -17,15 +17,20 @@ permalink: /cibo-per-gatti-salutare/
   <!-- 🌿 CONSIGLI PRATICI -->
   <section class="eco-tips">
     <h2>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h2>
-    <p>Sei pronto a trasformare la vita del tuo amico felino? Con la nostra guida completa alla cura del gatto, scoprirai tutti i segreti per garantire una vita lunga, sana e felice. Troverai consigli pratici su alimentazione, igiene, gioco e benessere quotidiano.</p>
+    <p>Scopri tutti i segreti per garantire una vita lunga, sana e felice al tuo gatto: alimentazione, igiene, gioco e benessere quotidiano.</p>
   </section>
 
   <!-- 🍽️ CIBO SECCO -->
   <section>
     <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-      <!-- Inserisci qui i blocchi .content-square per ogni marca -->
-      <!-- ... (già corretti nel tuo documento) ... -->
+      {% include quadrato.html nome="Hill's Science Plan" stelle="★★★★★" fonte="Altroconsumo (Gennaio 2025)" descrizione="Bilanciamento nutrizionale eccellente, confermata dai test di qualità." link="https://www.hillspet.it/" %}
+      {% include quadrato.html nome="Royal Canin" stelle="★★★★★" fonte="Raccomandazioni veterinarie (2025)" descrizione="Ideale per gatti di razza o con esigenze specifiche." link="https://www.royalcanin.com/it" %}
+      {% include quadrato.html nome="Purina Pro Plan" stelle="★★★★☆" fonte="Esperti di nutrizione animale (2025)" descrizione="Supporto immunitario e salute urinaria." link="https://www.purina.it/" %}
+      {% include quadrato.html nome="Farmina N&D" stelle="★★★★★" fonte="Test indipendenti (Marzo 2025)" descrizione="Senza cereali, ingredienti freschi e proteine elevate." link="https://www.farmina.com/it/" %}
+      {% include quadrato.html nome="Orijen" stelle="★★★★★" fonte="Nutrizionisti felini (2025)" descrizione="Carne fresca e filosofia biologicamente appropriata." link="https://www.orijen.ca/" %}
+      {% include quadrato.html nome="Be Fortis" stelle="★★★★★" fonte="Analisi nutrizionali (2025)" descrizione="Italiano, monoproteico e funzionale." link="https://www.arcaplanet.it/s/?q=BeFortis+cat" %}
+      {% include quadrato.html nome="Ownat" stelle="★★★★☆" fonte="Analisi di mercato (Aprile 2025)" descrizione="Grain-free, naturale e conveniente." link="https://www.ownat.com/it/" %}
     </div>
   </section>
 
@@ -33,8 +38,13 @@ permalink: /cibo-per-gatti-salutare/
   <section>
     <h2 class="small-title">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-      <!-- Inserisci qui i blocchi .content-square per ogni marca -->
-      <!-- ... (già corretti nel tuo documento) ... -->
+      {% include quadrato.html nome="Almo Nature" stelle="★★★★★" fonte="Analisi di settore (Febbraio 2025)" descrizione="Ingredienti human grade, linea HFC pura." link="https://www.almonature.com/" %}
+      {% include quadrato.html nome="Schesir" stelle="★★★★☆" fonte="Test nutrizionali (2025)" descrizione="Preparazione a vapore, tonno e pollo selezionati." link="https://www.schesir.com/" %}
+      {% include quadrato.html nome="Natural Trainer" stelle="★★★★☆" fonte="Test indipendenti (Marzo 2025)" descrizione="Naturale, ideale per gatti sterilizzati." link="https://www.trainer.eu/" %}
+      {% include quadrato.html nome="Felix Ghiottonerie" stelle="★★★☆☆" fonte="Altroconsumo (Gennaio 2025)" descrizione="Appetibile e conveniente." link="https://www.purina.it/felix" %}
+      {% include quadrato.html nome="MjamMjam" stelle="★★★★★" fonte="Veterinari e nutrizionisti (Giugno 2025)" descrizione="Ricette ricche di carne, senza cereali." link="https://www.mjammjam.de/" %}
+      {% include quadrato.html nome="Venandi Animal" stelle="★★★★★" fonte="Veterinari e nutrizionisti (Giugno 2025)" descrizione="Monoproteico, origine controllata." link="https://www.venandi-animal.de/" %}
+      {% include quadrato.html nome="Miglior Gatto Morando" stelle="★★★☆☆" fonte="Analisi di mercato (2025)" descrizione="Buon rapporto qualità-prezzo." link="https://www.morando.it/" %}
     </div>
   </section>
 
@@ -48,22 +58,22 @@ permalink: /cibo-per-gatti-salutare/
   <section class="text-block">
     <h2>💡 Consigli utili</h2>
     <h3>Ricerche basate su fonti autorevoli</h3>
-    <p>Per garantirti informazioni complete, accurate e affidabili su ogni argomento, il nostro sito si basa su un'attenta selezione di fonti autorevoli e specializzate.</p>
+    <p>Per garantirti informazioni complete, accurate e affidabili, il nostro sito si basa su fonti selezionate e specializzate.</p>
     <ul>
-      <li><strong>Trustpilot</strong>: piattaforma di recensioni con feedback di milioni di utenti.</li>
-      <li><strong>Altroconsumo</strong>: test comparativi indipendenti e guide all'acquisto.</li>
-      <li><strong>ProvaLoTu</strong>: community per testare e recensire prodotti.</li>
-      <li><strong>Testa Il Prodotto</strong>: sondaggi e test di mercato con ricompense.</li>
-      <li><strong>Toluna</strong>: sondaggi e premi per consumatori.</li>
-      <li><strong>Pinecone Research</strong>: test di prodotti e sondaggi retribuiti.</li>
+      <li><strong>Trustpilot</strong>: recensioni di milioni di utenti.</li>
+      <li><strong>Altroconsumo</strong>: test comparativi e guide all'acquisto.</li>
+      <li><strong>ProvaLoTu</strong>: test e recensioni di prodotti.</li>
+      <li><strong>Testa Il Prodotto</strong>: sondaggi e test di mercato.</li>
+      <li><strong>Toluna</strong>: community globale di consumatori.</li>
+      <li><strong>Pinecone Research</strong>: test e sondaggi retribuiti.</li>
       <li><strong>TestaConsam</strong>: test anonimi per feedback onesti.</li>
       <li><strong>My-personaltrainer</strong>: salute e benessere con contenuti esperti.</li>
       <li><strong>Quattroruote</strong>: test su strada e analisi auto.</li>
       <li><strong>Al Volante</strong>: prove, novità e listini motori.</li>
-      <li><strong>CNET</strong>: tecnologia, recensioni e analisi tecniche.</li>
-      <li><strong>Statista</strong>: dati e statistiche da fonti globali.</li>
+      <li><strong>CNET</strong>: tecnologia e recensioni tecniche.</li>
+      <li><strong>Statista</strong>: dati e statistiche globali.</li>
     </ul>
-    <p>Il nostro obiettivo è offrirti un supporto concreto per le tue scelte, basato su un'ampia gamma di fonti affidabili e riconosciute.</p>
+    <p>Il nostro obiettivo è offrirti un supporto concreto per le tue scelte, basato su fonti affidabili e riconosciute.</p>
   </section>
 
 </main>
