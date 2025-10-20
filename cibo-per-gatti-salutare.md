@@ -21,7 +21,7 @@ permalink: /cibo-per-gatti-salutare/
     <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Hill's Science Plan</p>
         <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
