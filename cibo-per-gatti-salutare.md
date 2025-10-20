@@ -17,7 +17,7 @@ permalink: /cibo-per-gatti-salutare/
   </section>
 
   <!-- 🍽️ CIBO SECCO -->
-  <section class="text-block">
+  <section class="square-grid">
     <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
 
@@ -31,7 +31,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Royal Canin</p>
         <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
@@ -41,7 +41,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Purina Pro Plan</p>
         <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
@@ -51,7 +51,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+      <section class="square-grid">
         <p>Farmina N&D</p>
         <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
@@ -61,7 +61,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+      <section class="square-grid">
         <p>Orijen</p>
         <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
@@ -81,7 +81,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Ownat</p>
         <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
@@ -99,7 +99,7 @@ permalink: /cibo-per-gatti-salutare/
     <h2 class="small-title">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Almo Nature</p>
         <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
@@ -109,7 +109,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Schesir</p>
         <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
@@ -119,7 +119,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+      <section class="square-grid">
         <p>Natural Trainer</p>
         <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
         <div class="description">
@@ -129,7 +129,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Felix Ghiottonerie</p>
         <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
         <div class="description">
@@ -139,7 +139,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>MjamMjam</p>
         <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
@@ -149,7 +149,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Venandi Animal</p>
         <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
         <div class="description">
@@ -159,7 +159,7 @@ permalink: /cibo-per-gatti-salutare/
         </div>
       </div>
 
-      <div class="content-square">
+       <section class="square-grid">
         <p>Miglior Gatto Morando</p>
         <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
         <div class="description">
