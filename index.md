@@ -47,11 +47,11 @@ class: home
         Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
       </div>
     </div>
- 
+ </section>
 
 
 <section class="text-block">
-  <h2>💡 Consigli utili</h2>
+  <h2><strong>💡 Consigli utili</strong></h2>
   <p>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce i rischi di problemi renali.</p>
   <p>Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</p>
 
