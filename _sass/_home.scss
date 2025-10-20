@@ -167,3 +167,37 @@
     text-align: left;
   }
 }
+.text-block {
+  max-width: 1150px;
+  margin-inline: auto;
+  padding-block: $spacing-xl;
+  color: $text-color;
+
+  h2, h3 {
+    font-size: 1.4em;
+    font-weight: 600;
+    margin-bottom: $spacing-md;
+    line-height: 1.4;
+    text-align: left;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: $spacing-md;
+    max-width: 65ch;
+    text-align: left;
+  }
+
+  ul {
+    padding-left: 1.2em;
+    margin-bottom: $spacing-lg;
+
+    li {
+      font-size: 1em;
+      line-height: 1.6;
+      margin-bottom: 0.4em;
+    }
+  }
+}
+
