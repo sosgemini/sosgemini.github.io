@@ -10,16 +10,13 @@ permalink: /cibo-per-gatti-salutare/
 
   <!-- 📝 INTRODUZIONE -->
   <section class="intro">
-    <h1 class="main-title-centered">Cibo per Gatti Salutare: Come Scegliere la Dieta Migliore</h1>
-    <h2 class="small-title">Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.</h2>
+    <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
+    <h2 class="small-title">
+      Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
+    </h2>
   </section>
 
-  <!-- 🌿 CONSIGLI PRATICI -->
-   <section class="text-block">
-    <h2>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h2>
-    <p>Scopri tutti i segreti per garantire una vita lunga, sana e felice al tuo gatto: alimentazione, igiene, gioco e benessere quotidiano.</p>
-  </section>
-
+  
   <!-- 🍽️ CIBO SECCO -->
    <section class="text-block">
     <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
@@ -177,19 +174,28 @@ permalink: /cibo-per-gatti-salutare/
     </div>
   </section>
 
-  <!-- 💡 CONSIGLI FINALI -->
-  <section class="tips">
-    <h3 class="small-title left">💡 CONSIGLIO UTILE: La dieta ideale include sia cibo secco che umido...</h3>
-    <h3 class="small-title left">💡 CONSIGLIO FINALE: Scegli sempre alimenti completi e bilanciati...</h3>
-  </section>
-
-  <!-- 🔍 FONTI -->
+   <!-- 💡 CONSIGLI E FONTI -->
   <section class="text-block">
-....
+    <h2>💡 Consigli utili</h2>
+    <p>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce i rischi di problemi renali.</p>
+    <p>Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</p>
 
+    <h3>Ricerche basate su fonti autorevoli</h3>
+    <ul>
+      <li>Trustpilot</li>
+      <li>Altroconsumo</li>
+      <li>Sampleo</li>
+      <li>ProvaLoTu</li>
+      <li>Testa Il Prodotto</li>
+      <li>Toluna</li>
+      <li>Pinecone Research</li>
+      <li>TestaConsam</li>
+      <li>My-personaltrainer</li>
+      <li>Quattroruote</li>
+      <li>Al Volante</li>
+      <li>CNET</li>
+      <li>Statista</li>
+    </ul>
   </section>
 
-
-
-
-  
+</main>
