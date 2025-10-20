@@ -15,16 +15,17 @@ permalink: /cibo-per-gatti-salutare/
   </section>
 
   <!-- 🌿 CONSIGLI PRATICI -->
-  <section class="eco-tips">
+   <section class="text-block">
     <h2>🐾 La Vita del Gatto: Un Viaggio Verso la Felicità</h2>
     <p>Scopri tutti i segreti per garantire una vita lunga, sana e felice al tuo gatto: alimentazione, igiene, gioco e benessere quotidiano.</p>
   </section>
 
   <!-- 🍽️ CIBO SECCO -->
-  <section>
+   <section class="text-block">
     <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-
+</section>
+      
       <div class="content-square">
         <p>Hill's Science Plan</p>
         <div class="rating-stars">★★★★★</div>
@@ -183,3 +184,12 @@ permalink: /cibo-per-gatti-salutare/
   </section>
 
   <!-- 🔍 FONTI -->
+  <section class="text-block">
+....
+
+  </section>
+
+
+
+
+  
