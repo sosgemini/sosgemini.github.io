@@ -16,7 +16,7 @@ permalink: /cibo-per-gatti-salutare/
     </h2>
   </section>
 
-
+<!-- 🍽️ CIBO SECCO -->
 <section class="text-block">
   <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
   <div class="square-grid">
