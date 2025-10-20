@@ -24,13 +24,77 @@ permalink: /cibo-per-gatti-salutare/
   <section>
     <h2 class="small-title">🍽️ CIBO SECCO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-      {% include quadrato.html nome="Hill's Science Plan" stelle="★★★★★" fonte="Altroconsumo (Gennaio 2025)" descrizione="Bilanciamento nutrizionale eccellente, confermata dai test di qualità." link="https://www.hillspet.it/" %}
-      {% include quadrato.html nome="Royal Canin" stelle="★★★★★" fonte="Raccomandazioni veterinarie (2025)" descrizione="Ideale per gatti di razza o con esigenze specifiche." link="https://www.royalcanin.com/it" %}
-      {% include quadrato.html nome="Purina Pro Plan" stelle="★★★★☆" fonte="Esperti di nutrizione animale (2025)" descrizione="Supporto immunitario e salute urinaria." link="https://www.purina.it/" %}
-      {% include quadrato.html nome="Farmina N&D" stelle="★★★★★" fonte="Test indipendenti (Marzo 2025)" descrizione="Senza cereali, ingredienti freschi e proteine elevate." link="https://www.farmina.com/it/" %}
-      {% include quadrato.html nome="Orijen" stelle="★★★★★" fonte="Nutrizionisti felini (2025)" descrizione="Carne fresca e filosofia biologicamente appropriata." link="https://www.orijen.ca/" %}
-      {% include quadrato.html nome="Be Fortis" stelle="★★★★★" fonte="Analisi nutrizionali (2025)" descrizione="Italiano, monoproteico e funzionale." link="https://www.arcaplanet.it/s/?q=BeFortis+cat" %}
-      {% include quadrato.html nome="Ownat" stelle="★★★★☆" fonte="Analisi di mercato (Aprile 2025)" descrizione="Grain-free, naturale e conveniente." link="https://www.ownat.com/it/" %}
+
+      <div class="content-square">
+        <p>Hill's Science Plan</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Altroconsumo (Gennaio 2025)</strong><br />
+          Bilanciamento nutrizionale eccellente, confermata dai test di qualità.<br />
+          <a class="brand-name" href="https://www.hillspet.it/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Royal Canin</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Raccomandazioni veterinarie (2025)</strong><br />
+          Ideale per gatti di razza o con esigenze specifiche.<br />
+          <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Purina Pro Plan</p>
+        <div class="rating-stars">★★★★☆</div>
+        <div class="description">
+          <strong>Fonte: Esperti di nutrizione animale (2025)</strong><br />
+          Supporto immunitario e salute urinaria.<br />
+          <a class="brand-name" href="https://www.purina.it/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Farmina N&D</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Test indipendenti (Marzo 2025)</strong><br />
+          Senza cereali, ingredienti freschi e proteine elevate.<br />
+          <a class="brand-name" href="https://www.farmina.com/it/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Orijen</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Nutrizionisti felini (2025)</strong><br />
+          Carne fresca e filosofia biologicamente appropriata.<br />
+          <a class="brand-name" href="https://www.orijen.ca/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Be Fortis</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Analisi nutrizionali (2025)</strong><br />
+          Italiano, monoproteico e funzionale.<br />
+          <a class="brand-name" href="https://www.arcaplanet.it/s/?q=BeFortis+cat" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Ownat</p>
+        <div class="rating-stars">★★★★☆</div>
+        <div class="description">
+          <strong>Fonte: Analisi di mercato (Aprile 2025)</strong><br />
+          Grain-free, naturale e conveniente.<br />
+          <a class="brand-name" href="https://www.ownat.com/it/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -38,13 +102,77 @@ permalink: /cibo-per-gatti-salutare/
   <section>
     <h2 class="small-title">🍽️ CIBO UMIDO: Le Migliori Marche del 2025</h2>
     <div class="square-grid">
-      {% include quadrato.html nome="Almo Nature" stelle="★★★★★" fonte="Analisi di settore (Febbraio 2025)" descrizione="Ingredienti human grade, linea HFC pura." link="https://www.almonature.com/" %}
-      {% include quadrato.html nome="Schesir" stelle="★★★★☆" fonte="Test nutrizionali (2025)" descrizione="Preparazione a vapore, tonno e pollo selezionati." link="https://www.schesir.com/" %}
-      {% include quadrato.html nome="Natural Trainer" stelle="★★★★☆" fonte="Test indipendenti (Marzo 2025)" descrizione="Naturale, ideale per gatti sterilizzati." link="https://www.trainer.eu/" %}
-      {% include quadrato.html nome="Felix Ghiottonerie" stelle="★★★☆☆" fonte="Altroconsumo (Gennaio 2025)" descrizione="Appetibile e conveniente." link="https://www.purina.it/felix" %}
-      {% include quadrato.html nome="MjamMjam" stelle="★★★★★" fonte="Veterinari e nutrizionisti (Giugno 2025)" descrizione="Ricette ricche di carne, senza cereali." link="https://www.mjammjam.de/" %}
-      {% include quadrato.html nome="Venandi Animal" stelle="★★★★★" fonte="Veterinari e nutrizionisti (Giugno 2025)" descrizione="Monoproteico, origine controllata." link="https://www.venandi-animal.de/" %}
-      {% include quadrato.html nome="Miglior Gatto Morando" stelle="★★★☆☆" fonte="Analisi di mercato (2025)" descrizione="Buon rapporto qualità-prezzo." link="https://www.morando.it/" %}
+
+      <div class="content-square">
+        <p>Almo Nature</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Analisi di settore (Febbraio 2025)</strong><br />
+          Ingredienti human grade, linea HFC pura.<br />
+          <a class="brand-name" href="https://www.almonature.com/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Schesir</p>
+        <div class="rating-stars">★★★★☆</div>
+        <div class="description">
+          <strong>Fonte: Test nutrizionali (2025)</strong><br />
+          Preparazione a vapore, tonno e pollo selezionati.<br />
+          <a class="brand-name" href="https://www.schesir.com/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Natural Trainer</p>
+        <div class="rating-stars">★★★★☆</div>
+        <div class="description">
+          <strong>Fonte: Test indipendenti (Marzo 2025)</strong><br />
+          Naturale, ideale per gatti sterilizzati.<br />
+          <a class="brand-name" href="https://www.trainer.eu/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Felix Ghiottonerie</p>
+        <div class="rating-stars">★★★☆☆</div>
+        <div class="description">
+          <strong>Fonte: Altroconsumo (Gennaio 2025)</strong><br />
+          Appetibile e conveniente.<br />
+          <a class="brand-name" href="https://www.purina.it/felix" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>MjamMjam</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong><br />
+          Ricette ricche di carne, senza cereali.<br />
+          <a class="brand-name" href="https://www.mjammjam.de/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Venandi Animal</p>
+        <div class="rating-stars">★★★★★</div>
+        <div class="description">
+          <strong>Fonte: Veterinari e nutrizionisti (Giugno 2025)</strong><br />
+          Monoproteico, origine controllata.<br />
+          <a class="brand-name" href="https://www.venandi-animal.de/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
+      <div class="content-square">
+        <p>Miglior Gatto Morando</p>
+        <div class="rating-stars">★★★☆☆</div>
+        <div class="description">
+          <strong>Fonte: Analisi di mercato (2025)</strong><br />
+          Buon rapporto qualità-prezzo.<br />
+          <a class="brand-name" href="https://www.morando.it/" target="_blank">Visita il sito</a>
+        </div>
+      </div>
+
     </div>
   </section>
 
@@ -55,25 +183,3 @@ permalink: /cibo-per-gatti-salutare/
   </section>
 
   <!-- 🔍 FONTI -->
-  <section class="text-block">
-    <h2>💡 Consigli utili</h2>
-    <h3>Ricerche basate su fonti autorevoli</h3>
-    <p>Per garantirti informazioni complete, accurate e affidabili, il nostro sito si basa su fonti selezionate e specializzate.</p>
-    <ul>
-      <li><strong>Trustpilot</strong>: recensioni di milioni di utenti.</li>
-      <li><strong>Altroconsumo</strong>: test comparativi e guide all'acquisto.</li>
-      <li><strong>ProvaLoTu</strong>: test e recensioni di prodotti.</li>
-      <li><strong>Testa Il Prodotto</strong>: sondaggi e test di mercato.</li>
-      <li><strong>Toluna</strong>: community globale di consumatori.</li>
-      <li><strong>Pinecone Research</strong>: test e sondaggi retribuiti.</li>
-      <li><strong>TestaConsam</strong>: test anonimi per feedback onesti.</li>
-      <li><strong>My-personaltrainer</strong>: salute e benessere con contenuti esperti.</li>
-      <li><strong>Quattroruote</strong>: test su strada e analisi auto.</li>
-      <li><strong>Al Volante</strong>: prove, novità e listini motori.</li>
-      <li><strong>CNET</strong>: tecnologia e recensioni tecniche.</li>
-      <li><strong>Statista</strong>: dati e statistiche globali.</li>
-    </ul>
-    <p>Il nostro obiettivo è offrirti un supporto concreto per le tue scelte, basato su fonti affidabili e riconosciute.</p>
-  </section>
-
-</main>
