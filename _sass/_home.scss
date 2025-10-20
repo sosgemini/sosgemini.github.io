@@ -76,25 +76,6 @@
     margin: 4px 0 0 0;
   }
 
-  .rating-stars {
-    font-size: 1.2em;
-    color: gold;
-    margin-block: $spacing-xs;
-  }
-
-  .brand-name {
-    font-size: 0.9em;
-    color: gold;
-    text-decoration: none;
-    margin-top: $spacing-xs;
-    font-weight: 500;
-    transition: color 0.3s ease;
-
-    &:hover {
-      color: darkorange;
-    }
-  }
-
   .description {
     position: absolute;
     bottom: $spacing-md;
@@ -122,57 +103,13 @@
   }
 }
 
-/* === 💡 CONSIGLI FINALI === */
-.tips {
-  margin-top: $spacing-xl;
-
-  .small-title {
-    font-size: 1.2em;
-    font-weight: 400;
-    color: $muted-color;
-    line-height: 1.8;
-    max-width: 65ch;
-    margin-inline: auto;
-    margin-bottom: $spacing-md;
-
-    &.left {
-      text-align: left;
-      margin-left: 0;
-      margin-right: auto;
-    }
-  }
-}
-
-/* === 🌿 ECO TIPS === */
-.eco-tips {
-  padding-block: $spacing-xl;
-  color: $text-color;
-
-  h2, h3 {
-    font-size: 1.4em;
-    font-weight: 500;
-    margin-bottom: $spacing-md;
-    line-height: 1.4;
-    text-align: left;
-    max-width: 65ch;
-    margin-inline: auto;
-  }
-
-  p {
-    line-height: 1.8;
-    font-size: 1.1em;
-    max-width: 65ch;
-    margin-bottom: $spacing-md;
-    margin-inline: auto;
-    text-align: left;
-  }
-}
+/* === 💡 SEZIONE TESTUALE === */
 .text-block {
   max-width: 1150px;
   margin-inline: auto;
   padding-block: $spacing-xl;
-  padding-left: 25px; //
-  padding-right: 25px; // opzionale, per bilanciare
+  padding-left: 60px; // ← rientro visivo verso destra
+  padding-right: 20px;
   color: $text-color;
 
   h2, h3 {
@@ -181,6 +118,9 @@
     margin-bottom: $spacing-md;
     line-height: 1.4;
     text-align: left;
+    max-width: 65ch;
+    margin-left: 0; // ← niente centratura
+    margin-right: auto;
   }
 
   p {
@@ -189,6 +129,8 @@
     margin-bottom: $spacing-md;
     max-width: 65ch;
     text-align: left;
+    margin-left: 0;
+    margin-right: auto;
   }
 
   ul {
