@@ -171,6 +171,8 @@
   max-width: 1150px;
   margin-inline: auto;
   padding-block: $spacing-xl;
+  padding-left: 57px; // ≈ 1.5 cm
+  padding-right: 20px; // opzionale, per bilanciare
   color: $text-color;
 
   h2, h3 {
@@ -200,4 +202,3 @@
     }
   }
 }
-
