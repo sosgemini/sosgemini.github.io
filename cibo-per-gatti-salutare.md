@@ -19,56 +19,56 @@ permalink: /cibo-per-gatti-salutare/
   <!-- 🍽️ CIBO SECCO -->
   <section class="square-grid">
     <div class="content-square">
-      <img src="/assets/img/cibo-secco-hills.webp" alt="Hill's Science Plan">
       <p>Hill's Science Plan</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Bilanciamento nutrizionale eccellente, confermata dai test di qualità.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-secco-royal.webp" alt="Royal Canin">
       <p>Royal Canin</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Ideale per gatti di razza o con esigenze specifiche.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-secco-purina.webp" alt="Purina Pro Plan">
       <p>Purina Pro Plan</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
       <div class="description">
         Supporto immunitario e salute urinaria.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-secco-farmina.webp" alt="Farmina N&D">
       <p>Farmina N&D</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Senza cereali, ingredienti freschi e proteine elevate.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-secco-orijen.webp" alt="Orijen">
       <p>Orijen</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Carne fresca e filosofia biologicamente appropriata.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-secco-befortis.webp" alt="Be Fortis">
       <p>Be Fortis</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Italiano, monoproteico e funzionale.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-secco-ownat.webp" alt="Ownat">
       <p>Ownat</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
       <div class="description">
         Grain-free, naturale e conveniente.
       </div>
@@ -78,56 +78,56 @@ permalink: /cibo-per-gatti-salutare/
   <!-- 🍽️ CIBO UMIDO -->
   <section class="square-grid">
     <div class="content-square">
-      <img src="/assets/img/cibo-umido-almo.webp" alt="Almo Nature">
       <p>Almo Nature</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Ingredienti human grade, linea HFC pura.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-umido-schesir.webp" alt="Schesir">
       <p>Schesir</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
       <div class="description">
         Preparazione a vapore, tonno e pollo selezionati.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-umido-trainer.webp" alt="Natural Trainer">
       <p>Natural Trainer</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★☆</span></div>
       <div class="description">
         Naturale, ideale per gatti sterilizzati.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-umido-felix.webp" alt="Felix Ghiottonerie">
       <p>Felix Ghiottonerie</p>
+      <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
       <div class="description">
         Appetibile e conveniente.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-umido-mjammjam.webp" alt="MjamMjam">
       <p>MjamMjam</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Ricette ricche di carne, senza cereali.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-umido-venandi.webp" alt="Venandi Animal">
       <p>Venandi Animal</p>
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
       <div class="description">
         Monoproteico, origine controllata.
       </div>
     </div>
 
     <div class="content-square">
-      <img src="/assets/img/cibo-umido-morando.webp" alt="Miglior Gatto Morando">
       <p>Miglior Gatto Morando</p>
+      <div class="rating-stars"><span style="color: gold;">★★★☆☆</span></div>
       <div class="description">
         Buon rapporto qualità-prezzo.
       </div>
@@ -157,5 +157,8 @@ permalink: /cibo-per-gatti-salutare/
       <li>Statista</li>
     </ul>
   </section>
+
+
+  
 
 </main>
