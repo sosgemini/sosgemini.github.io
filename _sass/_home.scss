@@ -176,6 +176,23 @@
 }
 
 
+/* === MOBILE MENU === */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  span {
+    width: 25px;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+  }
+}
+
 @media (max-width: 768px) {
   .main-nav {
     display: none;
@@ -190,41 +207,20 @@
       flex-direction: column;
       gap: 10px;
 
-      .has-submenu {
-        .submenu {
-          display: none;
-
-          &.active {
-            display: block;
-            padding-left: 20px;
-          }
-        }
-
-        .submenu-toggle {
-          background: none;
-          border: none;
-          font-weight: 600;
-          color: #333;
-          padding: 10px 0;
-          cursor: pointer;
-        }
+      .has-submenu .submenu {
+        position: static;
+        padding-left: 20px;
       }
     }
   }
 
   .hamburger {
     display: flex;
-    flex-direction: column;
-    gap: 5px;
-    background: none;
-    border: none;
-    cursor: pointer;
+  }
 
-    span {
-      width: 25px;
-      height: 3px;
-      background: #333;
-      border-radius: 2px;
-    }
+  .nav-links li a,
+  .submenu a {
+    display: block;
+    padding: 10px 0;
   }
 }
