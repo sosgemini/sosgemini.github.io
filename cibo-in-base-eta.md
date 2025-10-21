@@ -31,7 +31,7 @@ permalink: /cibo-in-base-eta/
 
   <!-- 📚 GUIDA NUTRIZIONALE -->
   <section class="text-block">
-    <h2><strong>Guida Completa:</strong> Cibo per Gatti in Base all’Età</h2>
+    <h2><strong>Guida Completa:Cibo per Gatti in Base all’Età</strong></h2>
     <p>
       Ogni fase della vita di un gatto comporta esigenze nutrizionali specifiche. Offrire un’alimentazione adeguata in base all’età aiuta a prevenire problemi di salute e a garantire benessere e vitalità.
     </p>
