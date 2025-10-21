@@ -175,77 +175,31 @@
   margin-bottom: 0;
 }
 
-/* === MOBILE HEADER === */
+
+/* === MOBILE MENU === */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+
+  span {
+    width: 25px;
+    height: 3px;
+    background: #333;
+    border-radius: 2px;
+  }
+}
+
 @media (max-width: 768px) {
-  .header-container {
-    background-color: #2c2c2c; // fascia superiore antracite
-    color: #fff;
-    padding: 12px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .logo-title-group {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-
-      .site-title {
-        color: #fff;
-        font-weight: 600;
-      }
-
-      .logo {
-        filter: brightness(1.2);
-      }
-    }
-
-    .hamburger {
-      display: flex;
-      margin-left: auto;
-      flex-direction: column;
-      gap: 5px;
-      background: none;
-      border: none;
-      cursor: pointer;
-
-      span {
-        width: 25px;
-        height: 3px;
-        background: #fff; // linee bianche
-        border-radius: 2px;
-      }
-    }
-
-    .utility-area {
-      display: none; // nascosta nella fascia antracite
-    }
-  }
-
-  .utility-area {
-    display: flex;
-    gap: 10px;
-    padding: 10px 20px;
-    background-color: #f5f5f5; // sfondo chiaro separato
-    align-items: center;
-
-    select,
-    input {
-      background-color: #fff;
-      color: #333;
-      border: 1px solid #ccc;
-      padding: 6px 10px;
-      font-size: 0.95em;
-      flex: 1;
-    }
-  }
-
   .main-nav {
     display: none;
 
     &.active {
       display: block;
-      background-color: #2c2c2c; // sfondo antracite per menu
+      background: #fff;
       padding: 20px;
     }
 
@@ -253,25 +207,20 @@
       flex-direction: column;
       gap: 10px;
 
-      li a,
-      .submenu a {
-        display: block;
-        padding: 10px 0;
-        color: #fff; // testo bianco
-        text-decoration: none;
-        font-weight: 500;
-      }
-
-      li a:hover,
-      .submenu a:hover {
-        color: #ffcc00; // hover giallo
-      }
-
-      .has-submenu .submenu,
-      .submenu-nested {
-        background-color: #2c2c2c;
+      .has-submenu .submenu {
+        position: static;
         padding-left: 20px;
       }
     }
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .nav-links li a,
+  .submenu a {
+    display: block;
+    padding: 10px 0;
   }
 }
