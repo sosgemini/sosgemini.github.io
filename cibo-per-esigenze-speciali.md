@@ -32,12 +32,12 @@ permalink: /cibo-per-esigenze-speciali/
 
 <!-- 🧠 CONTENUTO SEO-FRIENDLY -->
   <section class="text-block">
-    <h2>Guida Completa: Cibo per Gatti con Esigenze Speciali</h2>
+    <h2><strong>Guida Completa: Cibo per Gatti con Esigenze Speciali</strong></h2>
     <p>
       La nutrizione è uno dei pilastri fondamentali per la salute del gatto. Se il tuo felino presenta condizioni particolari — come <strong>problemi urinari</strong>, <strong>gastrite</strong>, <strong>insufficienza renale</strong>, <strong>sovrappeso</strong> o è stato <strong>sterilizzato</strong> — è essenziale scegliere un <strong>cibo specifico per gatti con esigenze speciali</strong>.
     </p>
 
-    <h3>🐱 Gatti Sterilizzati: Nutrizione Post-Intervento</h3>
+    <h3><strong>🐱 Gatti Sterilizzati: Nutrizione Post-Intervento</strong></h3>
     <ul>
       <li>⚖️ <strong>Controllo del peso:</strong> formule ipocaloriche e ricche di fibre.</li>
       <li>💧 <strong>Supporto urinario:</strong> regolazione del pH per ridurre il rischio di calcoli.</li>
@@ -45,7 +45,7 @@ permalink: /cibo-per-esigenze-speciali/
     </ul>
     <p><strong>Marche consigliate:</strong> Royal Canin Sterilised, Hill's Science Plan, Purina Pro Plan, Advance Veterinary Diets.</p>
 
-    <h3>🐾 Problemi Urinari: Cibo Urinary</h3>
+    <h3><strong>🐾 Problemi Urinari: Cibo Urinary</strong></h3>
     <ul>
       <li>✨ <strong>Controllo del pH:</strong> previene la formazione di cristalli.</li>
       <li>💦 <strong>Idratazione:</strong> cibi umidi con alto contenuto d’acqua.</li>
@@ -53,7 +53,7 @@ permalink: /cibo-per-esigenze-speciali/
     </ul>
     <p><strong>Marche consigliate:</strong> Hill's Prescription Diet c/d, Royal Canin Urinary S/O, Purina Pro Plan UR St/Ox.</p>
 
-    <h3>🐱 Gastrite e Vomito: Cibo Gastrointestinale</h3>
+    <h3><strong>🐱 Gastrite e Vomito: Cibo Gastrointestinale</strong></h3>
     <ul>
       <li>🔍 <strong>Cause comuni:</strong> ingestione di peli, cambi di dieta, allergie alimentari.</li>
       <li>🌿 <strong>Alta digeribilità:</strong> ingredienti selezionati per ridurre lo sforzo intestinale.</li>
@@ -61,7 +61,7 @@ permalink: /cibo-per-esigenze-speciali/
       <li>⚡ <strong>Energia concentrata:</strong> utile in caso di vomito o malassorbimento.</li>
     </ul>
 
-    <h3>🔬 Diete Veterinarie vs. Alimenti Funzionali</h3>
+    <h3><strong>🔬 Diete Veterinarie vs. Alimenti Funzionali</strong></h3>
     <ul>
       <li><strong>Diete veterinarie:</strong> formulate per trattare patologie specifiche, da usare solo su prescrizione. Esempi: Royal Canin Veterinary Diet, Hill's Prescription Diet, Purina Pro Plan Veterinary Diets, Hi Diet.</li>
       <li><strong>Alimenti funzionali:</strong> come Be Fortis, con ingredienti di alta qualità e formule monoproteiche per il mantenimento e la prevenzione.</li>
