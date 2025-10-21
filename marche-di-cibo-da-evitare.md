@@ -22,28 +22,16 @@ permalink: /marche-di-cibo-da-evitare/
   </div>
   <div class="hero-col text-side">
     <h2><strong>La Salute del Gatto Parte dall'Alimentazione</strong></h2>
-    <p>La salute del tuo gatto dipende in larga parte dalla sua alimentazione. Sebbene il mercato offra un'ampia scelta, non tutti i prodotti sono formulati con la stessa qualità. In questa guida, analizziamo in profondità quali sono le marche di cibo per gatti che, per ragioni nutrizionali, è preferibile evitare. Le motivazioni principali sono legate a ingredienti di scarsa qualità, all'uso di sottoprodotti animali non specificati e alla presenza di additivi inutili. Queste valutazioni si basano sui criteri di nutrizione felina e sulle linee guida riconosciute a livello internazionale, come quelle della WSAVA (World Small Animal Veterinary Association).
-
-</p>
-  </div>
+    <p>La salute del tuo gatto dipende in larga parte dalla sua alimentazione. Sebbene il mercato offra un'ampia scelta, non tutti i prodotti sono formulati con la stessa qualità. In questa guida, analizziamo in profondità quali sono le marche di cibo per gatti che, per ragioni nutrizionali, è preferibile evitare. Le motivazioni principali sono legate a ingredienti di scarsa qualità, all'uso di sottoprodotti animali non specificati e alla presenza di additivi inutili. Queste valutazioni si basano sui criteri di nutrizione felina e sulle linee guida riconosciute a livello internazionale, come quelle della WSAVA (World Small Animal Veterinary Association).</p>
+</div>
 </section>
+
 
 
 <section class="text-block">
-  <h2><strong>Etichetta:</strong> Come scegliere il miglior cibo per gatti</h2>
-  <p>Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è fondamentale. La qualità si riconosce leggendo l’etichetta: gli ingredienti rivelano tutto.</p>
-
-</section>
-</main>
-
-
-
-----------------
-
-
 Cibo Secco e Umido: Marche da Evitare e Motivi di Criticità
 
-Friskies - La principale critica riguarda l'alto contenuto di cereali e sottoprodotti animali generici. L'elevata quantità di carboidrati non è in linea con la fisiologia del gatto, un carnivoro stretto. L'uso di appetizzanti chimici rende il prodotto gradito, ma il valore nutrizionale è insufficiente a coprire le reali esigenze metaboliche del felino, come sottolineato da vari studi sulla dieta dei felini.
+<p><stong>Friskies</stong> La principale critica riguarda l'alto contenuto di cereali e sottoprodotti animali generici. L'elevata quantità di carboidrati non è in linea con la fisiologia del gatto, un carnivoro stretto. L'uso di appetizzanti chimici rende il prodotto gradito, ma il valore nutrizionale è insufficiente a coprire le reali esigenze metaboliche del felino, come sottolineato da vari studi sulla dieta dei felini.</p>
 
 Whiskas - Le critiche si concentrano su etichette poco chiare e un basso contenuto di proteine di qualità. Come indicato dalle linee guida AAFCO (Association of American Feed Control Officials), la trasparenza degli ingredienti è fondamentale. Questo prodotto spesso contiene additivi artificiali e una notevole quantità di cereali, ingredienti che non sono ideali per la dieta di un gatto.
 
@@ -70,3 +58,5 @@ Un'alimentazione non adeguata può manifestarsi con sintomi evidenti come spossa
 
 💡 Consiglio utile:
 Scegli un alimento completo e bilanciato, con ingredienti chiari e di origine controllata. La salute del tuo gatto parte dalla ciotola. La scelta finale deve essere valutata con un veterinario, che potrà consigliarti la dieta più adatta alle specifiche esigenze di salute, età e stile di vita del tuo gatto.
+</section>
+</main>
