@@ -18,7 +18,7 @@ permalink: /cibo-per-gatti-salutare/
 
 <section class="intro-hero">
   <div class="hero-image">
-    <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Gatto in pericolo, attenzione qui cibi non vanno bene.">
+    <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Gatto in pericolo, attenzione quei cibi non vanno bene.">
   </div>
   <div class="hero-text">
     <h2><strong>Come Scegliere il Miglior Cibo per Gatti:</strong> Leggere l’Etichetta</h2>
