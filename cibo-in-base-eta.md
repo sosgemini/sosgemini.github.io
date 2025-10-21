@@ -4,6 +4,9 @@ title: Cibo per Gatti Salutare
 description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
 class: pagina
 permalink: /cibo-in-base-eta/
+---
+
+
 <main class="layout-wrapper">
 
   <!-- 📝 INTRODUZIONE -->
