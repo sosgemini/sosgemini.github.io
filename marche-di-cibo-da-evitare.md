@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Cibo per Gatti Salutare
+title: Marche di Cibo da Evitare
 description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
 class: pagina
 permalink: /marche-di-cibo-da-evitare/
