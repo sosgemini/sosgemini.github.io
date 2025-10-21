@@ -28,7 +28,7 @@ permalink: /marche-di-cibo-da-evitare/
 
 
 <section class="text-block">
-  <h2>Cibo Secco e Umido: Marche da Evitare e Motivi di Criticità</h2>
+  <h2><strong> Cibo Secco e Umido: Marche da Evitare e Motivi di Criticità</strong></h2>
 
   <p><strong>Friskies:</strong> La principale critica riguarda l'alto contenuto di cereali e sottoprodotti animali generici. L'elevata quantità di carboidrati non è in linea con la fisiologia del gatto, un carnivoro stretto. L'uso di appetizzanti chimici rende il prodotto gradito, ma il valore nutrizionale è insufficiente a coprire le reali esigenze metaboliche del felino, come sottolineato da vari studi sulla dieta dei felini.</p>
 
