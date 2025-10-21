@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Cibo per Gatti Salutare
-description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
+title: Cibo per Esigenze Speciali
+description: malatie ........
 class: pagina
 permalink: /cibo-per-esigenze-speciali/
 ---
