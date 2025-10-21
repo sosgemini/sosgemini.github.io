@@ -18,7 +18,7 @@ permalink: /marche-di-cibo-da-evitare/
 
 <section class="hero-row">
   <div class="hero-col image-side">
-    <img src="/assets/img/....." alt="Gatto ammalato dal veterinario padrona preoccupata">
+    <img src="/assets/img/2-Cibo-Gatti-Le-Marche-Da-Evitare-480.webp" alt="Gatto ammalato dal veterinario padrona preoccupata">
   </div>
   <div class="hero-col text-side">
     <h2><strong>La Salute del Gatto Parte dall'Alimentazione</strong></h2>
