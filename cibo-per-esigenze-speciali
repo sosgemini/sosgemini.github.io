@@ -3,13 +3,13 @@ layout: default
 title: Cibo per Gatti Salutare
 description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
 class: pagina
-permalink: /cibo-per-gatti-salutare/
+permalink: /cibo-per-esigenze-speciali/
 ---
 <main class="layout-wrapper">
 
   <!-- 📝 INTRODUZIONE -->
   <section class="intro">
-    <h1 class="main-title-centered">..............</h1>
+    <h1 class="main-title-centered">🐈 Cibo per Esigenze Speciali</h1>
     <h2 class="small-title">.....</h2>
   </section>
 
