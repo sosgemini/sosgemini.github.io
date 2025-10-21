@@ -166,4 +166,36 @@ permalink: /cibo-per-gatti-salutare/
     </ul>
   </section>
 
+
+<section class="text-block">
+
+  <h2><strong>Etichetta:</strong> Come scegliere il miglior cibo per gatti</h2>
+  <p>Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è fondamentale. La qualità si riconosce leggendo l’etichetta: gli ingredienti rivelano tutto.</p>
+
+  <h2><strong>Proteine:</strong> Il cuore della dieta del gatto</h2>
+  <p>I gatti sono carnivori obbligati: hanno bisogno di proteine animali per muscoli, tessuti, pelle e pelo. Cerca alimenti con almeno il 30% di proteine grezze e con carne o pesce come primo ingrediente.</p>
+  <p><strong>Cerca:</strong> “carne fresca”, “carne disidratata”, “pollo”, “manzo”, “salmone”.</p>
+  <p><strong>Evita:</strong> “sottoprodotti di origine animale”, “carne e derivati”, “farina di carne”.</p>
+
+  <h2><strong>Grassi:</strong> Energia e salute</h2>
+  <p>I grassi sani sono essenziali per il cervello, la vista e l’assorbimento delle vitamine. Gli Omega-3 e Omega-6 mantengono il pelo lucido e la pelle sana.</p>
+  <p><strong>Cerca:</strong> “grasso di pollo”, “olio di salmone”, “olio di pesce”.</p>
+
+  <h2><strong>Taurina:</strong> Un aminoacido vitale</h2>
+  <p>I gatti non possono sintetizzarla da soli. La carenza può causare problemi cardiaci e cecità. È presente solo nelle proteine animali.</p>
+
+  <h2><strong>Cereali:</strong> Riempitivi da evitare</h2>
+  <p>I gatti digeriscono male i cereali. Prodotti con mais, riso o grano in quantità elevate sono spesso di bassa qualità.</p>
+  <p><strong>Cerca:</strong> “grain-free” o cereali in piccole quantità come patate o piselli.</p>
+
+  <h2><strong>Idratazione:</strong> L’acqua nel cibo</h2>
+  <p>I gatti bevono poco e si idratano attraverso l’alimentazione. Il cibo umido è spesso preferibile, soprattutto per gatti con problemi urinari o renali.</p>
+  <p><strong>Consiglio utile:</strong> Leggi sempre l’etichetta. Il primo ingrediente è quello presente in maggiore quantità: deve essere una proteina animale di alta qualità.</p>
+
+</section>
+
+
+
+
+
 </main>
