@@ -21,7 +21,7 @@ permalink: /cibo-per-gatti-salutare/
     <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Gatto felice che mangia cibo sano">
   </div>
   <div class="hero-col text-side">
-    <h2><strong>Come Scegliere il Miglior Cibo per Gatti:</strong> Leggere l’Etichetta</h2>
+    <h2><strong>Come Scegliere il Miglior Cibo per Gatti:</strong></h2>
     <p>
       Se ti chiedi quale sia il miglior cibo per i gatti, sei nel posto giusto. Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è il fattore più importante. Ma come si fa a distinguere un cibo di alta qualità da un prodotto mediocre? La risposta è nell’etichetta. Leggere e comprendere gli ingredienti è la chiave per prendere decisioni informate e nutrire il tuo felino nel modo corretto.
     </p>
