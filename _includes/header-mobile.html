@@ -17,18 +17,9 @@
   </div>
 
   <!-- Navigazione mobile -->
-  <nav class="main-nav" id="mobile-menu" role="navigation">
-    <ul class="nav-links">
-      <li><a href="/">Home</a></li>
-      <li><a href="/amici/">Amici</a></li>
-      <li><a href="/benessere/">Benessere</a></li>
-      <li><a href="/tecnologia/">Tecnologia</a></li>
-      <li><a href="/hobbyistica/">Hobbyistica</a></li>
-      <!-- Aggiungi altre voci se necessario -->
-    </ul>
-  </nav>
+  {% include nav.html %}
 
-  <!-- Utility area mobile (opzionale) -->
+  <!-- Utility area mobile -->
   <div class="utility-area">
     <select name="lingua" aria-label="Seleziona lingua">
       <option value="it">Italiano</option>
