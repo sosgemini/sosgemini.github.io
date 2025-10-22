@@ -61,18 +61,22 @@
 </head>
 
 <body class="{{ page.class | default: 'pagina' }}">
+  <!-- Header desktop -->
   <header class="site-header desktop-only">
     {% include header.html %}
   </header>
 
+  <!-- Header mobile -->
   <header class="site-header mobile-only">
     {% include header-mobile.html %}
   </header>
 
+  <!-- Contenuto principale -->
   <main class="page-wrapper">
     {{ content }}
   </main>
 
+  <!-- Footer -->
   {% include footer.html %}
 
   <!-- Script hamburger mobile -->
