@@ -1,1 +1,66 @@
+<header class="site-header">
+  <div class="header-container">
+    <div class="logo-title-group">
+      <a href="/" class="logo-link">
+        <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" />
+      </a>
+      <span class="site-title">SOS Gemini</span>
+    </div>
+
+    <div class="utility-area">
+      <select class="lang-switch" aria-label="Seleziona lingua">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+      <input type="text" class="search-box" placeholder="Cerca..." aria-label="Cerca nel sito" />
+    </div>
+  </div>
+
+  <nav id="mobile-menu" class="main-nav" aria-label="Navigazione principale">
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+
+      <li class="has-submenu">
+        <a href="#" class="no-click">Amici</a>
+        <ul class="submenu">
+          <li class="has-submenu">
+            <a href="#" class="no-click">Gatti</a>
+            <ul class="submenu submenu-nested">
+              <li><a href="/cibo-per-gatti-salutare">Miglior Cibo</a></li>
+              <li><a href="/marche-di-cibo-da-evitare">Peggior Cibo</a></li>
+              <li><a href="/cibo-in-base-eta">Cibo in Base all’Età</a></li>
+              <li><a href="/cibo-per-esigenze-speciali">Cibo Esigenze Speciali</a></li>
+              <li><a href="/pagine/cibo-casalingo">Cibo Fatto in Casa</a></li>
+              <li><a href="/pagine/erba-piante">Erba Gatta - Piante Tossiche</a></li>
+              <li><a href="/pagine/snack-integratori">Snack e Integratori</a></li>
+              <li><a href="/pagine/negozi-online">Negozi OnLine</a></li>
+              <li><a href="/pagine/igiene">Igiene - Lettiera</a></li>
+              <li><a href="/pagine/gioco-benefici">Benefici del Gioco</a></li>
+            </ul>
+          </li>
+          <li class="has-submenu">
+            <a href="#" class="no-click">Cani</a>
+            <ul class="submenu submenu-nested">
+              <li><a href="/cani">Miglior Cibo</a></li>
+              <li><a href="/pagine/cani-igiene">Igiene e Cura</a></li>
+              <li><a href="/pagine/cani-gioco">Gioco e Attività</a></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+
+      <li><a href="/lavoro/">Benessere</a></li>
+      <li><a href="/hobby/">Tecnologia</a></li>
+      <li><a href="/hobby/">Hobbystica</a></li>
+    </ul>
+  </nav>
+
+ <!-- Bottone hamburger visibile solo su mobile -->
+<button class="hamburger" aria-label="Apri menu" aria-controls="mobile-menu" aria-expanded="false">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
+
+
 
