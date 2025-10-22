@@ -80,20 +80,35 @@
   {% include footer.html %}
 
   <!-- Script hamburger mobile -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const hamburger = document.querySelector(".hamburger");
-      const nav = document.querySelector(".main-nav");
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const hamburger = document.querySelector(".hamburger");
+    const nav = document.querySelector(".main-nav");
 
-      if (hamburger && nav) {
-        hamburger.addEventListener("click", function () {
-          nav.classList.toggle("active");
+    // Toggle menu principale
+    if (hamburger && nav) {
+      hamburger.addEventListener("click", function () {
+        nav.classList.toggle("active");
+        hamburger.setAttribute("aria-expanded", nav.classList.contains("active"));
+      });
+    }
 
-          // Aggiorna aria-expanded per accessibilità
-          hamburger.setAttribute("aria-expanded", nav.classList.contains("active"));
-        });
-      }
+    // Toggle sottomenù (Amici → Gatti / Cani)
+    const submenuTriggers = document.querySelectorAll(".has-submenu > .no-click");
+
+    submenuTriggers.forEach(trigger => {
+      trigger.addEventListener("click", function () {
+        const parentLi = trigger.parentElement;
+        const submenu = parentLi.querySelector(".submenu");
+
+        if (submenu) {
+          submenu.classList.toggle("active");
+          trigger.setAttribute("aria-expanded", submenu.classList.contains("active"));
+        }
+      });
     });
-  </script>
+  });
+</script>
+
 </body>
 </html>
