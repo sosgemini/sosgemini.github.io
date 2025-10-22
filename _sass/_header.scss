@@ -21,24 +21,36 @@
 
 /* === MOBILE OVERRIDE === */
 @media (max-width: 768px) {
-  .utility-area {
+  .header-container {
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 16px 20px;
+  }
+
+  .site-title {
+    font-size: 1.8em; // ✅ più grande
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .utility-area {
+    display: flex;
+    flex-direction: row; // ✅ sulla stessa riga
+    justify-content: flex-end;
     gap: 10px;
-    padding: 10px 20px;
+    width: 100%;
   }
 
   .lang-switch {
-    max-width: 120px;
-    font-size: 0.95em;
-    align-self: flex-end;
+    max-width: 80px;
+    font-size: 0.9em;
   }
 
   .search-box {
-    width: 90px; // ✅ larghezza fissa su mobile
+    width: 90px;
     font-size: 1em;
     padding: 6px 10px;
     border-radius: 6px;
-    align-self: flex-end;
   }
 }
