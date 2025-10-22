@@ -80,12 +80,12 @@
   {% include footer.html %}
 
   <!-- Script hamburger mobile -->
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const hamburger = document.querySelector(".hamburger");
     const nav = document.querySelector(".main-nav");
 
-    // Toggle menu principale
     if (hamburger && nav) {
       hamburger.addEventListener("click", function () {
         nav.classList.toggle("active");
@@ -93,7 +93,6 @@
       });
     }
 
-    // Toggle sottomenù (Amici → Gatti / Cani)
     const submenuTriggers = document.querySelectorAll(".has-submenu > .no-click");
 
     submenuTriggers.forEach(trigger => {
@@ -110,5 +109,6 @@
   });
 </script>
 
+  
 </body>
 </html>
