@@ -1,4 +1,8 @@
-/* === SFONDO BODY === */
+// ─────────────────────────────────────────────
+// HEADER DESKTOP STYLES
+// ─────────────────────────────────────────────
+
+/* === Sfondo Body === */
 body {
   background-image: url("../img/SfondoPiante.webp");
   background-size: cover;
@@ -12,16 +16,16 @@ body {
   line-height: 1.6;
 }
 
-/* === CONTENITORE CENTRALE === */
+/* === Contenitore Centrale === */
 .container {
   max-width: 1150px;
   margin: 0 auto;
   padding: 48px 24px;
-  background-color: #fff; // bianco pieno, nessuna trasparenza
+  background-color: #fff;
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
 }
 
-/* === HEADER === */
+/* === Header === */
 .site-header {
   background-color: #fff;
   padding: 0;
@@ -37,6 +41,7 @@ body {
   flex-wrap: wrap;
 }
 
+/* === Logo + Titolo === */
 .logo-title-group {
   display: flex;
   align-items: center;
@@ -55,7 +60,7 @@ body {
   line-height: 1;
 }
 
-/* === UTILITY AREA === */
+/* === Utility Area === */
 .utility-area {
   display: flex;
   align-items: center;
@@ -75,7 +80,7 @@ body {
   border-radius: 4px;
 }
 
-/* === NAVIGAZIONE === */
+/* === Navigazione === */
 .main-nav {
   background-color: #2c2c2c;
   width: 100%;
