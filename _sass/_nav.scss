@@ -3,7 +3,7 @@
   background-color: #2c2c2c;
   width: 100%;
   margin: 0;
-  padding: 2px 0;
+  padding: 2px 0; // 🔽 più compatta
 }
 
 /* === CONTENITORE CENTRATO === */
@@ -13,7 +13,7 @@
   padding: 0 24px;
 }
 
-/* === MENU PRINCIPALE DESKTOP === */
+/* === MENU PRINCIPALE === */
 .nav-links {
   list-style: none;
   display: flex;
@@ -39,7 +39,7 @@
       }
     }
 
-    /* === PRIMO LIVELLO === */
+    /* === PRIMO LIVELLO (es. Gatti) === */
     ul {
       display: none;
       position: absolute;
@@ -66,7 +66,7 @@
           }
         }
 
-        /* === SECONDO LIVELLO === */
+        /* === SECONDO LIVELLO (es. Alimentazione sotto Gatti) === */
         ul {
           display: none;
           position: absolute;
@@ -84,56 +84,13 @@
         }
 
         &:hover > ul {
-          display: block;
+          display: block; // 🔓 apre il secondo livello
         }
       }
     }
 
     &:hover > ul {
-      display: block;
-    }
-  }
-}
-
-/* === MENU MOBILE === */
-@media (max-width: 768px) {
-  .main-nav {
-    display: none;
-
-    &.active {
-      display: block;
-      background-color: #2c2c2c;
-      padding: 20px;
-    }
-
-    .nav-links {
-      flex-direction: column;
-      gap: 10px;
-      margin: 0;
-      padding: 0;
-
-      li {
-        width: 100%;
-
-        a {
-          display: block;
-          padding: 10px 0;
-          color: white;
-          font-size: 1.1em;
-          font-weight: 500;
-        }
-
-        .submenu {
-          position: static;
-          padding-left: 20px;
-
-          a {
-            color: white;
-            font-size: 1em;
-            padding: 8px 0;
-          }
-        }
-      }
+      display: block; // 🔓 apre il primo livello
     }
   }
 }

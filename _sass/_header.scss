@@ -1,66 +1,111 @@
-<header class="site-header">
-  <div class="header-container">
-    <div class="logo-title-group">
-      <a href="/" class="logo-link">
-        <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" />
-      </a>
-      <span class="site-title">SOS Gemini</span>
-    </div>
+/* === SFONDO BODY === */
+body {
+  background-image: url("../img/SfondoPiante.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #fff; // fallback se l'immagine non si carica
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
 
-    <div class="utility-area">
-      <select class="lang-switch" aria-label="Seleziona lingua">
-        <option value="it">Italiano</option>
-        <option value="en">English</option>
-      </select>
-      <input type="text" class="search-box" placeholder="Cerca..." aria-label="Cerca nel sito" />
-    </div>
-  </div>
+/* === CONTENITORE CENTRALE === */
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  background-color: #fff; // bianco pieno, nessuna trasparenza
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
 
-  <nav id="mobile-menu" class="main-nav" aria-label="Navigazione principale">
-    <ul class="nav-links">
-      <li><a href="/">Home</a></li>
+/* === HEADER === */
+.site-header {
+  background-color: #fff;
+  padding: 0;
+}
 
-      <li class="has-submenu">
-        <a href="#" class="no-click">Amici</a>
-        <ul class="submenu">
-          <li class="has-submenu">
-            <a href="#" class="no-click">Gatti</a>
-            <ul class="submenu submenu-nested">
-              <li><a href="/cibo-per-gatti-salutare">Miglior Cibo</a></li>
-              <li><a href="/marche-di-cibo-da-evitare">Peggior Cibo</a></li>
-              <li><a href="/cibo-in-base-eta">Cibo in Base all’Età</a></li>
-              <li><a href="/cibo-per-esigenze-speciali">Cibo Esigenze Speciali</a></li>
-              <li><a href="/pagine/cibo-casalingo">Cibo Fatto in Casa</a></li>
-              <li><a href="/pagine/erba-piante">Erba Gatta - Piante Tossiche</a></li>
-              <li><a href="/pagine/snack-integratori">Snack e Integratori</a></li>
-              <li><a href="/pagine/negozi-online">Negozi OnLine</a></li>
-              <li><a href="/pagine/igiene">Igiene - Lettiera</a></li>
-              <li><a href="/pagine/gioco-benefici">Benefici del Gioco</a></li>
-            </ul>
-          </li>
-          <li class="has-submenu">
-            <a href="#" class="no-click">Cani</a>
-            <ul class="submenu submenu-nested">
-              <li><a href="/cani">Miglior Cibo</a></li>
-              <li><a href="/pagine/cani-igiene">Igiene e Cura</a></li>
-              <li><a href="/pagine/cani-gioco">Gioco e Attività</a></li>
-            </ul>
-          </li>
-        </ul>
-      </li>
+.header-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
-      <li><a href="/lavoro/">Benessere</a></li>
-      <li><a href="/hobby/">Tecnologia</a></li>
-      <li><a href="/hobby/">Hobbystica</a></li>
-    </ul>
-  </nav>
+.logo-title-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 
- <!-- Bottone hamburger visibile solo su mobile -->
-<button class="hamburger" aria-label="Apri menu" aria-controls="mobile-menu" aria-expanded="false">
-  <span></span>
-  <span></span>
-  <span></span>
-</button>
+.logo {
+  width: 80px;
+  margin-bottom: -40px;
+}
 
+.site-title {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+}
 
+/* === UTILITY AREA === */
+.utility-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
 
+.lang-switch {
+  padding: 6px 8px;
+  font-size: 0.9em;
+}
+
+.search-box {
+  padding: 6px 10px;
+  font-size: 0.9em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* === NAVIGAZIONE === */
+.main-nav {
+  background-color: #2c2c2c;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+}
+
+.nav-inner {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0;
+  padding: 6px 0;
+}
+
+.nav-links li a {
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: #007acc;
+}
