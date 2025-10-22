@@ -109,3 +109,33 @@ body {
 .nav-links li a:hover {
   color: #007acc;
 }
+
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4px;
+    width: 30px;
+    height: 30px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+
+    span {
+      display: block;
+      height: 3px;
+      width: 100%;
+      background-color: #fff;
+    }
+  }
+
+  .main-nav {
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+}
