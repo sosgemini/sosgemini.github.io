@@ -1,0 +1,111 @@
+/* === SFONDO BODY === */
+body {
+  background-image: url("../img/SfondoPiante.webp");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #fff; // fallback se l'immagine non si carica
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  line-height: 1.6;
+}
+
+/* === CONTENITORE CENTRALE === */
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 48px 24px;
+  background-color: #fff; // bianco pieno, nessuna trasparenza
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+/* === HEADER === */
+.site-header {
+  background-color: #fff;
+  padding: 0;
+}
+
+.header-container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-title-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  width: 80px;
+  margin-bottom: -40px;
+}
+
+.site-title {
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 0;
+  line-height: 1;
+}
+
+/* === UTILITY AREA === */
+.utility-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 4px;
+}
+
+.lang-switch {
+  padding: 6px 8px;
+  font-size: 0.9em;
+}
+
+.search-box {
+  padding: 6px 10px;
+  font-size: 0.9em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* === NAVIGAZIONE === */
+.main-nav {
+  background-color: #2c2c2c;
+  width: 100%;
+  margin-top: 0;
+  padding: 0;
+}
+
+.nav-inner {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 0;
+  padding: 6px 0;
+}
+
+.nav-links li a {
+  color: white;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-links li a:hover {
+  color: #007acc;
+}
