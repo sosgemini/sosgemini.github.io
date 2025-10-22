@@ -1,14 +1,15 @@
 // ─────────────────────────────────────────────
-// HEADER MOBILE STYLES
+// HEADER MOBILE & TABLET STYLES
 // ─────────────────────────────────────────────
 
-// ─── Visibilità layout ───────────────────────
+// Nasconde il mobile header su desktop
 @media (min-width: 769px) {
   .mobile-only {
     display: none !important;
   }
 }
 
+// Mostra il mobile header sotto 768px
 @media (max-width: 768px) {
   .desktop-only {
     display: none !important;
@@ -63,6 +64,10 @@
 
       .has-submenu .submenu {
         position: static;
+        padding-left: 20px;
+      }
+
+      .submenu-nested {
         padding-left: 20px;
       }
     }
