@@ -68,12 +68,13 @@ body {
   font-size: 0.9em;
 }
 
-.search-box {
-  padding: 6px 10px;
-  font-size: 0.9em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
+  .search-box {
+    width: 100%;
+    max-width: 150px; // ✅ più corta
+    font-size: 1em;
+    padding: 6px 10px;
+    border-radius: 6px;
+  }
 
 /* === NAVIGAZIONE === */
 .main-nav {
