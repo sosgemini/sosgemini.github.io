@@ -1,21 +1,39 @@
 <header class="site-header mobile-only">
   <div class="header-container">
+    <!-- Logo + Titolo -->
     <div class="logo-title-group">
-      <a href="/" class="logo-link">
+      <a href="/" class="logo-link" aria-label="Vai alla home">
         <img src="/assets/img/SOS-96x96.png" alt="Logo SOS Gemini" class="logo" />
       </a>
       <span class="site-title">SOS Gemini</span>
     </div>
 
-    <button class="hamburger" aria-label="Apri menu">
-      <span></span><span></span><span></span>
+    <!-- Bottone hamburger -->
+    <button class="hamburger" aria-label="Apri menu" aria-controls="mobile-menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
     </button>
   </div>
 
-  <nav class="main-nav">
+  <!-- Navigazione mobile -->
+  <nav class="main-nav" id="mobile-menu" role="navigation">
     <ul class="nav-links">
       <li><a href="/">Home</a></li>
-      <!-- altre voci -->
+      <li><a href="/amici/">Amici</a></li>
+      <li><a href="/benessere/">Benessere</a></li>
+      <li><a href="/tecnologia/">Tecnologia</a></li>
+      <li><a href="/hobbyistica/">Hobbyistica</a></li>
+      <!-- Aggiungi altre voci se necessario -->
     </ul>
   </nav>
+
+  <!-- Utility area mobile (opzionale) -->
+  <div class="utility-area">
+    <select name="lingua" aria-label="Seleziona lingua">
+      <option value="it">Italiano</option>
+      <option value="en">English</option>
+    </select>
+    <input type="search" placeholder="Cerca..." aria-label="Cerca nel sito" />
+  </div>
 </header>
