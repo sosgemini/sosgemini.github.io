@@ -1,100 +1,96 @@
-@media (max-width: 768px) {
-  .header-container {
-    background-color: #2c2c2c;
-    color: #fff;
-    padding: 12px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    .logo-title-group {
-      display: flex;
-      align-items: center;
-      gap: 10px;
+  <title>{{ page.title }} | SOS Gemini</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <meta name="keywords" content="sostenibilità, animali, benessere naturale, tecnologia ecologica, smart working, hobby green, vita consapevole">
+  <meta name="author" content="SOS Gemini">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" hreflang="it" href="{{ page.url | absolute_url }}">
 
-      .site-title {
-        color: #fff;
-        font-weight: 600;
+  {% seo %}
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="{{ page.title }} | SOS Gemini">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title }} | SOS Gemini">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "SOS Gemini",
+    "url": "https://sosgemini.it",
+    "description": "{{ page.description | default: site.description }}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "SOS Gemini",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://sosgemini.it/assets/img/SOS-96x96.png"
       }
-
-      .logo {
-        filter: brightness(1.2);
-      }
-    }
-
-    .hamburger {
-      display: flex;
-      margin-left: auto;
-      flex-direction: column;
-      gap: 5px;
-      background-color: #2c2c2c;
-      border: none;
-      padding: 10px;
-      border-radius: 6px;
-      cursor: pointer;
-
-      span {
-        width: 25px;
-        height: 3px;
-        background-color: #fff;
-        border-radius: 2px;
-      }
-    }
-
-    .utility-area {
-      display: none;
-    }
+    },
+    "inLanguage": "it"
   }
+  </script>
 
-  .utility-area {
-    display: flex;
-    gap: 10px;
-    padding: 10px 20px;
-    background-color: #f5f5f5;
-    align-items: center;
+  <!-- Stili -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/pagine-gatti.css' | relative_url }}">
 
-    select,
-    input {
-      background-color: #fff;
-      color: #333;
-      border: 1px solid #ccc;
-      padding: 6px 10px;
-      font-size: 0.95em;
-      flex: 1;
-    }
-  }
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/SOS-32x32.png' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/SOS-180x180.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}">
+  <meta name="theme-color" content="#2c2c2c">
+</head>
 
-  .main-nav {
-    display: none;
+<body class="{{ page.class | default: 'pagina' }}">
+  <!-- ✅ Header desktop -->
+  <header class="site-header desktop-only">
+    {% include header.html %}
+  </header>
 
-    &.active {
-      display: block;
-      background-color: #2c2c2c;
-      padding: 20px;
-    }
+  <!-- ✅ Header mobile -->
+  <header class="site-header mobile-only">
+    {% include header-mobile.html %}
+  </header>
 
-    .nav-links {
-      flex-direction: column;
-      gap: 10px;
+  <!-- ✅ Contenuto principale -->
+  <main class="page-wrapper">
+    {{ content }}
+  </main>
 
-      li a,
-      .submenu a {
-        display: block;
-        padding: 10px 0;
-        color: #fff;
-        text-decoration: none;
-        font-weight: 500;
+  <!-- ✅ Footer -->
+  {% include footer.html %}
 
-        &:hover {
-          color: #ffcc00;
-        }
+  <!-- ✅ Script hamburger mobile -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const hamburger = document.querySelector(".hamburger");
+      const nav = document.querySelector(".main-nav");
+
+      if (hamburger && nav) {
+        hamburger.addEventListener("click", function () {
+          nav.classList.toggle("active");
+        });
       }
-
-      .has-submenu .submenu,
-      .submenu-nested {
-        background-color: #2c2c2c;
-        padding-left: 20px;
-      }
-    }
-  }
-}
+    });
+  </script>
+</body>
+</html>
