@@ -88,6 +88,9 @@
       if (hamburger && nav) {
         hamburger.addEventListener("click", function () {
           nav.classList.toggle("active");
+
+          // Aggiorna aria-expanded per accessibilità
+          hamburger.setAttribute("aria-expanded", nav.classList.contains("active"));
         });
       }
     });
