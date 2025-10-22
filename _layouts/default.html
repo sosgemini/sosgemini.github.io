@@ -61,7 +61,13 @@
 </head>
 
 <body class="{{ page.class | default: 'pagina' }}">
-  {% include header.html %}
+  <header class="site-header desktop-only">
+    {% include header.html %}
+  </header>
+
+  <header class="site-header mobile-only">
+    {% include header-mobile.html %}
+  </header>
 
   <main class="page-wrapper">
     {{ content }}
@@ -70,5 +76,3 @@
   {% include footer.html %}
 </body>
 </html>
-
-
