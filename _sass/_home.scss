@@ -192,35 +192,3 @@
     border-radius: 2px;
   }
 }
-
-@media (max-width: 768px) {
-  .main-nav {
-    display: none;
-
-    &.active {
-      display: block;
-      background: #fff;
-      padding: 20px;
-    }
-
-    .nav-links {
-      flex-direction: column;
-      gap: 10px;
-
-      .has-submenu .submenu {
-        position: static;
-        padding-left: 20px;
-      }
-    }
-  }
-
-  .hamburger {
-    display: flex;
-  }
-
-  .nav-links li a,
-  .submenu a {
-    display: block;
-    padding: 10px 0;
-  }
-}
