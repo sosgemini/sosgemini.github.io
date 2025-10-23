@@ -51,25 +51,25 @@ class: home
 
   <!-- 💡 CONSIGLI E FONTI -->
   <section class="text-block">
+    <h2>💡 Consigli utili</h2>
+    <p>La dieta ideale include sia cibo secco che umido. L’umido favorisce l’idratazione e riduce i rischi di problemi renali.</p>
+    <p>Scegli sempre alimenti completi e bilanciati, con ingredienti chiari e di origine.</p>
 
-    <h3>Di seguito le fonti autorevoli su cui sono basate le nostre ricerche, test, recensioni.</h3>
+    <h3>Ricerche basate su fonti autorevoli</h3>
     <ul>
-<ul>
-  <li><strong>Trustpilot:</strong> piattaforma globale di recensioni online dove i consumatori valutano aziende, prodotti e servizi in modo trasparente.</li>
-  <li><strong>Altroconsumo:</strong> associazione italiana per la tutela dei consumatori, offre test comparativi, consulenze legali e guide all’acquisto.</li>
-  <li><strong>Sampleo:</strong> community di tester che ricevono prodotti gratuiti da provare e recensire, collaborando con grandi marchi.</li>
-  <li><strong>ProvaLoTu:</strong> piattaforma italiana che seleziona utenti per testare prodotti a casa e condividere opinioni sui social e siti partner.</li>
-  <li><strong>Testa Il Prodotto:</strong> sito che offre test di prodotti, sondaggi e concorsi con premi, permettendo agli utenti di guadagnare condividendo opinioni.</li>
-  <li><strong>Toluna:</strong> community internazionale di sondaggi online dove gli utenti vengono ricompensati per le loro opinioni su prodotti e servizi.</li>
-  <li><strong>Pinecone Research:</strong> panel di ricerca che offre sondaggi retribuiti e test di prodotti, con premi in denaro e gift card.</li>
-  <li><strong>TestaConsam:</strong> piattaforma italiana di test sensoriali e di mercato, dove i partecipanti provano prodotti alimentari e ricevono buoni regalo.</li>
-  <li><strong>My-personaltrainer:</strong> sito italiano dedicato a salute, fitness, alimentazione e benessere, con contenuti curati da esperti.</li>
-  <li><strong>Quattroruote:</strong> rivista e portale italiano di riferimento per il mondo dell’auto: prove su strada, listini, quotazioni e notizie.</li>
-  <li><strong>Al Volante:</strong> mensile italiano di automobilismo con test, listini, consigli per l’acquisto e approfondimenti sul mondo delle quattro ruote.</li>
-  <li><strong>CNET:</strong> sito internazionale di tecnologia che pubblica recensioni, guide e notizie su elettronica di consumo, software e innovazione.</li>
-  <li><strong>Statista:</strong> portale globale di dati statistici e ricerche di mercato, con grafici, report e analisi su oltre 80.000 temi.</li>
-</ul>
-
+      <li>Trustpilot</li>
+      <li>Altroconsumo</li>
+      <li>Sampleo</li>
+      <li>ProvaLoTu</li>
+      <li>Testa Il Prodotto</li>
+      <li>Toluna</li>
+      <li>Pinecone Research</li>
+      <li>TestaConsam</li>
+      <li>My-personaltrainer</li>
+      <li>Quattroruote</li>
+      <li>Al Volante</li>
+      <li>CNET</li>
+      <li>Statista</li>
     </ul>
   </section>
 
