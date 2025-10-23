@@ -16,6 +16,7 @@ class: home
 
   <!-- 🔲 GRIGLIA QUADRATI -->
   <section class="square-grid">
+    <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
     <div class="content-square">
       <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
       <p>Amici</p>
