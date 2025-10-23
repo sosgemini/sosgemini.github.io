@@ -1,38 +1,3 @@
-/* === 📦 CONTENITORE CENTRALE === */
-.layout-wrapper {
-  max-width: 1150px;
-  margin-inline: auto;
-  padding-inline: 20px;
-  box-sizing: border-box;
-}
-
-/* === 📝 INTRODUZIONE (versione compatta) === */
-.intro {
-  padding-block: 20px; // ridotto da 80px
-  margin-bottom: 15px; // ridotto da 80px
-  text-align: center;
-
-  .main-title-centered {
-    font-size: 2em;
-    font-weight: 500;
-    color: #222;
-    margin-bottom: 12px; // ridotto da 20px
-    line-height: 1.3;
-    letter-spacing: -0.5px;
-  }
-
-  .small-title {
-    font-size: 1.2em;
-    font-weight: 300;
-    color: #666;
-    margin-bottom: 24px; // ridotto da 40px
-    line-height: 1.8;
-    max-width: 65ch;
-    margin-inline: auto;
-  }
-}
-
-
 /* === 🔲 GRIGLIA QUADRATI === */
 .square-grid {
   display: flex;
@@ -65,7 +30,7 @@
     margin: 10px 0;
   }
 
-  p {
+  h3 {
     font-size: 1.2em;
     font-weight: 600;
     margin: 4px 0 0 0;
@@ -83,112 +48,29 @@
     line-height: 1.8;
     border-radius: 6px;
     z-index: 10;
-    display: none;
     opacity: 0;
+    pointer-events: none;
     transition: opacity 0.3s ease;
   }
 
-a {
-  color: #f5c518; // ✅ giallo cinema (puoi usare anche #ffd700 o #ffcc00)
-  text-decoration: none; // ✅ niente sottolineatura
-  transition: color 0.2s ease;
-
   &:hover {
-    color: #fff200; // ✅ giallo più chiaro al passaggio
-    text-decoration: none;
-  }
-}
+    background-color: #444;
 
-}
-
-/* === 💡 SEZIONE TESTUALE === */
-.text-block {
-  max-width: 1150px;
-  margin-inline: auto;
-  padding-block: 20px;
-  padding-inline: 20px; // uguale a .layout-wrapper
-  color: #222;
-
-  h2, h3 {
-    font-size: 1.3em;
-    font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 12px;
-    line-height: 1.4;
-    text-align: left;
-  }
-
-  p {
-    font-size: 1.1em;
-    line-height: 1.8;
-    margin-bottom: 20px;
-    text-align: left;
-  }
-
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    margin-bottom: 25px;
-
-    li {
-      font-size: 1em;
-      line-height: 1.6;
-      margin-bottom: 0.4em;
-      padding-left: 0;
-      margin-left: 0;
-      text-indent: 0;
+    .description {
+      opacity: 1;
+      pointer-events: auto;
     }
   }
 }
-/* === BLOCCO HERO ORIZZONTALE === */
-.hero-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 30px;
-  padding-inline: 20px;
-  margin-bottom: 30px;
-}
 
-.hero-col {
-  flex: 1 1 48%; // ✅ larghezza flessibile
-  min-width: 280px;
-}
+/* === LINK GLOBALI (fuori da .content-square) === */
+a {
+  color: #f5c518;
+  text-decoration: none;
+  transition: color 0.2s ease;
 
-.image-side img {
-  width: 100%;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.text-side h2 {
-  font-size: 1.4em;
-  font-weight: 500;
-  margin-bottom: 12px;
-  line-height: 1.4;
-  color: #222;
-}
-
-.text-side p {
-  font-size: 1.1em;
-  line-height: 1.8;
-  color: #222;
-  margin-bottom: 0;
-}
-
-/* === MOBILE: impilati verticalmente === */
-@media (max-width: 768px) {
-  .hero-row {
-    flex-direction: column;
-    gap: 20px;
-  }
-
-  .hero-col {
-    width: 100%;
+  &:hover {
+    color: #fff200;
+    text-decoration: none;
   }
 }
-
-
