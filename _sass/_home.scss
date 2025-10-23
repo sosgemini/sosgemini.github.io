@@ -138,5 +138,54 @@
     }
   }
 }
+/* === BLOCCO HERO ORIZZONTALE === */
+.hero-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding-inline: 20px;
+  margin-bottom: 30px;
+}
+
+.hero-col {
+  flex: 1 1 48%; // ✅ larghezza flessibile
+  min-width: 280px;
+}
+
+.image-side img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.text-side h2 {
+  font-size: 1.4em;
+  font-weight: 500;
+  margin-bottom: 12px;
+  line-height: 1.4;
+  color: #222;
+}
+
+.text-side p {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #222;
+  margin-bottom: 0;
+}
+
+/* === MOBILE: impilati verticalmente === */
+@media (max-width: 768px) {
+  .hero-row {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .hero-col {
+    width: 100%;
+  }
+}
 
 
