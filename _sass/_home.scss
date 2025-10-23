@@ -139,41 +139,7 @@
   }
 }
 /* === 🐾 BLOCCO HERO ORIZZONTALE === */
-.hero-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 30px;
-  padding-inline: 20px;
-  margin-bottom: 30px;
-}
 
-.hero-col {
-  flex: 1 1 0;
-}
-
-.image-side img {
-  width: 100%;
-  max-width: 480px;
-  height: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.text-side h2 {
-  font-size: 1.3em;
-  font-weight: 400;
-  margin-bottom: 12px;
-  line-height: 1.4;
-  color: #222;
-}
-
-.text-side p {
-  font-size: 1.1em;
-  line-height: 1.8;
-  color: #222;
-  margin-bottom: 0;
-}
 
 
 /* === MOBILE MENU === */
