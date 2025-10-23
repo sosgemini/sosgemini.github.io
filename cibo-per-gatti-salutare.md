@@ -169,7 +169,7 @@ permalink: /cibo-per-gatti-salutare/
     <!-- 📘 CONSIGLI NUTRIZIONALI -->
 <section class="text-block">
 
-  <h2><strong>Etichetta:</strong> Come scegliere il miglior cibo per gatti</h2>
+  <h2><strong>Etichetta: Come scegliere il miglior cibo per gatti</strong></h2>
   <p>Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è fondamentale. La qualità si riconosce leggendo l’etichetta: gli ingredienti rivelano tutto.</p>
 
   <h2><strong>Proteine:</strong> Il cuore della dieta del gatto</h2>
