@@ -25,7 +25,7 @@ class: home
 
   <div class="content-square">
     <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
-    <h3><strong>Benessere</strong></h3>
+    <h3>Benessere</h3>
     <div class="description"><a href="/benessere/" class="entra-link">E N T R A</a><br>Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.</div>
   </div>
 
