@@ -16,42 +16,42 @@ class: home
 
   <!-- 🔲 GRIGLIA QUADRATI -->
   <section class="square-grid">
-    
-    <div class="content-square">
-   
-      <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
-      <p>Amici</p>
-      <div class="description">
-        Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano.
-      </div>
-    </div>
 
-    <div class="content-square">
-      <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
-      <p>Benessere</p>
-      <div class="description"> 
-  
-        Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.
-      </div>
-    </div>
 
-    <div class="content-square">
-      <img src="/assets/img/ICO-Tecnologia.webp" alt="Tecnologia ecologica e fai da te sostenibile">
-      <p>Tecnologia</p>
-      <div class="description">
-        Innovazione sostenibile per casa, mobilità e fai da te. Scopri i migliori gadget ecologici, elettrodomestici a basso consumo, app per la gestione energetica e strumenti smart per il risparmio.
-  
-      </div>
+  <div class="content-square">
+    <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
+    <h3>Amici</h3>
+    <div class="description">
+      Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano.
     </div>
+  </div>
 
-    <div class="content-square">
-      <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobby creativi e lavoro etico da casa">
-      <p>Hobbystica</p>
-    
-      <div class="description">
-        Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
-      </div>
+  <div class="content-square">
+    <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
+    <h3>Benessere</h3>
+    <div class="description">
+      Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.
     </div>
+  </div>
+
+  <div class="content-square">
+    <img src="/assets/img/ICO-Tecnologia.webp" alt="Tecnologia ecologica e fai da te sostenibile">
+    <h3>Tecnologia</h3>
+    <div class="description">
+      Innovazione sostenibile per casa, mobilità e fai da te. Scopri i migliori gadget ecologici, elettrodomestici a basso consumo, app per la gestione energetica e strumenti smart per il risparmio.
+    </div>
+  </div>
+
+  <div class="content-square">
+    <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobby creativi e lavoro etico da casa">
+    <h3>Hobbystica</h3>
+    <div class="description">
+      Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
+    </div>
+  </div>
+
+</div>
+
   </section>
 
   <!-- 💡 CONSIGLI E FONTI -->
