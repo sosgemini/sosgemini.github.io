@@ -156,6 +156,18 @@
   }
 }
 
+/* === 📷 IMMAGINE HERO RIDOTTA === */
+.image-side img {
+  width: 60%;         // oppure 50%, 40% — scegli tu
+  max-width: 400px;   // limite massimo
+  height: auto;
+  display: block;
+  margin-inline: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
 /* === LINK GLOBALI === */
 a {
   color: #f5c518;
