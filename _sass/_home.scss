@@ -106,6 +106,13 @@
   padding-inline: 20px;
   color: #222;
 
+  h2, h3 {
+    position: relative;
+    display: inline-block;
+    padding: 0.4em 0.6em;
+    border-radius: 6px;
+  }
+
   h2 {
     font-size: 1.4em;
     font-weight: 500;
@@ -113,11 +120,8 @@
     margin-bottom: 12px;
     line-height: 1.4;
     text-align: left;
-    color: transparent;
-    background-image: linear-gradient(to right, #66ccff, #99ddff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #222;
+    background: linear-gradient(to right, #e0f7ff, #f5f5f5); // sfondo gradiente dietro testo
   }
 
   h3 {
@@ -127,11 +131,8 @@
     margin-bottom: 12px;
     line-height: 1.4;
     text-align: left;
-    color: transparent;
-    background-image: linear-gradient(to right, #99ddff, #cceeff);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #333;
+    background: linear-gradient(to right, #f0fbff, #ffffff); // sfondo più leggero
   }
 
   p {
@@ -166,4 +167,3 @@ a {
     text-decoration: none;
   }
 }
-
