@@ -88,14 +88,17 @@
     transition: opacity 0.3s ease;
   }
 
-  &:hover {
-    background-color: #444;
+a {
+  color: #f5c518; // ✅ giallo cinema (puoi usare anche #ffd700 o #ffcc00)
+  text-decoration: none; // ✅ niente sottolineatura
+  transition: color 0.2s ease;
 
-    .description {
-      display: block;
-      opacity: 1;
-    }
+  &:hover {
+    color: #fff200; // ✅ giallo più chiaro al passaggio
+    text-decoration: none;
   }
+}
+
 }
 
 /* === 💡 SEZIONE TESTUALE === */
