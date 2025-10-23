@@ -20,13 +20,13 @@ class: home
   <div class="content-square">
     <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
     <h3>Amici</h3>
-    <div class="description"><strong>ENTRA</strong><br>Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano.</div>
+    <div class="description"><a href="/benessere/" class="entra-link">E N T R A</a><br>Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano.</div>
   </div>
 
   <div class="content-square">
     <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
-    <h4><strong>Benessere</strong></h4>
-    <div class="description"><strong>E N T R A</strong><br>Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.</div>
+    <h3><strong>Benessere</strong></h3>
+    <div class="description"><a href="/benessere/" class="entra-link">E N T R A</a><br>Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.</div>
   </div>
 
   <div class="content-square">
