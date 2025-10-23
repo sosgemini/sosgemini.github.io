@@ -30,7 +30,7 @@ class: home
       <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
       <p>Benessere</p>
       <div class="description"> 
-      <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
+  
         Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.
       </div>
     </div>
@@ -40,14 +40,14 @@ class: home
       <p>Tecnologia</p>
       <div class="description">
         Innovazione sostenibile per casa, mobilità e fai da te. Scopri i migliori gadget ecologici, elettrodomestici a basso consumo, app per la gestione energetica e strumenti smart per il risparmio.
-      <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
+  
       </div>
     </div>
 
     <div class="content-square">
       <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobby creativi e lavoro etico da casa">
       <p>Hobbystica</p>
-      <a class="brand-name" href="https://www.royalcanin.com/it" target="_blank" rel="noopener">Visita il sito</a>
+    
       <div class="description">
         Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
       </div>
