@@ -12,11 +12,11 @@ class: home
     <h2 class="small-title">
       Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
     </h2>
+    
   </section>
 
   <!-- 🔲 GRIGLIA QUADRATI -->
   <section class="square-grid">
-
 
   <div class="content-square">
     <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
@@ -49,9 +49,6 @@ class: home
       Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
     </div>
   </div>
-
-</div>
-
   </section>
 
   <!-- 💡 CONSIGLI E FONTI -->
