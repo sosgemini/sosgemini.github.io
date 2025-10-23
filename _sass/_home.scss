@@ -106,13 +106,32 @@
   padding-inline: 20px;
   color: #222;
 
-  h2, h3 {
+  h2 {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    text-align: left;
+    color: transparent;
+    background-image: linear-gradient(to right, #66ccff, #99ddff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  h3 {
     font-size: 1.3em;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 12px;
     line-height: 1.4;
     text-align: left;
+    color: transparent;
+    background-image: linear-gradient(to right, #99ddff, #cceeff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   p {
