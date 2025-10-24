@@ -16,7 +16,7 @@ permalink: /cibo-per-gatti-salutare/
   </h2>
 </section>
 
-------
+
 
 <section class="square-grid">
 
@@ -32,15 +32,18 @@ permalink: /cibo-per-gatti-salutare/
 -------
 
 <section class="indice-antracite">
-  <h2 class="section-title">Hill's Science Plan</h2>
-  <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
-  <p>Fonte: Altroconsumo (Gennaio 2025) — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.</p>
-  <ul class="styled-list">
-  <li> <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Visita il sito</a></li>
-</li>
-  </ul>
+  <div class="brand-header">
+    <h2 class="section-title">Hill's Science Plan</h2>
+    <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
+    <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Visita il sito</a>
+  </div>
+  <p class="brand-description">
+    Fonte: Altroconsumo (Gennaio 2025) — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.
+  </p>
 </section>
 
+
+-------
 
 <!-- 🍽️ CIBO SECCO -->
 
