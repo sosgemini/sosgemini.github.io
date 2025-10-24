@@ -14,6 +14,8 @@ class: home
     </h2>
   </section>
 
+
+
   <!-- 🔲 GRIGLIA QUADRATI -->
 <section class="square-grid">
 
@@ -26,6 +28,8 @@ class: home
     </div>
   </div>
 
+
+
   <div class="content-square">
     <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
     <h3>Benessere</h3>
@@ -35,6 +39,8 @@ class: home
     </div>
   </div>
 
+
+
   <div class="content-square">
     <img src="/assets/img/ICO-Tecnologia.webp" alt="Tecnologia ecologica e fai da te sostenibile">
     <h3>Tecnologia</h3>
@@ -43,6 +49,7 @@ class: home
       Innovazione sostenibile per casa, mobilità e fai da te. Scopri i migliori gadget ecologici, elettrodomestici a basso consumo, app per la gestione energetica e strumenti smart per il risparmio.
     </div>
   </div>
+
 
   <div class="content-square">
     <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobby creativi e lavoro etico da casa">
