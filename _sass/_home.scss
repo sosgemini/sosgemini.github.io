@@ -185,4 +185,58 @@ a {
   }
 }
 
+/* === 📚 INDICE CON SFONDO ANTRACITE === */
+.indice-antracite {
+  background-color: #2c2c2c; // antracite
+  color: #f0f0f0;
+  padding: 40px 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin-inline: auto;
+  margin-top: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  h2.section-title {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 12px;
+    color: #f5c518;
+  }
+
+  h3.sub-title {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+
+  p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .styled-list {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      margin-bottom: 12px;
+      font-size: 1.05em;
+
+      a {
+        color: #f5c518;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          color: #fff200;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
 
