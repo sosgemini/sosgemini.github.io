@@ -21,7 +21,7 @@ permalink: /cibo-per-gatti-salutare/
 <section class="square-grid">
 
   <div class="content-square">
-    <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="i gatto sono attratti da cibi tossici">
+    <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="i gatti sono attratti da cibi tossici">
     <h3>Il cibo migliore per il tuo amico!?</h3>
     <div class="description">
       Se ti chiedi quale sia il miglior cibo per i gatti, sei nel posto giusto. Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è il fattore più importante. Ma come si fa a distinguere un cibo di alta qualità da un prodotto mediocre? La risposta è nell’etichetta. Leggere e comprendere gli ingredienti è la chiave per prendere decisioni informate e nutrire il tuo felino nel modo corretto.
@@ -31,11 +31,10 @@ permalink: /cibo-per-gatti-salutare/
 
 
 <section class="indice-antracite">
-  <h2 class="section-title">🍽️ CIBO SECCO</h2>
-  <p>Esplora tutte le sezioni della guida e trova rapidamente ciò che ti serve per prenderti cura al meglio del tuo gatto:</p>
-  <h3 class="sub-title">Sezione 1: L'Alimentazione del Gatto</h3>
-  <ul class="styled-list">
+  <h2 class="section-title">Hill's Science Plan</h2>
   <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
+  <p>Fonte: Altroconsumo (Gennaio 2025) — Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.</p>
+  <ul class="styled-list">
   <li> <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Visita il sito</a></li>
 </li>
   </ul>
