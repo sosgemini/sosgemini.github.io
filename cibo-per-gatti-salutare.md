@@ -31,15 +31,13 @@ permalink: /cibo-per-gatti-salutare/
 
 
 <section class="indice-antracite">
-  <h2 class="section-title">📚 Indice di: Guida Completa al Benessere del Gatto</h2>
+  <h2 class="section-title">🍽️ CIBO SECCO</h2>
   <p>Esplora tutte le sezioni della guida e trova rapidamente ciò che ti serve per prenderti cura al meglio del tuo gatto:</p>
-
   <h3 class="sub-title">Sezione 1: L'Alimentazione del Gatto</h3>
   <ul class="styled-list">
-    <li><a href="https://progettogemini.altervista.org/miglior-cibo-gatti/"><strong>🥫 Come Deve Essere il Miglior Cibo per Gatti</strong></a></li>
-    <li><a href="#migliori-marche"><strong>🐱 Migliori Marche di Cibo</strong></a></li>
-    <li><a href="#marche-da-evitare"><strong>🚫 Marche da Evitare</strong></a></li>
-    <li><a href="#dove-comprare"><strong>🛒 Dove Comprare il Cibo per Gatti</strong></a></li>
+  <div class="rating-stars"><span style="color: gold;">★★★★★</span></div>
+  <li> <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Visita il sito</a></li>
+</li>
   </ul>
 </section>
 
