@@ -16,7 +16,7 @@ permalink: /cibo-per-gatti-salutare/
   </h2>
 </section>
 
-
+------
 
 <section class="square-grid">
 
@@ -29,6 +29,7 @@ permalink: /cibo-per-gatti-salutare/
   </div>
 </section>
 
+-------
 
 <section class="indice-antracite">
   <h2 class="section-title">Hill's Science Plan</h2>
