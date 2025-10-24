@@ -24,8 +24,15 @@ permalink: /cibo-per-gatti-salutare/
   </p>
 </section>
 
+<section class="text-block">
+<img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Gatto felice che mangia cibo sano">
+<h2>Come Scegliere il Miglior Cibo per Gatti:</h2>
+</section>
+
 
 <!-- 🍽️ CIBO SECCO -->
+
+
 <section class="text-block">
   <h2 class="section-title-gradient">🍽️ CIBO SECCO</h2>
 </section>
