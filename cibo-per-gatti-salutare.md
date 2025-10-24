@@ -31,6 +31,11 @@ permalink: /cibo-per-gatti-salutare/
 
 -------
 
+
+<section class="text-block">
+  <h2 class="section-title-gradient">🍽️ CIBO SECCO</h2>
+</section>
+
 <section class="indice-antracite">
   <div class="brand-header">
     <h2 class="section-title">Hill's Science Plan</h2>
