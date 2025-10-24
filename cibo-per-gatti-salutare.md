@@ -179,6 +179,14 @@ permalink: /cibo-per-gatti-salutare/
   </div>
 </div>
 
+ <section class="square-grid">
+    <!-- Quadrati CIBO UMIDO -->
+    <!-- Mantieni il layout quadrato esistente -->
+    <!-- Inserisci qui i tuoi <div class="content-square">...</div> -->
+  </section>
+
+
+
   <!-- 📋 SEZIONE TIPO ELENCO (opzionale) -->
   <section class="list-grid">
     <div class="list-item">
