@@ -16,31 +16,21 @@ permalink: /cibo-per-gatti-salutare/
   </h2>
 </section>
 
-----
+
+
 <section class="square-grid">
 
   <div class="content-square">
     <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Animali domestici e amici a quattro zampe">
-    <h3>Amici</h3>
+    <h3>Gatto in Pericolo</h3>
     <div class="description">
-      <a href="/amici/" class="entra-link"><strong>E N T R A</strong></a><br>
-      Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano.
+      Se ti chiedi quale sia il miglior cibo per i gatti, sei nel posto giusto. Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è il fattore più importante. Ma come si fa a distinguere un cibo di alta qualità da un prodotto mediocre? La risposta è nell’etichetta. Leggere e comprendere gli ingredienti è la chiave per prendere decisioni informate e nutrire il tuo felino nel modo corretto.
     </div>
   </div>
 </section>
-----
 
 
-<section class="hero-vertical">
-  <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Gatto felice che mangia cibo sano">
-  <h2><strong>Come Scegliere il Miglior Cibo per Gatti:</strong></h2>
-  <p> Se ti chiedi quale sia il miglior cibo per i gatti, sei nel posto giusto. Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è il fattore più importante. Ma come si fa a distinguere un cibo di alta qualità da un prodotto mediocre? La risposta è nell’etichetta. Leggere e comprendere gli ingredienti è la chiave per prendere decisioni informate e nutrire il tuo felino nel modo corretto. </p>
-</section>
 
-<section class="text-block">
-<img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Gatto felice che mangia cibo sano">
-<h2>Come Scegliere il Miglior Cibo per Gatti:</h2>
-</section>
 
 
 <!-- 🍽️ CIBO SECCO -->
