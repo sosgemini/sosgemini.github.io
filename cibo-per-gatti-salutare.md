@@ -30,7 +30,16 @@ permalink: /cibo-per-gatti-salutare/
 </section>
 
 
+<!-- 🍽️ CIBO SECCO -->
+  <section class="text-block">
+    <h2 class="section-title-gradient">🍽️ CIBO SECCO</h2>
+  </section>
 
+  <section class="square-grid">
+    <!-- Quadrati CIBO SECCO -->
+    <!-- Mantieni il layout quadrato esistente -->
+    <!-- Inserisci qui i tuoi <div class="content-square">...</div> -->
+  </section>
 
 
 <!-- 🍽️ CIBO SECCO -->
