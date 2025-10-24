@@ -179,7 +179,17 @@ permalink: /cibo-per-gatti-salutare/
   </div>
 </div>
 
-
+  <!-- 📋 SEZIONE TIPO ELENCO (opzionale) -->
+  <section class="list-grid">
+    <div class="list-item">
+      <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="Cibo secco per gatti">
+      <div class="list-text">
+        <h3>Hill's Science Plan</h3>
+        <p>Un punto di riferimento per il bilanciamento nutrizionale. I test di qualità la confermano tra le migliori scelte.</p>
+      </div>
+    </div>
+    <!-- Altri list-item se vuoi -->
+  </section>
 
     <!-- 📘 CONSIGLI NUTRIZIONALI -->
 <section class="text-block">
