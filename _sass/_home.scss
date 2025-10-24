@@ -60,10 +60,13 @@
   transition: background 0.3s ease;
   z-index: 1;
 
-  img {
-    width: 80px;
-    margin: 10px 0;
-  }
+ img {
+  width: 120px; // oppure 100px, 140px, ecc.
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+  transition: transform 0.3s ease;
+}
 
   h3 {
     font-size: 1.2em;
