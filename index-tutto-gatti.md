@@ -13,15 +13,19 @@ published: false
 
 
    <section class="text-block"> <!-- ✅ Mantieni -->
-    <h3 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h3> <!-- 🔄 Cambia titolo -->
+    <h3 class="section-title-gradient">Cibo Salutare</h3> <!-- 🔄 Cambia titolo -->
+  </section>
+
+    <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">Cibo tossico da evitarei</h3> <!-- 🔄 Cambia titolo -->
   </section>
 
  <section class="text-block"> <!-- ✅ Mantieni -->
-    <h3 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h3> <!-- 🔄 Cambia titolo -->
+    <h3 class="section-title-gradient">Cibo in base all'età</h3> <!-- 🔄 Cambia titolo -->
   </section>
 
    <section class="text-block"> <!-- ✅ Mantieni -->
-    <h3 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h3> <!-- 🔄 Cambia titolo -->
+    <h3 class="section-title-gradient">Cibo esigenze speciali</h3> <!-- 🔄 Cambia titolo -->
   </section>
 
   
