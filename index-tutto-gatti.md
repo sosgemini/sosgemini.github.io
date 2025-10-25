@@ -11,9 +11,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
   
 <section class="intro">
   <h1 class="main-title-centered">🍴 INDICE Gatti</h1>
-  <h2 class="small-title">Tutto Gatti </h2>
-</section>
-
+  
   <section class="text-block"> <!-- ✅ Mantieni -->
     <h3 class="section-title-gradient">Cibo Salutare</h3>
   </section>
@@ -30,5 +28,28 @@ image: /assets/img/1-9-gatti-1200x630.webp
     <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
   </section>
 
-  
+    <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
+  </section>
+
+  <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
+  </section>
+
+
+  <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
+  </section>
+
+  <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
+  </section>
+
+  <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
+  </section>
+
+    <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
+  </section>
 </main>
