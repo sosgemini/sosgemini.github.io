@@ -1,11 +1,12 @@
 ---
 layout: default
 title: Index tutto gatti
-description: Una guida completa sull’alimentazione felina: cibo sano, età, esigenze speciali e molto altro.
+description: "Una guida completa sull’alimentazione felina: cibo sano, età, esigenze speciali e molto altro."
 class: pagina
 permalink: /index-tutto-gatti/
 image: /assets/img/1-9-gatti-1200x630.webp
 ---
+
 
 <main class="layout-wrapper">
 
