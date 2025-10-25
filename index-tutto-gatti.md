@@ -9,12 +9,13 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
 <main class="layout-wrapper">
 
-  <section class="intro">
+<section class="intro">
+  <div class="intro-titles">
     <h1 class="main-title-centered">🐾 INDICE GATTI</h1>
-    <p class="index-intro">
-      Esplora tutte le guide dedicate all’alimentazione del tuo gatto: dalla scelta del cibo salutare, ai consigli per età, patologie e bisogni specifici.
-    </p>
-  </section>
+    <h2 class="sub-title-centered">Tutte le guide sull’alimentazione felina</h2>
+  </div>
+</section>
+
 
   <section class="grid-index">
     <div class="index-item">
