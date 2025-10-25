@@ -58,6 +58,16 @@
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/SOS-180x180.png' | relative_url }}">
   <link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}">
   <meta name="theme-color" content="#2c2c2c">
+
+
+{% if page.image %}
+  <meta property="og:image" content="{{ page.image }}">
+  <meta name="twitter:image" content="{{ page.image }}">
+  <meta name="twitter:card" content="summary_large_image">
+{% endif %}
+
+
+  
 </head>
 
 <body class="{{ page.class | default: 'pagina' }}">
