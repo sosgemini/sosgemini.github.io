@@ -33,12 +33,12 @@
   }
 }
 
+/* === 🎯 HERO CON IMMAGINE E QUADRATO TESTUALE === */
 .hero-row {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-  align-items: center;
   justify-content: center;
+  gap: 30px;
   margin-bottom: 40px;
 
   .hero-col {
@@ -55,28 +55,35 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   }
 
-  .hero-text {
+  .content-square {
     background-color: #3a3a3a;
     color: white;
-    padding: 24px;
+    width: 200px;
+    height: 200px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
 
     h3 {
-      font-size: 1.4em;
+      font-size: 1.2em;
       font-weight: 600;
-      margin: 0 0 8px 0;
+      margin: 4px 0 8px 0;
     }
 
     p {
-      font-size: 1.05em;
+      font-size: 0.95em;
       line-height: 1.6;
       margin: 0;
     }
   }
 }
-
 
 /* === 💡 SEZIONE TESTUALE === */
 .text-block {
