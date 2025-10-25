@@ -5,7 +5,6 @@ description: Una guida completa...   <!-- 🔄 Cambia descrizione -->
 class: pagina                        <!-- ✅ Mantieni -->
 permalink: /index-tuto-gatti/ <!-- 🔄 Cambia URL -->
 image: /assets/img/1-9-gatti-1200x630.webp <!-- 🔄 Cambia immagine social -->
-
 ---
 
 <main class="layout-wrapper"> <!-- ✅ Mantieni -->
