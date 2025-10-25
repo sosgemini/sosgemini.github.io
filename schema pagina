@@ -1,0 +1,68 @@
+---
+layout: default                      <!-- ✅ Mantieni -->
+title: Cibo per Gatti Salutare       <!-- 🔄 Cambia per ogni guida -->
+description: Una guida completa...   <!-- 🔄 Cambia descrizione -->
+class: pagina                        <!-- ✅ Mantieni -->
+permalink: /cibo-per-gatti-salutare/ <!-- 🔄 Cambia URL -->
+image: /assets/img/preview-cibo-gatti.webp <!-- 🔄 Cambia immagine social -->
+---
+
+<main class="layout-wrapper"> <!-- ✅ Mantieni -->
+
+  <!-- 📝 INTRODUZIONE -->
+  <section class="intro"> <!-- ✅ Mantieni -->
+    <h1 class="main-title-centered">🍴 Cibo per Gatti Salutare, Come Sceglierlo!</h1> <!-- 🔄 Cambia titolo -->
+    <h2 class="small-title">
+      Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
+    </h2> <!-- 🔄 Cambia sottotitolo -->
+  </section>
+
+  <!-- 🔲 BLOCCO QUADRATO -->
+  <section class="square-grid"> <!-- ✅ Mantieni -->
+    <div class="content-square"> <!-- ✅ Mantieni -->
+      <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="i gatti sono attratti da cibi tossici"> <!-- 🔄 Cambia immagine e alt -->
+      <h3>Il cibo migliore per il tuo amico!?</h3> <!-- 🔄 Cambia titolo -->
+      <div class="description">
+        Se ti chiedi quale sia il miglior cibo per i gatti... <!-- 🔄 Cambia descrizione -->
+      </div>
+    </div>
+  </section>
+
+  <!-- 🍽️ CIBO SECCO -->
+  <section class="text-block"> <!-- ✅ Mantieni -->
+    <h2 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h2> <!-- 🔄 Cambia titolo -->
+  </section>
+
+  <!-- 🔍 MARCHE CONSIGLIATE -->
+  <section class="indice-antracite"> <!-- ✅ Mantieni -->
+    <div class="brand-header">
+      <h2 class="section-title">Hill's Science Plan</h2> <!-- 🔄 Cambia marca -->
+      <div class="rating-stars"><span style="color: gold;">★★★★★</span></div> <!-- 🔄 Cambia voto -->
+      <a class="brand-name" href="https://www.hillspet.it/" target="_blank" rel="noopener">Visita il sito</a> <!-- 🔄 Cambia link -->
+    </div>
+    <p class="brand-description">
+      Fonte: Altroconsumo (Gennaio 2025)... <!-- 🔄 Cambia fonte e descrizione -->
+    </p>
+  </section>
+
+  <!-- 🔁 Ripeti .indice-antracite per ogni marca -->
+
+  <!-- 🍽️ CIBO UMIDO -->
+  <section class="text-block">
+    <h2 class="section-title-gradient">🍽️ CIBO UMIDO per gatti: migliori marche consigliate.</h2> <!-- 🔄 Cambia titolo -->
+  </section>
+
+  <!-- 🔁 Ripeti .indice-antracite per ogni marca umida -->
+
+  <!-- 📘 CONSIGLI NUTRIZIONALI -->
+  <section class="text-block"> <!-- ✅ Mantieni -->
+    <h2><strong>Etichetta:</strong> Come scegliere il miglior cibo per gatti</h2> <!-- 🔄 Cambia argomento -->
+    <p>Per garantire al tuo felino una vita lunga, sana e felice...</p> <!-- 🔄 Cambia contenuto -->
+    
+    <h2><strong>Proteine:</strong> Il cuore della dieta del gatto</h2> <!-- 🔄 Cambia sezione -->
+    <p>I gatti sono carnivori obbligati...</p> <!-- 🔄 Cambia contenuto -->
+    
+    <!-- 🔁 Ripeti blocchi h2 + p per ogni argomento nutrizionale -->
+  </section>
+
+</main>
