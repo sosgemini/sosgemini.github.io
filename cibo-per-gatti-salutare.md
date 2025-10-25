@@ -33,7 +33,7 @@ permalink: /cibo-per-gatti-salutare/
 <!-- 🍽️ CIBO SECCO -->
 
 <section class="text-block">
-  <h2 class="section-title-gradient">🍽️ CIBO SECCO</h2>
+  <h2 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h2>
 </section>
 
 <section class="indice-antracite">
@@ -122,7 +122,7 @@ permalink: /cibo-per-gatti-salutare/
 
 
 <section class="text-block">
-  <h2 class="section-title-gradient">🍽️ CIBO UMIDO</h2>
+  <h2 class="section-title-gradient">🍽️ CIBO UMIDO per gatti: migliori marche consigliate.</h2>
 </section>
 
 <section class="indice-antracite">
