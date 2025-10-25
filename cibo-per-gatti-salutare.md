@@ -4,7 +4,7 @@ title: Cibo per Gatti Salutare
 description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
 class: pagina
 permalink: /cibo-per-gatti-salutare/
-image: /assets/img/1-Cibo-Gatti-Il-Migliore-480.webp
+image: /assets/img/1-9-gatti-1200x630.webp
 ---
 
 <main class="layout-wrapper">
