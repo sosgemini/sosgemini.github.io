@@ -11,12 +11,9 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <main class="layout-wrapper">
 
 <section class="intro">
-  <div class="intro-titles">
     <h1 class="main-title-centered">🐾 INDICE GATTI</h1>
-    <h2 class="sub-title-centered">Tutte le guide sull’alimentazione e la cura felina</h2>
-  </div>
+    <h2 class="small-title">Tutte le guide sull’alimentazione e la cura felina</h2>
 </section>
-
 
   <section class="grid-index">
     <div class="index-item">
