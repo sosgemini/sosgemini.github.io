@@ -10,18 +10,15 @@ image: /assets/img/1-9-gatti-1200x630.webp <!-- 🔄 Cambia immagine social -->
 <main class="layout-wrapper"> <!-- ✅ Mantieni -->
   
 <section class="intro">
-  <h1 class="main-title-centered">🍴 Cibo per Gatti Salutare, Come Sceglierlo!</h1>
-  <h2 class="small-title">
-    Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
-  </h2>
+  <h1 class="main-title-centered">🍴 INDICE Gatti</h1>
+  <h2 class="small-title">Tutto Gatti </h2>
 </section>
 
-
-   <section class="text-block"> <!-- ✅ Mantieni -->
+  <section class="text-block"> <!-- ✅ Mantieni -->
     <h3 class="section-title-gradient">Cibo Salutare</h3>
   </section>
 
-    <section class="text-block"> <!-- ✅ Mantieni -->
+  <section class="text-block"> <!-- ✅ Mantieni -->
     <h3 class="section-title-gradient">Cibo tossico da evitarei</h3>
   </section>
 
