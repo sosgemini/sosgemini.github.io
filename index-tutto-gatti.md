@@ -36,7 +36,6 @@ image: /assets/img/1-9-gatti-1200x630.webp
     <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
   </section>
 
-
   <section class="text-block"> <!-- ✅ Mantieni -->
     <h3 class="section-title-gradient">Cibo esigenze speciali</h3>
   </section>
