@@ -3,9 +3,10 @@
   max-width: 1150px;
   margin-inline: auto;
   padding-inline: 20px;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   box-sizing: border-box;
+  min-height: 100vh;
 }
 
 /* === 📝 INTRODUZIONE === */
@@ -107,7 +108,6 @@
 }
 
 /* === 💡 SEZIONE TESTUALE === */
-
 .text-block {
   max-width: 1150px;
   margin-inline: auto;
@@ -270,28 +270,28 @@ a {
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(2px);
-}
 
-.index-item a {
-  color: #f2f2f2;
-  text-decoration: none;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  display: block;
-  font-weight: 400;
-  letter-spacing: 0.3px;
-}
+  a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
 
-.index-item strong {
-  display: block;
-  font-size: 1.2rem;
-  margin-bottom: 0.3rem;
-  color: #ffffff;
-  font-weight: 600;
-}
+  strong {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: #ffffff;
+    font-weight: 600;
+  }
 
-.index-item:hover {
-  background: linear-gradient(to top right, #2a2a2a, #3a3a3a, #e0e0e0);
-  transform: translateY(-3px);
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  &:hover {
+    background: linear-gradient(to top right, #2a2a2a, #3a3a3a, #e0e0e0);
+    transform: translateY(-3px);
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  }
 }
