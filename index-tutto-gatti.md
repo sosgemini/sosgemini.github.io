@@ -1,4 +1,4 @@
-la cura---
+---
 layout: default
 title: Index tutto gatti
 description: "Una guida completa sull’alimentazione felina: cibo sano, età, esigenze speciali e molto altro."
