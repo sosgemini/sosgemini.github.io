@@ -1,4 +1,4 @@
----
+la cura---
 layout: default
 title: Index tutto gatti
 description: "Una guida completa sull’alimentazione felina: cibo sano, età, esigenze speciali e molto altro."
@@ -13,7 +13,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <section class="intro">
   <div class="intro-titles">
     <h1 class="main-title-centered">🐾 INDICE GATTI</h1>
-    <h2 class="sub-title-centered">Tutte le guide sull’alimentazione felina</h2>
+    <h2 class="sub-title-centered">Tutte le guide sull’alimentazione e la cura felina</h2>
   </div>
 </section>
 
