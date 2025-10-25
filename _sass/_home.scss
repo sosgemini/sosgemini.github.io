@@ -101,7 +101,7 @@
   }
 }
 
-/* === 💡 SEZIONE TESTUALE === */
+/* === 💡 SEZIONE TESTUALE — VERSIONE PROFESSIONALE === */
 .text-block {
   max-width: 1150px;
   margin-inline: auto;
@@ -114,35 +114,47 @@
     display: inline-block;
     padding: 0.4em 0.6em;
     border-radius: 6px;
+    background: linear-gradient(to right, #10913a, #ffffff);
   }
 
   h2 {
     font-size: 1.4em;
     font-weight: 500;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     line-height: 1.4;
     text-align: left;
     color: #222;
-    background: linear-gradient(to right, #10913a, #ffffff);
+  }
+
+  h2 + p {
+    margin-top: 0;
   }
 
   h3 {
     font-size: 1.3em;
     font-weight: 400;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 6px;
     line-height: 1.4;
     text-align: left;
     color: #333;
-    background: linear-gradient(to right, #10913a, #ffffff);
+  }
+
+  h3 + p {
+    margin-top: 0;
   }
 
   p {
-    font-size: 1.1em;
-    line-height: 1.8;
-    margin-bottom: 8px;
+    font-size: 1.05em;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 14px;
     text-align: left;
+  }
+
+  p + p {
+    margin-top: -4px;
   }
 
   ul {
@@ -158,6 +170,7 @@
     }
   }
 }
+
 
 /* === 📷 IMMAGINE HERO RIDOTTA === */
 .image-side img {
