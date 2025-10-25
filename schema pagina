@@ -1,7 +1,4 @@
-published: false
-
-
-
+schema pagina base
 ---
 layout: default                      <!-- ✅ Mantieni -->
 title: Cibo per Gatti Salutare       <!-- 🔄 Cambia per ogni guida -->
@@ -9,6 +6,7 @@ description: Una guida completa...   <!-- 🔄 Cambia descrizione -->
 class: pagina                        <!-- ✅ Mantieni -->
 permalink: /cibo-per-gatti-salutare/ <!-- 🔄 Cambia URL -->
 image: /assets/img/preview-cibo-gatti.webp <!-- 🔄 Cambia immagine social -->
+published: false
 ---
 
 <main class="layout-wrapper"> <!-- ✅ Mantieni -->
