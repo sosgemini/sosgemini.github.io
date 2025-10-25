@@ -21,7 +21,11 @@
     text-align: center;
   }
 
+
+
+  
   .small-title {
+    text-align: center;
     font-size: 1.2em;
     font-weight: 300;
     color: #666;
@@ -29,9 +33,9 @@
     line-height: 1.8;
     max-width: 65ch;
     margin-inline: auto;
-    text-align: left;
-  }
+    margin-top: 0.5rem;
 }
+  
 
 /* === 🔲 GRIGLIA QUADRATI === */
 .square-grid {
@@ -244,34 +248,47 @@ a {
   }
 }
 
-
+/* === quadrati indice === */
 
 .grid-index {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
-  padding-bottom: 3rem; /* per toccare il fondo */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 .index-item {
-  background: linear-gradient(to bottom left, #2c2c2c, #1a1a1a);
-  padding: 1.2rem;
-  border-radius: 10px;
+  background: linear-gradient(to top right, #1a1a1a, #2c2c2c, #d0d0d0);
+  padding: 1.5rem;
+  border-radius: 12px;
   text-align: center;
   transition: background 0.3s ease, transform 0.2s ease;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(2px);
 }
 
 .index-item a {
-  color: #f0f0f0;
+  color: #f2f2f2;
   text-decoration: none;
-  font-size: 1.05rem;
-  line-height: 1.5;
+  font-size: 1.1rem;
+  line-height: 1.6;
   display: block;
+  font-weight: 400;
+  letter-spacing: 0.3px;
+}
+
+.index-item strong {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .index-item:hover {
-  background: linear-gradient(to bottom left, #3a3a3a, #222);
-  transform: translateY(-2px);
+  background: linear-gradient(to top right, #2a2a2a, #3a3a3a, #e0e0e0);
+  transform: translateY(-3px);
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
 }
