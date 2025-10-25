@@ -3,7 +3,7 @@ layout: default
 title: Index tutto gatti 
 description: Una guida completa
 class: pagina                   
-permalink: /index-tuto-gatti/ 
+permalink: /index-tutto-gatti/ 
 image: /assets/img/1-9-gatti-1200x630.webp
 ---
 
