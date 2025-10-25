@@ -116,13 +116,15 @@ permalink: /cibo-per-gatti-salutare/
 
 
 
-
-
-
-
   
 
 <!-- 🍽️ CIBO UMIDO -->
+
+
+<section class="text-block">
+  <h2 class="section-title-gradient">🍽️ CIBO UMIDO</h2>
+</section>
+
 <section class="indice-antracite">
   <div class="brand-header">
     <h2 class="section-title">Almo Nature</h2>
@@ -189,7 +191,7 @@ permalink: /cibo-per-gatti-salutare/
   </p>
 </section>
 
-
+<br><br>
 
 
     <!-- 📘 CONSIGLI NUTRIZIONALI -->
