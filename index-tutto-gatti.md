@@ -1,33 +1,28 @@
+schema pagina base
 ---
-layout: default
-title: Cibo per Gatti Salutare
-description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
-class: pagina
-permalink: /cibo-per-gatti-salutare/
+layout: default                      <!-- ✅ Mantieni -->
+title: Index tutto gatti       <!-- 🔄 Cambia per ogni guida -->
+description: Una guida completa...   <!-- 🔄 Cambia descrizione -->
+class: pagina                        <!-- ✅ Mantieni -->
+permalink: /index-tuto-gatti/ <!-- 🔄 Cambia URL -->
+image: /assets/img/preview-cibo-gatti.webp <!-- 🔄 Cambia immagine social -->
+published: false
 ---
-<main class="layout-wrapper">
 
-  <!-- 📝 INTRODUZIONE -->
-  <section class="intro">
-    <h1 class="main-title-centered">..............</h1>
-    <h2 class="small-title">.....</h2>
+<main class="layout-wrapper"> <!-- ✅ Mantieni -->
+
+
+   <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h3> <!-- 🔄 Cambia titolo -->
   </section>
 
+ <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h3> <!-- 🔄 Cambia titolo -->
+  </section>
 
-<section class="hero-row">
-  <div class="hero-col image-side">
-    <img src="/assets/img/....." alt="......">
-  </div>
-  <div class="hero-col text-side">
-    <h2><strong>......</strong> Leggere l’Etichetta</h2>
-    <p>......</p>
-  </div>
-</section>
+   <section class="text-block"> <!-- ✅ Mantieni -->
+    <h3 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h3> <!-- 🔄 Cambia titolo -->
+  </section>
 
-
-<section class="text-block">
-  <h2><strong>Etichetta:</strong> Come scegliere il miglior cibo per gatti</h2>
-  <p>Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è fondamentale. La qualità si riconosce leggendo l’etichetta: gli ingredienti rivelano tutto.</p>
-
-</section>
+  
 </main>
