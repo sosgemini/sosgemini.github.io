@@ -243,3 +243,28 @@ a {
     text-decoration: none;
   }
 }
+
+
+.grid-index {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+.index-item {
+  background: rgba(255,255,255,0.05);
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: background 0.3s ease;
+}
+.index-item a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.4;
+  display: block;
+}
+.index-item:hover {
+  background: rgba(255,255,255,0.15);
+}
