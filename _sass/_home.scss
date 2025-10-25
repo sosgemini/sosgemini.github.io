@@ -245,26 +245,33 @@ a {
 }
 
 
+
 .grid-index {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 1.5rem;
   margin-top: 2rem;
+  padding-bottom: 3rem; /* per toccare il fondo */
 }
+
 .index-item {
-  background: rgba(255,255,255,0.05);
-  padding: 1rem;
-  border-radius: 8px;
+  background: linear-gradient(to bottom left, #2c2c2c, #1a1a1a);
+  padding: 1.2rem;
+  border-radius: 10px;
   text-align: center;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
+
 .index-item a {
-  color: inherit;
+  color: #f0f0f0;
   text-decoration: none;
-  font-size: 1rem;
-  line-height: 1.4;
+  font-size: 1.05rem;
+  line-height: 1.5;
   display: block;
 }
+
 .index-item:hover {
-  background: rgba(255,255,255,0.15);
+  background: linear-gradient(to bottom left, #3a3a3a, #222);
+  transform: translateY(-2px);
 }
