@@ -1,11 +1,10 @@
-schema pagina base
 ---
 layout: default                      <!-- ✅ Mantieni -->
 title: Index tutto gatti       <!-- 🔄 Cambia per ogni guida -->
 description: Una guida completa...   <!-- 🔄 Cambia descrizione -->
 class: pagina                        <!-- ✅ Mantieni -->
 permalink: /index-tuto-gatti/ <!-- 🔄 Cambia URL -->
-image: /assets/img/preview-cibo-gatti.webp <!-- 🔄 Cambia immagine social -->
+image: /assets/img/1-9-gatti-1200x630.webp <!-- 🔄 Cambia immagine social -->
 
 ---
 
