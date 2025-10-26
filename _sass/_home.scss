@@ -245,19 +245,19 @@ a {
 }
 /* === MOBILE E TABLET === */
 @media screen and (max-width: 1024px) {
-  .indice-antracite {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    padding: 20px;
+  .site-header {
+    .header-container,
+    .main-nav {
+      display: none;
+    }
 
-    .brand-header,
-    .brand-description,
-    .section-title,
-    .rating-stars {
-      display: none !important;
+    .mobile-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 16px;
+      background: linear-gradient(to right, #2c2c2c, #4f4f4f);
+      border-radius: 12px;
     }
 
     .btn-cerca,
@@ -273,3 +273,4 @@ a {
     }
   }
 }
+
