@@ -255,35 +255,36 @@ a {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 12px 16px;
-      background: linear-gradient(to right, #2c2c2c, #4f4f4f);
-      border-radius: 0 0 12px 12px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      padding: 8px 12px;
+      background-color: #1a1a1a;
+      height: 56px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
     }
 
     .logo-mobile img {
-      width: 48px;
-      height: 48px;
-      border-radius: 8px;
+      width: 40px;
+      height: 40px;
+      border-radius: 6px;
     }
 
-    .btn-cerca,
-    .btn-lingua,
-    .btn-menu {
+    .icon-group {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .icon-btn {
       font-size: 1.4em;
+      color: #f5c518;
       background: none;
       border: none;
-      color: #f5c518;
-      padding: 6px;
+      padding: 4px;
       cursor: pointer;
       text-decoration: none;
     }
 
-    .btn-cerca:hover,
-    .btn-lingua:hover,
-    .btn-menu:hover {
+    .icon-btn:hover {
       color: #fff200;
     }
   }
 }
-
