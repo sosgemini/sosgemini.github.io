@@ -270,7 +270,7 @@ a {
 
     .logo-mobile {
       position: absolute;
-      top: -30px; // ✅ logo completamente sopra la fascia
+      top: 10px; // ✅ logo completamente sopra la fascia
       left: 12px;
       z-index: 2;
     }
