@@ -267,7 +267,8 @@ a {
 
     .logo-mobile {
       display: flex;
-      align-items: center; // ✅ centra verticalmente il logo
+      align-items: center; // ✅ centra verticalmente il logo  
+      padding-top: 6px;        // 🔽 Sposta il logo verso il basso
     }
 
     .logo-mobile img {
