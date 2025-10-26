@@ -265,11 +265,16 @@ a {
       padding: 0 12px;
     }
 
+    .logo-mobile {
+      display: flex;
+      align-items: center; // ✅ centra verticalmente il logo
+    }
+
     .logo-mobile img {
       width: 48px;
       height: 48px;
-      margin-top: 6.5px;     // 🔽 Sposta verso il basso
-      margin-left: -1px;    // 🔽 Sposta verso destra
+      display: block;
+      margin: 0; // ✅ nessun margine manuale
     }
 
     .icon-group {
@@ -293,4 +298,3 @@ a {
     }
   }
 }
-
