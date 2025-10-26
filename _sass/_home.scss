@@ -243,7 +243,12 @@ a {
     text-decoration: none;
   }
 }
+
 /* === MOBILE E TABLET === */
+.mobile-header-bar {
+  display: none; // 🔒 Nasconde il blocco su desktop
+}
+
 @media screen and (max-width: 1024px) {
   .site-header {
     .header-container,
