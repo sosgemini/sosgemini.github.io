@@ -358,3 +358,35 @@ a {
     height: auto;
   }
 }
+
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .page-content,
+  .main-wrapper,
+  .content-area,
+  .container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+
+  p,
+  h1, h2, h3, h4, h5, h6,
+  ul, ol, li,
+  blockquote {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  img,
+  iframe,
+  table {
+    max-width: 100%;
+    height: auto;
+  }
+}
