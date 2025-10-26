@@ -13,6 +13,8 @@ image: /assets/img/1-9-gatti-1200x630.webp
     <h2 class="small-title">Tutte le guide sull’alimentazione e la cura felina</h2>
   </section>
 
+
+
   <section class="grid-index">
 
     <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
