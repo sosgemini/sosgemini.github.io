@@ -260,8 +260,8 @@ a {
       position: relative;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      height: 65px; // ✅ aumenta altezza per accogliere logo
+      justify-content: flex-end; // ✅ spinge le icone a destra
+      height: 47px; // ✅ fascia compatta
       background-color: #3a3a3a;
       padding: 0 12px;
       overflow: visible;
@@ -269,7 +269,9 @@ a {
     }
 
     .logo-mobile {
-      position: relative;
+      position: absolute;
+      top: -30px; // ✅ logo completamente sopra la fascia
+      left: 12px;
       z-index: 2;
     }
 
@@ -277,9 +279,6 @@ a {
       width: 65px;
       height: 65px;
       display: block;
-      position: absolute;
-      top: 8px; // ✅ visibile e leggermente sovrapposto
-      left: 0;
     }
 
     .icon-group {
@@ -327,6 +326,7 @@ a {
     height: auto;
   }
 }
+
 
 
 
