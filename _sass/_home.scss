@@ -246,7 +246,7 @@ a {
 
 /* === MOBILE E TABLET === */
 .mobile-header-bar {
-  display: none; // 🔒 Nasconde il blocco su desktop
+  display: none;
 }
 
 @media screen and (max-width: 1024px) {
@@ -261,7 +261,7 @@ a {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      height: 47px;
+      height: 65px; // ✅ aumenta altezza per accogliere logo
       background-color: #3a3a3a;
       padding: 0 12px;
       overflow: visible;
@@ -270,7 +270,7 @@ a {
 
     .logo-mobile {
       position: relative;
-      z-index: 1;
+      z-index: 2;
     }
 
     .logo-mobile img {
@@ -278,7 +278,7 @@ a {
       height: 65px;
       display: block;
       position: absolute;
-      top: 4px;   // 🔽 sovrimpressione controllata
+      top: 8px; // ✅ visibile e leggermente sovrapposto
       left: 0;
     }
 
@@ -287,7 +287,7 @@ a {
       align-items: center;
       gap: 16px;
       position: relative;
-      z-index: 2; // ✅ sopra il logo
+      z-index: 3;
     }
 
     .icon-btn {
@@ -327,5 +327,6 @@ a {
     height: auto;
   }
 }
+
 
 
