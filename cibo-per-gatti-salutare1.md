@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: SOS Gemini
+class: home
+---
 
 <main class="layout-wrapper">
 
