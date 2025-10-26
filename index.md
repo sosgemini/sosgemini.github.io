@@ -21,21 +21,26 @@ class: home
     <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
     <h3>Amici</h3>
     <div class="description">
-      <a href="/amici/" class="entra-link"><strong>E N T R A</strong></a><br>
+      <a href="https://sosgemini.github.io/index-tutto-gatti" class="entra-link"><strong>E N T R A</strong></a><br>
       Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano.
     </div>
   </div>
 
 
 
-  <div class="content-square">
-    <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
-    <h3>Benessere</h3>
-    <div class="description">
-      <a href="/benessere/" class="entra-link"><strong>E N T R A</strong></a><br>
-      Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.
-    </div>
+<div class="content-square">
+  <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
+  <h3>Amici</h3>
+  <div class="description">
+    <a href="https://sosgemini.github.io/index-tutto-gatti"
+       class="entra-link"
+       style="display: inline-block; padding: 6px 14px; background: linear-gradient(to right, #f5c518, #fff200); color: #222; border-radius: 6px; font-weight: 600; text-decoration: none; margin-bottom: 10px;">
+      <strong>E N T R A</strong>
+    </a><br>
+    Vita sostenibile per animali domestici e amici a quattro zampe. Scopri come prenderti cura dei tuoi animali in modo ecologico: alimentazione naturale, giochi biodegradabili, accessori cruelty-free e soluzioni green per il benessere quotidiano.
   </div>
+</div>
+
 
 
 
