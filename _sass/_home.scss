@@ -61,8 +61,11 @@
   z-index: 1;
 
   img {
-    width: 80px;
+    width: 120px;
+    max-width: 100%;
+    height: auto;
     margin: 10px 0;
+    transition: transform 0.3s ease;
   }
 
   h3 {
@@ -98,12 +101,12 @@
   }
 }
 
-/* === 💡 SEZIONE TESTUALE === */
+/* === 💡 SEZIONE TESTUALE — VERSIONE PROFESSIONALE === */
 .text-block {
   max-width: 1150px;
   margin-inline: auto;
   padding-block: 20px;
-  padding-inline: 20px;
+  padding-inline: 40px 20px;
   color: #222;
 
   h2, h3 {
@@ -111,35 +114,47 @@
     display: inline-block;
     padding: 0.4em 0.6em;
     border-radius: 6px;
+    background: linear-gradient(to right, #a78a8b, #ffffff);
   }
 
   h2 {
     font-size: 1.4em;
     font-weight: 500;
-    margin-top: 0;
-    margin-bottom: 12px;
+    margin-top: 12;
+    margin-bottom: 6px;
     line-height: 1.4;
     text-align: left;
     color: #222;
-    background: linear-gradient(to right, #dce6f9, #ffffff); // sfondo gradiente dietro testo
+  }
+
+  h2 + p {
+    margin-top: 0;
   }
 
   h3 {
     font-size: 1.3em;
     font-weight: 400;
-    margin-top: 0;
-    margin-bottom: 12px;
+    margin-top: 12;
+    margin-bottom: 6px;
     line-height: 1.4;
     text-align: left;
     color: #333;
-    background: linear-gradient(to right, #dce6f9, #ffffff); // sfondo più leggero
+  }
+
+  h3 + p {
+    margin-top: 0;
   }
 
   p {
-    font-size: 1.1em;
-    line-height: 1.8;
-    margin-bottom: 20px;
+    font-size: 1.05em;
+    line-height: 1.7;
+    margin-top: 0;
+    margin-bottom: 14px;
     text-align: left;
+  }
+
+  p + p {
+    margin-top: -4px;
   }
 
   ul {
@@ -156,7 +171,68 @@
   }
 }
 
-/* === LINK GLOBALI === */
+
+/* === 📷 IMMAGINE HERO RIDOTTA === */
+.image-side img {
+  width: 40%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin-inline: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* === 📚 INDICE CON SFONDO ANTRACITE === */
+.indice-antracite {
+  background: linear-gradient(to right, #2c2c2c 0%, #4f4f4f 100%);
+  color: #f0f0f0;
+  padding: 20px 20px;
+  border-radius: 12px;
+  max-width: 900px;
+  margin-inline: auto;
+  margin-top: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+
+  .brand-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+
+    .section-title {
+      font-size: 1.4em;
+      font-weight: 600;
+      color: #f5c518;
+      margin: 0;
+    }
+
+    .rating-stars {
+      font-size: 1.2em;
+    }
+
+    .brand-name {
+      color: #f5c518;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover {
+        color: #fff200;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .brand-description {
+    font-size: 1.05em;
+    line-height: 1.6;
+    margin: 0;
+    color: #ddd;
+  }
+}
+
+/* === 🌐 LINK GLOBALI === */
 a {
   color: #f5c518;
   text-decoration: none;
