@@ -10,10 +10,8 @@ class: home
   <section class="intro">
     <h1 class="main-title-centered">SOS Gemini – La tua guida per una vita sostenibile</h1>
     <h2 class="small-title">
-      Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe.
-    </h2>
+      Benvenuto su SOS Gemini: qui trovi consigli pratici per vivere in armonia con l'ambiente, migliorando la tua salute e quella dei tuoi amici a quattro zampe</h2>
   </section>
-
 
 
   <!-- 🔲 GRIGLIA QUADRATI -->
