@@ -31,7 +31,7 @@ class: home
   </div>
 </div>
 
-    <div class="content-square">
+  <div class="content-square">
     <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
     <h3>Benessere</h3>
     <div class="description">
