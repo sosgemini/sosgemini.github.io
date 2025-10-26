@@ -263,19 +263,20 @@ a {
       height: 47px;
       background-color: #3a3a3a;
       padding: 0 12px;
+      overflow: visible; // ✅ permette al logo di uscire dalla fascia
     }
 
     .logo-mobile {
-      display: flex;
-      align-items: center; // ✅ centra verticalmente il logo  
-      padding-top: 20px;        // 🔽 Sposta il logo verso il basso
+      position: relative; // ✅ per posizionare il logo in assoluto
     }
 
     .logo-mobile img {
       width: 65px;
       height: 65px;
       display: block;
-      margin: 0; // ✅ nessun margine manuale
+      position: absolute;
+      top: 4px;   // 🔽 sposta il logo verso il basso rispetto alla fascia
+      left: 0;
     }
 
     .icon-group {
