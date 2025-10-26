@@ -17,7 +17,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
   <section class="grid-index">
     <div class="index-item">
-      <a href="/cibo-per-gatti-salutare/">
+      <a href="/cibo-gatti-salutare/">
         🥗 <strong>Cibo Salutare</strong><br>
         Come scegliere alimenti sani e bilanciati.
       </a>
