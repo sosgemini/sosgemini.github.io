@@ -301,3 +301,27 @@ a {
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden; // ✅ evita lo scroll orizzontale
+  }
+
+  .page-content,
+  .main-wrapper,
+  .content-area,
+  .container {
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+
+  img,
+  iframe,
+  table {
+    max-width: 100%;
+    height: auto;
+  }
+}
