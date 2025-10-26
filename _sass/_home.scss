@@ -257,17 +257,20 @@ a {
     }
 
     .mobile-header-bar {
+      position: relative; // ✅ serve per il logo assoluto
       display: flex;
       align-items: center;
       justify-content: space-between;
       height: 47px;
       background-color: #3a3a3a;
       padding: 0 12px;
-      overflow: visible; // ✅ permette al logo di uscire dalla fascia
+      overflow: visible;
+      z-index: 1; // ✅ garantisce che tutto sia visibile
     }
 
     .logo-mobile {
-      position: relative; // ✅ per posizionare il logo in assoluto
+      position: relative;
+      z-index: 1; // ✅ logo sotto le icone
     }
 
     .logo-mobile img {
@@ -275,15 +278,16 @@ a {
       height: 65px;
       display: block;
       position: absolute;
-      top: 0px;   // 🔽 sposta il logo verso il basso rispetto alla fascia
+      top: -2px;   // 🔼 sovrimpressione controllata
       left: 0;
     }
 
-    
     .icon-group {
       display: flex;
       align-items: center;
       gap: 16px;
+      z-index: 2; // ✅ icone sopra il logo
+      position: relative;
     }
 
     .icon-btn {
@@ -300,11 +304,9 @@ a {
       color: #fff200;
     }
   }
-}
 
-@media screen and (max-width: 1024px) {
   body {
-    overflow-x: hidden; // ✅ evita lo scroll orizzontale
+    overflow-x: hidden;
   }
 
   .page-content,
@@ -325,3 +327,4 @@ a {
     height: auto;
   }
 }
+
