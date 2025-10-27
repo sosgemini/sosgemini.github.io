@@ -359,53 +359,14 @@ a {
   }
 }
 
+/* === 📱 TABLET E MOBILE FIX === */
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
 
-  .page-content,
-  .main-wrapper,
-  .container,
-  .content-area {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-  }
-
-  .hero-section,
-  .intro-block,
-  .text-block {
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-  }
-
-  p,
-  h1, h2, h3, h4, h5, h6,
-  ul, ol, li,
-  blockquote {
-    word-break: break-word;
-    overflow-wrap: break-word;
-  }
-
-  img,
-  iframe,
-  table {
-    max-width: 100%;
-    height: auto;
-    display: block;
-  }
-}
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-
+  /* 🔲 CONTENITORE CENTRALE */
+  .layout-wrapper,
   .page-content,
   .main-wrapper,
   .content-area,
@@ -423,6 +384,7 @@ a {
     overflow-wrap: break-word;
   }
 
+  /* 📝 TESTO */
   p,
   h1, h2, h3, h4, h5, h6,
   ul, ol, li,
@@ -431,6 +393,7 @@ a {
     overflow-wrap: break-word;
   }
 
+  /* 🖼️ MEDIA */
   img,
   iframe,
   table {
@@ -438,15 +401,14 @@ a {
     height: auto;
     display: block;
   }
+
+  /* 🧪 DEBUG VISIVO (opzionale) */
+  .layout-wrapper,
+  .page-content,
+  .container,
+  .hero-section,
+  .intro-block {
+    outline: 2px solid red;
+  }
 }
 
-
-
-.page-content,
-.container,
-.hero-section,
-.intro-block 
-
-{
-  outline: 2px solid blue;
-}
