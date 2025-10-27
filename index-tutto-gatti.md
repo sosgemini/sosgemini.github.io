@@ -19,7 +19,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
     <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
       <a href="/cibo-gatti-salutare/" style="display: block; padding: 1rem;">
-        🥗 <strong>Cibo Salutare</strong><br>
+        🥩 <strong>Cibo Salutare</strong><br>
         <span style="font-size: 0.95em; color: #ddd;">Come scegliere alimenti sani e bilanciati.</span>
       </a>
     </div>
@@ -33,24 +33,27 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
     <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
       <a href="/cibo-per-gatti-in-base-eta/" style="display: block; padding: 1rem;">
-        🐣 <strong>Cibo in base all’età</strong><br>
+        🐾 <strong>Cibo in base all’età</strong><br>
         <span style="font-size: 0.95em; color: #ddd;">Cuccioli, adulti e gatti anziani: cosa cambia.</span>
       </a>
     </div>
 
     <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
-      <a href="/cibo-per-gatti-sterilizzati/" style="display: block; padding: 1rem;">
-        🩺 <strong>Gatti Sterilizzati</strong><br>
-        <span style="font-size: 0.95em; color: #ddd;">Alimentazione mirata per il metabolismo modificato.</span>
+      <a href="/cibo-per-gesigenze-speciali/" style="display: block; padding: 1rem;">
+        🐈 <strong>Cibo per Esigenze Speciali</strong><br>
+        <span style="font-size: 0.95em; color: #ddd;">Alimentazione mirata per problemi di salute.</span>
       </a>
     </div>
 
     <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
-      <a href="/cibo-per-gatti-renali/" style="display: block; padding: 1rem;">
-        💧 <strong>Problemi Renali</strong><br>
-        <span style="font-size: 0.95em; color: #ddd;">Cibi con fosforo controllato e alta idratazione.</span>
+      <a href="/cibo-fatto-in-casa/" style="display: block; padding: 1rem;">
+        👨🏽‍🍳 <strong>Cibo Fatto in Casa</strong><br>
+        <span style="font-size: 0.95em; color: #ddd;">Cibo gatto fai da te.</span>
       </a>
     </div>
+
+
+
 
     <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
       <a href="/cibo-per-gatti-ipoallergenici/" style="display: block; padding: 1rem;">
@@ -69,3 +72,19 @@ image: /assets/img/1-9-gatti-1200x630.webp
   </section>
 
 </main>
+
+
+
+🐱 Migliori cibo + 🛒 Dove Comprare il Cibo per Gatti.
+☠️ Marche da Evitare.
+🐾 Cibo in Base all’Età.
+🐈 Cibo per Esigenze Speciali.
+👨🏽‍🍳 Cibo Fatto in Casa.
+🍫 Snack e Integratori.
+
+💩 Lettiera e Igiene.
+🌿 Erba Gatta e Piante Tossiche.
+🎲 I Benefici del Gioco.
+
+
+🥩 Come Deve Essere il Miglior Cibo per Gatti.
