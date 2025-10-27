@@ -1,5 +1,4 @@
 /* === 📦 CONTENITORE CENTRALE === */
-
 .layout-wrapper {
   max-width: 1150px;
   margin-inline: auto;
@@ -34,20 +33,11 @@
   }
 }
 
-/* === 🔲 GRIGLIA QUADRATI === */
-.square-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 15px;
-  padding-block: 24px;
-}
-
 /* === 🐾 INDICE GATTI === */
 .grid-index {
   display: grid;
   gap: 20px;
-  padding-inline: 16px; // ✅ rientro laterale
+  padding-inline: 16px;
   box-sizing: border-box;
 
   @media screen and (min-width: 768px) {
@@ -59,9 +49,16 @@
   }
 }
 
-
-
-
+/* === 🔲 GRIGLIA QUADRATI === */
+.square-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding-block: 24px;
+  padding-inline: 16px;
+  box-sizing: border-box;
+}
 
 /* === 🧩 QUADRATO SINGOLO === */
 .content-square {
@@ -122,7 +119,7 @@
   }
 }
 
-/* === 💡 SEZIONE TESTUALE — VERSIONE PROFESSIONALE === */
+/* === 💡 SEZIONE TESTUALE === */
 .text-block {
   max-width: 1150px;
   margin-inline: auto;
@@ -141,47 +138,33 @@
   h2 {
     font-size: 1.4em;
     font-weight: 500;
-    margin-top: 12;
+    margin-top: 12px;
     margin-bottom: 6px;
     line-height: 1.4;
     text-align: left;
     color: #222;
   }
 
-  h2 + p {
-    margin-top: 0;
-  }
-
   h3 {
     font-size: 1.3em;
     font-weight: 400;
-    margin-top: 12;
+    margin-top: 12px;
     margin-bottom: 6px;
     line-height: 1.4;
     text-align: left;
     color: #333;
   }
 
-  h3 + p {
-    margin-top: 0;
-  }
-
   p {
     font-size: 1.05em;
     line-height: 1.7;
-    margin-top: 0;
     margin-bottom: 14px;
     text-align: left;
-  }
-
-  p + p {
-    margin-top: -4px;
   }
 
   ul {
     list-style-type: none;
     padding-left: 0;
-    margin-left: 0;
     margin-bottom: 25px;
 
     li {
@@ -192,209 +175,9 @@
   }
 }
 
-
-/* === 📷 IMMAGINE HERO RIDOTTA === */
-.image-side img {
-  width: 40%;
-  max-width: 400px;
-  height: auto;
-  display: block;
-  margin-inline: auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-/* === 📚 INDICE CON SFONDO ANTRACITE === */
-.indice-antracite {
-  background: linear-gradient(to right, #2c2c2c 0%, #4f4f4f 100%);
-  color: #f0f0f0;
-  padding: 20px 20px;
-  border-radius: 12px;
-  max-width: 900px;
-  margin-inline: auto;
-  margin-top: 30px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-
-  .brand-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 8px;
-
-    .section-title {
-      font-size: 1.4em;
-      font-weight: 600;
-      color: #f5c518;
-      margin: 0;
-    }
-
-    .rating-stars {
-      font-size: 1.2em;
-    }
-
-    .brand-name {
-      color: #f5c518;
-      font-weight: 500;
-      text-decoration: none;
-
-      &:hover {
-        color: #fff200;
-        text-decoration: underline;
-      }
-    }
-  }
-
-  .brand-description {
-    font-size: 1.05em;
-    line-height: 1.6;
-    margin: 0;
-    color: #ddd;
-  }
-}
-
-/* === 🌐 LINK GLOBALI === */
-a {
-  color: #f5c518;
-  text-decoration: none;
-  transition: color 0.2s ease;
-
-  &:hover {
-    color: #fff200;
-    text-decoration: none;
-  }
-}
-
-/* === MOBILE E TABLET === */
-.mobile-header-bar {
-  display: none;
-}
-
-@media screen and (max-width: 1024px) {
-  .site-header {
-    .header-container,
-    .main-nav {
-      display: none;
-    }
-
-    .mobile-header-bar {
-      position: relative;
-      display: flex;
-      align-items: center;
-      justify-content: flex-end; // ✅ spinge le icone a destra
-      height: 47px; // ✅ fascia compatta
-      background-color: #3a3a3a;
-      padding: 0 12px;
-      overflow: visible;
-      z-index: 1;
-    }
-
-    .logo-mobile {
-      position: absolute;
-      top: 10px; // ✅ logo completamente sopra la fascia
-      left: 12px;
-      z-index: 2;
-    }
-
-    .logo-mobile img {
-      width: 65px;
-      height: 65px;
-      display: block;
-    }
-
-    .icon-group {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      position: relative;
-      z-index: 3;
-    }
-
-    .icon-btn {
-      font-size: 1.4em;
-      color: #f5c518;
-      background: none;
-      border: none;
-      padding: 0;
-      cursor: pointer;
-      text-decoration: none;
-    }
-
-    .icon-btn:hover {
-      color: #fff200;
-    }
-  }
-
-  body {
-    overflow-x: hidden;
-  }
-
-  .page-content,
-  .main-wrapper,
-  .content-area,
-  .container {
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-    overflow-wrap: break-word;
-  }
-
-  img,
-  iframe,
-  table {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .page-content,
-  .main-wrapper,
-  .content-area,
-  .container {
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-    overflow-wrap: break-word;
-  }
-
-  p,
-  h1, h2, h3, h4, h5, h6,
-  ul, ol, li,
-  blockquote {
-    word-break: break-word;
-    overflow-wrap: break-word;
-  }
-
-  img,
-  iframe,
-  table {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-/* === 📱 TABLET E MOBILE FIX === */
+/* === 📱 FIX RESPONSIVO PER TABLET PICCOLI === */
 @media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  /* 🔲 CONTENITORE CENTRALE */
-  .layout-wrapper,
-  .page-content,
-  .main-wrapper,
-  .content-area,
-  .container,
-  .hero-section,
-  .intro-block,
-  .text-block {
+  .layout-wrapper {
     width: 100%;
     max-width: 100%;
     padding-left: 16px;
@@ -402,10 +185,17 @@ a {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    overflow-wrap: break-word;
   }
 
-  /* 📝 TESTO */
+  .intro,
+  .text-block,
+  .grid-index,
+  .square-grid {
+    padding-left: 16px;
+    padding-right: 16px;
+    box-sizing: border-box;
+  }
+
   p,
   h1, h2, h3, h4, h5, h6,
   ul, ol, li,
@@ -414,7 +204,6 @@ a {
     overflow-wrap: break-word;
   }
 
-  /* 🖼️ MEDIA */
   img,
   iframe,
   table {
@@ -422,9 +211,4 @@ a {
     height: auto;
     display: block;
   }
-
-  * {
-  outline: 1px solid red;
 }
-}
-
