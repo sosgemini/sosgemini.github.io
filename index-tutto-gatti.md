@@ -14,7 +14,6 @@ image: /assets/img/1-9-gatti-1200x630.webp
   </section>
 
 
-
   <section class="grid-index">
 
     <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #737373); border: 1px solid #666;">
@@ -80,7 +79,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
   </a>
 </div>
 
-    
+  
 <br><br><br>
   </section>
 
