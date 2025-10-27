@@ -364,17 +364,24 @@ a {
     overflow-x: hidden;
   }
 
-  .site-wrapper,
-  .page-wrapper,
-  .main-wrapper,
   .page-content,
-  .container {
+  .main-wrapper,
+  .container,
+  .content-area {
     width: 100%;
     max-width: 100%;
     padding-left: 16px;
     padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
+    box-sizing: border-box;
+  }
+
+  .hero-section,
+  .intro-block,
+  .text-block {
+    padding-left: 16px;
+    padding-right: 16px;
     box-sizing: border-box;
   }
 
@@ -394,7 +401,6 @@ a {
     display: block;
   }
 }
-
 
 
 * {
