@@ -9,8 +9,8 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <main class="layout-wrapper">
 
   <section class="intro">
-    <h1 class="main-title-centered">🐾 INDICE GATTI</h1>
-    <h2 class="small-title">Tutte le guide sull’alimentazione e la cura felina</h2>
+    <h1 class="main-title-centered">🐾 INDEX AMICI</h1>
+    <h2 class="small-title">A M I C I 🐈 G A T T I</h2>
   </section>
 
 
