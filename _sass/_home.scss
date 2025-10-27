@@ -366,9 +366,8 @@ a {
 
   .site-wrapper,
   .page-wrapper,
-  .page-content,
   .main-wrapper,
-  .content-area,
+  .page-content,
   .container {
     width: 100%;
     max-width: 100%;
@@ -377,7 +376,6 @@ a {
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    overflow-wrap: break-word;
   }
 
   p,
@@ -396,6 +394,7 @@ a {
     display: block;
   }
 }
+
 
 
 * {
