@@ -47,7 +47,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
 <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #737373); border: 1px solid #666;">
   <a href="/cibo-fatto-in-casa/" title="Cibo fatto in casa per gatti" aria-label="Cibo fatto in casa per gatti" style="display: block; padding: 1rem;">
-    👨🏽‍🍳 <strong>Cibo Fatto in Casa</strong><br>
+🍽️ <strong>Cibo Fatto in Casa</strong><br>
     <span style="font-size: 0.95em; color: #ddd;">Cibo gatto fai da te.</span>
   </a>
 </div>
@@ -68,7 +68,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
 <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
   <a href="/prodotti-igiene-lettiera/" title="Prodotti per igiene e lettiera" aria-label="Prodotti per igiene e lettiera" style="display: block; padding: 1rem;">
-    💩 <strong>Lettiera e Igiene</strong><br>
+  🪠 <strong>Lettiera e Igiene</strong><br>
     <span style="font-size: 0.95em; color: #ddd;">Pulizia, sabbia e accessori per la lettiera.</span>
   </a>
 </div>
