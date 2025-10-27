@@ -380,36 +380,33 @@ a {
   }
 }
 
-/* === 📱 TABLET PICCOLI — COME MOBILE === */
+/* === 📱 TABLET E MOBILE FIX — IDENTICO AL MOBILE === */
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
   }
 
-  .layout-wrapper {
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin: 0;
-    box-sizing: border-box;
-  }
-
-  .image-side img {
+  /* 📦 CONTENITORI CENTRALI */
+  .layout-wrapper,
+  .page-content,
+  .main-wrapper,
+  .content-area,
+  .container,
+  .hero-section,
+  .intro-block,
+  .text-block {
     width: 100%;
     max-width: 100%;
-    height: auto;
-    display: block;
-    margin-inline: 0;
-    border-radius: 0;
-    box-shadow: none;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
   }
 
-  p,
-  h1, h2, h3, h4, h5, h6,
-  ul, ol, li,
-  blockquote {
-    word-break: break-word;
-    overflow-wrap: break-word;
+  /* 🖼️ IMMAGINI — come nel mobile */
+  .image-side {
+    display: none;
   }
 
   img,
@@ -419,5 +416,13 @@ a {
     height: auto;
     display: block;
   }
-}
 
+  /* 📝 TESTO */
+  p,
+  h1, h2, h3, h4, h5, h6,
+  ul, ol, li,
+  blockquote {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+}
