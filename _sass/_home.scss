@@ -441,6 +441,10 @@ a {
 }
 
 
-* {
-  outline: 1px solid red;
+
+.page-content,
+.container,
+.hero-section,
+.intro-block {
+  outline: 2px solid blue;
 }
