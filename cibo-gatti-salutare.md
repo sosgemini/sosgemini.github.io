@@ -21,6 +21,8 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
 
 <section class="square-grid">
+  
+<a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">Torna all’indice gatti</a>
 
   <div class="content-square">
     <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="i gatti sono attratti da cibi tossici">
@@ -30,6 +32,8 @@ image: /assets/img/1-9-gatti-1200x630.webp
     </div>
   </div>
 </section>
+
+<a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">Torna all’indice gatti</a>
 
 
 <!-- 🍽️ CIBO SECCO -->
