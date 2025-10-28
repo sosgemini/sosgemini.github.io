@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Cibo da Evitare
+title: Cibo Gatti da Evitare
 description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
 class: pagina
-permalink: /cibo-da-evitare/
+permalink: /cibo-gatti-da-evitare/
 ---
 
 <main class="layout-wrapper">
