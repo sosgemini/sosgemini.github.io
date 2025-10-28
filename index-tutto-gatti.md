@@ -24,8 +24,8 @@ image: /assets/img/1-9-gatti-1200x630.webp
 </div>
 
 <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
-  <a href="/cibo-tossico-per-gatti/" title="Cibo tossico da evitare" aria-label="Cibo tossico da evitare" style="display: block; padding: 1rem;">
-    ☠️ <strong>Cibo Tossico da Evitare</strong><br>
+  <a href="/cibo-per-gatti-da-evitare/" title="Cibo tossico da evitare" aria-label="Cibo tossico da evitare" style="display: block; padding: 1rem;">
+    ☠️ <strong>Cibo da Evitare</strong><br>
     <span style="font-size: 0.95em; color: #ddd;">Ingredienti pericolosi e additivi da evitare.</span>
   </a>
 </div>
