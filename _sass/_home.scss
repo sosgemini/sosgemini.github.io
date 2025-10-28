@@ -422,3 +422,23 @@ a {
     display: block;
   }
 }
+
+ /* Pulsante torna indice */
+.btn-indice {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #3a3a3a;
+  color: #f5c518;
+  font-size: 1em;
+  font-weight: 500;
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid #666;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: #444;
+    color: #fff200;
+  }
+}
