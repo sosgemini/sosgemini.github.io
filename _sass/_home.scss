@@ -423,7 +423,7 @@ a {
   }
 }
 
- /* Pulsante torna indice */
+/* Pulsante torna indice */
 
 .btn-wrapper {
   display: flex;
@@ -434,18 +434,22 @@ a {
 .btn-indice {
   display: inline-block;
   padding: 12px 24px;
-  background-color: #a78a8b;
+  background-color: #a78a8b; // colore principale
   color: #f5c518;
   font-size: 1em;
   font-weight: 500;
   text-decoration: none;
   border-radius: 8px;
-  border: 1px solid #666;
+  border: none; // ❌ rimosso il bordo grigio che creava la scia
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
   transition: background 0.3s ease, color 0.3s ease;
+  appearance: none; // ✅ rimuove stile nativo selezionato
+  -webkit-tap-highlight-color: transparent; // ✅ rimuove flash su mobile
+  outline: none; // ✅ rimuove bordo da selezione
+}
 
-  &:hover {
-    background-color: #444;
-    color: #fff200;
-  }
+.btn-indice:hover,
+.btn-indice:focus {
+  background-color: #8f6f70; // tono più scuro del marrone
+  color: #fff200;
 }
