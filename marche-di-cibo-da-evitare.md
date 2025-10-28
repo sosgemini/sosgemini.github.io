@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Marche di Cibo da Evitare
+title:Cibo da Evitare
 description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
 class: pagina
-permalink: /marche-di-cibo-da-evitare/
+permalink: /cibo-da-evitare/
 ---
 
 <main class="layout-wrapper">
 
   <!-- 📝 INTRODUZIONE -->
   <section class="intro">
-    <h1 class="main-title-centered">☠️️ Le Marche di Cibo da Evitare
+    <h1 class="main-title-centered">☠️️ Il Cibo da Evitare
 </h1>
     <h2 class="small-title">Cibo per Gatti: Le Marche da Evitare (Guida Dettagliata 2025)</h2>
   </section>
