@@ -32,7 +32,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
 <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #737373); border: 1px solid #666;">
   <a href="/cibo-per-gatti-in-base-eta/" title="Cibo per gatti in base all’età" aria-label="Cibo per gatti in base all’età" style="display: block; padding: 1rem;">
-    🐾 <strong>Cibo in base all’età</strong><br>
+    ⌛ <strong>Cibo in base all’età</strong><br>
     <span style="font-size: 0.95em; color: #ddd;">Cuccioli, adulti e gatti anziani: cosa cambia.</span>
   </a>
 </div>
