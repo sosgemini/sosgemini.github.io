@@ -4,6 +4,7 @@ title: Cibo per Gatti in Base all’Età
 description: Scopri come scegliere il miglior cibo per gatti cuccioli, adulti e senior in base alle loro esigenze nutrizionali.
 class: pagina
 permalink: /cibo-in-base-eta/
+image: /assets/img/1-9-gatti-1200x630.webp
 ---
 
 <main class="layout-wrapper">
