@@ -38,7 +38,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 </div>
 
 <div class="index-item" style="background: linear-gradient(to right, #3a3a3a, #5a5a5a); border: 1px solid #666;">
-  <a href="/cibo-per-esigenze-speciali/" title="Cibo per esigenze speciali" aria-label="Cibo per esigenze speciali" style="display: block; padding: 1rem;">
+  <a href="/cibo-esigenze-speciali/" title="Cibo per esigenze speciali" aria-label="Cibo per esigenze speciali" style="display: block; padding: 1rem;">
     🐈 <strong>Cibo per Esigenze Speciali</strong><br>
     <span style="font-size: 0.95em; color: #ddd;">Alimentazione mirata per problemi di salute.</span>
   </a>
