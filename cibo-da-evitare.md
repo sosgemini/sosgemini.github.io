@@ -37,9 +37,8 @@ image: /assets/img/preview-cibo-gatti.webp
 
   <!-- 📚 CONTENUTO TESTUALE -->
   <section class="text-block">
-    <h2 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h2>
 
-    <h2>Cibo Secco e Umido: Marche da Evitare e Motivi di Criticità</h2>
+    <h2>Cibo Secco e Umido: Marche da Valutare Attentamente e Motivi di Criticità</h2>
 
     <p><strong>Friskies:</strong> La principale critica riguarda l'alto contenuto di cereali e sottoprodotti animali generici...</p>
     <p><strong>Whiskas:</strong> Le critiche si concentrano su etichette poco chiare e un basso contenuto di proteine di qualità...</p>
