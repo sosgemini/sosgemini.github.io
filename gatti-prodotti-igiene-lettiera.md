@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Igiene e Lettiera per Gatti
-description: Scopri come mantenere pulizia, benessere e comfort nella lettiera del tuo gatto.
+description: Guida completa alla pulizia, sabbia e accessori per la lettiera del tuo gatto.
 class: pagina
-permalink: /gatti-igiene-e-lettiera/
-image: /assets/img/preview-igiene-lettiera.webp
+permalink: /gatti-prodotti-igiene-lettiera/
+image: /assets/img/preview-cibo-gatti.webp
 ---
