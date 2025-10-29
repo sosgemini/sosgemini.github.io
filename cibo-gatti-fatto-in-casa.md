@@ -1,8 +1,8 @@
 ---
-layout: default                      <!-- ✅ Mantieni -->
-title: .....     <!-- 🔄 Cambia per ogni guida -->
-description: .....<!-- 🔄 Cambia descrizione -->
-class: pagina                        <!-- ✅ Mantieni -->
-permalink: /cibo-gatti-fatto-in-casa/ <!-- 🔄 Cambia URL -->
-image: /assets/img/preview-cibo-gatti.webp <!-- 🔄 Cambia immagine social -->
+layout: default
+title: Cibo Fatto in Casa per Gatti
+description: Ricette e consigli per preparare alimenti sani e bilanciati per il tuo gatto.
+class: pagina
+permalink: /cibo-gatti-fatto-in-casa/
+image: /assets/img/preview-cibo-gatti.webp
 ---
