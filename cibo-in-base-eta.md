@@ -7,6 +7,7 @@ permalink: /cibo-gatti-in-base-eta/
 image: /assets/img/1-9-gatti-1200x630.webp
 ---
 
+
 <main class="layout-wrapper">
 
   <!-- 📝 INTRODUZIONE -->
@@ -15,6 +16,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
     <h2 class="small-title">
       Ogni fase della vita del gatto richiede un’alimentazione specifica. Ecco come scegliere il cibo giusto.
     </h2>
+    <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
   </section>
 
   <!-- 🎯 HERO CON IMMAGINE E TESTO -->
