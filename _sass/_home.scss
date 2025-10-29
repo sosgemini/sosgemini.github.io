@@ -94,22 +94,25 @@
     margin: 4px 0 0 0;
   }
 
-  .description {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    right: 20px;
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    padding: 10px;
-    font-size: 0.85em;
-    line-height: 1.8;
-    border-radius: 6px;
-    z-index: 10;
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
-  }
+.description {
+  position: absolute;
+  top: 0; // ✅ parte dall’alto
+  left: 0;
+  right: 0;
+  bottom: 0; // ✅ occupa tutto lo spazio disponibile
+  padding: 12px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 0.85em;
+  line-height: 1.6;
+  border-radius: 12px;
+  z-index: 10;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  overflow-y: auto; // ✅ scroll se il testo è lungo
+}
+
 
   &:hover {
     background-color: #444;
