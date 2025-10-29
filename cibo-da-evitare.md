@@ -11,8 +11,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
   <!-- 📝 INTRODUZIONE -->
   <section class="intro">
-    <h1 class="main-title-centered">☠️️ Il Cibo da Evitare
-</h1>
+    <h1 class="main-title-centered">☠️️ Il Cibo da Evitare</h1>
     <h2 class="small-title">Cibo per Gatti: Le Marche da Evitare (Guida Dettagliata 2025)
      <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a></h2>
   </section>
@@ -22,10 +21,11 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
  <div class="content-square">
     <img src="/assets/img/2-Cibo-Gatti-Le-Marche-Da-Evitare-480.webp" alt="Gatto ammalato dal veterinario padrona preoccupata">
-  </div>
   <div class="hero-col text-side">
     <h3>La Salute del Gatto Parte dall'Alimentazione</h3>
-       <p>La salute del tuo gatto dipende in larga parte dalla sua alimentazione. Sebbene il mercato offra un'ampia scelta, non tutti i prodotti sono formulati con la stessa qualità. In questa guida, analizziamo in profondità quali sono le marche di cibo per gatti che, per ragioni nutrizionali, è preferibile evitare. Le motivazioni principali sono legate a ingredienti di scarsa qualità, all'uso di sottoprodotti animali non specificati e alla presenza di additivi inutili. Queste valutazioni si basano sui criteri di nutrizione felina e sulle linee guida riconosciute a livello internazionale, come quelle della WSAVA (World Small Animal Veterinary Association).</p>
+     <div class="description">
+       La salute del tuo gatto dipende in larga parte dalla sua alimentazione. Sebbene il mercato offra un'ampia scelta, non tutti i prodotti sono formulati con la stessa qualità. In questa guida, analizziamo in profondità quali sono le marche di cibo per gatti che, per ragioni nutrizionali, è preferibile evitare. Le motivazioni principali sono legate a ingredienti di scarsa qualità, all'uso di sottoprodotti animali non specificati e alla presenza di additivi inutili. Queste valutazioni si basano sui criteri di nutrizione felina e sulle linee guida riconosciute a livello internazionale, come quelle della WSAVA (World Small Animal Veterinary Association).
+     </div>
   </div>
 </section>
 
