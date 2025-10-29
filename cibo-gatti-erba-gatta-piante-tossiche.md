@@ -1,9 +1,8 @@
 ---
-layout: default                      <!-- ✅ Mantieni -->
-title: .....     <!-- 🔄 Cambia per ogni guida -->
-description: .....<!-- 🔄 Cambia descrizione -->
-class: pagina                        <!-- ✅ Mantieni -->
-permalink: /cibo-gatti-erba-gatta-piante-tossiche/ <!-- 🔄 Cambia URL -->
-image: /assets/img/preview-cibo-gatti.webp <!-- 🔄 Cambia immagine social -->
+layout: default
+title: Erba Gatta e Piante Tossiche
+description: Quale erba scegliere per il tuo gatto e quali piante evitare per la sua sicurezza.
+class: pagina
+permalink: /cibo-gatti-erba-gatta-piante-tossiche/
+image: /assets/img/preview-cibo-gatti.webp
 ---
-
