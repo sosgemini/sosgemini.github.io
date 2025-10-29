@@ -1,8 +1,8 @@
 ---
-layout: default                      <!-- ✅ Mantieni -->
-title: Gatti igiene e lettiera       <!-- 🔄 Cambia per ogni guida -->
-description: Una guida completa sull igiene e benessere fisico del tuo gatto.<!-- 🔄 Cambia descrizione -->
-class: pagina                        <!-- ✅ Mantieni -->
-permalink: /gatti-prodotti-igiene-lettiera/ <!-- 🔄 Cambia URL -->
-image: /assets/img/preview-cibo-gatti.webp <!-- 🔄 Cambia immagine social -->
+layout: default
+title: Igiene e Lettiera per Gatti
+description: Scopri come mantenere pulizia, benessere e comfort nella lettiera del tuo gatto.
+class: pagina
+permalink: /gatti-igiene-e-lettiera/
+image: /assets/img/preview-igiene-lettiera.webp
 ---
