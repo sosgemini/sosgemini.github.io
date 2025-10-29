@@ -423,7 +423,7 @@ a {
   }
 }
 
-/* Pulsante torna indice — versione trasparente */
+/* Pulsante torna indice — versione trasparente e compatta */
 
 .btn-wrapper-outside {
   max-width: 1150px;
@@ -438,16 +438,16 @@ a {
 
 .btn-indice {
   display: inline-block;
-  background-color: transparent; // ✅ sfondo trasparente
-  color: #3a3a3a; // ✅ scritta antracite
-  font-size: 1em;
+  background-color: transparent;
+  color: #3a3a3a; // ✅ antracite
+  font-size: 0.9em; // ✅ più piccola
   font-weight: 500;
-  text-decoration: none;
-  padding: 12px 24px;
+  text-decoration: none; // ✅ mai sottolineata
+  padding: 8px 16px;
   border: none;
   box-shadow: none;
   border-radius: 0;
-  transition: color 0.3s ease, text-decoration 0.3s ease;
+  transition: color 0.3s ease;
   appearance: none;
   -webkit-tap-highlight-color: transparent;
   outline: none;
@@ -456,5 +456,6 @@ a {
 .btn-indice:hover,
 .btn-indice:focus {
   color: #f5c518; // ✅ dorato al passaggio
-  text-decoration: underline;
+  text-decoration: none; // ❌ niente underline nemmeno in hover
 }
+
