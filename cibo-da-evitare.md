@@ -17,9 +17,6 @@ image: /assets/img/1-9-gatti-1200x630.webp
      <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
   </section>
 
-
-
-<main class="layout-wrapper">
   
 <section class="square-grid">
 
