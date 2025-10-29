@@ -13,7 +13,8 @@ image: /assets/img/1-9-gatti-1200x630.webp
   <section class="intro">
     <h1 class="main-title-centered">☠️️ Il Cibo da Evitare</h1>
     <h2 class="small-title">Cibo per Gatti: Le Marche da Evitare (Guida Dettagliata 2025)
-     <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a></h2>
+     <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
+    </h2>
   </section>
 
   
@@ -24,13 +25,18 @@ image: /assets/img/1-9-gatti-1200x630.webp
   <div class="hero-col text-side">
     <h3>La Salute del Gatto Parte dall'Alimentazione</h3>
      <div class="description">
-       La salute del tuo gatto dipende in larga parte dalla sua alimentazione. Sebbene il mercato offra un'ampia scelta, non tutti i prodotti sono formulati con la stessa qualità. In questa guida, analizziamo in profondità quali sono le marche di cibo per gatti che, per ragioni nutrizionali, è preferibile evitare. Le motivazioni principali sono legate a ingredienti di scarsa qualità, all'uso di sottoprodotti animali non specificati e alla presenza di additivi inutili. Queste valutazioni si basano sui criteri di nutrizione felina e sulle linee guida riconosciute a livello internazionale, come quelle della WSAVA (World Small Animal Veterinary Association).
+La salute del tuo gatto dipende in larga parte dalla sua alimentazione. Sebbene il mercato offra un'ampia scelta, non tutti i prodotti sono formulati con la stessa qualità. In questa guida, analizziamo in profondità quali sono le marche di cibo per gatti che, per ragioni nutrizionali, è preferibile evitare. Le motivazioni principali sono legate a ingredienti di scarsa qualità, all'uso di sottoprodotti animali non specificati e alla presenza di additivi inutili. Queste valutazioni si basano sui criteri di nutrizione felina e sulle linee guida riconosciute a livello internazionale, come quelle della WSAVA (World Small Animal Veterinary Association).
      </div>
   </div>
 </section>
 
 <section class="text-block">
-  <h2><strong> Cibo Secco e Umido: Marche da Evitare e Motivi di Criticità</strong></h2>
+  <h2 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h2>
+</section>
+
+
+<section class="text-block">
+  <h2>Cibo Secco e Umido: Marche da Evitare e Motivi di Criticità</h2></section>
 
   <p><strong>Friskies:</strong> La principale critica riguarda l'alto contenuto di cereali e sottoprodotti animali generici. L'elevata quantità di carboidrati non è in linea con la fisiologia del gatto, un carnivoro stretto. L'uso di appetizzanti chimici rende il prodotto gradito, ma il valore nutrizionale è insufficiente a coprire le reali esigenze metaboliche del felino, come sottolineato da vari studi sulla dieta dei felini.</p>
 
