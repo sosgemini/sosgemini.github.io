@@ -15,7 +15,7 @@ image: /assets/img/preview-cibo-gatti.webp
     <h2 class="small-title">
       Cibo per Gatti: Le Marche da Evitare (Guida Dettagliata 2025)
     </h2>
-    <div class="btn-wrapper-outside">
+    <div class="btn-wrapper-outside"><br>
       <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">
         ↖️ Indice Gatti
       </a>
@@ -39,7 +39,6 @@ image: /assets/img/preview-cibo-gatti.webp
   <section class="text-block">
 
     <h2>Cibo Secco e Umido: Marche da Valutare Attentamente e Motivi di Criticità</h2>
-
     <p><strong>Friskies:</strong> La principale critica riguarda l'alto contenuto di cereali e sottoprodotti animali generici...</p>
     <p><strong>Whiskas:</strong> Le critiche si concentrano su etichette poco chiare e un basso contenuto di proteine di qualità...</p>
     <p><strong>Kitekat:</strong> Viene spesso segnalato per l'alta presenza di cereali e l'uso di proteine di scarsa qualità...</p>
