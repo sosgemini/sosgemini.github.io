@@ -13,7 +13,7 @@ image: /assets/img/preview-cibo-gatti.webp
   <section class="intro">
     <h1 class="main-title-centered">☠️️ Il Cibo da Evitare</h1>
     <h2 class="small-title">
-      Cibo per Gatti: Le Marche da Evitare (Guida Dettagliata 2025)
+      Cibo per Gatti: Le Marche da Evitare (Guida Dettagliata 2025)<br>
       <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">
         ↖️ Indice Gatti</a>
     </h2>
