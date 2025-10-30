@@ -17,16 +17,16 @@ image: /assets/img/preview-cibo-gatti.webp
     </h2>
   </section>
 
-  <!-- 🔲 QUADRATO HERO -->
-  <section class="square-grid">
-    <div class="content-square">
-      <img src="/assets/img/7-Gatto-Lettiera-e-Igiene-480.webp" alt="Gatto vicino alla lettiera in ambiente pulito e ordinato">
-      <h3>Il cibo migliore per il tuo amico!?</h3>
-      <div class="description">
-        Una corretta alimentazione è fondamentale, ma anche l’ambiente in cui vive il gatto incide sulla sua salute. La lettiera, se scelta e gestita correttamente, può prevenire disturbi urinari, stress e infezioni. Scopri come trasformare un gesto quotidiano in una vera forma di cura.
-      </div>
+ <!-- 🔲 QUADRATO HERO -->
+<section class="square-grid">
+  <div class="content-square">
+    <img src="/assets/img/7-Gatto-Lettiera-e-Igiene-480.webp" alt="Prodotti per igiene e pulizia gatti">
+    <h3>Lettiera Pulita, Gatto Felice</h3>
+    <div class="description">
+      Una lettiera ben scelta e mantenuta è molto più di una comodità: è uno strumento di prevenzione. Riduce lo stress, protegge da infezioni urinarie e migliora la qualità della vita del tuo gatto. Scopri come trasformare la routine quotidiana in una cura invisibile ma fondamentale.
     </div>
-  </section>
+  </div>
+</section>
 
   <!-- 📚 CONTENUTO -->
   <section class="text-block">
