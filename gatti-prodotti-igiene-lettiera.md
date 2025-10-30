@@ -12,7 +12,7 @@ image: /assets/img/preview-cibo-gatti.webp
   <section class="intro">
     <h1 class="main-title-centered">Igiene e Lettiera del Gatto</h1>
     <h2 class="small-title">
-      Come scegliere la lettiera giusta e mantenerla pulita per garantire salute e benessere al tuo gatto.
+      Come scegliere la lettiera giusta e mantenerla pulita per garantire salute e benessere al tuo gatto.<br>
       <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
     </h2>
   </section>
