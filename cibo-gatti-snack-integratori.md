@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Snack e Integratori per Gatti Sensibili
-description: Scopri snack monoproteici e integratori senza cereali per gatti con esigenze speciali.
+title: "Snack e Integratori per Gatti Sensibili"
+description: "Scopri snack monoproteici e integratori senza cereali per gatti con esigenze speciali."
 class: pagina
 permalink: /cibo-gatti-snack-integratori/
 image: /assets/img/1-9-gatti-1200x630.webp
@@ -11,9 +11,9 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
   <!-- 📝 INTRODUZIONE -->
   <section class="intro">
-    <h1 class="main-title-centered">☠️️ Il Cibo da Evitare</h1>
+    <h1 class="main-title-centered">🧬 Snack e Integratori per Gatti Sensibili</h1>
     <h2 class="small-title">
-      Cibo per Gatti: Le Marche da Evitare (Guida Dettagliata 2025)<br>
+      Scopri come supportare il benessere del tuo gatto con alimenti funzionali, monoproteici e grain-free.<br>
       <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">
         ↖️ Indice Gatti</a>
     </h2>
@@ -22,12 +22,11 @@ image: /assets/img/1-9-gatti-1200x630.webp
   <!-- 🖼️ IMMAGINE HERO -->
   <section class="square-grid">
     <div class="content-square">
-      <img src="/assets/img/6-Gatti-Cibo-Snack-Integratrori-480.webp" alt="Gatto ammalato dal veterinario padrona preoccupata">
-      <div class="hero-col text-side">
-        <h3>La Salute del Gatto Parte dall'Alimentazione</h3>
-        <div class="description">
-          La salute del tuo gatto dipende in larga parte dalla sua alimentazione. Sebbene il mercato offra un'ampia scelta, non tutti i prodotti sono formulati con la stessa qualità. In questa guida, analizziamo in profondità quali sono le marche di cibo per gatti che, per ragioni nutrizionali, è preferibile evitare. Le motivazioni principali sono legate a ingredienti di scarsa qualità, all'uso di sottoprodotti animali non specificati e alla presenza di additivi inutili. Queste valutazioni si basano sui criteri di nutrizione felina e sulle linee guida riconosciute a livello internazionale, come quelle della WSAVA (World Small Animal Veterinary Association).
-        </div>
+      <img src="/assets/img/6-Gatti-Cibo-Snack-Integratrori-480.webp" alt="Gatto che annusa uno snack naturale su fondo chiaro">
+      <h3>🌿 Snack funzionali e sicuri</h3>
+      <div class="description">
+        I gatti sensibili hanno bisogno di snack e integratori studiati per evitare reazioni avverse. Le formule monoproteiche e senza cereali riducono il rischio di intolleranze e migliorano la digestione. Scopri quali ingredienti cercare e quali evitare per garantire salute e gusto in ogni boccone.
       </div>
     </div>
   </section>
+
