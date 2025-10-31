@@ -4,7 +4,7 @@ title: Snack e Integratori per Gatti Sensibili
 description: Scopri snack monoproteici e integratori senza cereali per gatti con esigenze speciali.
 class: pagina
 permalink: /cibo-gatti-snack-integratori/
-image: /assets/img/preview-cibo-gatti.webp
+image: /assets/img/1-9-gatti-1200x630.webp
 ---
 
 <main class="layout-wrapper">
