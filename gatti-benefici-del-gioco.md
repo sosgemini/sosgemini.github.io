@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gatti: i benefici del gioco
+title: Gatti i benefici del gioco
 description: Scopri perché il gioco è fondamentale per la salute fisica e mentale del tuo gatto.
 class: pagina
 permalink: /gatti-benefici-del-gioco/
