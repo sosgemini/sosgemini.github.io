@@ -22,7 +22,7 @@ image: /assets/img/preview-cibo-gatti.webp
   <!-- 🖼️ IMMAGINE HERO -->
   <section class="square-grid">
     <div class="content-square">
-      <img src="/assets/img/2-Cibo-Gatti-Le-Marche-Da-Evitare-480.webp" alt="Gatto ammalato dal veterinario padrona preoccupata">
+      <img src="/assets/img/4-Cibo-Gatti-Esigenze-Particolari-Salute-480.webp" alt="Gatto ammalato dal veterinario padrona preoccupata">
       <div class="hero-col text-side">
         <h3>La Salute del Gatto Parte dall'Alimentazione</h3>
         <div class="description">
