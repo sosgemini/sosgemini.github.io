@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Cibo per Gatti Salutare
-description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
+title: Gatti: i benefici del gioco
+description: Scopri perché il gioco è fondamentale per la salute fisica e mentale del tuo gatto.
 class: pagina
-permalink: /cibo-gatti-salutare/
+permalink: /gatti-benefici-del-gioco/
 image: /assets/img/1-9-gatti-1200x630.webp
 ---
 
@@ -11,21 +11,18 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
 <!-- 📝 INTRODUZIONE -->
 <section class="intro">
-  <h1 class="main-title-centered">🍴 Cibo per Gatti Salutare, Come Sceglierlo!</h1>
-  <h2 class="small-title">Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.<br>
-<a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
+  <h1 class="main-title-centered">🎯 Giocare fa bene al gatto: ecco perché!</h1>
+  <h2 class="small-title">Il gioco non è solo divertimento: è movimento, stimolazione mentale e benessere quotidiano.<br>
+    <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
   </h2>
 </section>
 
 <section class="square-grid">
-
-
   <div class="content-square">
-    <img src="/assets/img/9-Gatti-Giochi-Sani-480.webp" alt="i gatti sono attratti da cibi tossici">
-    <h3>Il cibo migliore per il tuo amico!?</h3>
+    <img src="/assets/img/9-Gatti-Giochi-Sani-480.webp" alt="Gatto che gioca con una pallina in ambiente domestico">
+    <h3>🧶 Il gioco è salute!</h3>
     <div class="description">
-      Se ti chiedi quale sia il miglior cibo per i gatti, sei nel posto giusto. Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è il fattore più importante. Ma come si fa a distinguere un cibo di alta qualità da un prodotto mediocre? La risposta è nell’etichetta. Leggere e comprendere gli ingredienti è la chiave per prendere decisioni informate e nutrire il tuo felino nel modo corretto.
+      Il gioco aiuta il tuo gatto a mantenersi attivo, riduce lo stress e rafforza il legame con te. Bastano pochi minuti al giorno per stimolare il suo istinto predatorio, migliorare la coordinazione e prevenire problemi comportamentali. Scopri i giochi migliori per ogni età e carattere.
     </div>
   </div>
 </section>
-
