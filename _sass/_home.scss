@@ -79,7 +79,12 @@
 
   &:hover {
     background-color: #444;
-    transform: translateY(-5px); // 🔼 solleva il quadrato di 5px
+    transform: translateY(-5px);
+
+    .description {
+      opacity: 1;
+      pointer-events: auto;
+    }
   }
 
   img {
@@ -95,9 +100,8 @@
     font-weight: 600;
     margin: 4px 0 0 0;
   }
-}
 
-.description {
+  .description {
     position: absolute;
     top: 0;
     left: 0;
@@ -115,6 +119,8 @@
     transition: opacity 0.3s ease;
     overflow-y: auto;
   }
+}
+
 
   &:hover {
     background-color: #444;
