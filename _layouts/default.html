@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
+  <!-- ✅ Metadati base -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>{{ page.title }} | SOS Gemini</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
   <meta name="keywords" content="sostenibilità, animali, benessere naturale, tecnologia ecologica, smart working, hobby green, vita consapevole">
@@ -12,9 +12,13 @@
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="alternate" hreflang="it" href="{{ page.url | absolute_url }}">
 
+  <!-- 🔍 Verifica Google Search Console -->
+  <meta name="google-site-verification" content="abc123XYZ456..." />
+
+  <!-- 🧠 SEO Jekyll -->
   {% seo %}
 
-  <!-- Open Graph -->
+  <!-- 🌐 Open Graph (Facebook, LinkedIn) -->
   <meta property="og:title" content="{{ page.title }} | SOS Gemini">
   <meta property="og:description" content="{{ page.description | default: site.description }}">
   <meta property="og:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
@@ -22,13 +26,13 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="it_IT">
 
-  <!-- Twitter Card -->
+  <!-- 🐦 Twitter Card -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title }} | SOS Gemini">
   <meta name="twitter:description" content="{{ page.description | default: site.description }}">
   <meta name="twitter:image" content="{{ '/assets/img/SOS-96x96.png' | relative_url }}">
 
-  <!-- Schema.org JSON-LD -->
+  <!-- 📊 Schema.org JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,31 +52,25 @@
   }
   </script>
 
-  <!-- Stili -->
+  <!-- 🎨 Stili -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/pagine-gatti.css' | relative_url }}">
 
-  <!-- Favicon -->
+  <!-- 🖼️ Favicon e manifest -->
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/SOS-32x32.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | relative_url }}">
   <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/SOS-180x180.png' | relative_url }}">
   <link rel="manifest" href="{{ '/assets/manifest.json' | relative_url }}">
   <meta name="theme-color" content="#2c2c2c">
 
-{% if page.image %}
-  <meta property="og:image" content="{{ page.image }}">
-  <meta name="twitter:image" content="{{ page.image }}">
-  <meta name="twitter:card" content="summary_large_image">
-{% endif %}
-
-
+  <!-- 📸 Immagine personalizzata per social -->
+  {% if page.image %}
+    <meta property="og:image" content="{{ page.image }}">
+    <meta name="twitter:image" content="{{ page.image }}">
+    <meta name="twitter:card" content="summary_large_image">
+  {% endif %}
 </head>
 
- <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="google-site-verification" content="abc123XYZ456..." />
-  <title>https://sosgemini.github.io/</title>
-  
 <body class="{{ page.class | default: 'pagina' }}">
   {% include header.html %}
 
@@ -83,4 +81,3 @@
   {% include footer.html %}
 </body>
 </html>
-
