@@ -216,7 +216,7 @@ h2 {
   border-radius: 12px;
   max-width: 1000px;
   margin-inline: auto;
-  margin-top: 30px;
+  margin-block: 8px 40px; /* 🔽 poco spazio sopra, 🔼 più spazio sotto */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 
   .brand-header {
