@@ -3,8 +3,10 @@ layout: default
 title: Cibo Gatti da Evitare
 description: Una guida completa per capire cosa c'è davvero nella ciotola del tuo amico felino.
 class: pagina
+permalink: /gatti-cibo-da-evitare/
 image: /assets/img/1-9-gatti-1200x630.webp
 ---
+
 
 <main class="layout-wrapper">
 
