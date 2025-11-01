@@ -24,7 +24,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <section class="square-grid">
   <div class="content-square">
     <img src="/assets/img/3-Cibo-Gatti-In-Base-All-Eta-480.webp" alt="Tre gatti: cucciolo, adulto e senior in posa">
-    <p>Piccolo | Giovane | Vecchio</p>
+    <p>Cucciolo | Adulto | Senior</p>
     <div class="description">
       L’età del gatto influisce direttamente sulle sue esigenze nutrizionali. Un cucciolo ha bisogno di energia per crescere, un adulto deve mantenere il peso forma, mentre un senior necessita di supporto articolare e digestione delicata. Scegliere il <strong>cibo giusto in base all’età</strong> è fondamentale per garantire salute, vitalità e longevità.
     </div>
