@@ -390,6 +390,10 @@ a {
   body {
     overflow-x: hidden;
   }
+  
+.indice-antracite {
+  margin-bottom: 32px; /* 🔼 spazio tra i quadrati su mobile */
+}
 
   /* 🔲 CONTENITORE CENTRALE */
   .layout-wrapper,
