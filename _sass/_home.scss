@@ -189,10 +189,12 @@
     margin-bottom: 15px;         /* 🔼 Spazio sotto l’elenco */
 
     li {
-      font-size: 1em;            /* 🔠 Dimensione testo elenco */
-      line-height: 1.7;          /* 📏 Spaziatura verticale */
-      margin-bottom: 15px;       /* 🔼 Spazio tra voci */
-    }
+    font-size: 1em;              /* 🔠 Dimensione testo normale */
+    line-height: 1.7;            /* 📏 Spaziatura verticale ampia */
+    margin-top: 0;               /* 🔽 Nessuno spazio sopra */
+    margin-bottom: 15px;         /* 🔼 Spazio sotto ogni paragrafo */
+    text-align: left;            /* 📍 Allineamento a sinistra */
+  }
   }
 }
 
