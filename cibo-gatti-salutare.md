@@ -188,7 +188,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
   </p>
 </section>
 
-<br><br>
+<br>
 
 
     <!-- 📘 CONSIGLI NUTRIZIONALI -->
