@@ -153,7 +153,8 @@ h2 {
 
 
   h2 + p {
-    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
   }
 
   h3 {
@@ -167,19 +168,20 @@ h2 {
   }
 
   h3 + p {
-    margin-top: 0;
+    margin-top: 20px;
+    margin-bottom: 4px;
   }
 
   p {
     font-size: 1em;
     line-height: 1.7;
     margin-top: 0;
-    margin-bottom: 14px;
+    margin-bottom: 11px;
     text-align: left;
   }
 
   p + p {
-    margin-top: -4px;
+    margin-top: -2px;
   }
 
   ul {
@@ -191,7 +193,7 @@ h2 {
     li {
       font-size: 1em;
       line-height: 1.7;
-      margin-bottom: 14px;
+      margin-bottom: 11px;
     }
   }
 }
