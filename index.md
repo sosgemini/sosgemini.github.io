@@ -20,7 +20,7 @@ class: home
 
 <div class="content-square">
   <img src="/assets/img/ICO-Amici.webp" alt="Animali domestici e amici a quattro zampe">
-  <h3>Amici</h3>
+  <p>Amici</p>
   <div class="description">
     <a href="https://sosgemini.github.io/index-tutto-gatti"
        class="entra-link"
@@ -33,7 +33,7 @@ class: home
 
   <div class="content-square">
     <img src="/assets/img/ICO-Benessere.webp" alt="Alimentazione sana e salute consapevole">
-    <h3>Benessere</h3>
+    <p>Benessere</p>
     <div class="description">
       <a href="/benessere/" class="entra-link"><strong>E N T R A</strong></a><br>
       Alimentazione sana, stile di vita naturale e salute consapevole. Esplora ricette sostenibili, cibi biologici, trucchi per una spesa intelligente e abitudini che migliorano la qualità della vita.
@@ -43,7 +43,7 @@ class: home
 
   <div class="content-square">
     <img src="/assets/img/ICO-Tecnologia.webp" alt="Tecnologia ecologica e fai da te sostenibile">
-    <h3>Tecnologia</h3>
+    <p>Tecnologia</p>
     <div class="description">
       <a href="/tecnologia/" class="entra-link"><strong>E N T R A</strong></a><br>
       Innovazione sostenibile per casa, mobilità e fai da te. Scopri i migliori gadget ecologici, elettrodomestici a basso consumo, app per la gestione energetica e strumenti smart per il risparmio.
@@ -53,7 +53,7 @@ class: home
 
   <div class="content-square">
     <img src="/assets/img/ICO-Hobbystica.webp" alt="Hobby creativi e lavoro etico da casa">
-    <h3>Hobbystica</h3>
+    <p>Hobbystica</p>
     <div class="description">
       <a href="/hobbystica/" class="entra-link"><strong>E N T R A</strong></a><br>
       Idee creative e prodotti eco-smart per casa, giardino e tempo libero. Esplora oggettistica sostenibile, decorazioni fai da te, accessori per il relax e strumenti per il lavoro da casa.
