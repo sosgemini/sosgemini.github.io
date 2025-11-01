@@ -10,26 +10,26 @@ image: /assets/img/1-9-gatti-1200x630.webp
 
 <main class="layout-wrapper">
 
-  <!-- 📝 INTRODUZIONE -->
-  <section class="intro">
-    <h1 class="main-title-centered">🐾 Cibo per Gatti in Base all’Età</h1>
-    <h2 class="small-title">
-      Ogni fase della vita del gatto richiede un’alimentazione specifica. Ecco come scegliere il cibo giusto.<br>
+
+<!-- 📝 INTRODUZIONE -->
+<section class="intro">
+  <h1 class="main-title-centered">🐾 Cibo per Gatti in Base all’Età</h1>
+  <h2 class="small-title">
+    Ogni fase della vita del gatto richiede un’alimentazione specifica. Ecco come scegliere il cibo giusto.<br>
     <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
   </h2>
-  </section>
+</section>
 
-  <!-- 🎯 HERO CON IMMAGINE E TESTO -->
-  <section class="hero-row">
-    <div class="hero-col image-side">
-      <img src="/assets/img/3-Cibo-Gatti-In-Base-All-Eta-480.webp" alt="Tre gatti: cucciolo, adulto e senior in posa">
+<!-- 🟫 QUADRATO INIZIALE -->
+<section class="square-grid">
+  <div class="content-square">
+    <img src="/assets/img/3-Cibo-Gatti-In-Base-All-Eta-480.webp" alt="Tre gatti: cucciolo, adulto e senior in posa">
+    <p>Alimentazione su Misura</p>
+    <div class="description">
+      L’età del gatto influisce direttamente sulle sue esigenze nutrizionali. Un cucciolo ha bisogno di energia per crescere, un adulto deve mantenere il peso forma, mentre un senior necessita di supporto articolare e digestione delicata. Scegliere il <strong>cibo giusto in base all’età</strong> è fondamentale per garantire salute, vitalità e longevità.
     </div>
-    <div class="hero-col text-side">
-      <h2><strong>Alimentazione su Misura</strong> per Ogni Età</h2>
-      <p>L’età del gatto influisce direttamente sulle sue esigenze nutrizionali. Un cucciolo ha bisogno di energia per crescere, un adulto deve mantenere il peso forma, mentre un senior necessita di supporto articolare e digestione delicata. Scegliere il <strong>cibo giusto in base all’età</strong> è fondamentale per garantire salute, vitalità e longevità.
-      </p>
-    </div>
-  </section>
+  </div>
+</section>
 
   <!-- 📚 GUIDA NUTRIZIONALE -->
   <section class="text-block">
