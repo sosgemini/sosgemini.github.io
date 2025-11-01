@@ -21,7 +21,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <section class="square-grid">
   <div class="content-square">
     <img src="/assets/img/7-Gatto-Lettiera-e-Igiene-480.webp" alt="Prodotti per igiene e pulizia gatti">
-    <h3>Lettiera Pulita, Gatto Felice</h3>
+    <p>Lettiera e Igiene</p>
     <div class="description">
       Una lettiera ben scelta e mantenuta è molto più di una comodità: è uno strumento di prevenzione. Riduce lo stress, protegge da infezioni urinarie e migliora la qualità della vita del tuo gatto. Scopri come trasformare la routine quotidiana in una cura invisibile ma fondamentale.
     </div>
