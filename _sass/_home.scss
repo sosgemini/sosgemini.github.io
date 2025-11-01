@@ -126,78 +126,75 @@
 
 /* === 💡 SEZIONE TESTUALE — VERSIONE PROFESSIONALE === */
 .text-block {
-  max-width: 1150px;
-  margin-inline: auto;
-  padding-block: 20px;
-  padding-inline: 40px 20px;
-  color: #222;
+  max-width: 1150px;             /* 📏 Larghezza massima del contenitore */
+  margin-inline: auto;           /* 📌 Centra orizzontalmente */
+  padding-block: 20px;           /* 🧱 Spazio sopra e sotto */
+  padding-inline: 40px 20px;     /* 🧱 Spazio a sinistra (40px) e a destra (20px) */
+  color: #222;                   /* 🎨 Colore del testo principale */
 
   h2, h3 {
-    position: relative;
-    display: inline-block;
-    padding: 0.4em 0.6em;
-    border-radius: 6px;
-    background: linear-gradient(to right, #a78a8b, #ffffff);
+    position: relative;          /* 📐 Permette posizionamenti interni (es. icone) */
+    display: inline-block;       /* 📦 Titoli non occupano tutta la riga */
+    padding: 0.4em 0.6em;        /* 🧱 Spazio interno ai titoli */
+    border-radius: 6px;          /* 🟦 Angoli arrotondati */
+    background: linear-gradient(to right, #a78a8b, #ffffff); /* 🎨 Sfondo sfumato */
   }
 
-
-h2 {
-  font-size: 1.6em;
-  font-weight: 500;
-  margin-top: 20px;     /* 🔼 più spazio sopra */
-  margin-bottom: 4px;   /* 🔽 meno spazio sotto */
-  line-height: 1.4;
-  text-align: left;
-  color: #333;
-}
-
+  h2 {
+    font-size: 1.6em;            /* 🔠 Dimensione titolo principale */
+    font-weight: 500;            /* 🔤 Peso medio */
+    margin-top: 20px;            /* 🔼 Spazio sopra il titolo */
+    margin-bottom: 4px;          /* 🔽 Spazio sotto il titolo */
+    line-height: 1.4;            /* 📏 Altezza linea */
+    text-align: left;            /* 📍 Allineamento a sinistra */
+    color: #333;                 /* 🎨 Colore leggermente più scuro */
+  }
 
   h2 + p {
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin-top: 20px;            /* 🔼 Spazio sopra il primo paragrafo dopo h2 */
+    margin-bottom: 4px;          /* 🔽 Spazio sotto */
   }
 
   h3 {
-    font-size: 1.2em;
-    font-weight: 400;
-    margin-top: 20;
-    margin-bottom: 4px;
-    line-height: 1.4;
-    text-align: left;
-    color: #333;
+    font-size: 1.2em;            /* 🔠 Dimensione sottotitolo */
+    font-weight: 400;            /* 🔤 Peso normale */
+    margin-top: 20px;            /* 🔼 Spazio sopra */
+    margin-bottom: 4px;          /* 🔽 Spazio sotto */
+    line-height: 1.4;            /* 📏 Altezza linea */
+    text-align: left;            /* 📍 Allineamento a sinistra */
+    color: #333;                 /* 🎨 Colore coerente con h2 */
   }
 
   h3 + p {
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin-top: 20px;            /* 🔼 Spazio sopra il primo paragrafo dopo h3 */
+    margin-bottom: 4px;          /* 🔽 Spazio sotto */
   }
 
   p {
-    font-size: 1em;
-    line-height: 1.7;
-    margin-top: 0;
-    margin-bottom: 15px;
-    text-align: left;
+    font-size: 1em;              /* 🔠 Dimensione testo normale */
+    line-height: 1.7;            /* 📏 Spaziatura verticale ampia */
+    margin-top: 0;               /* 🔽 Nessuno spazio sopra */
+    margin-bottom: 15px;         /* 🔼 Spazio sotto ogni paragrafo */
+    text-align: left;            /* 📍 Allineamento a sinistra */
   }
 
   p + p {
-    margin-top: -2px;
+    margin-top: -2px;            /* 🔽 Riduce lo spazio tra paragrafi consecutivi */
   }
 
   ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    margin-bottom: 15px;
+    list-style-type: none;       /* ❌ Nessun bullet standard */
+    padding-left: 0;             /* 📏 Nessun rientro interno */
+    margin-left: 0;              /* 📏 Nessun margine sinistro */
+    margin-bottom: 15px;         /* 🔼 Spazio sotto l’elenco */
 
     li {
-      font-size: 1em;
-      line-height: 1.7;
-      margin-bottom: 15px;
+      font-size: 1em;            /* 🔠 Dimensione testo elenco */
+      line-height: 1.7;          /* 📏 Spaziatura verticale */
+      margin-bottom: 15px;       /* 🔼 Spazio tra voci */
     }
   }
 }
-
 
 /* === 📷 IMMAGINE HERO RIDOTTA === */
 .image-side img {
