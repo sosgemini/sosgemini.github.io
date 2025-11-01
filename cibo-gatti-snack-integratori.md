@@ -23,7 +23,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
   <section class="square-grid">
     <div class="content-square">
       <img src="/assets/img/6-Gatti-Cibo-Snack-Integratrori-480.webp" alt="Gatto che annusa uno snack naturale su fondo chiaro">
-      <h3>🌿 Snack funzionali e sicuri</h3>
+      <p>Snack Salutari </p>
       <div class="description">
         I gatti sensibili hanno bisogno di snack e integratori studiati per evitare reazioni avverse. Le formule monoproteiche e senza cereali riducono il rischio di intolleranze e migliorano la digestione. Scopri quali ingredienti cercare e quali evitare per garantire salute e gusto in ogni boccone.
       </div>
