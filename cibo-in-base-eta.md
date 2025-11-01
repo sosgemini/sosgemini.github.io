@@ -27,8 +27,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
     </div>
     <div class="hero-col text-side">
       <h2><strong>Alimentazione su Misura</strong> per Ogni Età</h2>
-      <p>
-        L’età del gatto influisce direttamente sulle sue esigenze nutrizionali. Un cucciolo ha bisogno di energia per crescere, un adulto deve mantenere il peso forma, mentre un senior necessita di supporto articolare e digestione delicata. Scegliere il <strong>cibo giusto in base all’età</strong> è fondamentale per garantire salute, vitalità e longevità.
+      <p>L’età del gatto influisce direttamente sulle sue esigenze nutrizionali. Un cucciolo ha bisogno di energia per crescere, un adulto deve mantenere il peso forma, mentre un senior necessita di supporto articolare e digestione delicata. Scegliere il <strong>cibo giusto in base all’età</strong> è fondamentale per garantire salute, vitalità e longevità.
       </p>
     </div>
   </section>
