@@ -20,7 +20,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <section class="square-grid">
   <div class="content-square">
     <img src="/assets/img/9-Gatti-Giochi-Sani-480.webp" alt="Gatto che gioca con una pallina in ambiente domestico">
-    <h3>🧶 Il gioco è salute!</h3>
+    <p>🧶 Il gioco è salute!</p>
     <div class="description">
       Il gioco aiuta il tuo gatto a mantenersi attivo, riduce lo stress e rafforza il legame con te. Bastano pochi minuti al giorno per stimolare il suo istinto predatorio, migliorare la coordinazione e prevenire problemi comportamentali. Scopri i giochi migliori per ogni età e carattere.
     </div>
