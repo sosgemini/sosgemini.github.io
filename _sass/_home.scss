@@ -367,7 +367,7 @@ a {
 }
 
 
-/* === 📱 TABLET E MOBILE FIX — VERSIONE MODULARE === */
+/* === 📱 TABLET E MOBILE FIX — VERSIONE COMPLETA E MODULARE === */
 @media screen and (max-width: 768px) {
   body {
     overflow-x: hidden;
@@ -410,10 +410,20 @@ a {
     display: block;
   }
 
-  /* 🔳 QUADRATI ANTRACITE — SPAZIO VERTICALE */
+  /* 🔳 QUADRATI ANTRACITE — COMPATTI E DISTANZIATI */
   .indice-antracite {
     margin-top: 16px;
     margin-bottom: 48px;
+    padding: 12px 14px;
+
+    .section-title {
+      font-size: 1.2em;
+    }
+
+    .brand-description {
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
   }
 
   /* 🔘 PULSANTE TORNA INDICE — COMPATTO */
