@@ -276,6 +276,11 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* 🔲 HEADER MOBILE */
   .site-header {
     .header-container,
     .main-nav {
@@ -330,10 +335,7 @@ a {
     }
   }
 
-  body {
-    overflow-x: hidden;
-  }
-
+  /* 🔲 CONTENITORI CENTRALI */
   .page-content,
   .main-wrapper,
   .content-area,
@@ -341,75 +343,6 @@ a {
     max-width: 100%;
     padding-left: 16px;
     padding-right: 16px;
-    box-sizing: border-box;
-    overflow-wrap: break-word;
-  }
-
-  img,
-  iframe,
-  table {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .page-content,
-  .main-wrapper,
-  .content-area,
-  .container {
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    box-sizing: border-box;
-    overflow-wrap: break-word;
-  }
-
-  p,
-  h1, h2, h3, h4, h5, h6,
-  ul, ol, li,
-  blockquote {
-    word-break: break-word;
-    overflow-wrap: break-word;
-  }
-
-  img,
-  iframe,
-  table {
-    max-width: 100%;
-    height: auto;
-  }
-}
-
-/* === 📱 TABLET E MOBILE FIX === */
-@media screen and (max-width: 768px) {
-  body {
-    overflow-x: hidden;
-  }
-  
-.indice-antracite {
-  margin-bottom: 32px; /* 🔼 spazio tra i quadrati su mobile */
-}
-
-  /* 🔲 CONTENITORE CENTRALE */
-  .layout-wrapper,
-  .page-content,
-  .main-wrapper,
-  .content-area,
-  .container,
-  .hero-section,
-  .intro-block,
-  .text-block {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left: auto;
-    margin-right: auto;
     box-sizing: border-box;
     overflow-wrap: break-word;
   }
@@ -433,39 +366,87 @@ a {
   }
 }
 
-/* Pulsante torna indice — versione trasparente e compatta */
 
-.btn-wrapper-outside {
-  max-width: 1150px;
-  margin-inline: auto;
-  padding-inline: 16px;
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
+/* === 📱 TABLET E MOBILE FIX — VERSIONE MODULARE === */
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* 🔲 CONTENITORI CENTRALI */
+  .layout-wrapper,
+  .page-content,
+  .main-wrapper,
+  .content-area,
+  .container,
+  .hero-section,
+  .intro-block,
+  .text-block {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+  }
+
+  /* 📝 TESTO E LISTE */
+  p,
+  h1, h2, h3, h4, h5, h6,
+  ul, ol, li,
+  blockquote {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+
+  /* 🖼️ MEDIA RESPONSIVI */
+  img,
+  iframe,
+  table {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* 🔳 QUADRATI ANTRACITE — SPAZIO VERTICALE */
+  .indice-antracite {
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+
+  /* 🔘 PULSANTE TORNA INDICE — COMPATTO */
+  .btn-wrapper-outside {
+    max-width: 100%;
+    padding-inline: 16px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .btn-indice {
+    display: inline-block;
+    background-color: transparent;
+    color: #3a3a3a;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 16px;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    transition: color 0.3s ease;
+    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+  }
+
+  .btn-indice:hover,
+  .btn-indice:focus {
+    color: #f5c518;
+    text-decoration: none;
+  }
 }
-
-.btn-indice {
-  display: inline-block;
-  background-color: transparent;
-  color: #3a3a3a; // ✅ antracite
-  font-size: 0.9em; // ✅ più piccola
-  font-weight: 500;
-  text-decoration: none; // ✅ mai sottolineata
-  padding: 8px 16px;
-  border: none;
-  box-shadow: none;
-  border-radius: 0;
-  transition: color 0.3s ease;
-  appearance: none;
-  -webkit-tap-highlight-color: transparent;
-  outline: none;
-}
-
-.btn-indice:hover,
-.btn-indice:focus {
-  color: #f5c518; // ✅ dorato al passaggio
-  text-decoration: none; // ❌ niente underline nemmeno in hover
-}
-
