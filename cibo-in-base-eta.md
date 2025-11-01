@@ -15,7 +15,6 @@ image: /assets/img/1-9-gatti-1200x630.webp
     <h1 class="main-title-centered">🐾 Cibo per Gatti in Base all’Età</h1>
     <h2 class="small-title">
       Ogni fase della vita del gatto richiede un’alimentazione specifica. Ecco come scegliere il cibo giusto.<br>
-    
     <a href="/index-tutto-gatti/" class="btn-indice" aria-label="Vai all’indice gatti">↖️ Indice Gatti</a>
   </h2>
   </section>
