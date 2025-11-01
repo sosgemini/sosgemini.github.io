@@ -35,7 +35,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <!-- 🍽️ CIBO SECCO -->
 
 <section class="text-block">
-  <h2 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h2>
+  <h3 class="section-title-gradient">🍽️ CIBO SECCO per gatti: le grandi marche da valutare</h3>
 </section>
 
 <section class="indice-antracite">
@@ -119,7 +119,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 <!-- 🍽️ CIBO UMIDO -->
 
 <section class="text-block">
-  <h2 class="section-title-gradient">🍽️ CIBO UMIDO per gatti: migliori marche consigliate.</h2>
+  <h3 class="section-title-gradient">🍽️ CIBO UMIDO per gatti: migliori marche consigliate.</h3>
 </section>
 
 <section class="indice-antracite">
