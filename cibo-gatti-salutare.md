@@ -17,12 +17,14 @@ image: /assets/img/1-9-gatti-1200x630.webp
   </h2>
 </section>
 
-<section class="square-grid">
 
+<!-- QUADRATO INIZIALE -->
+
+<section class="square-grid">
 
   <div class="content-square">
     <img src="/assets/img/1-Cibo-Gatti-Il-Migliore-480.webp" alt="i gatti sono attratti da cibi tossici">
-    <h3>Il cibo migliore per il tuo amico!?</h3>
+    <p>Il cibo migliore per il tuo amico!?</p>
     <div class="description">
       Se ti chiedi quale sia il miglior cibo per i gatti, sei nel posto giusto. Per garantire al tuo felino una vita lunga, sana e felice, la scelta dell’alimentazione è il fattore più importante. Ma come si fa a distinguere un cibo di alta qualità da un prodotto mediocre? La risposta è nell’etichetta. Leggere e comprendere gli ingredienti è la chiave per prendere decisioni informate e nutrire il tuo felino nel modo corretto.
     </div>
@@ -114,12 +116,7 @@ image: /assets/img/1-9-gatti-1200x630.webp
 </section>
 
 
-
-
-  
-
 <!-- 🍽️ CIBO UMIDO -->
-
 
 <section class="text-block">
   <h2 class="section-title-gradient">🍽️ CIBO UMIDO per gatti: migliori marche consigliate.</h2>
